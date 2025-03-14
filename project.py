@@ -484,7 +484,8 @@ def main():
                 break
 
             if attempts < max_attempts:
-                print(emoji.emojize(f"Errare humanum est... :person_shrugging: try {max_attempts - attempts} more time"))
+                s = "s" if attempts > 1 else ""
+                print(emoji.emojize(f"Errare humanum est... :person_shrugging: try {max_attempts - attempts} more time{s}"))
                 print()
             else:
                 displayed_answers = ", ".join(list_all_answers)
