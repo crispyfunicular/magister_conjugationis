@@ -470,12 +470,14 @@ def main():
 
         #How many tries for the asked verb
         attempts = 0
+        remaining_attempts = max_attempts
         print(f"Question number {total_count}/{number_verbs}")
-        while attempts < max_attempts:
+        while remaining_attempts:
             hint = get_hint(chosen_verb, language_question, attempts)
             #Question
             user_answer = ask_verb(question, translation, hint)
             attempts += 1
+            remaining_attempts -= 1
 
             if compare_answers(user_answer, list_all_answers, language_answer):
                 displayed_answers = ", ".join(list_all_answers)
@@ -483,8 +485,9 @@ def main():
                 print(emoji.emojize("Bene factum! :party_popper:"))
                 break
 
-            if attempts < max_attempts:
-                print(emoji.emojize(f"Errare humanum est... :person_shrugging: try {max_attempts - attempts} more time"))
+            if remaining_attempts:
+                s = "s" if remaining_attempts > 1 else ""
+                print(emoji.emojize(f"Errare humanum est... :person_shrugging: try {remaining_attempts} more time{s}"))
                 print()
             else:
                 displayed_answers = ", ".join(list_all_answers)
