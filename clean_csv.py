@@ -7,7 +7,7 @@ def save_verbs(output, verbs):
     verbs (list of dict) = the verbs loaded and cleaned by get_verbs()
     """
     headers = "infinitive;infinitif;group;voice;tense;person;latin;french;primitive tenses"
-    column_names = header.split(";")
+    column_names = headers.split(";")
 
     with open(output, "w", encoding="utf-8-sig") as f:
 
