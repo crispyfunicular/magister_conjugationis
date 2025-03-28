@@ -417,11 +417,11 @@ def main():
                     description='Asks the user the translation of a conjugated verb in Latin or in French',
                     epilog='Bonam fortunam!')
     parser.add_argument('-c', '--count', type=int, default=5, help="Number of verbs to practice")
-    parser.add_argument('-l', '--language', type=str, choices=["latin", "french"], default=None, help="The language (Latin and/or French) from which the user wants to translate. If they don't want to practice both languages, they can choose one of them")
     parser.add_argument('-d', '--difficulty', type=str, choices=["easy", "medium", "hard"], default="easy", help="The difficulty level which determines the number of possible attempts (3, 2 or 1)")
-    parser.add_argument('-t', '--tense', type=str, choices=list_tenses, default=None, help="The tense (ex: \"présent\") to practice")
     parser.add_argument('-g', '--group', type=str, choices=list_groups, default=None, help="The verb group (ex: 1) to practice (0 corresponds to \"sum\" and its derivatives)")
+    parser.add_argument('-l', '--language', type=str, choices=["latin", "french"], default=None, help="The language (Latin and/or French) from which the user wants to translate. If they don't want to practice both languages, they can choose one of them")
     parser.add_argument('-p', '--person', type=int, choices=range(0,7), default=None, help="The person (1 to 6) to practice")
+    parser.add_argument('-t', '--tense', type=str, choices=list_tenses, default=None, help="The tense (ex: \"présent\") to practice")
     parser.add_argument('--debug', action='store_true', help="Enable debug mode")
     args = parser.parse_args()
     number_verbs = args.count
@@ -502,12 +502,16 @@ def main():
     print()
     print("***********************")
     if len(correct_answers) > 0:
-        print(emoji.emojize(":check_mark_button: The correct answers were:"))
+        s = "s" if len(correct_answers) > 1 else ""
+        was_were = "were" if len(correct_answers) > 1 else "was"
+        print(emoji.emojize(f":check_mark_button: The correct answer{s} {was_were}:"))
         for answer in correct_answers:
             print("*", answer)
     if len(wrong_answers) > 0:
+        s = "s" if len(wrong_answers) > 1 else ""
+        was_were = "were" if len(wrong_answers) > 1 else "was"
         print()
-        print(emoji.emojize(":cross_mark: The incorrect answers were:"))
+        print(emoji.emojize(f":cross_mark: The incorrect answer{s} {was_were}:"))
         for answer in wrong_answers:
             print("*", answer)
 
