@@ -53,6 +53,13 @@ So as not to type manually each of the lines, we created a dedicated ChatGPT cha
 
 We chose to work on an Excell sheet because it was very handy. We were indeed able to easily import all the ChatGPT answers, modify them if needed, and export the Excel sheet to a CSV format readable by the Python program. When exporting our data to a CSV file, we had to chose the "UTF-8" option because of the French accents (ex: "j'ai aimé") and the "semicolon delimiter" option instead of the regular "comma delimiter" option because of the Latin primitive tenses, which contain commas (ex: "amo, as, are, avi, atum").
 
+## How to set up the environment
+```
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
 ## How to use the program
 
 ```
