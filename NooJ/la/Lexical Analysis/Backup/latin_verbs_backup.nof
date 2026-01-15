@@ -1,0 +1,102 @@
+# NooJ V7
+# Inflectional/Derivational description
+#
+# Language is: la
+#
+# Generic Commands:
+# <B>: keyboard Backspace
+# <C>: change Case
+# <D>: Duplicate current char
+# <E>: Empty string
+# <L>: keyboard Left arrow
+# <N>: go to end of Next word form
+# <P>: go to end of Previous word form
+# <R>: keyboard Right arrow
+# <S>: delete/Suppress current char
+# <W>: sWap 2 chars
+# Arguments for commands <B>, <L>, <N>, <P>, <R>, <S>:
+# xx number: repeat xx times
+# W: whole word
+# Examples
+# <R3>: go right 3 times
+# <LW>: go to beg. of word
+#
+# Language-Specific Commands:
+# (None)
+#
+# Special Characters: '=' '<' '>' '\' '"' ':' '|' '+' '-' '/' '$' '_' ';' '#'
+#
+
+
+
+# GP1 (AMARE)
+# INFECTUM (ama-)
+
+# PRESENT / IMPARFAIT / FUTUR INDICATIF
+GP1_INF = <E>re/Infinitif |
+         
+         <B>o/TP=pres+MOD=ind+VX=act+P=1+NB=singulier | <E>s/TP=pres+MOD=ind+VX=act+P=2+NB=singulier |
+         <E>t/TP=pres+MOD=ind+VX=act+P=3+NB=singulier | <E>mus/TP=pres+MOD=ind+VX=act+P=1+NB=pluriel | 
+         <E>tis/TP=pres+MOD=ind+VX=act+P=2+NB=pluriel | <E>nt/TP=pres+MOD=ind+VX=act+P=3+NB=pluriel |
+
+         <E>bam/TP=impf+MOD=ind+VX=act+P=1+NB=singulier | <E>bas/TP=impf+MOD=ind+VX=act+P=2+NB=singulier |
+         <E>bat/TP=impf+MOD=ind+VX=act+P=3+NB=singulier | <E>bamus/TP=impf+MOD=ind+VX=act+P=1+NB=pluriel |
+         <E>batis/TP=impf+MOD=ind+VX=act+P=2+NB=pluriel | <E>bant/TP=impf+MOD=ind+VX=act+P=3+NB=pluriel |
+
+         <E>bo/TP=fut+MOD=ind+VX=act+P=1+NB=singulier | <E>bis/TP=fut+MOD=ind+VX=act+P=2+NB=singulier |
+         <E>bit/futur+indicatif+actif+P=3+NB=singulier | <E>bimus/TP=fut+MOD=ind+VX=act+P=1+NB=pluriel |
+         <E>bitis/futur+indicatif+actif+P=2+NB=pluriel | <E>bunt/TP=fut+MOD=ind+VX=act+P=3+NB=pluriel ; 
+
+
+# PERFECTUM (amau-)
+
+# PARFAIT / PLUS-QUE-PARFAIT / FUTUR ANTERIEUR INDICATIF
+GP1_PER =         
+         <E>i/TP=pft+MOD=ind+VX=act+P=1+NB=singulier | <E>isti/TP=pft+MOD=ind+VX=act+P=2+NB=singulier |
+         <E>it/TP=pft+MOD=ind+VX=act+P=3+NB=singulier | <E>imus/TP=pft+MOD=ind+VX=act+P=1+NB=pluriel |
+         <E>istis/TP=pft+MOD=ind+VX=act+P=2+NB=pluriel | <E>erunt/TP=pft+MOD=ind+VX=act+P=3+NB=pluriel | 
+
+         <E>eram/TP=pqp+MOD=ind+VX=act+P=1+NB=singulier | <E>eras/TP=pqp+MOD=ind+VX=act+P=2+NB=singulier |
+         <E>erat/TP=pqp+MOD=ind+VX=act+P=3+NB=singulier | <E>eramus/TP=pqp+MOD=ind+VX=act+P=1+NB=pluriel |
+         <E>eratis/TP=pqp+MOD=ind+VX=act+P=2+NB=pluriel | <E>erant/TP=pqp+MOD=ind+VX=act+P=3+NB=pluriel |
+
+         <E>ero/TP=fta+MOD=ind+VX=act+P=1+NB=singulier | <E>eris/TP=fta+MOD=ind+VX=act+P=2+NB=singulier |
+         <E>erit/TP=fta+MOD=ind+VX=act+P=3+NB=singulier | <E>erimus/TP=fta+MOD=ind+VX=act+P=1+NB=pluriel |
+         <E>eritis/TP=fta+MOD=ind+VX=act+P=2+NB=pluriel | <E>erint/TP=fta+MOD=ind+VX=act+P=3+NB=pluriel ;
+
+
+
+SUF_IMPF_ACT = bam/imparfait+indicatif+actif+P=1+NB=singulier |
+               bas/imparfait+indicatif+actif+P=2+NB=singulier |
+               bat/imparfait+indicatif+actif+P=3+NB=singulier |
+               bamus/imparfait+indicatif+actif+P=1+NB=pluriel |
+               batis/imparfait+indicatif+actif+P=2+NB=pluriel |
+               bant/imparfait+indicatif+actif+P=3+NB=pluriel ;
+
+
+
+DELERE = <E>/Infinitif |
+         <B2>o/présent+indicatif+actif+1+singulier | <B2>s/présent+indicatif+actif+2+singulier |
+         <B2>t/présent+indicatif+actif+3+singulier | <B2>mus/présent+indicatif+actif+1+pluriel | 
+         <B2>tis/présent+indicatif+actif+2+pluriel | <B2>nt/présent+indicatif+actif+3+pluriel ;
+
+
+LEGERE = <E>/Infinitif |
+         <B3>o/présent+indicatif+actif+1+singulier | <B3>is/présent+indicatif+actif+2+singulier |
+         <B3>it/présent+indicatif+actif+3+singulier | <B3>imus/présent+indicatif+actif+1+pluriel | 
+         <B3>itis/présent+indicatif+actif+2+pluriel | <B3>unt/présent+indicatif+actif+3+pluriel ;
+
+CAPERE = <E>/Infinitif |
+         <B3>io/présent+indicatif+actif+1+singulier | <B3>is/présent+indicatif+actif+2+singulier |
+         <B3>it/présent+indicatif+actif+3+singulier | <B3>imus/présent+indicatif+actif+1+pluriel | 
+         <B3>itis/présent+indicatif+actif+2+pluriel | <B3>iunt/présent+indicatif+actif+3+pluriel ;
+
+AUDIRE = <E>/Infinitif |
+         <B2>o/présent+indicatif+actif+1+singulier | <B2>s/présent+indicatif+actif+2+singulier |
+         <B2>t/présent+indicatif+actif+3+singulier | <B2>mus/présent+indicatif+actif+1+pluriel | 
+         <B2>tis/présent+indicatif+actif+2+pluriel | <B2>unt/présent+indicatif+actif+3+pluriel ;
+
+ESSE = <E>/Infinitif |
+       <B4>sum/présent+indicatif+actif+1+singulier | <B2>/présent+indicatif+actif+2+singulier |
+       <B2>t/présent+indicatif+actif+3+singulier | <B4>summus/présent+indicatif+actif+1+pluriel |
+       <B2>tis/présent+indicatif+actif+2+pluriel | <B4>sunt/présent+indicatif+actif+3+pluriel ;

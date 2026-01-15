@@ -1,0 +1,126 @@
+# NooJ V7
+# Dictionary
+#
+# Language is: la
+#
+# Alphabetical order is not required.
+#
+# Use inflectional & derivational paradigms' description files (.nof), e.g.:
+# Special Command: #use paradigms.nof
+#
+# Special Features: +NW (non-word) +FXC (frozen expression component) +UNAMB (unambiguous lexical entry)
+#                   +FLX= (inflectional paradigm) +DRV= (derivational paradigm)
+#
+# Special Characters: '\' '"' ' ' ',' '+' '-' '#'
+#
+
+#use latin_verbs.nof
+
+# GP1 (AMARE)
+ama,V+LEM=amare+Theme=INF+FLX=GP1_INF
+amau,V+LEM=amare+Theme=PER+FLX=GP1_PER
+#amat,V+LEM=amare+Theme=SUP+FLX=GP1_SUP
+
+cogita,V+LEM=cogitare+Theme=INF+FLX=GP1_INF
+cogitau,V+LEM=cogitare+Theme=PER+FLX=GP1_PER
+#cogitat,V+LEM=cogitare+Theme=SUP+FLX=GP1_SUP
+
+cura,V+LEM=curare+Theme=INF+FLX=GP1_INF
+curau,V+LEM=curare+Theme=PER+FLX=GP1_PER
+#curat,V+LEM=curare+Theme=SUP+FLX=GP1_SUP
+
+da,V+LEM=dare+Theme=INF+FLX=GP1_INF
+ded,V+LEM=dare+Theme=PER+FLX=GP1_PER
+#dat,V+LEM=dare+Theme=SUP+FLX=GP1_SUP
+
+erro,V+LEM=errare+Theme=INF+FLX=GP1_INF
+errau,V+LEM=errare+Theme=PER+FLX=GP1_PER
+#errat,V+LEM=errare+Theme=SUP+FLX=GP1_SUP
+
+existima,V+LEM=existimare+Theme=INF+FLX=GP1_INF
+existimau,V+LEM=existimare+Theme=PER+FLX=GP1_PER
+#existimat,V+LEM=existimare+Theme=SUP+FLX=GP1_SUP
+
+lauda,V+LEM=laudare+Theme=INF+FLX=GP1_INF
+laudau,V+LEM=laudare+Theme=PER+FLX=GP1_PER
+#laudat,V+LEM=laudare+Theme=SUP+FLX=GP1_SUP
+
+narra,V+LEM=narrare+Theme=INF+FLX=GP1_INF
+narrau,V+LEM=narrare+Theme=PER+FLX=GP1_PER
+#narrat,V+LEM=narrare+Theme=SUP+FLX=GP1_SUP
+
+pugna,V+LEM=pugnare+Theme=INF+FLX=GP1_INF
+pugnau,V+LEM=pugnare+Theme=PER+FLX=GP1_PER
+#pugnat,V+LEM=pugnare+Theme=SUP+FLX=GP1_SUP
+
+puta,V+LEM=putare+Theme=INF+FLX=GP1_INF
+putau,V+LEM=putare+Theme=PER+FLX=GP1_PER
+#putat,V+LEM=putare+Theme=SUP+FLX=GP1_SUP
+
+roga,V+LEM=rogare+Theme=INF+FLX=GP1_INF
+rogau,V+LEM=rogare+Theme=PER+FLX=GP1_PER
+#rogat,V+LEM=rogare+Theme=SUP+FLX=GP1_SUP
+
+specta,V+LEM=spectare+Theme=INF+FLX=GP1_INF
+spectau,V+LEM=spectare+Theme=PER+FLX=GP1_PER
+#spectat,V+LEM=spectare+Theme=SUP+FLX=GP1_SUP
+
+uoca,V+LEM=uocare+Theme=INF+FLX=GP1_INF
+uocau,V+LEM=uocare+Theme=PER+FLX=GP1_PER
+#uocat,V+LEM=uocare+Theme=SUP+FLX=GP1_SUP
+
+# GP2 (DELERE)
+#delere
+#augere
+#debere
+#habere
+#iubere
+#manere
+#monere
+#mouere
+#praebere
+#timere
+#uidere
+
+# GP3 (LEGERE)
+#legere
+#agere
+#cognoscere
+#colere
+#credere
+#dicere
+#ducere
+#gerere
+#intellegere
+#mittere
+#occidere
+#pellere
+#relinquere
+#scribere
+#statuere
+#tradere
+#uincere
+#uiuere
+
+# GP4 (CAPERE)
+#capere
+#accipere
+#cupere
+#facere
+#incipere
+#interficere
+#rapere
+
+# GP5 (AUDIRE)
+#audire
+#inuenire
+#scire
+#sentire
+#uenire
+
+# GP0 (ESSE)
+#esse
+#abesse
+#adesse
+#posse
+#prodesse
