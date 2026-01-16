@@ -27,76 +27,148 @@
 # Special Characters: '=' '<' '>' '\' '"' ':' '|' '+' '-' '/' '$' '_' ';' '#'
 #
 
+# TP = temps (pres/impf/fut/pft/pqp/fta)
+# MOD = mode (ind)
+# VX = voix (act)
+# P = personne (1/2/3)
+# NB = nombre (sg/pl)
+# inf = infinitif
+# pres = présent (amo)
+# impf = imparfait (ex. amabam)
+# fut = futur (ex. amabo)
+# pft = parfait (ex. amaui)
+# pqp = plus-que-parfait (ex. amaueram)
+# fta = futur antérieur (ex. amauero)
 
 
-# GP1 (AMARE)
-# INFECTUM (ama-)
+### GROUPES 1 & 2
+### GP1 (AMARE)
 
-# PRESENT / IMPARFAIT / FUTUR INDICATIF
-GP1_INF = <E>re/Infinitif |
-         
-         <B>o/TP=pres+MOD=ind+VX=act+P=1+NB=singulier | <E>s/TP=pres+MOD=ind+VX=act+P=2+NB=singulier |
-         <E>t/TP=pres+MOD=ind+VX=act+P=3+NB=singulier | <E>mus/TP=pres+MOD=ind+VX=act+P=1+NB=pluriel | 
-         <E>tis/TP=pres+MOD=ind+VX=act+P=2+NB=pluriel | <E>nt/TP=pres+MOD=ind+VX=act+P=3+NB=pluriel |
+## INFECTUM (ama-)
+# PRESENT (pres) / IMPARFAIT (impf) / FUTUR INDICATIF (fta)
+GP1_INF = o/TP=pres+MOD=ind+VX=act+P=1+NB=sg | <SUF_GP1><SUF_PERS>/TP=pres+MOD=ind+VX=act |
 
-         <E>bam/TP=impf+MOD=ind+VX=act+P=1+NB=singulier | <E>bas/TP=impf+MOD=ind+VX=act+P=2+NB=singulier |
-         <E>bat/TP=impf+MOD=ind+VX=act+P=3+NB=singulier | <E>bamus/TP=impf+MOD=ind+VX=act+P=1+NB=pluriel |
-         <E>batis/TP=impf+MOD=ind+VX=act+P=2+NB=pluriel | <E>bant/TP=impf+MOD=ind+VX=act+P=3+NB=pluriel |
+          <SUF_GP1><SUF_IMPF_ACT>m/P=1+NB=sg | <SUF_GP1><SUF_IMPF_ACT><SUF_PERS> |
 
-         <E>bo/TP=fut+MOD=ind+VX=act+P=1+NB=singulier | <E>bis/TP=fut+MOD=ind+VX=act+P=2+NB=singulier |
-         <E>bit/futur+indicatif+actif+P=3+NB=singulier | <E>bimus/TP=fut+MOD=ind+VX=act+P=1+NB=pluriel |
-         <E>bitis/futur+indicatif+actif+P=2+NB=pluriel | <E>bunt/TP=fut+MOD=ind+VX=act+P=3+NB=pluriel ; 
+          <E><SUF_FUT_1-2>/TP=fut+MOD=ind+VX=act+P=1+NB=sg | <E><SUF_FUT_1-2>/TP=fut+MOD=ind+VX=act+P=2+NB=sg |
+          <E><SUF_FUT_1-2>/TP=fut+MOD=ind+VX=act+P=3+NB=sg | <E><SUF_FUT_1-2>/TP=fut+MOD=ind+VX=act+P=1+NB=pl |
+          <E><SUF_FUT_1-2>/TP=fut+MOD=ind+VX=act+P=2+NB=pl | <E><SUF_FUT_1-2>/TP=fut+MOD=ind+VX=act+P=3+NB=pl ; 
 
 
-# PERFECTUM (amau-)
+## PERFECTUM (amau-)
+# PARFAIT (pft) / PLUS-QUE-PARFAIT (pqp) / FUTUR ANTERIEUR (fta) INDICATIF (ind)
+GP1_PER = <E><SUF_PFT>/TP=pft+MOD=ind+VX=act+P=1+NB=sg | <E><SUF_PFT>/TP=pft+MOD=ind+VX=act+P=2+NB=sg |
+          <E><SUF_PFT>/TP=pft+MOD=ind+VX=act+P=3+NB=sg | <E><SUF_PFT>/TP=pft+MOD=ind+VX=act+P=1+NB=pl |
+          <E><SUF_PFT>/TP=pft+MOD=ind+VX=act+P=2+NB=pl | <E><SUF_PFT>/TP=pft+MOD=ind+VX=act+P=3+NB=pl | 
 
-# PARFAIT / PLUS-QUE-PARFAIT / FUTUR ANTERIEUR INDICATIF
-GP1_PER =         
-         <E>i/TP=pft+MOD=ind+VX=act+P=1+NB=singulier | <E>isti/TP=pft+MOD=ind+VX=act+P=2+NB=singulier |
-         <E>it/TP=pft+MOD=ind+VX=act+P=3+NB=singulier | <E>imus/TP=pft+MOD=ind+VX=act+P=1+NB=pluriel |
-         <E>istis/TP=pft+MOD=ind+VX=act+P=2+NB=pluriel | <E>erunt/TP=pft+MOD=ind+VX=act+P=3+NB=pluriel | 
+          <E><SUF_PQP>/TP=pqp+MOD=ind+VX=act+P=1+NB=sg | <E><SUF_PQP>/TP=pqp+MOD=ind+VX=act+P=2+NB=sg |
+          <E><SUF_PQP>/TP=pqp+MOD=ind+VX=act+P=3+NB=sg | <E><SUF_PQP>/TP=pqp+MOD=ind+VX=act+P=1+NB=pl |
+          <E><SUF_PQP>/TP=pqp+MOD=ind+VX=act+P=2+NB=pl | <E><SUF_PQP>/TP=pqp+MOD=ind+VX=act+P=3+NB=pl |
 
-         <E>eram/TP=pqp+MOD=ind+VX=act+P=1+NB=singulier | <E>eras/TP=pqp+MOD=ind+VX=act+P=2+NB=singulier |
-         <E>erat/TP=pqp+MOD=ind+VX=act+P=3+NB=singulier | <E>eramus/TP=pqp+MOD=ind+VX=act+P=1+NB=pluriel |
-         <E>eratis/TP=pqp+MOD=ind+VX=act+P=2+NB=pluriel | <E>erant/TP=pqp+MOD=ind+VX=act+P=3+NB=pluriel |
-
-         <E>ero/TP=fta+MOD=ind+VX=act+P=1+NB=singulier | <E>eris/TP=fta+MOD=ind+VX=act+P=2+NB=singulier |
-         <E>erit/TP=fta+MOD=ind+VX=act+P=3+NB=singulier | <E>erimus/TP=fta+MOD=ind+VX=act+P=1+NB=pluriel |
-         <E>eritis/TP=fta+MOD=ind+VX=act+P=2+NB=pluriel | <E>erint/TP=fta+MOD=ind+VX=act+P=3+NB=pluriel ;
-
-
-
-SUF_IMPF_ACT = bam/imparfait+indicatif+actif+P=1+NB=singulier |
-               bas/imparfait+indicatif+actif+P=2+NB=singulier |
-               bat/imparfait+indicatif+actif+P=3+NB=singulier |
-               bamus/imparfait+indicatif+actif+P=1+NB=pluriel |
-               batis/imparfait+indicatif+actif+P=2+NB=pluriel |
-               bant/imparfait+indicatif+actif+P=3+NB=pluriel ;
+          <E><SUF_FTA>/TP=fta+MOD=ind+VX=act+P=1+NB=sg | <E><SUF_FTA>/TP=fta+MOD=ind+VX=act+P=2+NB=sg |
+          <E><SUF_FTA>/TP=fta+MOD=ind+VX=act+P=3+NB=sg | <E><SUF_FTA>/TP=fta+MOD=ind+VX=act+P=1+NB=pl |
+          <E><SUF_FTA>/TP=fta+MOD=ind+VX=act+P=2+NB=pl | <E><SUF_FTA>/TP=fta+MOD=ind+VX=act+P=3+NB=pl ;
 
 
 
-DELERE = <E>/Infinitif |
-         <B2>o/présent+indicatif+actif+1+singulier | <B2>s/présent+indicatif+actif+2+singulier |
-         <B2>t/présent+indicatif+actif+3+singulier | <B2>mus/présent+indicatif+actif+1+pluriel | 
-         <B2>tis/présent+indicatif+actif+2+pluriel | <B2>nt/présent+indicatif+actif+3+pluriel ;
+### GP2 (DELERE)
+
+## INFECTUM (dele-)
+# PRESENT (pres) / IMPARFAIT (impf) / FUTUR INDICATIF (fta)
+GP2_INF = <B>o/TP=pres+MOD=ind+VX=act+P=1+NB=sg | <SUF_PERS>/TP=pres+MOD=ind+VX=act |
+
+          <SUF_IMPF_ACT>m/P=1+NB=sg | <SUF_IMPF_ACT><SUF_PERS> |
+
+          <E><SUF_FUT_1-2>/TP=fut+MOD=ind+VX=act+P=1+NB=sg | <E><SUF_FUT_1-2>/TP=fut+MOD=ind+VX=act+P=2+NB=sg |
+          <E><SUF_FUT_1-2>/TP=fut+MOD=ind+VX=act+P=3+NB=sg | <E><SUF_FUT_1-2>/TP=fut+MOD=ind+VX=act+P=1+NB=pl |
+          <E><SUF_FUT_1-2>/TP=fut+MOD=ind+VX=act+P=2+NB=pl | <E><SUF_FUT_1-2>/TP=fut+MOD=ind+VX=act+P=3+NB=pl ; 
 
 
-LEGERE = <E>/Infinitif |
-         <B3>o/présent+indicatif+actif+1+singulier | <B3>is/présent+indicatif+actif+2+singulier |
-         <B3>it/présent+indicatif+actif+3+singulier | <B3>imus/présent+indicatif+actif+1+pluriel | 
-         <B3>itis/présent+indicatif+actif+2+pluriel | <B3>unt/présent+indicatif+actif+3+pluriel ;
+## PERFECTUM (deleu-)
+# PARFAIT (pft) / PLUS-QUE-PARFAIT (pqp) / FUTUR ANTERIEUR (fta) INDICATIF (ind)
+GP2_PER = <E><SUF_PFT>/TP=pft+MOD=ind+VX=act+P=1+NB=sg | <E><SUF_PFT>/TP=pft+MOD=ind+VX=act+P=2+NB=sg |
+          <E><SUF_PFT>/TP=pft+MOD=ind+VX=act+P=3+NB=sg | <E><SUF_PFT>/TP=pft+MOD=ind+VX=act+P=1+NB=pl |
+          <E><SUF_PFT>/TP=pft+MOD=ind+VX=act+P=2+NB=pl | <E><SUF_PFT>/TP=pft+MOD=ind+VX=act+P=3+NB=pl | 
 
-CAPERE = <E>/Infinitif |
-         <B3>io/présent+indicatif+actif+1+singulier | <B3>is/présent+indicatif+actif+2+singulier |
-         <B3>it/présent+indicatif+actif+3+singulier | <B3>imus/présent+indicatif+actif+1+pluriel | 
-         <B3>itis/présent+indicatif+actif+2+pluriel | <B3>iunt/présent+indicatif+actif+3+pluriel ;
+          <E><SUF_PQP>/TP=pqp+MOD=ind+VX=act+P=1+NB=sg | <E><SUF_PQP>/TP=pqp+MOD=ind+VX=act+P=2+NB=sg |
+          <E><SUF_PQP>/TP=pqp+MOD=ind+VX=act+P=3+NB=sg | <E><SUF_PQP>/TP=pqp+MOD=ind+VX=act+P=1+NB=pl |
+          <E><SUF_PQP>/TP=pqp+MOD=ind+VX=act+P=2+NB=pl | <E><SUF_PQP>/TP=pqp+MOD=ind+VX=act+P=3+NB=pl |
 
-AUDIRE = <E>/Infinitif |
-         <B2>o/présent+indicatif+actif+1+singulier | <B2>s/présent+indicatif+actif+2+singulier |
-         <B2>t/présent+indicatif+actif+3+singulier | <B2>mus/présent+indicatif+actif+1+pluriel | 
-         <B2>tis/présent+indicatif+actif+2+pluriel | <B2>unt/présent+indicatif+actif+3+pluriel ;
+          <E><SUF_FTA>/TP=fta+MOD=ind+VX=act+P=1+NB=sg | <E><SUF_FTA>/TP=fta+MOD=ind+VX=act+P=2+NB=sg |
+          <E><SUF_FTA>/TP=fta+MOD=ind+VX=act+P=3+NB=sg | <E><SUF_FTA>/TP=fta+MOD=ind+VX=act+P=1+NB=pl |
+          <E><SUF_FTA>/TP=fta+MOD=ind+VX=act+P=2+NB=pl | <E><SUF_FTA>/TP=fta+MOD=ind+VX=act+P=3+NB=pl ;
 
-ESSE = <E>/Infinitif |
-       <B4>sum/présent+indicatif+actif+1+singulier | <B2>/présent+indicatif+actif+2+singulier |
-       <B2>t/présent+indicatif+actif+3+singulier | <B4>summus/présent+indicatif+actif+1+pluriel |
-       <B2>tis/présent+indicatif+actif+2+pluriel | <B4>sunt/présent+indicatif+actif+3+pluriel ;
+
+
+
+########
+
+### SUFFIXES
+
+## GROUPES
+SUF_GP1 = a/GP=1 ;
+SUF_GP2 = e/GP=2 ;
+SUF_GP4 = i/GP=4 ;
+SUF_GP5 = i/GP=5 ;
+
+## PERSONNES
+SUF_PERS = s/P=2+NB=sg |
+           t/P=3+NB=sg |
+           mus/P=1+NB=pl |
+           tis/P=2+NB=pl |
+           nt/P=3+NB=pl ;
+
+## INFECTUM
+# PRESENT ACTIF
+
+SUF_PRES_ACT_3-4-5 = <SUF_PRES_ACT_1-2>/TP=pres+MOD=ind+VX=act+P=1+NB=sg |
+                     i<SUF_PRES_ACT_1-2>/TP=pres+MOD=ind+VX=act+P=2+NB=sg |
+                     i<SUF_PRES_ACT_1-2>/TP=pres+MOD=ind+VX=act+P=3+NB=sg |
+                     i<SUF_PRES_ACT_1-2>/TP=pres+MOD=ind+VX=act+P=1+NB=pl |
+                     i<SUF_PRES_ACT_1-2>/TP=pres+MOD=ind+VX=act+P=2+NB=pl |
+                     u<SUF_PRES_ACT_1-2>/TP=pres+MOD=ind+VX=act+P=3+NB=pl ;
+
+SUF_PRES_ACT_3-4-5 = o/TP=pres+MOD=ind+VX=act+P=1+NB=sg |
+                     is/TP=pres+MOD=ind+VX=act+P=2+NB=sg |
+                     it/TP=pres+MOD=ind+VX=act+P=3+NB=sg |
+                     imus/TP=pres+MOD=ind+VX=act+P=1+NB=pl |
+                     itis/TP=pres+MOD=ind+VX=act+P=2+NB=pl |
+                     unt/TP=pres+MOD=ind+VX=act+P=3+NB=pl ;
+
+# IMPARFAIT ACTIF
+SUF_IMPF_ACT = ba/TP=impf+MOD=ind+VX=act;
+
+# FUTUR
+# GROUPES 1 & 2 (amabo & delebo)
+SUF_FUT_1-2 = bo/TP=fut+MOD=ind+VX=act+P=1+NB=sg |
+                  bis/TP=fut+MOD=ind+VX=act+P=2+NB=sg |
+                  bit/TP=fut+MOD=ind+VX=act+P=3+NB=sg |
+                  bimus/TP=fut+MOD=ind+VX=act+P=1+NB=pl |
+                  bitis/TP=fut+MOD=ind+VX=act+P=2+NB=pl |
+                  bunt/TP=fut+MOD=ind+VX=act+P=3+NB=pl ;
+
+# GROUPES 3, 4 & 5 (legam, capiam & audiam)
+SUF_FUT_3-4-5 = am/TP=fut+MOD=ind+VX=act+P=1+NB=sg |
+                  es/TP=fut+MOD=ind+VX=act+P=2+NB=sg |
+                  et/TP=fut+MOD=ind+VX=act+P=3+NB=sg |
+                  emus/TP=fut+MOD=ind+VX=act+P=1+NB=pl |
+                  etis/TP=fut+MOD=ind+VX=act+P=2+NB=pl |
+                  ent/TP=fut+MOD=ind+VX=act+P=3+NB=pl ;
+
+
+## PERFECTUM
+# PARFAIT
+SUF_PFT = i/TP=pres+MOD=ind+VX=act+P=1+NB=sg |
+          isti/TP=pft+MOD=ind+VX=act+P=2+NB=sg |
+          it/TP=pft+MOD=ind+VX=act+P=3+NB=sg |
+          imus/TP=pft+MOD=ind+VX=act+P=1+NB=pl |
+          istis/TP=pft+MOD=ind+VX=act+P=2+NB=pl |
+          erunt/TP=pft+MOD=ind+VX=act+P=3+NB=pl ;
+
+# PLUS-QUE-PARFAIT
+SUF_PQP = eram/TP=pres+MOD=ind+VX=act+P=1+NB=sg |
+          eras/TP=pft+MOD=ind+VX=act+P=2+NB=sg |
+          erat/TP=pft+MOD=ind+VX=act+P=3+NB=sg |
+          eramus/TP=pft+MOD=ind+VX=act+P=1+NB=pl |
+          eratis/TP=pft+MOD=ind+VX=act+P=2+NB=pl |
+          erant/TP=pft+MOD=ind+VX=act+P=3+NB=pl ;

@@ -1,4 +1,4 @@
 NooJ v5 Compiled Dictionary
-recognizes 481 word forms.
-981/1 states, 482 different analyses.
+recognizes 0 word forms.
+1/1 states, 1 different analyses.
 

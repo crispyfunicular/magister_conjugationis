@@ -17,110 +17,173 @@
 #use latin_verbs.nof
 
 # GP1 (AMARE)
-ama,V+LEM=amare+Theme=INF+FLX=GP1_INF
-amau,V+LEM=amare+Theme=PER+FLX=GP1_PER
-amat,V+LEM=amare+Theme=SUP+FLX=GP1_SUP
+# amare
+am,V+GP=1+LEM=amare+FLX=GP1
 
-cogita,V+LEM=cogitare+Theme=INF+FLX=GP1_INF
-cogitau,V+LEM=cogitare+Theme=PER+FLX=GP1_PER
-cogitat,V+LEM=cogitare+Theme=SUP+FLX=GP1_SUP
+# cogitare
+cogit,V+GP=1+LEM=cogitare+FLX=GP1
 
-cura,V+LEM=curare+Theme=INF+FLX=GP1_INF
-curau,V+LEM=curare+Theme=PER+FLX=GP1_PER
-curat,V+LEM=curare+Theme=SUP+FLX=GP1_SUP
+# curare
+cur,V+GP=1+LEM=curare+FLX=GP1
 
-da,V+LEM=dare+Theme=INF+FLX=GP1_INF
-ded,V+LEM=dare+Theme=PER+FLX=GP1_PER
-dat,V+LEM=dare+Theme=SUP+FLX=GP1_SUP
+# dare
+d,V+GP=1+LEM=dare+Theme=INF+FLX=GP1
+ded,V+GP=1+LEM=dare+Theme=PER+FLX=PERF_IRR
 
-erro,V+LEM=errare+Theme=INF+FLX=GP1_INF
-errau,V+LEM=errare+Theme=PER+FLX=GP1_PER
-errat,V+LEM=errare+Theme=SUP+FLX=GP1_SUP
+# errare
+err,V+GP=1+LEM=errare+FLX=GP1
 
-existima,V+LEM=existimare+Theme=INF+FLX=GP1_INF
-existimau,V+LEM=existimare+Theme=PER+FLX=GP1_PER
-existimat,V+LEM=existimare+Theme=SUP+FLX=GP1_SUP
+# existimare
+existim,V+GP=1+LEM=existimare+FLX=GP1
 
-lauda,V+LEM=laudare+Theme=INF+FLX=GP1_INF
-laudau,V+LEM=laudare+Theme=PER+FLX=GP1_PER
-laudat,V+LEM=laudare+Theme=SUP+FLX=GP1_SUP
+#laudare
+laud,V+GP=1+LEM=laudare+FLX=GP1
 
-narra,V+LEM=narrare+Theme=INF+FLX=GP1_INF
-narrau,V+LEM=narrare+Theme=PER+FLX=GP1_PER
-narrat,V+LEM=narrare+Theme=SUP+FLX=GP1_SUP
+#narrare
+narr,V+GP=1+LEM=narrare+FLX=GP1
 
-pugna,V+LEM=pugnare+Theme=INF+FLX=GP1_INF
-pugnau,V+LEM=pugnare+Theme=PER+FLX=GP1_PER
-pugnat,V+LEM=pugnare+Theme=SUP+FLX=GP1_SUP
+# pugnare
+pugn,V+GP=1+LEM=pugnare+FLX=GP1
 
-puta,V+LEM=putare+Theme=INF+FLX=GP1_INF
-putau,V+LEM=putare+Theme=PER+FLX=GP1_PER
-putat,V+LEM=putare+Theme=SUP+FLX=GP1_SUP
+# putare
+put,V+GP=1+LEM=putare+FLX=GP1
 
-roga,V+LEM=rogare+Theme=INF+FLX=GP1_INF
-rogau,V+LEM=rogare+Theme=PER+FLX=GP1_PER
-rogat,V+LEM=rogare+Theme=SUP+FLX=GP1_SUP
+# rogare
+rog,V+GP=1+LEM=rogare+FLX=GP1
 
-specta,V+LEM=spectare+Theme=INF+FLX=GP1_INF
-spectau,V+LEM=spectare+Theme=PER+FLX=GP1_PER
-spectat,V+LEM=spectare+Theme=SUP+FLX=GP1_SUP
+# spectare
+spect,V+GP=1+LEM=spectare+FLX=GP1
 
-uoca,V+LEM=uocare+Theme=INF+FLX=GP1_INF
-uocau,V+LEM=uocare+Theme=PER+FLX=GP1_PER
-uocat,V+LEM=uocare+Theme=SUP+FLX=GP1_SUP
+# uocare
+uoc,V+GP=1+LEM=uocare+FLX=GP1
+
 
 # GP2 (DELERE)
-delere
-augere
-debere
-habere
-iubere
-manere
-monere
-mouere
-praebere
-timere
-uidere
+#delere
+del,V+GP=2+LEM=delere+FLX=GP2
+
+#augere
+aug,V+GP=2+LEM=augere+FLX=GP2
+#aux
+
+#debere
+deb,V+GP=2+LEM=debere+FLX=GP2
+
+#habere
+hab,V+GP=2+LEM=habere+FLX=GP2
+
+#iubere
+iub,V+GP=2+LEM=iubere+FLX=GP2
+#iuss
+
+#manere
+man,V+GP=2+LEM=manere+FLX=GP2
+#mans
+
+#monere
+mon,V+GP=2+LEM=monere+FLX=GP2
+
+#mouere
+mou,V+GP=2+LEM=mouere+FLX=GP2
+
+#praebere
+praeb,V+GP=2+LEM=praebere+FLX=GP2
+
+#timere
+tim,V+GP=2+LEM=timere+FLX=GP2
+
+#uidere
+uid,V+GP=2+LEM=uidere+FLX=GP2
+
 
 # GP3 (LEGERE)
-legere
-agere
-cognoscere
-colere
-credere
-dicere
-ducere
-gerere
-intellegere
-mittere
-occidere
-pellere
-relinquere
-scribere
-statuere
-tradere
-uincere
-uiuere
+#legere
+#,V+GP=3+LEM=ere+FLX=GP3
+
+#agere
+#,V+GP=3+LEM=ere+FLX=GP3
+
+#cognoscere
+#,V+GP=3+LEM=ere+FLX=GP3
+
+#colere
+#,V+GP=3+LEM=ere+FLX=GP3
+
+#credere
+#,V+GP=3+LEM=ere+FLX=GP3
+
+#dicere
+
+#ducere
+
+#gerere
+
+#intellegere
+
+#mittere
+
+#occidere
+
+#pellere
+
+#relinquere
+
+#scribere
+
+#statuere
+
+#tradere
+
+#uincere
+
+#uiuere
+
 
 # GP4 (CAPERE)
-capere
-accipere
-cupere
-facere
-incipere
-interficere
-rapere
+#capere
+
+#accipere
+
+#cupere
+
+#facere
+
+#incipere
+
+#interficere
+
+#rapere
+
 
 # GP5 (AUDIRE)
-audire
-inuenire
-scire
-sentire
-uenire
+#audire
+
+#inuenire
+
+#scire
+
+#sentire
+
+#uenire
+
 
 # GP0 (ESSE)
-esse
-abesse
-adesse
-posse
-prodess
+#esse
+#sum,V+LEM=esse+Theme=INF+FLX=GP0_INF
+#f,V+LEM=esse+Theme=INF+FLX=GP0_PER
+
+#abesse
+#absum,V+LEM=abesse+Theme=INF+FLX=GP0_INF
+#af,V+LEM=abesse+Theme=INF+FLX=GP0_PER
+
+#adesse
+#adsum,V+LEM=adesse+Theme=INF+FLX=GP0_INF
+#adf,V+LEM=adesse+Theme=INF+FLX=GP0_PER
+
+#posse
+#possum,V+LEM=posse+Theme=INF+FLX=GP0_INF
+#put,V+LEM=posse+Theme=INF+FLX=GP0_PER
+
+#prodesse
+#prosum,V+LEM=prodesse+Theme=INF+FLX=GP0_INF
+#prof,V+LEM=prodesse+Theme=INF+FLX=GP0_PER
