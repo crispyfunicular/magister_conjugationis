@@ -18,99 +18,119 @@
 
 # GP1 (AMARE)
 # amare
-am,V+GP=1+LEM=amare+FLX=GP1
+am,V+GP=1+LEM=amare+Theme=INF+FLX=GP1_INF
+amau,V+GP=1+LEM=amare+Theme=PER+FLX=GP1_PER
 
 # cogitare
-cogit,V+GP=1+LEM=cogitare+FLX=GP1
+cogit,V+GP=1+LEM=cogitare+Theme=INF+FLX=GP1_INF
+cogitau,V+GP=1+LEM=cogitare+Theme=PER+FLX=GP1_PER
 
 # curare
-cur,V+GP=1+LEM=curare+FLX=GP1
+cur,V+GP=1+LEM=curare+Theme=INF+FLX=GP1_INF
+curau,V+GP=1+LEM=curare+Theme=PER+FLX=GP1_PER
 
 # dare
-d,V+GP=1+LEM=dare+Theme=INF+FLX=GP1
-ded,V+GP=1+LEM=dare+Theme=PER+FLX=PERF_IRR
+d,V+GP=1+LEM=dare+Theme=INF+FLX=GP1_INF
+ded,V+GP=1+LEM=dare+Theme=PER+FLX=GP1_PER
 
 # errare
-err,V+GP=1+LEM=errare+FLX=GP1
+err,V+GP=1+LEM=errare+Theme=INF+FLX=GP1_INF
+errau,V+GP=1+LEM=errare+Theme=PER+FLX=GP1_PER
 
 # existimare
-existim,V+GP=1+LEM=existimare+FLX=GP1
+existim,V+GP=1+LEM=existimare+Theme=INF+FLX=GP1_INF
+existimau,V+GP=1+LEM=existimare+Theme=PER+FLX=GP1_PER
 
-#laudare
-laud,V+GP=1+LEM=laudare+FLX=GP1
+# laudare
+laud,V+GP=1+LEM=laudare+Theme=INF+FLX=GP1_INF
+laudau,V+GP=1+LEM=laudare+Theme=PER+FLX=GP1_PER
 
-#narrare
-narr,V+GP=1+LEM=narrare+FLX=GP1
+# narrare
+narr,V+GP=1+LEM=narrare+Theme=INF+FLX=GP1_INF
+narrau,V+GP=1+LEM=narrare+Theme=PER+FLX=GP1_PER
 
 # pugnare
-pugn,V+GP=1+LEM=pugnare+FLX=GP1
+pugn,V+GP=1+LEM=pugnare+Theme=INF+FLX=GP1_INF
+pugnau,V+GP=1+LEM=pugnare+Theme=PER+FLX=GP1_PER
 
 # putare
-put,V+GP=1+LEM=putare+FLX=GP1
+put,V+GP=1+LEM=putare+Theme=INF+FLX=GP1_INF
+putau,V+GP=1+LEM=putare+Theme=PER+FLX=GP1_PER
 
 # rogare
-rog,V+GP=1+LEM=rogare+FLX=GP1
+rog,V+GP=1+LEM=rogare+Theme=INF+FLX=GP1_INF
+rogau,V+GP=1+LEM=rogare+Theme=PER+FLX=GP1_PER
 
 # spectare
-spect,V+GP=1+LEM=spectare+FLX=GP1
+spect,V+GP=1+LEM=spectare+Theme=INF+FLX=GP1_INF
+spectau,V+GP=1+LEM=spectare+Theme=PER+FLX=GP1_PER
 
 # uocare
-uoc,V+GP=1+LEM=uocare+FLX=GP1
+uoc,V+GP=1+LEM=uocare+Theme=INF+FLX=GP1_INF
+uocau,V+GP=1+LEM=uocare+Theme=PER+FLX=GP1_PER
 
 
 # GP2 (DELERE)
 #delere
-del,V+GP=2+LEM=delere+FLX=GP2
+del,V+GP=2+LEM=delere+Theme=INF+FLX=GP2_INF
+deleu,V+GP=2+LEM=delere+Theme=PER+FLX=GP2_PER
 
 #augere
-aug,V+GP=2+LEM=augere+FLX=GP2
-#aux
+aug,V+GP=2+LEM=augere+Theme=INF+FLX=GP2_INF
+aux,V+GP=2+LEM=delere+Theme=PER+FLX=GP2_PER
 
 #debere
-deb,V+GP=2+LEM=debere+FLX=GP2
+deb,V+GP=2+LEM=debere+Theme=INF+FLX=GP2_INF
+debu,V+GP=2+LEM=delere+Theme=PER+FLX=GP2_PER
 
 #habere
-hab,V+GP=2+LEM=habere+FLX=GP2
+hab,V+GP=2+LEM=habere+Theme=INF+FLX=GP2_INF
+habu,V+GP=2+LEM=delere+Theme=PER+FLX=GP2_PER
 
 #iubere
-iub,V+GP=2+LEM=iubere+FLX=GP2
-#iuss
+iub,V+GP=2+LEM=iubere+Theme=INF+FLX=GP2_INF
+iuss,V+GP=2+LEM=delere+Theme=PER+FLX=GP2_PER
 
 #manere
-man,V+GP=2+LEM=manere+FLX=GP2
-#mans
+man,V+GP=2+LEM=manere+Theme=INF+FLX=GP2_INF
+mans,V+GP=2+LEM=delere+Theme=PER+FLX=GP2_PER
 
 #monere
-mon,V+GP=2+LEM=monere+FLX=GP2
+mon,V+GP=2+LEM=monere+Theme=INF+FLX=GP2_INF
+monu,V+GP=2+LEM=delere+Theme=PER+FLX=GP2_PER
 
 #mouere
-mou,V+GP=2+LEM=mouere+FLX=GP2
+mou,V+GP=2+LEM=mouere+Theme=INF+FLX=GP2_INF
+mou,V+GP=2+LEM=delere+Theme=PER+FLX=GP2_PER
 
 #praebere
-praeb,V+GP=2+LEM=praebere+FLX=GP2
+praeb,V+GP=2+LEM=praebere+Theme=INF+FLX=GP2_INF
+praebu,V+GP=2+LEM=delere+Theme=PER+FLX=GP2_PER
 
 #timere
-tim,V+GP=2+LEM=timere+FLX=GP2
+tim,V+GP=2+LEM=timere+Theme=INF+FLX=GP2_INF
+timu,V+GP=2+LEM=delere+Theme=PER+FLX=GP2_PER
 
 #uidere
-uid,V+GP=2+LEM=uidere+FLX=GP2
+uid,V+GP=2+LEM=uidere+Theme=INF+FLX=GP2_INF
+uid,V+GP=2+LEM=delere+Theme=PER+FLX=GP2_PER
 
 
 # GP3 (LEGERE)
 #legere
-#,V+GP=3+LEM=ere+FLX=GP3
+#,V+GP=3+LEM=ere+Theme=INF+FLX=GP3_INF
 
 #agere
-#,V+GP=3+LEM=ere+FLX=GP3
+#,V+GP=3+LEM=ere+Theme=INF+FLX=GP3_INF
 
 #cognoscere
-#,V+GP=3+LEM=ere+FLX=GP3
+#,V+GP=3+LEM=ere+Theme=INF+FLX=GP3_INF
 
 #colere
-#,V+GP=3+LEM=ere+FLX=GP3
+#,V+GP=3+LEM=ere+Theme=INF+FLX=GP3_INF
 
 #credere
-#,V+GP=3+LEM=ere+FLX=GP3
+#,V+GP=3+LEM=ere+Theme=INF+FLX=GP3_INF
 
 #dicere
 

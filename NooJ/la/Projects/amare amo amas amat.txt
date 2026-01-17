@@ -5,3 +5,47 @@ amabo amabis amabit amabimus amabitis amabunt
 amaui amauisti amauit amauimus amauistis amauerunt
 amaueram amaueras amauerat amaueramus amaueratis amauerant
 amauero amaueris amauerit amauerimus amaueritis amauerint
+
+cogitare cogito cogitas cogitat cogitamus cogitatis cogitant cogitabam cogitabas cogitabat cogitabamus cogitabatis cogitabant cogitabo cogitabis cogitabit cogitabimus cogitabitis cogitabunt
+
+cogitaui cogitauisti cogitauit cogitauimus cogitauistis cogitauerunt cogitaueram cogitaueras cogitauerat cogitaueramus cogitaueratis cogitauerant cogitauero cogitaueris cogitauerit cogitauerimus cogitaueritis cogitauerint
+
+curare curo curas curat curamus curatis curant curabam curabas curabat curabamus curabatis curabant curabo curabis curabit curabimus curabitis curabunt
+
+curaui curauisti curauit curauimus curauistis curauerunt curaueram curaueras curauerat curaueramus curaueratis curauerant curauero curaueris curauerit curauerimus curaueritis curauerint
+
+errare erro erras errat erramus erratis errant errabam errabas errabat errabamus errabatis errabant errabo errabis errabit errabimus errabitis errabunt
+
+erraui errauisti errauit errauimus errauistis errauerunt erraueram erraueras errauerat erraueramus erraueratis errauerant errauero erraueris errauerit errauerimus erraueritis errauerint
+
+existimare existimo existimas existimat existimamus existimatis existimant existimabam existimabas existimabat existimabamus existimabatis existimabant existimabo existimabis existimabit existimabimus existimabitis existimabunt
+
+existimaui existimauisti existimauit existimauimus existimauistis existimauerunt existimaueram existimaueras existimauerat existimaueramus existimaueratis existimauerant existimauero existimaueris existimauerit existimauerimus existimaueritis existimauerint
+
+laudare laudo laudas laudat laudamus laudatis laudant laudabam laudabas laudabat laudabamus laudabatis laudabant laudabo laudabis laudabit laudabimus laudabitis laudabunt
+
+laudaui laudauisti laudauit laudauimus laudauistis laudauerunt laudaueram laudaueras laudauerat laudaueramus laudaueratis laudauerant laudauero laudaueris laudauerit laudauerimus laudaueritis laudauerint
+
+narrare narro narras narrat narramus narratis narrant narrabam narrabas narrabat narrabamus narrabatis narrabant narrabo narrabis narrabit narrabimus narrabitis narrabunt
+
+narraui narrauisti narrauit narrauiimus narrauistis narrauerunt narraueram narraueras narrauerat narraueramus narraueratis narrauerant narrauero narraueris narrauerit narrauerimus narraueritis narrauerint
+
+pugnare pugno pugnas pugnat pugnamus pugnatis pugnant pugnabam pugnabas pugnabat pugnabamus pugnabatis pugnabant pugnabo pugnabis pugnabit pugnabimus pugnabitis pugnabunt
+
+pugnaui pugnauisti pugnauit pugnauimus pugnauistis pugnauerunt pugnaueram pugnaueras pugnauerat pugnaueramus pugnaueratis pugnauerant pugnauero pugnaueris pugnauerit pugnauerimus pugnaueritis pugnauerint
+
+putare puto putas putat putamus putatis putant putabam putabas putabat putabamus putabatis putabant putabo putabis putabit putabimus putabitis putabunt
+
+putaui putauisti putauit putauimus putauistis putauerunt putaueram putaueras putauerat putaueramus putaueratis putauerant putauero putaueris putauerit putauerimus putaueritis putauerint
+
+rogare rogo rogas rogat rogamus rogatis rogant rogabam rogabas rogabat rogabamus rogabatis rogabant rogabo rogabis rogabit rogabimus rogabitis rogabunt
+
+rogaui rogauisti rogauit rogauimus rogauistis rogauerunt rogaueram rogaueras rogauerat rogaueramus rogaueratis rogauerant rogauero rogaueris rogauerit rogauerimus rogaueritis rogauerint
+
+spectare specto spectas spectat spectamus spectatis spectant spectabam spectabas spectabat spectabamus spectabatis spectabant spectabo spectabis spectabit spectabimus spectabitis spectabunt
+
+spectaui spectauisti spectauit spectauimus spectauistis spectauerunt spectaueram spectaueras spectauerat spectaueramus spectaueratis spectauerant spectauero spectaueris spectauerit spectauerimus spectaueritis spectauerint
+
+uocare uoco uocas uocat uocamus uocatis uocant uocabam uocabas uocabat uocabamus uocabatis uocabant uocabo uocabis uocabit uocabimus uocabitis uocabunt
+
+uocaui uocauisti uocauit uocauimus uocauistis uocauerunt uocaueram uocaueras uocauerat uocaueramus uocaueratis uocauerant uocauero uocaueris uocauerit uocauerimus uocaueritis uocauerint
