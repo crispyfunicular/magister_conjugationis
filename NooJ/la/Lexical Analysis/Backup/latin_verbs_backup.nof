@@ -40,53 +40,92 @@
 # pqp = plus-que-parfait (ex. amaueram)
 # fta = futur antérieur (ex. amauero)
 
-## INDICATIF
+### INFECTUM (am-)
+## INDICATIF (ind)
+# > ACTIF (act) : l.1 PRESENT (pres) / l.2 IMPARFAIT (impf) / l.3 FUTUR INDICATIF (fta)
+# > PASSIF (pas) : l.4 PRESENT (pres) / l.5 IMPARFAIT / l.6 FUTUR
+## SUBJONCTIF (sub) : l.7 imparfait (impf)
 
-### GP1 (AMARE)
+### PERFECTUM (amau-)
+## INDICATIF (ind)
+# > ACTIF (act) : l.8 PARFAIT (pft) / l.9 PLUS-QUE-PARFAIT (pqp) / l.10 FUTUR ANTERIEUR (fta)
+## SUBJONCTIF (sub) : l.11 imparfait (impf)
 
-## INFECTUM (am-)
-# ACTIF (act) : l.1 PRESENT (pres) / l.2 IMPARFAIT (impf) / l.3 FUTUR INDICATIF (fta)
-# PASSIF (pas) : l.4 PRESENT (pres) / l.5 IMPARFAIT / l.6 FUTUR --> PASSIF (pas)
+
+## GP1 (AMARE)
+# INFECTUM (am-)
 
 GP1_INF =
-	:P1_O/GP=1+TP=pres+MOD=ind | :GP :PERS_ACT/GP=1+TP=pres+MOD=ind | :GP :P3/GP=1+TP=pres+MOD=ind |
-	:GP :IMPF_IND :P1_M/GP=1 | :GP :IMPF_IND :PERS_ACT/GP=1 |
-	:GP :FUT_1-2 <B> :P1_O/GP=1 | :GP :FUT_1-2 :PERS_ACT/GP=1 | :GP :FUT_1-2 <B>u :P3/P=3+NB=pl |
+	:P1_O/GP=1+TP=pres+MOD=ind | :GP :PERS_ACT/TP=pres+MOD=ind | :GP :P3_ACT/TP=pres+MOD=ind |
+	:GP :IMPF_IND :P1_M/ | :GP :IMPF_IND :PERS_ACT/ | :GP :IMPF_IND :P3_ACT/ |
+	:GP :FUT_1-2 <B> :P1_O/ | :GP :FUT_1-2 :PERS_ACT/ | :GP :FUT_1-2 <B>u :P3_ACT/ |
 
-	:P1_OR/GP=1+TP=pres+MOD=ind | :GP :PERS_PAS/GP=1+TP=pres+MOD=ind |
-	:GP :IMPF_IND r/GP=1+VX=pas+P=1+NB=sg | :GP :IMPF_IND :PERS_PAS/GP=1+TP=impf+MOD=ind |
-	:GP :FUT_1-2 <B> :P1_OR/GP=1 | :GP :FUT_1-2 <B>eris/GP=1+P=2+NB=sg | :GP :FUT_1-2 :PERS_PAS/GP=1 | :GP :FUT_1-2 <B>u :P3_PAS/GP=1 ;
+	:P1_OR/GP=1+TP=pres+MOD=ind | :GP :PERS_PAS/TP=pres+MOD=ind |
+	:GP :IMPF_IND r/VX=pas+P=1+NB=sg | :GP :IMPF_IND :PERS_PAS/ | :GP :IMPF_IND :P3_PAS/ |
+	:GP :FUT_1-2 <B> :P1_OR/ | :GP :FUT_1-2 <B>eris/P=2+NB=sg | :GP :FUT_1-2 :PERS_PAS/ | :GP :FUT_1-2 <B>u :P3_PAS/ |
+
+	:GP :IMPF_SUB :P1_M/ | :GP :IMPF_SUB :PERS_ACT/ | :GP :IMPF_SUB :P3_ACT/ ;
 
 
-## PERFECTUM (amau-)
-# ACTIF (act) : l.1 PARFAIT (pft) / l.2 PLUS-QUE-PARFAIT (pqp) / l.3 FUTUR ANTERIEUR (fta)
+# PERFECTUM (amau-)
 
-GP1_PER = :PFT/GP=1 |
+GP1_PER =
+	:PFT/GP=1 |
 	:PQP/GP=1 |
-	:FTA <B> P1_O/GP=1 | :FTA :PERS_ACT/GP=1 ;
+	:FTA <B> :P1_O/GP=1 | :FTA :PERS_ACT/GP=1 |
+
+	:PQP_SUB :P1_M/GP=1 | :PQP_SUB :PERS_ACT/GP=1 | :PQP_SUB :P3_ACT/GP=1 ;
 
 
-### GP2 (DELERE)
-
-## INFECTUM (del-)
-# ACTIF (act) : l.1 PRESENT (pres) / l.2 IMPARFAIT (impf) / l.3 FUTUR INDICATIF (fta)
-# PASSIF (pas) : l.4 PRESENT (pres) / l.5 IMPARFAIT / l.6 FUTUR --> PASSIF (pas)
+## GP2 (DELERE)
+# INFECTUM (del-)
 
 GP2_INF =
-	:GP :P1_O/GP=2+TP=pres+MOD=ind | :GP :PERS_ACT/GP=2+TP=pres+MOD=ind | :GP :P3/GP=2+TP=pres+MOD=ind |
-	:GP :IMPF_IND :P1_M/GP=2 | :GP :IMPF_IND :PERS_ACT/GP=2 |
-	:GP :FUT_1-2 <B> :P1_O/GP=2 | :GP :FUT_1-2 :PERS_ACT/GP=2 | :GP :FUT_1-2 <B>u :P3/GP=2+P=3+NB=pl |
+	:GP :P1_O/+TP=pres+MOD=ind | :GP :PERS_ACT/+TP=pres+MOD=ind | :GP :P3_ACT/+TP=pres+MOD=ind |
+	:GP :IMPF_IND :P1_M/ | :GP :IMPF_IND :PERS_ACT/ | :GP :IMPF_IND :P3_ACT/ |
+	:GP :FUT_1-2 <B> :P1_O/ | :GP :FUT_1-2 :PERS_ACT/ | :GP :FUT_1-2 <B>u :P3_ACT/ |
 
-	:GP :P1_OR/GP=2+TP=pres+MOD=ind | :GP :PERS_PAS/GP=2+TP=pres+MOD=ind | :GP :P3_PAS/GP=2+TP=pres+MOD=ind | 
-	:GP :IMPF_IND r/GP=2+VX=pas+P=1+NB=sg | :GP :IMPF_IND :PERS_PAS/GP=2 |
-	:GP :FUT_1-2 <B> :P1_OR/GP=2 | :GP :FUT_1-2 <B>eris/GP=2+P=2+NB=sg | :GP :FUT_1-2 :PERS_PAS/GP=2 | :GP :FUT_1-2 <B>u :P3_PAS/GP=2 ;
+	:GP :P1_OR/TP=pres+MOD=ind | :GP :PERS_PAS/TP=pres+MOD=ind | :GP :P3_PAS/TP=pres+MOD=ind | 
+	:GP :IMPF_IND r/VX=pas+P=1+NB=sg | :GP :IMPF_IND :PERS_PAS/ | :GP :IMPF_IND :P3_PAS/ |
+	:GP :FUT_1-2 <B> :P1_OR/ | :GP :FUT_1-2 <B>eris/P=2+NB=sg | :GP :FUT_1-2 :PERS_PAS/ | :GP :FUT_1-2 <B>u :P3_PAS/ |
 
-## PERFECTUM (deleu-)
-# ACTIF (act) : l.1 PARFAIT (pft) / l.2 PLUS-QUE-PARFAIT (pqp) / l.3 FUTUR ANTERIEUR (fta)
+	:GP :IMPF_SUB :P1_M/ | :GP :IMPF_SUB :PERS_ACT/ | :GP :IMPF_SUB :P3_ACT/ ;
 
-GP2_PER = :PFT/GP=2 |
+
+# PERFECTUM (deleu-)
+
+GP2_PER =
+	:PFT/GP=2 |
 	:PQP/GP=2 |
-	:FTA <B> P1_O/GP=2 | :FTA :PERS_ACT/GP=2 ;
+	:FTA <B> :P1_O/GP=2 | :FTA :PERS_ACT/GP=2 |
+
+	:PQP_SUB :P1_M/GP=2 | :PQP_SUB :PERS_ACT/GP=2 | :PQP_SUB :P3_ACT/GP=2 ;
+
+
+## GP3 (LEGERE)
+# INFECTUM (leg-)
+
+GP3_INF =
+	:P1_O/GP=3+TP=pres+MOD=ind | :GP3_I :PERS_ACT/TP=pres+MOD=ind | u :P3_ACT/GP=3+TP=pres+MOD=ind |
+	:GP3_E :IMPF_IND :P1_M/ | :GP3_E :IMPF_IND :PERS_ACT/ | :IMPF_IND :P3_ACT/GP=3 |
+	a :P1_M/GP=3+TP=fut+MOD=ind+VX=act | :FUT_3-4-5 :PERS_ACT/GP=3 | :FUT_3-4-5 :P3_ACT/GP=3 |
+
+	:P1_OR/GP=3+TP=pres+MOD=ind | :GP3_E ris/TP=pres+MOD=ind+VX=pas+P=2+NB=sg | :GP3_I :PERS_PAS/TP=pres+MOD=ind | u :P3_PAS/GP=3+TP=pres+MOD=ind | 
+	:GP3_E :IMPF_IND :P1_OR <L><B>/ | :GP3_E :IMPF_IND :PERS_PAS/ | :GP3_E :IMPF_IND :P3_PAS/
+	:P1_OR <L><B>a/GP=3+TP=fut+MOD=ind | :FUT_3-4-5 :PERS_PAS/GP=3 | :FUT_3-4-5 :P3_PAS/GP=3 |
+
+	:GP3_E :IMPF_SUB :P1_M/ | :GP3_E :IMPF_SUB :PERS_ACT/ | :GP3_E :IMPF_SUB :P3_ACT/ ;
+
+
+# INFECTUM (leg-)
+
+GP3_PER =
+	:PFT/GP=3 |
+	:PQP/GP=3 |
+	:FTA <B> :P1_O/GP=3 | :FTA :PERS_ACT/GP=3 |
+
+	:PQP_SUB :P1_M/GP=3 | :PQP_SUB :PERS_ACT/GP=3 | :PQP_SUB :P3_ACT/GP=3 ;
+
 
 
 #######
@@ -96,12 +135,14 @@ GP2_PER = :PFT/GP=2 |
 
 ## GROUPES
 GP = a/GP=1 | e/GP=2 | i/GP=4 | i/GP=5 ;
+GP3_E = e/GP=3 ;
+GP3_I = i/GP=3 ;
 
 ## PERSONNES
 # ACTIF
 P1_O = o/VX=act+P=1+NB=sg ;
 P1_M = m/VX=act+P=1+NB=sg ;
-P3 = nt/VX=act+P=3+NB=pl ;
+P3_ACT = nt/VX=act+P=3+NB=pl ;
 
 PERS_ACT =
 	s/VX=act+P=2+NB=sg |
@@ -120,22 +161,20 @@ PERS_PAS =
 
 
 ## INFECTUM
-# PRESENT ACTIF
-PRES_ACT_3-4-5 = i/TP=pres+MOD=ind+VX=act ;
+# IMPARFAIT (impf) INDICATIF & SUBJONCTIF
+IMPF_IND = ba/TP=impf+MOD=ind+VX=act ;
+IMPF_SUB = re/TP=impf+MOD=sub+VX=act ;
 
-# IMPARFAIT INDICATIF
-IMPF_IND = ba/TP=impf+MOD=ind ;
-
-# FUTUR
+# FUTUR (fut)
 # GROUPES 1 & 2 (amabis & delebis)
 FUT_1-2 = bi/TP=fut+MOD=ind+VX=act ;
 
 # GROUPES 3, 4 & 5 (legam, capiam & audiam)
-FUT_3-4-5 = e/TP=fut+MOD=ind ;
+FUT_3-4-5 = e/TP=fut+MOD=ind+VX=act ;
 
 
 ## PERFECTUM
-# PARFAIT
+# PARFAIT (pft)
 PFT =
 	i/TP=pft+MOD=ind+VX=act+P=1+NB=sg |
 	isti/TP=pft+MOD=ind+VX=act+P=2+NB=sg |
@@ -144,8 +183,8 @@ PFT =
 	istis/TP=pft+MOD=ind+VX=act+P=2+NB=pl |
 	eru :P3/TP=pft+MOD=ind+VX=act ;
 
-# PLUS-QUE-PARFAIT
-PQP =
+# PLUS-QUE-PARFAIT (pqp) INDICATIF & SUBJONCTIF
+PQP_IND =
 	eram/TP=pqp+MOD=ind+VX=act+P=1+NB=sg |
 	eras/TP=pqp+MOD=ind+VX=act+P=2+NB=sg |
 	erat/TP=pqp+MOD=ind+VX=act+P=3+NB=sg |
@@ -153,5 +192,7 @@ PQP =
 	eratis/TP=pqp+MOD=ind+VX=act+P=2+NB=pl |
 	erant/TP=pqp+MOD=ind+VX=act+P=3+NB=pl ;
 
-# FUTUR ANTERIEUR
+PQP_SUB = isse/TP=pqp+MOD=sub+VX=act  ;
+
+# FUTUR ANTERIEUR (fta)
 FTA = eri/TP=fta+MOD=ind+VX=act ;
