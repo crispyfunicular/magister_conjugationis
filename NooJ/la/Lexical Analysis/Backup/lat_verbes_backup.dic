@@ -18,247 +18,247 @@
 
 # GP1 (AMARE)
 # amare
-am,amare,V+GP=1+Theme=INF+FLX=GP1_INF
-amau,amare,V+GP=1+Theme=PER+FLX=GP1_PER
+am,amare,V+GP=1+Theme=INF+TRAD=aimer+FLX=GP1_INF
+amau,amare,V+GP=1+Theme=PER+TRAD=aimer+FLX=GP1_PER
 
 # cogitare
-cogit,cogitare,V+GP=1+Theme=INF+FLX=GP1_INF
-cogitau,cogitare,V+GP=1+Theme=PER+FLX=GP1_PER
+cogit,cogitare,V+GP=1+Theme=INF+TRAD=penser+FLX=GP1_INF
+cogitau,cogitare,V+GP=1+Theme=PER+TRAD=penser+FLX=GP1_PER
 
 # curare
-cur,curare,V+GP=1+Theme=INF+FLX=GP1_INF
-curau,curare,V+GP=1+Theme=PER+FLX=GP1_PER
+cur,curare,V+GP=1+Theme=INF+TRAD=soigner+FLX=GP1_INF
+curau,curare,V+GP=1+Theme=PER+TRAD=soigner+FLX=GP1_PER
 
 # dare
-d,dare,V+GP=1+Theme=INF+FLX=GP1_INF
-ded,dare,V+GP=1+Theme=PER+FLX=GP1_PER
+d,dare,V+GP=1+Theme=INF+TRAD=donner+FLX=GP1_INF
+ded,dare,V+GP=1+Theme=PER+TRAD=donner+FLX=GP1_PER
 
 # errare
-err,errare,V+GP=1+Theme=INF+FLX=GP1_INF
-errau,errare,V+GP=1+Theme=PER+FLX=GP1_PER
+err,errare,V+GP=1+Theme=INF+TRAD=errer;se\ tromper+FLX=GP1_INF
+errau,errare,V+GP=1+Theme=PER+TRAD=errer;se\ tromper+FLX=GP1_PER
 
 # existimare
-existim,existimare,V+GP=1+Theme=INF+FLX=GP1_INF
-existimau,existimare,V+GP=1+Theme=PER+FLX=GP1_PER
+existim,existimare,V+GP=1+Theme=INF+TRAD=estimer;penser+FLX=GP1_INF
+existimau,existimare,V+GP=1+Theme=PER+TRAD=estimer;penser+FLX=GP1_PER
 
 # laudare
-laud,laudare,V+GP=1+Theme=INF+FLX=GP1_INF
-laudau,laudare,V+GP=1+Theme=PER+FLX=GP1_PER
+laud,laudare,V+GP=1+Theme=INF+TRAD=louer;approuver+FLX=GP1_INF
+laudau,laudare,V+GP=1+Theme=PER+TRAD=louer;approuver+FLX=GP1_PER
 
 # narrare
-narr,narrare,V+GP=1+Theme=INF+FLX=GP1_INF
-narrau,narrare,V+GP=1+Theme=PER+FLX=GP1_PER
+narr,narrare,V+GP=1+Theme=INF+TRAD=raconter+FLX=GP1_INF
+narrau,narrare,V+GP=1+Theme=PER+TRAD=raconter+FLX=GP1_PER
 
 # pugnare
-pugn,pugnare,V+GP=1+Theme=INF+FLX=GP1_INF
-pugnau,pugnare,V+GP=1+Theme=PER+FLX=GP1_PER
+pugn,pugnare,V+GP=1+Theme=INF+TRAD=combattre+FLX=GP1_INF
+pugnau,pugnare,V+GP=1+Theme=PER+TRAD=combattre+FLX=GP1_PER
 
 # putare
-put,putare,V+GP=1+Theme=INF+FLX=GP1_INF
-putau,putare,V+GP=1+Theme=PER+FLX=GP1_PER
+put,putare,V+GP=1+Theme=INF+TRAD=penser+FLX=GP1_INF
+putau,putare,V+GP=1+Theme=PER+TRAD=penser+FLX=GP1_PER
 
 # rogare
-rog,rogare,V+GP=1+Theme=INF+FLX=GP1_INF
-rogau,rogare,V+GP=1+Theme=PER+FLX=GP1_PER
+rog,rogare,V+GP=1+Theme=INF+TRAD=demander+FLX=GP1_INF
+rogau,rogare,V+GP=1+Theme=PER+TRAD=demander+FLX=GP1_PER
 
 # spectare
-spect,spectare,V+GP=1+Theme=INF+FLX=GP1_INF
-spectau,spectare,V+GP=1+Theme=PER+FLX=GP1_PER
+spect,spectare,V+GP=1+Theme=INF+TRAD=regarder+FLX=GP1_INF
+spectau,spectare,V+GP=1+Theme=PER+TRAD=regarder+FLX=GP1_PER
 
 # uocare
-uoc,uocare,V+GP=1+LEM=uocare+Theme=INF+FLX=GP1_INF
-uocau,uocare,V+GP=1+LEM=uocare+Theme=PER+FLX=GP1_PER
+uoc,uocare,V+GP=1+Theme=INF+TRAD=appeler+FLX=GP1_INF
+uocau,uocare,V+GP=1+Theme=PER+TRAD=appeler+FLX=GP1_PER
 
 
 # GP2 (DELERE)
 #delere
-del,delere,V+GP=2+Theme=INF+FLX=GP2_INF
-deleu,delere,V+GP=2+Theme=PER+FLX=GP2_PER
+del,delere,V+GP=2+Theme=INF+TRAD=détruire+FLX=GP2_INF
+deleu,delere,V+GP=2+Theme=PER+TRAD=détruire+FLX=GP2_PER
 
 #augere
-aug,augere,V+GP=2+Theme=INF+FLX=GP2_INF
-aux,augere,V+GP=2+Theme=PER+FLX=GP2_PER
+aug,augere,V+GP=2+Theme=INF+TRAD=augmenter+FLX=GP2_INF
+aux,augere,V+GP=2+Theme=PER+TRAD=augmenter+FLX=GP2_PER
 
 #debere
-deb,debere,V+GP=2+Theme=INF+FLX=GP2_INF
-debu,debere,V+GP=2+Theme=PER+FLX=GP2_PER
+deb,debere,V+GP=2+Theme=INF+TRAD=devoir+FLX=GP2_INF
+debu,debere,V+GP=2+Theme=PER+TRAD=devoir+FLX=GP2_PER
 
 #habere
-hab,habere,V+GP=2+Theme=INF+FLX=GP2_INF
-habu,habere,V+GP=2+Theme=PER+FLX=GP2_PER
+hab,habere,V+GP=2+Theme=INF+TRAD=avoir+FLX=GP2_INF
+habu,habere,V+GP=2+Theme=PER+TRAD=avoir+FLX=GP2_PER
 
 #iubere
-iub,iubere,V+GP=2+Theme=INF+FLX=GP2_INF
-iuss,iubere,V+GP=2+Theme=PER+FLX=GP2_PER
+iub,iubere,V+GP=2+Theme=INF+TRAD=ordonner+FLX=GP2_INF
+iuss,iubere,V+GP=2+Theme=PER+TRAD=ordonner+FLX=GP2_PER
 
 #manere
-man,manere,V+GP=2+Theme=INF+FLX=GP2_INF
-mans,manere,V+GP=2+Theme=PER+FLX=GP2_PER
+man,manere,V+GP=2+Theme=INF+TRAD=rester+FLX=GP2_INF
+mans,manere,V+GP=2+Theme=PER+TRAD=rester+FLX=GP2_PER
 
 #monere
-mon,monere,V+GP=2+Theme=INF+FLX=GP2_INF
-monu,monere,V+GP=2+Theme=PER+FLX=GP2_PER
+mon,monere,V+GP=2+Theme=INF+TRAD=avertir+FLX=GP2_INF
+monu,monere,V+GP=2+Theme=PER+TRAD=avertir+FLX=GP2_PER
 
 #mouere
-mou,mouere,V+GP=2+Theme=INF+FLX=GP2_INF
-mou,mouere,V+GP=2+Theme=PER+FLX=GP2_PER
+mou,mouere,V+GP=2+Theme=INF+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_INF
+mou,mouere,V+GP=2+Theme=PER+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_PER
 
 #praebere
-praeb,praebere,V+GP=2+Theme=INF+FLX=GP2_INF
-praebu,praebere,V+GP=2+Theme=PER+FLX=GP2_PER
+praeb,praebere,V+GP=2+Theme=INF+TRAD=présenter;offrir+FLX=GP2_INF
+praebu,praebere,V+GP=2+Theme=PER+TRAD=présenter;offrir+FLX=GP2_PER
 
 #timere
-tim,timere,V+GP=2+Theme=INF+FLX=GP2_INF
-timu,timere,V+GP=2+Theme=PER+FLX=GP2_PER
+tim,timere,V+GP=2+Theme=INF+TRAD=craindre+FLX=GP2_INF
+timu,timere,V+GP=2+Theme=PER+TRAD=craindre+FLX=GP2_PER
 
 #uidere
-uid,uidere,V+GP=2+Theme=INF+FLX=GP2_INF
-uid,uidere,V+GP=2+Theme=PER+FLX=GP2_PER
+uid,uidere,V+GP=2+Theme=INF+TRAD=voir+FLX=GP2_INF
+uid,uidere,V+GP=2+Theme=PER+TRAD=voir+FLX=GP2_PER
 
 
 # GP3 (LEGERE)
 #legere
-leg,legere,V+GP=3+Theme=INF+FLX=GP3_INF
-leg,legere,V+GP=3+Theme=PER+FLX=GP3_PER
+leg,legere,V+GP=3+Theme=INF+TRAD=lire;cueillir;choisir+FLX=GP3_INF
+leg,legere,V+GP=3+Theme=PER+TRAD=lire;cueillir;choisir+FLX=GP3_PER
 
 #agere
-ag,agere,V+GP=3+Theme=INF+FLX=GP3_INF
-eg,agere,V+GP=3+Theme=PER+FLX=GP3_PER
+ag,agere,V+GP=3+Theme=INF+TRAD=faire;accomplir;pousser+FLX=GP3_INF
+eg,agere,V+GP=3+Theme=PER+TRAD=faire;accomplir;pousser+FLX=GP3_PER
 
 #cognoscere
-cognosc,cognoscere,V+GP=3+Theme=INF+FLX=GP3_INF
-cognou,cognoscere,V+GP=3+Theme=PER+FLX=GP3_PER
+cognosc,cognoscere,V+GP=3+Theme=INF+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_INF
+cognou,cognoscere,V+GP=3+Theme=PER+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_PER
 
 #colere
-col,colere,V+GP=3+Theme=INF+FLX=GP3_INF
-colu,colere,V+GP=3+Theme=PER+FLX=GP3_PER
+col,colere,V+GP=3+Theme=INF+TRAD=cultiver;honorer;habiter+FLX=GP3_INF
+colu,colere,V+GP=3+Theme=PER+TRAD=cultiver;honorer;habiter+FLX=GP3_PER
 
 #credere
-cred,credere,V+GP=3+Theme=INF+FLX=GP3_INF
-credid,credere,V+GP=3+Theme=PER+FLX=GP3_PER
+cred,credere,V+GP=3+Theme=INF+TRAD=croire+FLX=GP3_INF
+credid,credere,V+GP=3+Theme=PER+TRAD=croire+FLX=GP3_PER
 
 #dicere
-dic,dicere,V+GP=3+Theme=INF+FLX=GP3_INF
-dix,dicere,V+GP=3+Theme=PER+FLX=GP3_PER
+dic,dicere,V+GP=3+Theme=INF+TRAD=dire+FLX=GP3_INF
+dix,dicere,V+GP=3+Theme=PER+TRAD=dire+FLX=GP3_PER
 
 #ducere
-duc,ducere,V+GP=3+Theme=INF+FLX=GP3_INF
-dux,ducere,V+GP=3+Theme=PER+FLX=GP3_PER
+duc,ducere,V+GP=3+Theme=INF+TRAD=conduire;considérer\ comme+FLX=GP3_INF
+dux,ducere,V+GP=3+Theme=PER+TRAD=conduire;considérer\ comme+FLX=GP3_PER
 
 #gerere
-ger,gerere,V+GP=3+Theme=INF+FLX=GP3_INF
-gess,gerere,V+GP=3+Theme=PER+FLX=GP3_PER
+ger,gerere,V+GP=3+Theme=INF+TRAD=faire;accomplir+FLX=GP3_INF
+gess,gerere,V+GP=3+Theme=PER+TRAD=faire;accomplir+FLX=GP3_PER
 
 #intellegere
-intelleg,intellegere,V+GP=3+Theme=INF+FLX=GP3_INF
-intellex,intellegere,V+GP=3+Theme=PER+FLX=GP3_PER
+intelleg,intellegere,V+GP=3+Theme=INF+TRAD=comprendre+FLX=GP3_INF
+intellex,intellegere,V+GP=3+Theme=PER+TRAD=comprendre+FLX=GP3_PER
 
 #mittere
-mitt,mittere,V+GP=3+Theme=INF+FLX=GP3_INF
-mis,mittere,V+GP=3+Theme=PER+FLX=GP3_PER
+mitt,mittere,V+GP=3+Theme=INF+TRAD=envoyer+FLX=GP3_INF
+mis,mittere,V+GP=3+Theme=PER+TRAD=envoyer+FLX=GP3_PER
 
 #occidere
-occid,occidere,V+GP=3+Theme=INF+FLX=GP3_INF
-occid,occidere,V+GP=3+Theme=PER+FLX=GP3_PER
+occid,occidere,V+GP=3+Theme=INF+TRAD=tuer;tomber+FLX=GP3_INF
+occid,occidere,V+GP=3+Theme=PER+TRAD=tuer;tomber+FLX=GP3_PER
 
 #pellere
-pell,pellere,V+GP=3+Theme=INF+FLX=GP3_INF
-pepul,pellere,V+GP=3+Theme=PER+FLX=GP3_PER
+pell,pellere,V+GP=3+Theme=INF+TRAD=pousser;chasser+FLX=GP3_INF
+pepul,pellere,V+GP=3+Theme=PER+TRAD=pousser;chasser+FLX=GP3_PER
 
 #relinquere
-relinqu,relinquere,V+GP=3+Theme=INF+FLX=GP3_INF
-reliqu,relinquere,V+GP=3+Theme=PER+FLX=GP3_PER
+relinqu,relinquere,V+GP=3+Theme=INF+TRAD=laisser;tomber+FLX=GP3_INF
+reliqu,relinquere,V+GP=3+Theme=PER+TRAD=laisser;tomber+FLX=GP3_PER
 
 #scribere
-scrib,scribere,V+GP=3+LEM=ere+Theme=INF+FLX=GP3_INF
-scrips,scribere,V+GP=3+LEM=ere+Theme=PER+FLX=GP3_PER
+scrib,scribere,V+GP=3+Theme=INF+TRAD=écrire+FLX=GP3_INF
+scrips,scribere,V+GP=3+Theme=PER+TRAD=écrire+FLX=GP3_PER
 
 #statuere
-statu,statuere,V+GP=3+Theme=INF+FLX=GP3_INF
-statu,statuere,V+GP=3+Theme=PER+FLX=GP3_PER
+statu,statuere,V+GP=3+Theme=INF+TRAD=décider;déterminer+FLX=GP3_INF
+statu,statuere,V+GP=3+Theme=PER+TRAD=décider;déterminer+FLX=GP3_PER
 
 #tradere
-trad,tradere,V+GP=3+Theme=INF+FLX=GP3_INF
-tradid,tradere,V+GP=3+Theme=PER+FLX=GP3_PER
+trad,tradere,V+GP=3+Theme=INF+TRAD=transmettre;raconter+FLX=GP3_INF
+tradid,tradere,V+GP=3+Theme=PER+TRAD=transmettre;raconter+FLX=GP3_PER
 
 #uincere
-uinc,uincere,V+GP=3+Theme=INF+FLX=GP3_INF
-uic,uincere,V+GP=3+Theme=PER+FLX=GP3_PER
+uinc,uincere,V+GP=3+Theme=INF+TRAD=vaincre+FLX=GP3_INF
+uic,uincere,V+GP=3+Theme=PER+TRAD=vaincre+FLX=GP3_PER
 
 #uiuere
-uiu,uiuere,V+GP=3+Theme=INF+FLX=GP3_INF
-uix,uiuere,V+GP=3+Theme=PER+FLX=GP3_PER
+uiu,uiuere,V+GP=3+Theme=INF+TRAD=vivre+FLX=GP3_INF
+uix,uiuere,V+GP=3+Theme=PER+TRAD=vivre+FLX=GP3_PER
 
 
 # GP4 (CAPERE)
 #capere
-cap,capere,V+GP=4+Theme=INF+FLX=GP4_INF
-cep,capere,V+GP=4+Theme=PER+FLX=GP4_PER
+cap,capere,V+GP=4+Theme=INF+TRAD=prendre+FLX=GP4_INF
+cep,capere,V+GP=4+Theme=PER+TRAD=prendre+FLX=GP4_PER
 
 #accipere
-accip,accipere,V+GP=4+Theme=INF+FLX=GP4_INF
-accep,accipere,V+GP=4+Theme=PER+FLX=GP4_PER
+accip,accipere,V+GP=4+Theme=INF+TRAD=recevoir;accueillir+FLX=GP4_INF
+accep,accipere,V+GP=4+Theme=PER+TRAD=recevoir;accueillir+FLX=GP4_PER
 
 #cupere
-cup,cupere,V+GP=4+Theme=INF+FLX=GP4_INF
-cupiu,cupere,V+GP=4+Theme=PER+FLX=GP4_PER
+cup,cupere,V+GP=4+Theme=INF+TRAD=désirer+FLX=GP4_INF
+cupiu,cupere,V+GP=4+Theme=PER+TRAD=désirer+FLX=GP4_PER
 
 #facere
-fac,facere,V+GP=4+Theme=INF+FLX=GP4_INF
-fec,facere,V+GP=4+Theme=PER+FLX=GP4_PER
+fac,facere,V+GP=4+Theme=INF+TRAD=faire+FLX=GP4_INF
+fec,facere,V+GP=4+Theme=PER+TRAD=faire+FLX=GP4_PER
 
 #incipere
-incip,incipere,V+GP=4+Theme=INF+FLX=GP4_INF
-incep,incipere,V+GP=4+Theme=PER+FLX=GP4_PER
+incip,incipere,V+GP=4+Theme=INF+TRAD=commencer+FLX=GP4_INF
+incep,incipere,V+GP=4+Theme=PER+TRAD=commencer+FLX=GP4_PER
 
 #interficere
-interfic,interficere,V+GP=4+Theme=INF+FLX=GP4_INF
-interfec,interficere,V+GP=4+Theme=PER+FLX=GP4_PER
+interfic,interficere,V+GP=4+Theme=INF+TRAD=tuer+FLX=GP4_INF
+interfec,interficere,V+GP=4+Theme=PER+TRAD=tuer+FLX=GP4_PER
 
 #rapere
-rap,rapere,V+GP=4+Theme=INF+FLX=GP4_INF
-rapu,rapere,V+GP=4+Theme=PER+FLX=GP4_PER
+rap,rapere,V+GP=4+Theme=INF+TRAD=arracher;ravir+FLX=GP4_INF
+rapu,rapere,V+GP=4+Theme=PER+TRAD=arracher;ravir+FLX=GP4_PER
 
 
 # GP5 (AUDIRE)
 #audire
-aud,audire,V+GP=5+Theme=INF+FLX=GP5_INF
-audiu,audire,V+GP=5+Theme=PER+FLX=GP5_PER
+aud,audire,V+GP=5+Theme=INF+TRAD=écouter;entendre+FLX=GP5_INF
+audiu,audire,V+GP=5+Theme=PER+TRAD=écouter;entendre+FLX=GP5_PER
 
 #inuenire
-inuen,inuenire,V+GP=5+Theme=INF+FLX=GP5_INF
-inuen,inuenire,V+GP=5+Theme=PER+FLX=GP5_PER
+inuen,inuenire,V+GP=5+Theme=INF+TRAD=trouver+FLX=GP5_INF
+inuen,inuenire,V+GP=5+Theme=PER+TRAD=trouver+FLX=GP5_PER
 
 #scire
-sc,scire,V+GP=5+Theme=INF+FLX=GP5_INF
-sciu,scire,V+GP=5+Theme=PER+FLX=GP5_PER
+sc,scire,V+GP=5+Theme=INF+TRAD=savoir+FLX=GP5_INF
+sciu,scire,V+GP=5+Theme=PER+TRAD=savoir+FLX=GP5_PER
 
 #sentire
-sent,sentire,V+GP=5+Theme=INF+FLX=GP5_INF
-sens,sentire,V+GP=5+Theme=PER+FLX=GP5_PER
+sent,sentire,V+GP=5+Theme=INF+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_INF
+sens,sentire,V+GP=5+Theme=PER+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_PER
 
 #uenire
-uen,uenire,V+GP=5+Theme=INF+FLX=GP5_INF
-uen,uenire,V+GP=5+Theme=PER+FLX=GP5_PER
+uen,uenire,V+GP=5+Theme=INF+TRAD=venir+FLX=GP5_INF
+uen,uenire,V+GP=5+Theme=PER+TRAD=venir+FLX=GP5_PER
 
 
 # GP0 (ESSE)
-esse
-es,esse,V+GP=0+Theme=INF+FLX=GP0_INF
-fu,esse,V+GP=0+Theme=PER+FLX=GP0_PER
+#esse
+es,esse,V+GP=0+Theme=INF+TRAD=être+FLX=GP0_INF
+fu,esse,V+GP=0+Theme=PER+TRAD=être+FLX=GP0_PER
 
 #abesse
-#abes,abesse,V+GP=0+Theme=INF+FLX=GP0_INF
-#afu,abesse,V+GP=0+Theme=PER+FLX=GP0_PER
+#abes,abesse,V+GP=0+Theme=INF+TRAD=être\ absent+FLX=GP0_INF
+#afu,abesse,V+GP=0+Theme=PER+TRAD=être\ absent+FLX=GP0_PER
 
 #adesse
-#adsum,adesse,V+Theme=INF+FLX=GP0_INF
-#adf,adesse,V+Theme=PER+FLX=GP0_PER
+#adsum,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF
+#adf,adesse,V+Theme=PER+TRAD=être\ là+FLX=GP0_PER
 
 #posse
-#pot,posse,V+GP=0+Theme=INF+FLX=GP0_INF
-#potu,posse,V+GP=0+Theme=PER+FLX=GP0_PER
+#pot,posse,V+GP=0+Theme=INF+TRAD=pouvoir+FLX=GP0_INF
+#potu,posse,V+GP=0+Theme=PER+TRAD=pouvoir+FLX=GP0_PER
 
 #prodesse
-#prosum,prodesse,V+GP=0+Theme=INF+FLX=GP0_INF
-#prof,prodesse,V+GP=0+Theme=PER+FLX=GP0_PER
+#prosum,prodesse,V+GP=0+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF
+#prof,prodesse,V+GP=0+Theme=PER+TRAD=être\ utile\ à+FLX=GP0_PER

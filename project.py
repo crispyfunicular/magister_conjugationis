@@ -6,7 +6,7 @@ import argparse
 import emoji
 
 
-def get_verbs(verbs_latin_csv):
+def get_verbs(verbs_latin_csv: str):
     """ Loads all the verbs from a CSV file (format in README.md)
 
     *Input* (one)
