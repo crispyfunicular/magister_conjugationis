@@ -127,3 +127,5 @@ L'idée de cette migration vers NooJ m'a été aimablement soufflée par <a href
 Ce projet repose sur la liste de verbes latin fournie dans le cadre du <a href="https://dep-lettresclassiques.parisnanterre.fr/diplomes-universitaires/diplome-universitaire-de-competences-en-langues-anciennes-ducla">Diplôme universitaire de compétences en langues anciennes (DUCLA)</a>, latin, de l'Université Paris Nanterre, et dont Mme Véronique Merlier-Espenel est l'enseignante responsable. Je tiens à la remercier pour le plaisir que je prends à suivre ses cours et à mémoriser mes conjugaisons latines !
 ### Morphologie
 Pour les cours de morphologie, en particulier ceux portant sur les langues fusionnelles, je tiens également à remercier <a href="https://modyco.fr/membre/florence-villoing/">Mme Florence Villoing</a>, de l'Université Paris Nanterre (laboratoire MoDyCo).
+### Python
+Un énorme merci à ```@camathieu``` pour son aide inestimable sur toute la partie informatique, en particulier pour le code Python.
