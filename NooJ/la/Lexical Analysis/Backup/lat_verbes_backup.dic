@@ -248,17 +248,17 @@ es,esse,V+GP=0+Theme=INF+TRAD=être+FLX=GP0_INF
 fu,esse,V+GP=0+Theme=PER+TRAD=être+FLX=GP0_PER
 
 #abesse
-#abes,abesse,V+GP=0+Theme=INF+TRAD=être\ absent+FLX=GP0_INF
-#afu,abesse,V+GP=0+Theme=PER+TRAD=être\ absent+FLX=GP0_PER
+abes,abesse,V+GP=0+Theme=INF+TRAD=être\ absent+FLX=GP0_INF
+afu,abesse,V+GP=0+Theme=PER+TRAD=être\ absent+FLX=GP0_PER
 
 #adesse
-#adsum,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF
-#adf,adesse,V+Theme=PER+TRAD=être\ là+FLX=GP0_PER
+ades,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF
+adf,adesse,V+Theme=PER+TRAD=être\ là+FLX=GP0_PER
 
 #posse
-#pot,posse,V+GP=0+Theme=INF+TRAD=pouvoir+FLX=GP0_INF
-#potu,posse,V+GP=0+Theme=PER+TRAD=pouvoir+FLX=GP0_PER
+potes,posse,V+GP=0+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE
+potu,posse,V+GP=0+Theme=PER+TRAD=pouvoir+FLX=GP0_PER
 
 #prodesse
-#prosum,prodesse,V+GP=0+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF
-#prof,prodesse,V+GP=0+Theme=PER+TRAD=être\ utile\ à+FLX=GP0_PER
+prodes,prodesse,V+GP=0+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF
+prof,prodesse,V+GP=0+Theme=PER+TRAD=être\ utile\ à+FLX=GP0_PER

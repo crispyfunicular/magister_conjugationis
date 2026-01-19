@@ -59,16 +59,16 @@
 ## INFECTUM (am-)
 
 GP1_INF =
-	:P1_O/GP=1+TP=pres+MOD=ind | :GP :P_ACT/TP=pres+MOD=ind | :GP :P3_ACT/TP=pres+MOD=ind |
-	:GP :IMPF_IND :P1_M/ | :GP :IMPF_IND :P_ACT/ | :GP :IMPF_IND :P3_ACT/ |
-	:GP :FUT_1-2 <B> :P1_O/ | :GP :FUT_1-2 :P_ACT/ | :GP :FUT_1-2 <B>u :P3_ACT/ |
+	:P1_O/GP=1+TP=pres+MOD=ind | :GP1_A :P_ACT/TP=pres+MOD=ind | :GP1_A :P3_ACT/TP=pres+MOD=ind |
+	:GP1_A :IMPF_IND :P1_M/ | :GP1_A :IMPF_IND :P_ACT/ | :GP1_A :IMPF_IND :P3_ACT/ |
+	:GP1_A :FUT_GP1-2 <B> :P1_O/ | :GP1_A :FUT_GP1-2 :P_ACT/ | :GP1_A :FUT_GP1-2 <B>u :P3_ACT/ |
 
-	:P1_OR/GP=1+TP=pres+MOD=ind | :GP :P_PAS/TP=pres+MOD=ind |
-	:GP :IMPF_IND :P1_OR <L><B>/ | :GP :IMPF_IND :P_PAS/ | :GP :IMPF_IND :P3_PAS/ |
-	:GP :FUT_1-2 <B> :P1_OR/ | :GP :FUT_1-2 <B>eris/VX=pas+P=2+NB=sg | :GP :FUT_1-2 :P_PAS/ | :GP :FUT_1-2 <B>u :P3_PAS/ |
+	:P1_OR/GP=1+TP=pres+MOD=ind | :GP1_A :P_PAS/TP=pres+MOD=ind |
+	:GP1_A :IMPF_IND :P1_OR <L><B>/ | :GP1_A :IMPF_IND :P_PAS/ | :GP1_A :IMPF_IND :P3_PAS/ |
+	:GP1_A :FUT_GP1-2 <B> :P1_OR/ | :GP1_A :FUT_GP1-2 <B>eris/VX=pas+P=2+NB=sg | :GP1_A :FUT_GP1-2 :P_PAS/ | :GP1_A :FUT_GP1-2 <B>u :P3_PAS/ |
 
 	:GP_SUB :P1_M/ | :GP_SUB :P_ACT/ | :GP_SUB :P3_ACT/ |
-	:GP :IMPF_SUB :P1_M/ | :GP :IMPF_SUB :P_ACT/ | :GP :IMPF_SUB :P3_ACT/ |
+	:GP1_A :IMPF_SUB :P1_M/ | :GP1_A :IMPF_SUB :P_ACT/ | :GP1_A :IMPF_SUB :P3_ACT/ |
 
 	:GP_SUB :P1_OR <L><B>/ | :GP_SUB :P_PAS/ | :GP_SUB :P3_PAS/ ;
 
@@ -77,38 +77,40 @@ GP1_INF =
 
 GP1_PER =
 	:PFT/GP=1 |
-	:PQP/GP=1 |
-	:FTA <B> :P1_O/GP=1 | :FTA :P_ACT/GP=1
+	:PQP_IND :P1_M/GP=1 | :PQP_IND :P_ACT/GP=1 | :PQP_IND :P3_ACT/GP=1 |
+	:FTA <B> :P1_O/GP=1 | :FTA :P_ACT/GP=1 | :FTA :P3_ACT/GP=1 |
 
 	:PQP_SUB :P1_M/GP=1 | :PQP_SUB :P_ACT/GP=1 | :PQP_SUB :P3_ACT/GP=1 ;
+
 
 
 # GP2 (DELERE)
 ## INFECTUM (del-)
 
 GP2_INF =
-	:GP :P1_O/+TP=pres+MOD=ind | :GP :P_ACT/+TP=pres+MOD=ind | :GP :P3_ACT/+TP=pres+MOD=ind |
-	:GP :IMPF_IND :P1_M/ | :GP :IMPF_IND :P_ACT/ | :GP :IMPF_IND :P3_ACT/ |
-	:GP :FUT_1-2 <B> :P1_O/ | :GP :FUT_1-2 :P_ACT/ | :GP :FUT_1-2 <B>u :P3_ACT/ |
+	:GP2_E :P1_O/+TP=pres+MOD=ind | :GP2_E :P_ACT/+TP=pres+MOD=ind | :GP2_E :P3_ACT/+TP=pres+MOD=ind |
+	:GP2_E :IMPF_IND :P1_M/ | :GP2_E :IMPF_IND :P_ACT/ | :GP2_E :IMPF_IND :P3_ACT/ |
+	:GP2_E :FUT_GP1-2 <B> :P1_O/ | :GP2_E :FUT_GP1-2 :P_ACT/ | :GP2_E :FUT_GP1-2 <B>u :P3_ACT/ |
 
-	:GP :P1_OR/TP=pres+MOD=ind | :GP :P_PAS/TP=pres+MOD=ind | :GP :P3_PAS/TP=pres+MOD=ind | 
-	:GP :IMPF_IND :P1_OR <L><B>/ | :GP :IMPF_IND :P_PAS/ | :GP :IMPF_IND :P3_PAS/ |
-	:GP :FUT_1-2 <B> :P1_OR/ | :GP :FUT_1-2 <B>eris/P=2+NB=sg | :GP :FUT_1-2 :P_PAS/ | :GP :FUT_1-2 <B>u :P3_PAS/ |
+	:GP2_E :P1_OR/TP=pres+MOD=ind | :GP2_E :P_PAS/TP=pres+MOD=ind | :GP2_E :P3_PAS/TP=pres+MOD=ind | 
+	:GP2_E :IMPF_IND :P1_OR <L><B>/ | :GP2_E :IMPF_IND :P_PAS/ | :GP2_E :IMPF_IND :P3_PAS/ |
+	:GP2_E :FUT_GP1-2 <B> :P1_OR/ | :GP2_E :FUT_GP1-2 <B>eris/P=2+NB=sg | :GP2_E :FUT_GP1-2 :P_PAS/ | :GP2_E :FUT_GP1-2 <B>u :P3_PAS/ |
 
-	:GP :GP_SUB :P1_M/ | :GP :GP_SUB :P_ACT/ | :GP :GP_SUB :P3_ACT/ |
-	:GP :IMPF_SUB :P1_M/ | :GP :IMPF_SUB :P_ACT/ | :GP :IMPF_SUB :P3_ACT/ |
+	:GP2_E :GP_SUB :P1_M/ | :GP2_E :GP_SUB :P_ACT/ | :GP2_E :GP_SUB :P3_ACT/ |
+	:GP2_E :IMPF_SUB :P1_M/ | :GP2_E :IMPF_SUB :P_ACT/ | :GP2_E :IMPF_SUB :P3_ACT/ |
 
-	:GP :GP_SUB :P1_OR <L><B>/ | :GP :GP_SUB :P_PAS/ | :GP :GP_SUB :P3_PAS/ ;
+	:GP2_E :GP_SUB :P1_OR <L><B>/ | :GP2_E :GP_SUB :P_PAS/ | :GP2_E :GP_SUB :P3_PAS/ ;
 
 
 ## PERFECTUM (deleu-)
 
 GP2_PER =
 	:PFT/GP=2 |
-	:PQP/GP=2 |
-	:FTA <B> :P1_O/GP=2 | :FTA :P_ACT/GP=2 |
+	:PQP_IND :P1_M/GP=2 | :PQP_IND :P_ACT/GP=2 | :PQP_IND :P3_ACT/GP=2 |
+	:FTA <B> :P1_O/GP=2 | :FTA :P_ACT/GP=2 | :FTA :P3_ACT/GP=2 |
 
 	:PQP_SUB :P1_M/GP=2 | :PQP_SUB :P_ACT/GP=2 | :PQP_SUB :P3_ACT/GP=2 ;
+
 
 
 # GP3 (LEGERE)
@@ -117,11 +119,11 @@ GP2_PER =
 GP3_INF =
 	:P1_O/GP=3+TP=pres+MOD=ind | :GP3_I :P_ACT/TP=pres+MOD=ind | u :P3_ACT/GP=3+TP=pres+MOD=ind |
 	:GP3_E :IMPF_IND :P1_M/ | :GP3_E :IMPF_IND :P_ACT/ | :GP3_E :IMPF_IND :P3_ACT/ |
-	a :P1_M/GP=3+TP=fut+MOD=ind+VX=act | :FUT_3-4-5 :P_ACT/GP=3 | :FUT_3-4-5 :P3_ACT/GP=3 |
+	a :P1_M/GP=3+TP=fut+MOD=ind+VX=act | :FUT_GP3-4-5 :P_ACT/GP=3 | :FUT_GP3-4-5 :P3_ACT/GP=3 |
 
 	:P1_OR/GP=3+TP=pres+MOD=ind | :GP3_E ris/TP=pres+MOD=ind+VX=pas+P=2+NB=sg | :GP3_I :P_PAS/TP=pres+MOD=ind | u :P3_PAS/GP=3+TP=pres+MOD=ind | 
 	:GP3_E :IMPF_IND :P1_OR <L><B>/ | :GP3_E :IMPF_IND :P_PAS/ | :GP3_E :IMPF_IND :P3_PAS/ |
-	:P1_OR <L><B>a/GP=3+TP=fut+MOD=ind | :FUT_3-4-5 :P_PAS/GP=3 | :FUT_3-4-5 :P3_PAS/GP=3 |
+	:P1_OR <L><B>a/GP=3+TP=fut+MOD=ind | :FUT_GP3-4-5 :P_PAS/GP=3 | :FUT_GP3-4-5 :P3_PAS/GP=3 |
 
 	:GP_SUB :P1_M/ | :GP_SUB :P_ACT/ | :GP_SUB :P3_ACT/ |
 	:GP3_E :IMPF_SUB :P1_M/ | :GP3_E :IMPF_SUB :P_ACT/ | :GP3_E :IMPF_SUB :P3_ACT/ |
@@ -129,14 +131,99 @@ GP3_INF =
 	:GP_SUB :P1_OR <L><B>/ | :GP_SUB :P_PAS/ | :GP_SUB :P3_PAS/ ;
 
 
-## INFECTUM (leg-)
+## PERFECTUM (leg-)
 
 GP3_PER =
 	:PFT/GP=3 |
-	:PQP/GP=3 |
-	:FTA <B> :P1_O/GP=3 | :FTA :P_ACT/GP=3 |
+	:PQP_IND :P1_M/GP=3 | :PQP_IND :P_ACT/GP=3 | :PQP_IND :P3_ACT/GP=3 |
+	:FTA <B> :P1_O/GP=3 | :FTA :P_ACT/GP=3 | :FTA :P3_ACT/GP=3 |
 
 	:PQP_SUB :P1_M/GP=3 | :PQP_SUB :P_ACT/GP=3 | :PQP_SUB :P3_ACT/GP=3 ;
+
+
+
+# GP4 (CAPERE)
+## INFECTUM (cap-)
+
+GP4_INF =
+	:GP4_I :P1_O/TP=pres+MOD=ind | :GP4_I :P_ACT/TP=pres+MOD=ind | :GP4_I u :P3_ACT/TP=pres+MOD=ind |
+	:GP4_IE :IMPF_IND :P1_M/ | :GP4_IE :IMPF_IND :P_ACT/ | :GP4_IE :IMPF_IND :P3_ACT/ |
+	:GP4_I a :P1_M/TP=fut+MOD=ind+VX=act | :GP4_I :FUT_GP3-4-5 :P_ACT/ | :GP4_I :FUT_GP3-4-5 :P3_ACT/ |
+
+	:GP4_I :P1_OR/TP=pres+MOD=ind | eris/GP=4+TP=pres+MOD=ind+VX=pas+P=2+NB=sg | :GP4_I :P_PAS/TP=pres+MOD=ind | :GP4_I u :P3_PAS/TP=pres+MOD=ind |
+	:GP4_IE :IMPF_IND :P1_OR <L><B>/ | :GP4_IE :IMPF_IND :P_PAS/ | :GP4_IE :IMPF_IND :P3_PAS/ |
+	:GP4_I :P1_OR <L><B>a/TP=fut+MOD=ind | :GP4_I :FUT_GP3-4-5 :P_PAS/ | :GP4_I :FUT_GP3-4-5 :P3_PAS/ |
+
+	:GP4_I :GP_SUB :P1_M/ | :GP4_I :GP_SUB :P_ACT/ | :GP4_I :GP_SUB :P3_ACT/ |
+	e :IMPF_SUB :P1_M/GP=4 | e :IMPF_SUB :P_ACT/GP=4 | e :IMPF_SUB :P3_ACT/GP=4 |
+
+	:GP4_I :GP_SUB :P1_OR <L><B>/ | :GP4_I :GP_SUB :P_PAS/ | :GP4_I :GP_SUB :P3_PAS/ ;
+
+
+## PERFECTUM (cep-)
+
+GP4_PER =
+	:PFT/GP=4 |
+	:PQP_IND :P1_M/GP=4 | :PQP_IND :P_ACT/GP=4 | :PQP_IND :P3_ACT/GP=4 |
+	:FTA <B> :P1_O/GP=4 | :FTA :P_ACT/GP=4 | :FTA :P3_ACT/GP=4 |
+
+	:PQP_SUB :P1_M/GP=3 | :PQP_SUB :P_ACT/GP=3 | :PQP_SUB :P3_ACT/GP=3 ;
+
+
+# GP5 (AUDIRE)
+## INFECTUM (aud-)
+
+GP5_INF =
+	:GP5_I :P1_O/TP=pres+MOD=ind | :GP5_I :P_ACT/TP=pres+MOD=ind | :GP5_I u :P3_ACT/TP=pres+MOD=ind |
+	:GP5_IE :IMPF_IND :P1_M/ | :GP5_IE :IMPF_IND :P_ACT/ | :GP5_IE :IMPF_IND :P3_ACT/ |
+	:GP5_I a :P1_M/TP=fut+MOD=ind+VX=act | :GP5_I :FUT_GP3-4-5 :P_ACT/ | :GP5_I :FUT_GP3-4-5 :P3_ACT/ |
+
+	:GP5_I :P1_OR/TP=pres+MOD=ind | :GP5_I :P_PAS/TP=pres+MOD=ind | :GP5_I u :P3_PAS/TP=pres+MOD=ind |
+	:GP5_IE :IMPF_IND :P1_OR <L><B>/ | :GP5_IE :IMPF_IND :P_PAS/ | :GP5_IE :IMPF_IND :P3_PAS/ |
+	:GP5_I :P1_OR <L><B>a/TP=fut+MOD=ind | :GP5_I :FUT_GP3-4-5 :P_PAS/ | :GP5_I :FUT_GP3-4-5 :P3_PAS/ |
+
+	:GP5_I :GP_SUB :P1_M/ | :GP5_I :GP_SUB :P_ACT/ | :GP5_I :GP_SUB :P3_ACT/ |
+	:GP5_I :IMPF_SUB :P1_M/ | :GP5_I :IMPF_SUB :P_ACT/ | :GP5_I :IMPF_SUB :P3_ACT/ |
+
+	:GP5_I :GP_SUB :P1_OR <L><B>/ | :GP5_I :GP_SUB :P_PAS/ | :GP5_I :GP_SUB :P3_PAS/ ;
+
+
+## PERFECTUM (audiu-)
+
+GP5_PER =
+	:PFT/GP=5 |
+	:PQP_IND :P1_M/GP=5 | :PQP_IND :P_ACT/GP=5 | :PQP_IND :P3_ACT/GP=5 |
+	:FTA <B> :P1_O/GP=5 | :FTA :P_ACT/GP=5 | :FTA :P3_ACT/GP=5 |
+
+	:PQP_SUB :P1_M/GP=5 | :PQP_SUB :P_ACT/GP=5 | :PQP_SUB :P3_ACT/GP=5 ;
+
+
+
+# GP0 (ESSE)
+## INFECTUM (es-)
+
+GP0_INF =
+	<B2>sum/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | /GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl | t/GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=pl | <B2>sumus/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | tis/GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl  | <B2>su :P3_ACT/GP=0+TP=pres+MOD=ind |
+	<B> :IMPF_IND_GP0 :P1_M/ | <B> :IMPF_IND_GP0 :P_ACT/ | <B> :IMPF_IND_GP0 :P3_ACT/ |
+	<B> :FUT_GP0 <B> :P1_O/ | <B> :FUT_GP0 :P_ACT/ | <B> :FUT_GP0 <B>u P3_ACT/ |
+
+	 :IMPF_SUB_GP0 :P1_M/ | :IMPF_SUB_GP0 :P_ACT/ | :IMPF_SUB_GP0 :P3_ACT/ ;
+
+GP0_INF_POSSE =
+	<B3>ssum/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | /GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl | t/GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=pl | <B3>ssumus/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | tis/GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl  | <B2>ssu :P3_ACT/GP=0+TP=pres+MOD=ind |
+	<B> :IMPF_IND_GP0 :P1_M/ | <B> :IMPF_IND_GP0 :P_ACT/ | <B> :IMPF_IND_GP0 :P3_ACT/ |
+	<B> :FUT_GP0 <B> :P1_O/ | <B> :FUT_GP0 :P_ACT/ | <B> :FUT_GP0 <B>u P3_ACT/ |
+
+	 :IMPF_SUB_GP0 :P1_M/ | :IMPF_SUB_GP0 :P_ACT/ | :IMPF_SUB_GP0 :P3_ACT/ ;
+
+## PERFECTUM (fu-)
+
+GP0_PER =
+	:PFT/GP=0 |
+	:PQP_IND :P1_M/GP=0 | :PQP_IND :P_ACT/GP=0 | :PQP_IND :P3_ACT/GP=0 |
+	:FTA <B> :P1_O/GP=0 | :FTA :P_ACT/GP=0 | :FTA :P3_ACT/GP=0 |
+
+	:PQP_SUB :P1_M/GP=5 | :PQP_SUB :P_ACT/GP=5 | :PQP_SUB :P3_ACT/GP=5 ;
 
 
 
@@ -147,9 +234,15 @@ GP3_PER =
 
 ## VOYELLES THEMATIQUES
 ### INDICATIF
-GP = a/GP=1 | e/GP=2 | i/GP=4 | i/GP=5 ;
+GP1_A = a/GP=1 ;
+GP2_E = e/GP=2 ;
 GP3_E = e/GP=3 ;
-GP3_I = i/GP=3 ;
+GP3_IE = i :GP3_E/ ;
+GP4_I = i/GP=4 ;
+GP4_IE = :GP4_I e/ ;
+GP5_I = i/GP=5 ;
+GP5_IE = :GP5_I e/ ;
+
 
 ### SUBJONCTIF
 GP_SUB =
@@ -185,16 +278,20 @@ P_PAS =
 
 ## INFECTUM
 ### IMPARFAIT (impf) INDICATIF & SUBJONCTIF
-IMPF_IND = ba/TP=impf+MOD=ind+VX=act ;
-IMPF_SUB = re/TP=impf+MOD=sub+VX=act ;
+IMPF_IND = ba/TP=impf+MOD=ind ;
+IMPF_SUB = re/TP=impf+MOD=sub ;
+IMPF_IND_GP0 = ra/GP=0+TP=impf+MOD=ind+VX=act ;
+IMPF_SUB_GP0 = se/GP=0+TP=impf+MOD=sub+VX=act ;
 
 ### FUTUR (fut)
 #### GROUPES 1 & 2 (amabit, amabitur; delebit, delebitur)
-FUT_1-2 = bi/TP=fut+MOD=ind ;
+FUT_GP1-2 = bi/TP=fut+MOD=ind ;
 
 #### GROUPES 3, 4 & 5 (leget, legetur; capiet, capietur; audiet, audietur)
-FUT_3-4-5 = e/TP=fut+MOD=ind ;
+FUT_GP3-4-5 = e/TP=fut+MOD=ind ;
 
+#### GROUPE 0 (erit)
+FUT_GP0 = ri/TP=fut+MOD=ind+VX=act ;
 
 ## PERFECTUM
 ### PARFAIT (pft)
@@ -204,16 +301,11 @@ PFT =
 	it/TP=pft+MOD=ind+VX=act+P=3+NB=sg |
 	imus/TP=pft+MOD=ind+VX=act+P=1+NB=pl |
 	istis/TP=pft+MOD=ind+VX=act+P=2+NB=pl |
-	eru :P3_ACT/TP=pft+MOD=ind+VX=act ;
+	eru :P3_ACT/TP=pft+MOD=ind ;
 
 ### PLUS-QUE-PARFAIT (pqp) INDICATIF & SUBJONCTIF
 PQP_IND =
-	eram/TP=pqp+MOD=ind+VX=act+P=1+NB=sg |
-	eras/TP=pqp+MOD=ind+VX=act+P=2+NB=sg |
-	erat/TP=pqp+MOD=ind+VX=act+P=3+NB=sg |
-	eramus/TP=pqp+MOD=ind+VX=act+P=1+NB=pl |
-	eratis/TP=pqp+MOD=ind+VX=act+P=2+NB=pl |
-	erant/TP=pqp+MOD=ind+VX=act+P=3+NB=pl ;
+	era/TP=pqp+MOD=ind ;
 
 PQP_SUB = isse/TP=pqp+MOD=sub+VX=act  ;
 

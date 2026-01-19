@@ -115,9 +115,9 @@ Le projet couvre déjà tous les verbes des premier, deuxième et troisième gro
 ### Reste à faire :
 
 - Sur **NooJ** :
-  - ajouter GP4 (*capio*), GP5 (*audio*) et GP0 (*esse*)
   - ajouter les formes passives composées formées à partir du verbe être (*esse*)
-- Sur **Python** : adapter mon ancien code pour qu'il exploite le dictionnaire de formes fléchies généré par NooJ, via la librairie <a href="https://pypi.org/project/pynooj/">pynooj</a> ;
+  - ajouter les verbes déponents (*proficiscor*, *nascor*, *loquor*, *uideor*, *imitor*, *miror*, uereor*, *morior*, *patior*)
+- Sur **Python** : adapter l'ancien code pour qu'il exploite le dictionnaire de formes fléchies généré par NooJ, via la librairie <a href="https://pypi.org/project/pynooj/">pynooj</a> ;
 - Sur **HTML** : déployer le projet via une interface Web (framework HTML + Bulma).
 
 ## Remerciements
@@ -126,4 +126,4 @@ L'idée de cette migration vers NooJ m'a été aimablement soufflée par <a href
 ### DUCLA
 Ce projet repose sur la liste de verbes latin fournie dans le cadre du <a href="https://dep-lettresclassiques.parisnanterre.fr/diplomes-universitaires/diplome-universitaire-de-competences-en-langues-anciennes-ducla">Diplôme universitaire de compétences en langues anciennes (DUCLA)</a>, latin, de l'Université Paris Nanterre, et dont Mme Véronique Merlier-Espenel est l'enseignante responsable. Je tiens à la remercier pour le plaisir que je prends à suivre ses cours et à mémoriser mes conjugaisons latines !
 ### Morphologie
-Pour les cours de morphologie, en particulier ceux portant sur les langues fusionnelles, je tiens également à remercier <a href="https://modyco.fr/membre/florence-villoing/">Mme Florence Villoing</a>, de l'Université Paris Nanterre (laboratoire MoDyCo)
+Pour les cours de morphologie, en particulier ceux portant sur les langues fusionnelles, je tiens également à remercier <a href="https://modyco.fr/membre/florence-villoing/">Mme Florence Villoing</a>, de l'Université Paris Nanterre (laboratoire MoDyCo).
