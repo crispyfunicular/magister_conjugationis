@@ -260,9 +260,9 @@ GP0_INF_POSSE =
 SUM_PRES_SG = sum/P=1+NB=sg | es/P=2+NB=sg | est/P=3+NB=sg ;
 SUM_PRES_PL = sumus/P=1+NB=pl | estis/P=2+NB=pl | su :P3_ACT/ ;
 SUM_IMPF_SG = :IMPF_IND_GP0 :P1_M/ | :IMPF_IND_GP0 s/P=2+NB=sg | <B> :IMPF_IND_GP0 t/P=3+NB=sg ;
-SUM_IMPF_PL = :IMPF_IND_GP0 mus/P=1+NB=pl | :IMPF_IND_GP0 tis/P=2+NB=pl | :IMPF_IND_GP0 P3_ACT/ ;
+SUM_IMPF_PL = :IMPF_IND_GP0 mus/P=1+NB=pl | :IMPF_IND_GP0 tis/P=2+NB=pl | :IMPF_IND_GP0 :P3_ACT/ ;
 SUM_FUT_SG = :FUT_GP0 <B> :P1_O/ | :FUT_GP0 s/P=2+NB=sg | :FUT_GP0 t/P=3+NB=sg ;
-SUM_FUT_PL = :FUT_GP0 mus/P=1+NB=pl | :FUT_GP0 tis/P=2+NB=pl | :FUT_GP0 <B>u P3_ACT/ ;
+SUM_FUT_PL = :FUT_GP0 mus/P=1+NB=pl | :FUT_GP0 tis/P=2+NB=pl | :FUT_GP0 <B>u :P3_ACT/ ;
 
 
 ## PERFECTUM (fu-)

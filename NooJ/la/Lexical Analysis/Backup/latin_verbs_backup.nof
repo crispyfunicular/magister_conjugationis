@@ -121,7 +121,7 @@ GP2_PER =
 
 ##SUPINUM (delet-)
 
-GP1_SUP =
+GP2_SUP =
 	:PPP_SG " " :SUM_PRES_SG/GP=2+TP=pft | :PPP_PL " " :SUM_PRES_PL/GP=2+TP=pft |
 	:PPP_SG " " :SUM_IMPF_SG/GP=2+TP=pqp | :PPP_PL " " :SUM_IMPF_PL/GP=2+TP=pqp |
 	:PPP_SG " " :SUM_FUT_SG/GP=2+TP=fta | :PPP_PL " " :SUM_FUT_PL/GP=2+TP=fta ;
@@ -158,7 +158,7 @@ GP3_PER =
 
 ##SUPINUM (lect-)
 
-GP1_SUP =
+GP3_SUP =
 	:PPP_SG " " :SUM_PRES_SG/GP=3+TP=pft | :PPP_PL " " :SUM_PRES_PL/GP=3+TP=pft |
 	:PPP_SG " " :SUM_IMPF_SG/GP=3+TP=pqp | :PPP_PL " " :SUM_IMPF_PL/GP=3+TP=pqp |
 	:PPP_SG " " :SUM_FUT_SG/GP=3+TP=fta | :PPP_PL " " :SUM_FUT_PL/GP=3+TP=fta ;
@@ -195,7 +195,7 @@ GP4_PER =
 
 ##SUPINUM (delet-)
 
-GP1_SUP =
+GP4_SUP =
 	:PPP_SG " " :SUM_PRES_SG/GP=4+TP=pft | :PPP_PL " " :SUM_PRES_PL/GP=4+TP=pft |
 	:PPP_SG " " :SUM_IMPF_SG/GP=4+TP=pqp | :PPP_PL " " :SUM_IMPF_PL/GP=4+TP=pqp |
 	:PPP_SG " " :SUM_FUT_SG/GP=4+TP=fta | :PPP_PL " " :SUM_FUT_PL/GP=4+TP=fta ;
@@ -232,7 +232,7 @@ GP5_PER =
 
 ##SUPINUM (delet-)
 
-GP1_SUP =
+GP5_SUP =
 	:PPP_SG " " :SUM_PRES_SG/GP=5+TP=pft | :PPP_PL " " :SUM_PRES_PL/GP=5+TP=pft |
 	:PPP_SG " " :SUM_IMPF_SG/GP=5+TP=pqp | :PPP_PL " " :SUM_IMPF_PL/GP=5+TP=pqp |
 	:PPP_SG " " :SUM_FUT_SG/GP=5+TP=fta | :PPP_PL " " :SUM_FUT_PL/GP=5+TP=fta ;
@@ -260,9 +260,9 @@ GP0_INF_POSSE =
 SUM_PRES_SG = sum/P=1+NB=sg | es/P=2+NB=sg | est/P=3+NB=sg ;
 SUM_PRES_PL = sumus/P=1+NB=pl | estis/P=2+NB=pl | su :P3_ACT/ ;
 SUM_IMPF_SG = :IMPF_IND_GP0 :P1_M/ | :IMPF_IND_GP0 s/P=2+NB=sg | <B> :IMPF_IND_GP0 t/P=3+NB=sg ;
-SUM_IMPF_PL = :IMPF_IND_GP0 mus/P=1+NB=pl | :IMPF_IND_GP0 tis/P=2+NB=pl | :IMPF_IND_GP0 P3_ACT/ ;
+SUM_IMPF_PL = :IMPF_IND_GP0 mus/P=1+NB=pl | :IMPF_IND_GP0 tis/P=2+NB=pl | :IMPF_IND_GP0 :P3_ACT/ ;
 SUM_FUT_SG = :FUT_GP0 <B> :P1_O/ | :FUT_GP0 s/P=2+NB=sg | :FUT_GP0 t/P=3+NB=sg ;
-SUM_FUT_PL = :FUT_GP0 mus/P=1+NB=pl | :FUT_GP0 tis/P=2+NB=pl | :FUT_GP0 <B>u P3_ACT/ ;
+SUM_FUT_PL = :FUT_GP0 mus/P=1+NB=pl | :FUT_GP0 tis/P=2+NB=pl | :FUT_GP0 <B>u :P3_ACT/ ;
 
 
 ## PERFECTUM (fu-)
