@@ -114,9 +114,7 @@ Le projet couvre déjà tous les groupes verbaux, pour les temps et modes suivan
 
 ### Reste à faire :
 
-- Sur **NooJ** :
-  - ajouter les formes passives composées formées à partir du verbe être (*esse*)
-  - ajouter les verbes déponents (*proficiscor*, *nascor*, *loquor*, *uideor*, *imitor*, *miror*, *uereor*, *morior*, *patior*)
+- Sur **NooJ** : ajouter les verbes déponents (*proficiscor*, *nascor*, *loquor*, *uideor*, *imitor*, *miror*, *uereor*, *morior*, *patior*)
 - Sur **Python** : adapter l'ancien code pour qu'il exploite le dictionnaire de formes fléchies généré par NooJ, via la librairie <a href="https://pypi.org/project/pynooj/">pynooj</a> ;
 - Sur **HTML** : déployer le projet via une interface Web (framework HTML + Bulma).
 
