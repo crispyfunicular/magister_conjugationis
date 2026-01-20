@@ -185,18 +185,18 @@ cogitauerat,cogitare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER+
 cogitaueramus,cogitare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 cogitaueratis,cogitare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 cogitauerant,cogitare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-i sumus,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+MOD=ind+VX=pas+P=1+NB=pl+GP=1+TP=pft
-i estis,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+MOD=ind+VX=pas+P=2+NB=pl+GP=1+TP=pft
-i sunt,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+MOD=ind+VX=pas+VX=act+P=3+NB=pl+GP=1+TP=pft
-i rimus,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-i ritis,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-i ruP3_ACT,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+NB=pl+TP=fut+MOD=ind+VX=act+GP=1+TP=fta
-us sum,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+MOD=ind+VX=pas+P=1+NB=sg+GP=1+TP=pft
-us es,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+MOD=ind+VX=pas+P=2+NB=sg+GP=1+TP=pft
-us est,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+MOD=ind+VX=pas+P=3+NB=sg+GP=1+TP=pft
-us ris,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-us rit,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-us ro,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
+cogitati sumus,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+MOD=ind+VX=pas+P=1+NB=pl+GP=1+TP=pft
+cogitati estis,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+MOD=ind+VX=pas+P=2+NB=pl+GP=1+TP=pft
+cogitati sunt,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+MOD=ind+VX=pas+VX=act+P=3+NB=pl+GP=1+TP=pft
+cogitati rimus,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
+cogitati ritis,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
+cogitati ruP3_ACT,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+NB=pl+TP=fut+MOD=ind+VX=act+GP=1+TP=fta
+cogitatus sum,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+MOD=ind+VX=pas+P=1+NB=sg+GP=1+TP=pft
+cogitatus es,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+MOD=ind+VX=pas+P=2+NB=sg+GP=1+TP=pft
+cogitatus est,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+MOD=ind+VX=pas+P=3+NB=sg+GP=1+TP=pft
+cogitatus ris,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
+cogitatus rit,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
+cogitatus ro,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 curo,curare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=soigner+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 curor,curare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=soigner+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 curem,curare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=soigner+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -275,18 +275,18 @@ curauerat,curare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=soigner+FLX=GP1_PER+TP=
 curaueramus,curare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=soigner+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 curaueratis,curare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=soigner+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 curauerant,curare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=soigner+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-i sumus,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+MOD=ind+VX=pas+P=1+NB=pl+GP=1+TP=pft
-i estis,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+MOD=ind+VX=pas+P=2+NB=pl+GP=1+TP=pft
-i sunt,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+MOD=ind+VX=pas+VX=act+P=3+NB=pl+GP=1+TP=pft
-i rimus,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-i ritis,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-i ruP3_ACT,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+NB=pl+TP=fut+MOD=ind+VX=act+GP=1+TP=fta
-us sum,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+MOD=ind+VX=pas+P=1+NB=sg+GP=1+TP=pft
-us es,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+MOD=ind+VX=pas+P=2+NB=sg+GP=1+TP=pft
-us est,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+MOD=ind+VX=pas+P=3+NB=sg+GP=1+TP=pft
-us ris,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-us rit,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-us ro,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
+curati sumus,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+MOD=ind+VX=pas+P=1+NB=pl+GP=1+TP=pft
+curati estis,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+MOD=ind+VX=pas+P=2+NB=pl+GP=1+TP=pft
+curati sunt,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+MOD=ind+VX=pas+VX=act+P=3+NB=pl+GP=1+TP=pft
+curati rimus,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
+curati ritis,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
+curati ruP3_ACT,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+NB=pl+TP=fut+MOD=ind+VX=act+GP=1+TP=fta
+curatus sum,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+MOD=ind+VX=pas+P=1+NB=sg+GP=1+TP=pft
+curatus es,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+MOD=ind+VX=pas+P=2+NB=sg+GP=1+TP=pft
+curatus est,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+MOD=ind+VX=pas+P=3+NB=sg+GP=1+TP=pft
+curatus ris,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
+curatus rit,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
+curatus ro,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 do,dare,V+PRIM=o;as;are;dedi;datum+Theme=INF+TRAD=donner+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 dor,dare,V+PRIM=o;as;are;dedi;datum+Theme=INF+TRAD=donner+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 dem,dare,V+PRIM=o;as;are;dedi;datum+Theme=INF+TRAD=donner+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg

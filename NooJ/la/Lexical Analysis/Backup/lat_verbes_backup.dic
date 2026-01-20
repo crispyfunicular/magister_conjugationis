@@ -168,7 +168,7 @@ credit,credere,V+GP=3+PRIM=o;is;ere;didi;ditum+Theme=SUP+TRAD=croire+FLX=GP3_SUP
 #dicere
 dic,dicere,V+GP=3+PRIM=o;is;ere;dixi;dictum+Theme=INF+TRAD=dire+FLX=GP3_INF
 dix,dicere,V+GP=3+PRIM=o;is;ere;dixi;dictum+Theme=PER+TRAD=dire+FLX=GP3_PER
-dict,dicere,V+GP=3+PRIM=o;is;ere;dixi;dictum+Theme=SUP+TRAD=dire+FLX+FLX=GP3_SUP
+dict,dicere,V+GP=3+PRIM=o;is;ere;dixi;dictum+Theme=SUP+TRAD=dire+FLX=GP3_SUP
 
 #ducere
 duc,ducere,V+GP=3+PRIM=o;is;ere;duxi;ductum+Theme=INF+TRAD=conduire;considérer\ comme+FLX=GP3_INF
