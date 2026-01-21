@@ -101,12 +101,6 @@ amauerat,amare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=aimer+FLX=GP1_PER+TP=pqp+
 amaueramus,amare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=aimer+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 amaueratis,amare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=aimer+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 amauerant,amare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=aimer+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-amati rimus,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=aimer+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-amati ritis,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=aimer+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-amati runt,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=aimer+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=1+TP=fta
-amatus ris,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=aimer+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-amatus rit,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=aimer+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-amatus ro,amare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=aimer+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 cogito,cogitare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=penser+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 cogitor,cogitare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=penser+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 cogitem,cogitare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=penser+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -191,12 +185,6 @@ cogitauerat,cogitare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER+
 cogitaueramus,cogitare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 cogitaueratis,cogitare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 cogitauerant,cogitare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-cogitati rimus,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-cogitati ritis,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-cogitati runt,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=1+TP=fta
-cogitatus ris,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-cogitatus rit,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-cogitatus ro,cogitare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 curo,curare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=soigner+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 curor,curare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=soigner+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 curem,curare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=soigner+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -281,12 +269,6 @@ curauerat,curare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=soigner+FLX=GP1_PER+TP=
 curaueramus,curare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=soigner+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 curaueratis,curare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=soigner+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 curauerant,curare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=soigner+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-curati rimus,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-curati ritis,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-curati runt,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=1+TP=fta
-curatus ris,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-curatus rit,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-curatus ro,curare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 do,dare,V+PRIM=o;as;are;dedi;datum+Theme=INF+TRAD=donner+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 dor,dare,V+PRIM=o;as;are;dedi;datum+Theme=INF+TRAD=donner+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 dem,dare,V+PRIM=o;as;are;dedi;datum+Theme=INF+TRAD=donner+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -371,12 +353,6 @@ dederat,dare,V+PRIM=o;as;are;dedi;datum+Theme=PER+TRAD=donner+FLX=GP1_PER+TP=pqp
 dederamus,dare,V+PRIM=o;as;are;dedi;datum+Theme=PER+TRAD=donner+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 dederatis,dare,V+PRIM=o;as;are;dedi;datum+Theme=PER+TRAD=donner+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 dederant,dare,V+PRIM=o;as;are;dedi;datum+Theme=PER+TRAD=donner+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-dati rimus,dare,V+PRIM=o;as;are;dedi;datum+Theme=SUP+TRAD=donner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-dati ritis,dare,V+PRIM=o;as;are;dedi;datum+Theme=SUP+TRAD=donner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-dati runt,dare,V+PRIM=o;as;are;dedi;datum+Theme=SUP+TRAD=donner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=1+TP=fta
-datus ris,dare,V+PRIM=o;as;are;dedi;datum+Theme=SUP+TRAD=donner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-datus rit,dare,V+PRIM=o;as;are;dedi;datum+Theme=SUP+TRAD=donner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-datus ro,dare,V+PRIM=o;as;are;dedi;datum+Theme=SUP+TRAD=donner+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 erro,errare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=errer;se\ tromper+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 error,errare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=errer;se\ tromper+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 errem,errare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=errer;se\ tromper+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -461,12 +437,6 @@ errauerat,errare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=errer;se\ tromper+FLX=G
 erraueramus,errare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=errer;se\ tromper+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 erraueratis,errare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=errer;se\ tromper+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 errauerant,errare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=errer;se\ tromper+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-errati rimus,errare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=errer;se\ tromper+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-errati ritis,errare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=errer;se\ tromper+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-errati runt,errare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=errer;se\ tromper+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=1+TP=fta
-erratus ris,errare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=errer;se\ tromper+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-erratus rit,errare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=errer;se\ tromper+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-erratus ro,errare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=errer;se\ tromper+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 existimo,existimare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=estimer;penser+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 existimor,existimare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=estimer;penser+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 existimem,existimare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=estimer;penser+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -551,12 +521,6 @@ existimauerat,existimare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=estimer;penser+
 existimaueramus,existimare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=estimer;penser+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 existimaueratis,existimare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=estimer;penser+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 existimauerant,existimare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=estimer;penser+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-existimati rimus,existimare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=estimer;penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-existimati ritis,existimare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=estimer;penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-existimati runt,existimare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=estimer;penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=1+TP=fta
-existimatus ris,existimare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=estimer;penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-existimatus rit,existimare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=estimer;penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-existimatus ro,existimare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=estimer;penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 laudo,laudare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=louer;approuver+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 laudor,laudare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=louer;approuver+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 laudem,laudare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=louer;approuver+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -641,12 +605,6 @@ laudauerat,laudare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=louer;approuver+FLX=G
 laudaueramus,laudare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=louer;approuver+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 laudaueratis,laudare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=louer;approuver+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 laudauerant,laudare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=louer;approuver+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-laudati rimus,laudare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=louer;approuver+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-laudati ritis,laudare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=louer;approuver+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-laudati runt,laudare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=louer;approuver+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=1+TP=fta
-laudatus ris,laudare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=louer;approuver+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-laudatus rit,laudare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=louer;approuver+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-laudatus ro,laudare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=louer;approuver+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 narro,narrare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=raconter+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 narror,narrare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=raconter+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 narrem,narrare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=raconter+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -731,12 +689,6 @@ narrauerat,narrare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=raconter+FLX=GP1_PER+
 narraueramus,narrare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=raconter+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 narraueratis,narrare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=raconter+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 narrauerant,narrare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=raconter+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-laudati rimus,laudare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=raconter+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-laudati ritis,laudare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=raconter+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-laudati runt,laudare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=raconter+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=1+TP=fta
-laudatus ris,laudare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=raconter+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-laudatus rit,laudare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=raconter+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-laudatus ro,laudare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=raconter+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 pugno,pugnare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=combattre+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 pugnor,pugnare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=combattre+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 pugnem,pugnare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=combattre+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -821,12 +773,6 @@ pugnauerat,pugnare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=combattre+FLX=GP1_PER
 pugnaueramus,pugnare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=combattre+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 pugnaueratis,pugnare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=combattre+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 pugnauerant,pugnare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=combattre+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-pugnati rimus,pugnare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=combattre+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-pugnati ritis,pugnare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=combattre+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-pugnati runt,pugnare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=combattre+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=1+TP=fta
-pugnatus ris,pugnare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=combattre+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-pugnatus rit,pugnare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=combattre+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-pugnatus ro,pugnare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=combattre+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 puto,putare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=penser+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 putor,putare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=penser+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 putem,putare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=penser+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -911,12 +857,6 @@ putauerat,putare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER+TP=p
 putaueramus,putare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 putaueratis,putare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 putauerant,putare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-putati rimus,putare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-putati ritis,putare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-putati runt,putare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=1+TP=fta
-putatus ris,putare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-putatus rit,putare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-putatus ro,putare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 rogo,rogare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=demander+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 rogor,rogare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=demander+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 rogem,rogare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=demander+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -1001,12 +941,6 @@ rogauerat,rogare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=demander+FLX=GP1_PER+TP
 rogaueramus,rogare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=demander+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 rogaueratis,rogare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=demander+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 rogauerant,rogare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=demander+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-rogati rimus,rogare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=demander+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-rogati ritis,rogare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=demander+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-rogati runt,rogare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=demander+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=1+TP=fta
-rogatus ris,rogare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=demander+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-rogatus rit,rogare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=demander+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-rogatus ro,rogare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=demander+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 specto,spectare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=regarder+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 spector,spectare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=regarder+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 spectem,spectare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=regarder+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -1091,12 +1025,6 @@ spectauerat,spectare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=regarder+FLX=GP1_PE
 spectaueramus,spectare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=regarder+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 spectaueratis,spectare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=regarder+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 spectauerant,spectare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=regarder+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-spectati rimus,spectare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=regarder+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-spectati ritis,spectare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=regarder+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-spectati runt,spectare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=regarder+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=1+TP=fta
-spectatus ris,spectare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=regarder+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-spectatus rit,spectare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=regarder+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-spectatus ro,spectare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=regarder+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 uoco,uocare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=appeler+FLX=GP1_INF+VX=act+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 uocor,uocare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=appeler+FLX=GP1_INF+VX=pas+P=1+NB=sg+GP=1+TP=pres+MOD=ind
 uocem,uocare,V+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=appeler+FLX=GP1_INF+GP=1+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -1181,12 +1109,6 @@ uocauerat,uocare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=appeler+FLX=GP1_PER+TP=
 uocaueramus,uocare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=appeler+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=1
 uocaueratis,uocare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=appeler+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=1
 uocauerant,uocare,V+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=appeler+FLX=GP1_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=1
-uocati rimus,uocare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=appeler+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=1+TP=fta
-uocati ritis,uocare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=appeler+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=1+TP=fta
-uocati runt,uocare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=appeler+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=1+TP=fta
-uocatus ris,uocare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=appeler+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=1+TP=fta
-uocatus rit,uocare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=appeler+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=1+TP=fta
-uocatus ro,uocare,V+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=appeler+FLX=GP1_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=1+TP=fta
 deleo,delere,V+PRIM=eo;es;ere;eui;etum+Theme=INF+TRAD=détruire+FLX=GP2_INF+GP=2+VX=act+P=1+NB=sg+TP=pres+MOD=ind
 deles,delere,V+PRIM=eo;es;ere;eui;etum+Theme=INF+TRAD=détruire+FLX=GP2_INF+GP=2+VX=act+P=2+NB=sg+TP=pres+MOD=ind
 delet,delere,V+PRIM=eo;es;ere;eui;etum+Theme=INF+TRAD=détruire+FLX=GP2_INF+GP=2+VX=act+P=3+NB=sg+TP=pres+MOD=ind
@@ -1227,7 +1149,7 @@ delebimur,delere,V+PRIM=eo;es;ere;eui;etum+Theme=INF+TRAD=détruire+FLX=GP2_INF+
 delebimini,delere,V+PRIM=eo;es;ere;eui;etum+Theme=INF+TRAD=détruire+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=pl
 delebo,delere,V+PRIM=eo;es;ere;eui;etum+Theme=INF+TRAD=détruire+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=1+NB=sg
 delebor,delere,V+PRIM=eo;es;ere;eui;etum+Theme=INF+TRAD=détruire+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=1+NB=sg
-deleberis,delere,V+PRIM=eo;es;ere;eui;etum+Theme=INF+TRAD=détruire+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+P=2+NB=sg
+deleberis,delere,V+PRIM=eo;es;ere;eui;etum+Theme=INF+TRAD=détruire+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=sg
 delebunt,delere,V+PRIM=eo;es;ere;eui;etum+Theme=INF+TRAD=détruire+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 delebuntur,delere,V+PRIM=eo;es;ere;eui;etum+Theme=INF+TRAD=détruire+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=3+NB=pl
 delebam,delere,V+PRIM=eo;es;ere;eui;etum+Theme=INF+TRAD=détruire+FLX=GP2_INF+GP=2+TP=impf+MOD=ind+VX=act+P=1+NB=sg
@@ -1272,12 +1194,6 @@ deleuerat,delere,V+PRIM=eo;es;ere;eui;etum+Theme=PER+TRAD=détruire+FLX=GP2_PER+
 deleueramus,delere,V+PRIM=eo;es;ere;eui;etum+Theme=PER+TRAD=détruire+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=2
 deleueratis,delere,V+PRIM=eo;es;ere;eui;etum+Theme=PER+TRAD=détruire+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=2
 deleuerant,delere,V+PRIM=eo;es;ere;eui;etum+Theme=PER+TRAD=détruire+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=2
-deleti rimus,delere,V+PRIM=eo;es;ere;eui;etum+Theme=SUP+TRAD=détruire+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=2+TP=fta
-deleti ritis,delere,V+PRIM=eo;es;ere;eui;etum+Theme=SUP+TRAD=détruire+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=2+TP=fta
-deleti runt,delere,V+PRIM=eo;es;ere;eui;etum+Theme=SUP+TRAD=détruire+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=2+TP=fta
-deletus ris,delere,V+PRIM=eo;es;ere;eui;etum+Theme=SUP+TRAD=détruire+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=2+TP=fta
-deletus rit,delere,V+PRIM=eo;es;ere;eui;etum+Theme=SUP+TRAD=détruire+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=2+TP=fta
-deletus ro,delere,V+PRIM=eo;es;ere;eui;etum+Theme=SUP+TRAD=détruire+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=2+TP=fta
 augeo,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=INF+TRAD=augmenter+FLX=GP2_INF+GP=2+VX=act+P=1+NB=sg+TP=pres+MOD=ind
 auges,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=INF+TRAD=augmenter+FLX=GP2_INF+GP=2+VX=act+P=2+NB=sg+TP=pres+MOD=ind
 auget,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=INF+TRAD=augmenter+FLX=GP2_INF+GP=2+VX=act+P=3+NB=sg+TP=pres+MOD=ind
@@ -1318,7 +1234,7 @@ augebimur,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=INF+TRAD=augmenter+FLX=GP2_I
 augebimini,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=INF+TRAD=augmenter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=pl
 augebo,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=INF+TRAD=augmenter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=1+NB=sg
 augebor,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=INF+TRAD=augmenter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=1+NB=sg
-augeberis,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=INF+TRAD=augmenter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+P=2+NB=sg
+augeberis,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=INF+TRAD=augmenter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=sg
 augebunt,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=INF+TRAD=augmenter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 augebuntur,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=INF+TRAD=augmenter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=3+NB=pl
 augebam,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=INF+TRAD=augmenter+FLX=GP2_INF+GP=2+TP=impf+MOD=ind+VX=act+P=1+NB=sg
@@ -1363,12 +1279,6 @@ auxerat,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=PER+TRAD=augmenter+FLX=GP2_PER
 auxeramus,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=PER+TRAD=augmenter+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=2
 auxeratis,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=PER+TRAD=augmenter+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=2
 auxerant,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=PER+TRAD=augmenter+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=2
-aucti rimus,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=SUP+TRAD=augmenter+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=2+TP=fta
-aucti ritis,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=SUP+TRAD=augmenter+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=2+TP=fta
-aucti runt,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=SUP+TRAD=augmenter+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=2+TP=fta
-auctus ris,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=SUP+TRAD=augmenter+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=2+TP=fta
-auctus rit,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=SUP+TRAD=augmenter+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=2+TP=fta
-auctus ro,augere,V+PRIM=eo;es;ere;auxi;auctum+Theme=SUP+TRAD=augmenter+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=2+TP=fta
 debeo,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=INF+TRAD=devoir+FLX=GP2_INF+GP=2+VX=act+P=1+NB=sg+TP=pres+MOD=ind
 debes,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=INF+TRAD=devoir+FLX=GP2_INF+GP=2+VX=act+P=2+NB=sg+TP=pres+MOD=ind
 debet,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=INF+TRAD=devoir+FLX=GP2_INF+GP=2+VX=act+P=3+NB=sg+TP=pres+MOD=ind
@@ -1409,7 +1319,7 @@ debebimur,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=INF+TRAD=devoir+FLX=GP2_INF+GP
 debebimini,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=INF+TRAD=devoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=pl
 debebo,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=INF+TRAD=devoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=1+NB=sg
 debebor,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=INF+TRAD=devoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=1+NB=sg
-debeberis,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=INF+TRAD=devoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+P=2+NB=sg
+debeberis,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=INF+TRAD=devoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=sg
 debebunt,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=INF+TRAD=devoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 debebuntur,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=INF+TRAD=devoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=3+NB=pl
 debebam,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=INF+TRAD=devoir+FLX=GP2_INF+GP=2+TP=impf+MOD=ind+VX=act+P=1+NB=sg
@@ -1454,12 +1364,6 @@ debuerat,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=PER+TRAD=devoir+FLX=GP2_PER+TP=
 debueramus,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=PER+TRAD=devoir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=2
 debueratis,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=PER+TRAD=devoir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=2
 debuerant,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=PER+TRAD=devoir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=2
-debiti rimus,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=SUP+TRAD=devoir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=2+TP=fta
-debiti ritis,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=SUP+TRAD=devoir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=2+TP=fta
-debiti runt,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=SUP+TRAD=devoir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=2+TP=fta
-debitus ris,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=SUP+TRAD=devoir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=2+TP=fta
-debitus rit,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=SUP+TRAD=devoir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=2+TP=fta
-debitus ro,debere,V+PRIM=eo;es;ere;bui;bitum+Theme=SUP+TRAD=devoir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=2+TP=fta
 habeo,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=INF+TRAD=avoir+FLX=GP2_INF+GP=2+VX=act+P=1+NB=sg+TP=pres+MOD=ind
 habes,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=INF+TRAD=avoir+FLX=GP2_INF+GP=2+VX=act+P=2+NB=sg+TP=pres+MOD=ind
 habet,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=INF+TRAD=avoir+FLX=GP2_INF+GP=2+VX=act+P=3+NB=sg+TP=pres+MOD=ind
@@ -1500,7 +1404,7 @@ habebimur,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=INF+TRAD=avoir+FLX=GP2_INF+GP
 habebimini,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=INF+TRAD=avoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=pl
 habebo,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=INF+TRAD=avoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=1+NB=sg
 habebor,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=INF+TRAD=avoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=1+NB=sg
-habeberis,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=INF+TRAD=avoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+P=2+NB=sg
+habeberis,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=INF+TRAD=avoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=sg
 habebunt,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=INF+TRAD=avoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 habebuntur,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=INF+TRAD=avoir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=3+NB=pl
 habebam,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=INF+TRAD=avoir+FLX=GP2_INF+GP=2+TP=impf+MOD=ind+VX=act+P=1+NB=sg
@@ -1545,12 +1449,6 @@ habuerat,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=PER+TRAD=avoir+FLX=GP2_PER+TP=
 habueramus,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=PER+TRAD=avoir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=2
 habueratis,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=PER+TRAD=avoir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=2
 habuerant,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=PER+TRAD=avoir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=2
-habiti rimus,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=SUP+TRAD=avoir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=2+TP=fta
-habiti ritis,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=SUP+TRAD=avoir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=2+TP=fta
-habiti runt,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=SUP+TRAD=avoir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=2+TP=fta
-habitus ris,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=SUP+TRAD=avoir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=2+TP=fta
-habitus rit,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=SUP+TRAD=avoir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=2+TP=fta
-habitus ro,habere,V+PRIM=habeo;es;ere;ui;itum+Theme=SUP+TRAD=avoir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=2+TP=fta
 iubeo,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=INF+TRAD=ordonner+FLX=GP2_INF+GP=2+VX=act+P=1+NB=sg+TP=pres+MOD=ind
 iubes,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=INF+TRAD=ordonner+FLX=GP2_INF+GP=2+VX=act+P=2+NB=sg+TP=pres+MOD=ind
 iubet,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=INF+TRAD=ordonner+FLX=GP2_INF+GP=2+VX=act+P=3+NB=sg+TP=pres+MOD=ind
@@ -1591,7 +1489,7 @@ iubebimur,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=INF+TRAD=ordonner+FLX=GP2_I
 iubebimini,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=INF+TRAD=ordonner+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=pl
 iubebo,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=INF+TRAD=ordonner+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=1+NB=sg
 iubebor,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=INF+TRAD=ordonner+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=1+NB=sg
-iubeberis,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=INF+TRAD=ordonner+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+P=2+NB=sg
+iubeberis,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=INF+TRAD=ordonner+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=sg
 iubebunt,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=INF+TRAD=ordonner+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 iubebuntur,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=INF+TRAD=ordonner+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=3+NB=pl
 iubebam,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=INF+TRAD=ordonner+FLX=GP2_INF+GP=2+TP=impf+MOD=ind+VX=act+P=1+NB=sg
@@ -1636,12 +1534,6 @@ iusserat,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=PER+TRAD=ordonner+FLX=GP2_PE
 iusseramus,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=PER+TRAD=ordonner+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=2
 iusseratis,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=PER+TRAD=ordonner+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=2
 iusserant,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=PER+TRAD=ordonner+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=2
-iussi rimus,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=SUP+TRAD=ordonner+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=2+TP=fta
-iussi ritis,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=SUP+TRAD=ordonner+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=2+TP=fta
-iussi runt,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=SUP+TRAD=ordonner+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=2+TP=fta
-iussus ris,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=SUP+TRAD=ordonner+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=2+TP=fta
-iussus rit,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=SUP+TRAD=ordonner+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=2+TP=fta
-iussus ro,iubere,V+PRIM=eo;es;ere;iussi;iussum+Theme=SUP+TRAD=ordonner+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=2+TP=fta
 maneo,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=INF+TRAD=rester+FLX=GP2_INF+GP=2+VX=act+P=1+NB=sg+TP=pres+MOD=ind
 manes,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=INF+TRAD=rester+FLX=GP2_INF+GP=2+VX=act+P=2+NB=sg+TP=pres+MOD=ind
 manet,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=INF+TRAD=rester+FLX=GP2_INF+GP=2+VX=act+P=3+NB=sg+TP=pres+MOD=ind
@@ -1682,7 +1574,7 @@ manebimur,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=INF+TRAD=rester+FLX=GP2_INF
 manebimini,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=INF+TRAD=rester+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=pl
 manebo,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=INF+TRAD=rester+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=1+NB=sg
 manebor,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=INF+TRAD=rester+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=1+NB=sg
-maneberis,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=INF+TRAD=rester+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+P=2+NB=sg
+maneberis,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=INF+TRAD=rester+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=sg
 manebunt,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=INF+TRAD=rester+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 manebuntur,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=INF+TRAD=rester+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=3+NB=pl
 manebam,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=INF+TRAD=rester+FLX=GP2_INF+GP=2+TP=impf+MOD=ind+VX=act+P=1+NB=sg
@@ -1727,12 +1619,6 @@ manserat,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=PER+TRAD=rester+FLX=GP2_PER+
 manseramus,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=PER+TRAD=rester+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=2
 manseratis,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=PER+TRAD=rester+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=2
 manserant,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=PER+TRAD=rester+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=2
-mansi rimus,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=SUP+TRAD=rester+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=2+TP=fta
-mansi ritis,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=SUP+TRAD=rester+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=2+TP=fta
-mansi runt,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=SUP+TRAD=rester+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=2+TP=fta
-mansus ris,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=SUP+TRAD=rester+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=2+TP=fta
-mansus rit,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=SUP+TRAD=rester+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=2+TP=fta
-mansus ro,manere,V+PRIM=eo;es;ere;mansi;mansum+Theme=SUP+TRAD=rester+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=2+TP=fta
 moneo,monere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=avertir+FLX=GP2_INF+GP=2+VX=act+P=1+NB=sg+TP=pres+MOD=ind
 mones,monere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=avertir+FLX=GP2_INF+GP=2+VX=act+P=2+NB=sg+TP=pres+MOD=ind
 monet,monere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=avertir+FLX=GP2_INF+GP=2+VX=act+P=3+NB=sg+TP=pres+MOD=ind
@@ -1773,7 +1659,7 @@ monebimur,monere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=avertir+FLX=GP2_INF+GP=
 monebimini,monere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=avertir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=pl
 monebo,monere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=avertir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=1+NB=sg
 monebor,monere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=avertir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=1+NB=sg
-moneberis,monere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=avertir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+P=2+NB=sg
+moneberis,monere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=avertir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=sg
 monebunt,monere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=avertir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 monebuntur,monere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=avertir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=3+NB=pl
 monebam,monere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=avertir+FLX=GP2_INF+GP=2+TP=impf+MOD=ind+VX=act+P=1+NB=sg
@@ -1858,7 +1744,7 @@ mouebimur,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=INF+TRAD=mouvoir;émouvoir;su
 mouebimini,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=INF+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=pl
 mouebo,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=INF+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=1+NB=sg
 mouebor,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=INF+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=1+NB=sg
-moueberis,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=INF+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+P=2+NB=sg
+moueberis,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=INF+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=sg
 mouebunt,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=INF+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 mouebuntur,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=INF+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=3+NB=pl
 mouebam,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=INF+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_INF+GP=2+TP=impf+MOD=ind+VX=act+P=1+NB=sg
@@ -1903,12 +1789,6 @@ mouerat,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=PER+TRAD=mouvoir;émouvoir;susc
 moueramus,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=PER+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=2
 moueratis,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=PER+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=2
 mouerant,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=PER+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=2
-moti rimus,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=SUP+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=2+TP=fta
-moti ritis,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=SUP+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=2+TP=fta
-moti runt,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=SUP+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=2+TP=fta
-motus ris,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=SUP+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=2+TP=fta
-motus rit,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=SUP+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=2+TP=fta
-motus ro,mouere,V+PRIM=eo;es;ere;moui;motum+Theme=SUP+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=2+TP=fta
 praebeo,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=présenter;offrir+FLX=GP2_INF+GP=2+VX=act+P=1+NB=sg+TP=pres+MOD=ind
 praebes,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=présenter;offrir+FLX=GP2_INF+GP=2+VX=act+P=2+NB=sg+TP=pres+MOD=ind
 praebet,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=présenter;offrir+FLX=GP2_INF+GP=2+VX=act+P=3+NB=sg+TP=pres+MOD=ind
@@ -1949,7 +1829,7 @@ praebebimur,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=présenter;offrir+F
 praebebimini,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=présenter;offrir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=pl
 praebebo,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=présenter;offrir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=1+NB=sg
 praebebor,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=présenter;offrir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=1+NB=sg
-praebeberis,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=présenter;offrir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+P=2+NB=sg
+praebeberis,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=présenter;offrir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=sg
 praebebunt,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=présenter;offrir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 praebebuntur,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=présenter;offrir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=3+NB=pl
 praebebam,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=présenter;offrir+FLX=GP2_INF+GP=2+TP=impf+MOD=ind+VX=act+P=1+NB=sg
@@ -1994,12 +1874,6 @@ praebuerat,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=PER+TRAD=présenter;offrir+FL
 praebueramus,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=PER+TRAD=présenter;offrir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=2
 praebueratis,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=PER+TRAD=présenter;offrir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=2
 praebuerant,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=PER+TRAD=présenter;offrir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=2
-praebiti rimus,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=SUP+TRAD=présenter;offrir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=2+TP=fta
-praebiti ritis,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=SUP+TRAD=présenter;offrir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=2+TP=fta
-praebiti runt,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=SUP+TRAD=présenter;offrir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=2+TP=fta
-praebitus ris,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=SUP+TRAD=présenter;offrir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=2+TP=fta
-praebitus rit,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=SUP+TRAD=présenter;offrir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=2+TP=fta
-praebitus ro,praebere,V+PRIM=eo;es;ere;ui;itum+Theme=SUP+TRAD=présenter;offrir+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=2+TP=fta
 timeo,timere,V+PRIM=eo;es;ere;ui+Theme=INF+TRAD=craindre+FLX=GP2_INF+GP=2+VX=act+P=1+NB=sg+TP=pres+MOD=ind
 times,timere,V+PRIM=eo;es;ere;ui+Theme=INF+TRAD=craindre+FLX=GP2_INF+GP=2+VX=act+P=2+NB=sg+TP=pres+MOD=ind
 timet,timere,V+PRIM=eo;es;ere;ui+Theme=INF+TRAD=craindre+FLX=GP2_INF+GP=2+VX=act+P=3+NB=sg+TP=pres+MOD=ind
@@ -2040,7 +1914,7 @@ timebimur,timere,V+PRIM=eo;es;ere;ui+Theme=INF+TRAD=craindre+FLX=GP2_INF+GP=2+TP
 timebimini,timere,V+PRIM=eo;es;ere;ui+Theme=INF+TRAD=craindre+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=pl
 timebo,timere,V+PRIM=eo;es;ere;ui+Theme=INF+TRAD=craindre+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=1+NB=sg
 timebor,timere,V+PRIM=eo;es;ere;ui+Theme=INF+TRAD=craindre+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=1+NB=sg
-timeberis,timere,V+PRIM=eo;es;ere;ui+Theme=INF+TRAD=craindre+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+P=2+NB=sg
+timeberis,timere,V+PRIM=eo;es;ere;ui+Theme=INF+TRAD=craindre+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=sg
 timebunt,timere,V+PRIM=eo;es;ere;ui+Theme=INF+TRAD=craindre+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 timebuntur,timere,V+PRIM=eo;es;ere;ui+Theme=INF+TRAD=craindre+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=3+NB=pl
 timebam,timere,V+PRIM=eo;es;ere;ui+Theme=INF+TRAD=craindre+FLX=GP2_INF+GP=2+TP=impf+MOD=ind+VX=act+P=1+NB=sg
@@ -2125,7 +1999,7 @@ uidebimur,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=INF+TRAD=voir+FLX=GP2_INF+GP=
 uidebimini,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=INF+TRAD=voir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=pl
 uidebo,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=INF+TRAD=voir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=1+NB=sg
 uidebor,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=INF+TRAD=voir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=1+NB=sg
-uideberis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=INF+TRAD=voir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+P=2+NB=sg
+uideberis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=INF+TRAD=voir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=2+NB=sg
 uidebunt,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=INF+TRAD=voir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 uidebuntur,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=INF+TRAD=voir+FLX=GP2_INF+GP=2+TP=fut+MOD=ind+VX=pas+P=3+NB=pl
 uidebam,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=INF+TRAD=voir+FLX=GP2_INF+GP=2+TP=impf+MOD=ind+VX=act+P=1+NB=sg
@@ -2170,12 +2044,6 @@ uiderat,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=PER+TRAD=voir+FLX=GP2_PER+TP=pq
 uideramus,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=PER+TRAD=voir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=2
 uideratis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=PER+TRAD=voir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=2
 uiderant,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=PER+TRAD=voir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=2
-uisi rimus,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=2+TP=fta
-uisi ritis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=2+TP=fta
-uisi runt,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=2+TP=fta
-uisus ris,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=2+TP=fta
-uisus rit,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=2+TP=fta
-uisus ro,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=2+TP=fta
 lego,legere,V+PRIM=o;is;ere;legi;lectum+Theme=INF+TRAD=lire;cueillir;choisir+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 legor,legere,V+PRIM=o;is;ere;legi;lectum+Theme=INF+TRAD=lire;cueillir;choisir+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 legam,legere,V+PRIM=o;is;ere;legi;lectum+Theme=INF+TRAD=lire;cueillir;choisir+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -2255,12 +2123,6 @@ legerat,legere,V+PRIM=o;is;ere;legi;lectum+Theme=PER+TRAD=lire;cueillir;choisir+
 legeramus,legere,V+PRIM=o;is;ere;legi;lectum+Theme=PER+TRAD=lire;cueillir;choisir+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 legeratis,legere,V+PRIM=o;is;ere;legi;lectum+Theme=PER+TRAD=lire;cueillir;choisir+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 legerant,legere,V+PRIM=o;is;ere;legi;lectum+Theme=PER+TRAD=lire;cueillir;choisir+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-lecti rimus,legere,V+PRIM=o;is;ere;legi;lectum+Theme=SUP+TRAD=choisir+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-lecti ritis,legere,V+PRIM=o;is;ere;legi;lectum+Theme=SUP+TRAD=choisir+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-lecti runt,legere,V+PRIM=o;is;ere;legi;lectum+Theme=SUP+TRAD=choisir+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-lectus ris,legere,V+PRIM=o;is;ere;legi;lectum+Theme=SUP+TRAD=choisir+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-lectus rit,legere,V+PRIM=o;is;ere;legi;lectum+Theme=SUP+TRAD=choisir+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-lectus ro,legere,V+PRIM=o;is;ere;legi;lectum+Theme=SUP+TRAD=choisir+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 ago,agere,V+PRIM=o;is;ere;egi;actum+Theme=INF+TRAD=faire;accomplir;pousser+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 agor,agere,V+PRIM=o;is;ere;egi;actum+Theme=INF+TRAD=faire;accomplir;pousser+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 agam,agere,V+PRIM=o;is;ere;egi;actum+Theme=INF+TRAD=faire;accomplir;pousser+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -2340,12 +2202,6 @@ egerat,agere,V+PRIM=o;is;ere;egi;actum+Theme=PER+TRAD=faire;accomplir;pousser+FL
 egeramus,agere,V+PRIM=o;is;ere;egi;actum+Theme=PER+TRAD=faire;accomplir;pousser+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 egeratis,agere,V+PRIM=o;is;ere;egi;actum+Theme=PER+TRAD=faire;accomplir;pousser+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 egerant,agere,V+PRIM=o;is;ere;egi;actum+Theme=PER+TRAD=faire;accomplir;pousser+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-acti rimus,agere,V+PRIM=o;is;ere;egi;actum+Theme=SUP+TRAD=faire;accomplir;pousser+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-acti ritis,agere,V+PRIM=o;is;ere;egi;actum+Theme=SUP+TRAD=faire;accomplir;pousser+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-acti runt,agere,V+PRIM=o;is;ere;egi;actum+Theme=SUP+TRAD=faire;accomplir;pousser+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-actus ris,agere,V+PRIM=o;is;ere;egi;actum+Theme=SUP+TRAD=faire;accomplir;pousser+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-actus rit,agere,V+PRIM=o;is;ere;egi;actum+Theme=SUP+TRAD=faire;accomplir;pousser+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-actus ro,agere,V+PRIM=o;is;ere;egi;actum+Theme=SUP+TRAD=faire;accomplir;pousser+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 cognosco,cognoscere,V+PRIM=o;is;ere;gnoui;gnitum+Theme=INF+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 cognoscor,cognoscere,V+PRIM=o;is;ere;gnoui;gnitum+Theme=INF+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 cognoscam,cognoscere,V+PRIM=o;is;ere;gnoui;gnitum+Theme=INF+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -2425,12 +2281,6 @@ cognouerat,cognoscere,V+PRIM=o;is;ere;gnoui;gnitum+Theme=PER+TRAD=apprendre\ à\
 cognoueramus,cognoscere,V+PRIM=o;is;ere;gnoui;gnitum+Theme=PER+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 cognoueratis,cognoscere,V+PRIM=o;is;ere;gnoui;gnitum+Theme=PER+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 cognouerant,cognoscere,V+PRIM=o;is;ere;gnoui;gnitum+Theme=PER+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-cognitumi rimus,cognoscere,V+PRIM=o;is;ere;gnoui;gnitum+Theme=SUP+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-cognitumi ritis,cognoscere,V+PRIM=o;is;ere;gnoui;gnitum+Theme=SUP+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-cognitumi runt,cognoscere,V+PRIM=o;is;ere;gnoui;gnitum+Theme=SUP+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-cognitumus ris,cognoscere,V+PRIM=o;is;ere;gnoui;gnitum+Theme=SUP+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-cognitumus rit,cognoscere,V+PRIM=o;is;ere;gnoui;gnitum+Theme=SUP+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-cognitumus ro,cognoscere,V+PRIM=o;is;ere;gnoui;gnitum+Theme=SUP+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 colo,colere,V+PRIM=o;is;ere;colui;cultum+Theme=INF+TRAD=cultiver;honorer;habiter+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 color,colere,V+PRIM=o;is;ere;colui;cultum+Theme=INF+TRAD=cultiver;honorer;habiter+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 colam,colere,V+PRIM=o;is;ere;colui;cultum+Theme=INF+TRAD=cultiver;honorer;habiter+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -2510,12 +2360,6 @@ coluerat,colere,V+PRIM=o;is;ere;colui;cultum+Theme=PER+TRAD=cultiver;honorer;hab
 colueramus,colere,V+PRIM=o;is;ere;colui;cultum+Theme=PER+TRAD=cultiver;honorer;habiter+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 colueratis,colere,V+PRIM=o;is;ere;colui;cultum+Theme=PER+TRAD=cultiver;honorer;habiter+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 coluerant,colere,V+PRIM=o;is;ere;colui;cultum+Theme=PER+TRAD=cultiver;honorer;habiter+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-culti rimus,colere,V+PRIM=o;is;ere;colui;cultum+Theme=SUP+TRAD=cultiver;honorer;habiter+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-culti ritis,colere,V+PRIM=o;is;ere;colui;cultum+Theme=SUP+TRAD=cultiver;honorer;habiter+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-culti runt,colere,V+PRIM=o;is;ere;colui;cultum+Theme=SUP+TRAD=cultiver;honorer;habiter+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-cultus ris,colere,V+PRIM=o;is;ere;colui;cultum+Theme=SUP+TRAD=cultiver;honorer;habiter+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-cultus rit,colere,V+PRIM=o;is;ere;colui;cultum+Theme=SUP+TRAD=cultiver;honorer;habiter+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-cultus ro,colere,V+PRIM=o;is;ere;colui;cultum+Theme=SUP+TRAD=cultiver;honorer;habiter+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 credo,credere,V+PRIM=o;is;ere;didi;ditum+Theme=INF+TRAD=croire+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 credor,credere,V+PRIM=o;is;ere;didi;ditum+Theme=INF+TRAD=croire+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 credam,credere,V+PRIM=o;is;ere;didi;ditum+Theme=INF+TRAD=croire+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -2595,12 +2439,6 @@ crediderat,credere,V+PRIM=o;is;ere;didi;ditum+Theme=PER+TRAD=croire+FLX=GP3_PER+
 credideramus,credere,V+PRIM=o;is;ere;didi;ditum+Theme=PER+TRAD=croire+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 credideratis,credere,V+PRIM=o;is;ere;didi;ditum+Theme=PER+TRAD=croire+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 crediderant,credere,V+PRIM=o;is;ere;didi;ditum+Theme=PER+TRAD=croire+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-crediti rimus,credere,V+PRIM=o;is;ere;didi;ditum+Theme=SUP+TRAD=croire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-crediti ritis,credere,V+PRIM=o;is;ere;didi;ditum+Theme=SUP+TRAD=croire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-crediti runt,credere,V+PRIM=o;is;ere;didi;ditum+Theme=SUP+TRAD=croire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-creditus ris,credere,V+PRIM=o;is;ere;didi;ditum+Theme=SUP+TRAD=croire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-creditus rit,credere,V+PRIM=o;is;ere;didi;ditum+Theme=SUP+TRAD=croire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-creditus ro,credere,V+PRIM=o;is;ere;didi;ditum+Theme=SUP+TRAD=croire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 dico,dicere,V+PRIM=o;is;ere;dixi;dictum+Theme=INF+TRAD=dire+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 dicor,dicere,V+PRIM=o;is;ere;dixi;dictum+Theme=INF+TRAD=dire+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 dicam,dicere,V+PRIM=o;is;ere;dixi;dictum+Theme=INF+TRAD=dire+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -2680,12 +2518,6 @@ dixerat,dicere,V+PRIM=o;is;ere;dixi;dictum+Theme=PER+TRAD=dire+FLX=GP3_PER+TP=pq
 dixeramus,dicere,V+PRIM=o;is;ere;dixi;dictum+Theme=PER+TRAD=dire+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 dixeratis,dicere,V+PRIM=o;is;ere;dixi;dictum+Theme=PER+TRAD=dire+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 dixerant,dicere,V+PRIM=o;is;ere;dixi;dictum+Theme=PER+TRAD=dire+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-dicti rimus,dicere,V+PRIM=o;is;ere;dixi;dictum+Theme=SUP+TRAD=dire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-dicti ritis,dicere,V+PRIM=o;is;ere;dixi;dictum+Theme=SUP+TRAD=dire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-dicti runt,dicere,V+PRIM=o;is;ere;dixi;dictum+Theme=SUP+TRAD=dire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-dictus ris,dicere,V+PRIM=o;is;ere;dixi;dictum+Theme=SUP+TRAD=dire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-dictus rit,dicere,V+PRIM=o;is;ere;dixi;dictum+Theme=SUP+TRAD=dire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-dictus ro,dicere,V+PRIM=o;is;ere;dixi;dictum+Theme=SUP+TRAD=dire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 duco,ducere,V+PRIM=o;is;ere;duxi;ductum+Theme=INF+TRAD=conduire;considérer\ comme+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 ducor,ducere,V+PRIM=o;is;ere;duxi;ductum+Theme=INF+TRAD=conduire;considérer\ comme+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 ducam,ducere,V+PRIM=o;is;ere;duxi;ductum+Theme=INF+TRAD=conduire;considérer\ comme+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -2765,12 +2597,6 @@ duxerat,ducere,V+PRIM=o;is;ere;duxi;ductum+Theme=PER+TRAD=conduire;considérer\ 
 duxeramus,ducere,V+PRIM=o;is;ere;duxi;ductum+Theme=PER+TRAD=conduire;considérer\ comme+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 duxeratis,ducere,V+PRIM=o;is;ere;duxi;ductum+Theme=PER+TRAD=conduire;considérer\ comme+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 duxerant,ducere,V+PRIM=o;is;ere;duxi;ductum+Theme=PER+TRAD=conduire;considérer\ comme+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-ducti rimus,ducere,V+PRIM=o;is;ere;duxi;ductum+Theme=SUP+TRAD=conduire;considérer\ comme+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-ducti ritis,ducere,V+PRIM=o;is;ere;duxi;ductum+Theme=SUP+TRAD=conduire;considérer\ comme+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-ducti runt,ducere,V+PRIM=o;is;ere;duxi;ductum+Theme=SUP+TRAD=conduire;considérer\ comme+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-ductus ris,ducere,V+PRIM=o;is;ere;duxi;ductum+Theme=SUP+TRAD=conduire;considérer\ comme+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-ductus rit,ducere,V+PRIM=o;is;ere;duxi;ductum+Theme=SUP+TRAD=conduire;considérer\ comme+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-ductus ro,ducere,V+PRIM=o;is;ere;duxi;ductum+Theme=SUP+TRAD=conduire;considérer\ comme+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 gero,gerere,V+Theme=INF+TRAD=faire;accomplir+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 geror,gerere,V+Theme=INF+TRAD=faire;accomplir+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 geram,gerere,V+Theme=INF+TRAD=faire;accomplir+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -2850,12 +2676,6 @@ gesserat,gerere,V+Theme=PER+TRAD=faire;accomplir+FLX=GP3_PER+TP=pqp+MOD=ind+VX=a
 gesseramus,gerere,V+Theme=PER+TRAD=faire;accomplir+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 gesseratis,gerere,V+Theme=PER+TRAD=faire;accomplir+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 gesserant,gerere,V+Theme=PER+TRAD=faire;accomplir+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-gererei rimus,gerere,V+PRIM=o;is;ere;uidi;uisum+Theme=SUP+TRAD=faire;accomplir+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-gererei ritis,gerere,V+PRIM=o;is;ere;uidi;uisum+Theme=SUP+TRAD=faire;accomplir+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-gererei runt,gerere,V+PRIM=o;is;ere;uidi;uisum+Theme=SUP+TRAD=faire;accomplir+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-gerereus ris,gerere,V+PRIM=o;is;ere;uidi;uisum+Theme=SUP+TRAD=faire;accomplir+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-gerereus rit,gerere,V+PRIM=o;is;ere;uidi;uisum+Theme=SUP+TRAD=faire;accomplir+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-gerereus ro,gerere,V+PRIM=o;is;ere;uidi;uisum+Theme=SUP+TRAD=faire;accomplir+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 intellego,intellegere,V+PRIM=o;is;ere;gessi;gestum+Theme=INF+TRAD=comprendre+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 intellegor,intellegere,V+PRIM=o;is;ere;gessi;gestum+Theme=INF+TRAD=comprendre+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 intellegam,intellegere,V+PRIM=o;is;ere;gessi;gestum+Theme=INF+TRAD=comprendre+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -2935,12 +2755,6 @@ intellexerat,intellegere,V+PRIM=o;is;ere;gessi;gestum+Theme=PER+TRAD=comprendre+
 intellexeramus,intellegere,V+PRIM=o;is;ere;gessi;gestum+Theme=PER+TRAD=comprendre+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 intellexeratis,intellegere,V+PRIM=o;is;ere;gessi;gestum+Theme=PER+TRAD=comprendre+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 intellexerant,intellegere,V+PRIM=o;is;ere;gessi;gestum+Theme=PER+TRAD=comprendre+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-gesti rimus,intellegere,V+PRIM=o;is;ere;gessi;gestum+Theme=SUP+TRAD=comprendre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-gesti ritis,intellegere,V+PRIM=o;is;ere;gessi;gestum+Theme=SUP+TRAD=comprendre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-gesti runt,intellegere,V+PRIM=o;is;ere;gessi;gestum+Theme=SUP+TRAD=comprendre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-gestus ris,intellegere,V+PRIM=o;is;ere;gessi;gestum+Theme=SUP+TRAD=comprendre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-gestus rit,intellegere,V+PRIM=o;is;ere;gessi;gestum+Theme=SUP+TRAD=comprendre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-gestus ro,intellegere,V+PRIM=o;is;ere;gessi;gestum+Theme=SUP+TRAD=comprendre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 mitto,mittere,V+PRIM=o;is;ere;misi;missum+Theme=INF+TRAD=envoyer+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 mittor,mittere,V+PRIM=o;is;ere;misi;missum+Theme=INF+TRAD=envoyer+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 mittam,mittere,V+PRIM=o;is;ere;misi;missum+Theme=INF+TRAD=envoyer+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -3020,12 +2834,6 @@ miserat,mittere,V+PRIM=o;is;ere;misi;missum+Theme=PER+TRAD=envoyer+FLX=GP3_PER+T
 miseramus,mittere,V+PRIM=o;is;ere;misi;missum+Theme=PER+TRAD=envoyer+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 miseratis,mittere,V+PRIM=o;is;ere;misi;missum+Theme=PER+TRAD=envoyer+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 miserant,mittere,V+PRIM=o;is;ere;misi;missum+Theme=PER+TRAD=envoyer+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-missi rimus,mittere,V+PRIM=o;is;ere;misi;missum+Theme=SUP+TRAD=envoyer+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-missi ritis,mittere,V+PRIM=o;is;ere;misi;missum+Theme=SUP+TRAD=envoyer+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-missi runt,mittere,V+PRIM=o;is;ere;misi;missum+Theme=SUP+TRAD=envoyer+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-missus ris,mittere,V+PRIM=o;is;ere;misi;missum+Theme=SUP+TRAD=envoyer+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-missus rit,mittere,V+PRIM=o;is;ere;misi;missum+Theme=SUP+TRAD=envoyer+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-missus ro,mittere,V+PRIM=o;is;ere;misi;missum+Theme=SUP+TRAD=envoyer+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 occido,occidere,V+PRIM=o;is;ere;cidi;cisum+Theme=INF+TRAD=tuer;tomber+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 occidor,occidere,V+PRIM=o;is;ere;cidi;cisum+Theme=INF+TRAD=tuer;tomber+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 occidam,occidere,V+PRIM=o;is;ere;cidi;cisum+Theme=INF+TRAD=tuer;tomber+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -3105,12 +2913,6 @@ occiderat,occidere,V+PRIM=o;is;ere;cidi;cisum+Theme=PER+TRAD=tuer;tomber+FLX=GP3
 occideramus,occidere,V+PRIM=o;is;ere;cidi;cisum+Theme=PER+TRAD=tuer;tomber+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 occideratis,occidere,V+PRIM=o;is;ere;cidi;cisum+Theme=PER+TRAD=tuer;tomber+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 occiderant,occidere,V+PRIM=o;is;ere;cidi;cisum+Theme=PER+TRAD=tuer;tomber+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-occisi rimus,occidere,V+PRIM=o;is;ere;cidi;cisum+Theme=SUP+TRAD=tuer;tomber+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-occisi ritis,occidere,V+PRIM=o;is;ere;cidi;cisum+Theme=SUP+TRAD=tuer;tomber+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-occisi runt,occidere,V+PRIM=o;is;ere;cidi;cisum+Theme=SUP+TRAD=tuer;tomber+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-occisus ris,occidere,V+PRIM=o;is;ere;cidi;cisum+Theme=SUP+TRAD=tuer;tomber+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-occisus rit,occidere,V+PRIM=o;is;ere;cidi;cisum+Theme=SUP+TRAD=tuer;tomber+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-occisus ro,occidere,V+PRIM=o;is;ere;cidi;cisum+Theme=SUP+TRAD=tuer;tomber+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 pello,pellere,V+PRIM=o;is;ere;pepuli;pulsum+Theme=INF+TRAD=pousser;chasser+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 pellor,pellere,V+PRIM=o;is;ere;pepuli;pulsum+Theme=INF+TRAD=pousser;chasser+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 pellam,pellere,V+PRIM=o;is;ere;pepuli;pulsum+Theme=INF+TRAD=pousser;chasser+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -3190,12 +2992,6 @@ pepulerat,pellere,V+PRIM=o;is;ere;pepuli;pulsum+Theme=PER+TRAD=pousser;chasser+F
 pepuleramus,pellere,V+PRIM=o;is;ere;pepuli;pulsum+Theme=PER+TRAD=pousser;chasser+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 pepuleratis,pellere,V+PRIM=o;is;ere;pepuli;pulsum+Theme=PER+TRAD=pousser;chasser+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 pepulerant,pellere,V+PRIM=o;is;ere;pepuli;pulsum+Theme=PER+TRAD=pousser;chasser+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-pulsi rimus,pellere,V+PRIM=o;is;ere;pepuli;pulsum+Theme=SUP+TRAD=pousser;chasser+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-pulsi ritis,pellere,V+PRIM=o;is;ere;pepuli;pulsum+Theme=SUP+TRAD=pousser;chasser+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-pulsi runt,pellere,V+PRIM=o;is;ere;pepuli;pulsum+Theme=SUP+TRAD=pousser;chasser+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-pulsus ris,pellere,V+PRIM=o;is;ere;pepuli;pulsum+Theme=SUP+TRAD=pousser;chasser+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-pulsus rit,pellere,V+PRIM=o;is;ere;pepuli;pulsum+Theme=SUP+TRAD=pousser;chasser+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-pulsus ro,pellere,V+PRIM=o;is;ere;pepuli;pulsum+Theme=SUP+TRAD=pousser;chasser+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 relinquo,relinquere,V+PRIM=o;is;ere;liqui;lictum+Theme=INF+TRAD=laisser;tomber+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 relinquor,relinquere,V+PRIM=o;is;ere;liqui;lictum+Theme=INF+TRAD=laisser;tomber+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 relinquam,relinquere,V+PRIM=o;is;ere;liqui;lictum+Theme=INF+TRAD=laisser;tomber+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -3275,12 +3071,6 @@ reliquerat,relinquere,V+PRIM=o;is;ere;liqui;lictum+Theme=PER+TRAD=laisser;tomber
 reliqueramus,relinquere,V+PRIM=o;is;ere;liqui;lictum+Theme=PER+TRAD=laisser;tomber+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 reliqueratis,relinquere,V+PRIM=o;is;ere;liqui;lictum+Theme=PER+TRAD=laisser;tomber+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 reliquerant,relinquere,V+PRIM=o;is;ere;liqui;lictum+Theme=PER+TRAD=laisser;tomber+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-relicti rimus,relinquere,V+PRIM=o;is;ere;liqui;lictum+Theme=SUP+TRAD=laisser;tomber+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-relicti ritis,relinquere,V+PRIM=o;is;ere;liqui;lictum+Theme=SUP+TRAD=laisser;tomber+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-relicti runt,relinquere,V+PRIM=o;is;ere;liqui;lictum+Theme=SUP+TRAD=laisser;tomber+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-relictus ris,relinquere,V+PRIM=o;is;ere;liqui;lictum+Theme=SUP+TRAD=laisser;tomber+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-relictus rit,relinquere,V+PRIM=o;is;ere;liqui;lictum+Theme=SUP+TRAD=laisser;tomber+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-relictus ro,relinquere,V+PRIM=o;is;ere;liqui;lictum+Theme=SUP+TRAD=laisser;tomber+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 scribo,scribere,V+PRIM=o;is;ere;scripsi;scriptum+Theme=INF+TRAD=écrire+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 scribor,scribere,V+PRIM=o;is;ere;scripsi;scriptum+Theme=INF+TRAD=écrire+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 scribam,scribere,V+PRIM=o;is;ere;scripsi;scriptum+Theme=INF+TRAD=écrire+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -3360,12 +3150,6 @@ scripserat,scribere,V+PRIM=o;is;ere;scripsi;scriptum+Theme=PER+TRAD=écrire+FLX=
 scripseramus,scribere,V+PRIM=o;is;ere;scripsi;scriptum+Theme=PER+TRAD=écrire+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 scripseratis,scribere,V+PRIM=o;is;ere;scripsi;scriptum+Theme=PER+TRAD=écrire+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 scripserant,scribere,V+PRIM=o;is;ere;scripsi;scriptum+Theme=PER+TRAD=écrire+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-scripti rimus,scribere,V+PRIM=o;is;ere;scripsi;scriptum+Theme=SUP+TRAD=écrire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-scripti ritis,scribere,V+PRIM=o;is;ere;scripsi;scriptum+Theme=SUP+TRAD=écrire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-scripti runt,scribere,V+PRIM=o;is;ere;scripsi;scriptum+Theme=SUP+TRAD=écrire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-scriptus ris,scribere,V+PRIM=o;is;ere;scripsi;scriptum+Theme=SUP+TRAD=écrire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-scriptus rit,scribere,V+PRIM=o;is;ere;scripsi;scriptum+Theme=SUP+TRAD=écrire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-scriptus ro,scribere,V+PRIM=o;is;ere;scripsi;scriptum+Theme=SUP+TRAD=écrire+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 statuo,statuere,V+PRIM=o;is;ere;ui;utum+Theme=INF+TRAD=décider;déterminer+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 statuor,statuere,V+PRIM=o;is;ere;ui;utum+Theme=INF+TRAD=décider;déterminer+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 statuam,statuere,V+PRIM=o;is;ere;ui;utum+Theme=INF+TRAD=décider;déterminer+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -3445,12 +3229,6 @@ statuerat,statuere,V+PRIM=o;is;ere;ui;utum+Theme=PER+TRAD=décider;déterminer+F
 statueramus,statuere,V+PRIM=o;is;ere;ui;utum+Theme=PER+TRAD=décider;déterminer+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 statueratis,statuere,V+PRIM=o;is;ere;ui;utum+Theme=PER+TRAD=décider;déterminer+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 statuerant,statuere,V+PRIM=o;is;ere;ui;utum+Theme=PER+TRAD=décider;déterminer+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-statuti rimus,statuere,V+PRIM=o;is;ere;ui;utum+Theme=SUP+TRAD=décider;déterminer+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-statuti ritis,statuere,V+PRIM=o;is;ere;ui;utum+Theme=SUP+TRAD=décider;déterminer+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-statuti runt,statuere,V+PRIM=o;is;ere;ui;utum+Theme=SUP+TRAD=décider;déterminer+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-statutus ris,statuere,V+PRIM=o;is;ere;ui;utum+Theme=SUP+TRAD=décider;déterminer+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-statutus rit,statuere,V+PRIM=o;is;ere;ui;utum+Theme=SUP+TRAD=décider;déterminer+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-statutus ro,statuere,V+PRIM=o;is;ere;ui;utum+Theme=SUP+TRAD=décider;déterminer+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 trado,tradere,V+PRIM=o;is;ere;didi;ditum+Theme=INF+TRAD=transmettre;raconter+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 trador,tradere,V+PRIM=o;is;ere;didi;ditum+Theme=INF+TRAD=transmettre;raconter+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 tradam,tradere,V+PRIM=o;is;ere;didi;ditum+Theme=INF+TRAD=transmettre;raconter+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -3530,12 +3308,6 @@ tradiderat,tradere,V+PRIM=o;is;ere;didi;ditum+Theme=PER+TRAD=transmettre;raconte
 tradideramus,tradere,V+PRIM=o;is;ere;didi;ditum+Theme=PER+TRAD=transmettre;raconter+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 tradideratis,tradere,V+PRIM=o;is;ere;didi;ditum+Theme=PER+TRAD=transmettre;raconter+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 tradiderant,tradere,V+PRIM=o;is;ere;didi;ditum+Theme=PER+TRAD=transmettre;raconter+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-traditi rimus,tradere,V+PRIM=o;is;ere;didi;ditum+Theme=SUP+TRAD=raconter+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-traditi ritis,tradere,V+PRIM=o;is;ere;didi;ditum+Theme=SUP+TRAD=raconter+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-traditi runt,tradere,V+PRIM=o;is;ere;didi;ditum+Theme=SUP+TRAD=raconter+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-traditus ris,tradere,V+PRIM=o;is;ere;didi;ditum+Theme=SUP+TRAD=raconter+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-traditus rit,tradere,V+PRIM=o;is;ere;didi;ditum+Theme=SUP+TRAD=raconter+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-traditus ro,tradere,V+PRIM=o;is;ere;didi;ditum+Theme=SUP+TRAD=raconter+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 uinco,uincere,V+PRIM=o;is;ere;uici;uictum+Theme=INF+TRAD=vaincre+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 uincor,uincere,V+PRIM=o;is;ere;uici;uictum+Theme=INF+TRAD=vaincre+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 uincam,uincere,V+PRIM=o;is;ere;uici;uictum+Theme=INF+TRAD=vaincre+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -3615,12 +3387,6 @@ uicerat,uincere,V+PRIM=o;is;ere;uici;uictum+Theme=PER+TRAD=vaincre+FLX=GP3_PER+T
 uiceramus,uincere,V+PRIM=o;is;ere;uici;uictum+Theme=PER+TRAD=vaincre+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 uiceratis,uincere,V+PRIM=o;is;ere;uici;uictum+Theme=PER+TRAD=vaincre+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 uicerant,uincere,V+PRIM=o;is;ere;uici;uictum+Theme=PER+TRAD=vaincre+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-uicti rimus,uincere,V+PRIM=o;is;ere;uici;uictum+Theme=SUP+TRAD=vaincre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-uicti ritis,uincere,V+PRIM=o;is;ere;uici;uictum+Theme=SUP+TRAD=vaincre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-uicti runt,uincere,V+PRIM=o;is;ere;uici;uictum+Theme=SUP+TRAD=vaincre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-uictus ris,uincere,V+PRIM=o;is;ere;uici;uictum+Theme=SUP+TRAD=vaincre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-uictus rit,uincere,V+PRIM=o;is;ere;uici;uictum+Theme=SUP+TRAD=vaincre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-uictus ro,uincere,V+PRIM=o;is;ere;uici;uictum+Theme=SUP+TRAD=vaincre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 uiuo,uiuere,V+PRIM=o;is;ere;uixi;uictum+Theme=INF+TRAD=vivre+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 uiuor,uiuere,V+PRIM=o;is;ere;uixi;uictum+Theme=INF+TRAD=vivre+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 uiuam,uiuere,V+PRIM=o;is;ere;uixi;uictum+Theme=INF+TRAD=vivre+FLX=GP3_INF+GP=3+TP=pres+MOD=sub+VX=act+P=1+NB=sg
@@ -3700,12 +3466,6 @@ uixerat,uiuere,V+PRIM=o;is;ere;uixi;uictum+Theme=PER+TRAD=vivre+FLX=GP3_PER+TP=p
 uixeramus,uiuere,V+PRIM=o;is;ere;uixi;uictum+Theme=PER+TRAD=vivre+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=3
 uixeratis,uiuere,V+PRIM=o;is;ere;uixi;uictum+Theme=PER+TRAD=vivre+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=3
 uixerant,uiuere,V+PRIM=o;is;ere;uixi;uictum+Theme=PER+TRAD=vivre+FLX=GP3_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=3
-uicti rimus,uiuere,V+PRIM=o;is;ere;uixi;uictum+Theme=SUP+TRAD=vivre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=3+TP=fta
-uicti ritis,uiuere,V+PRIM=o;is;ere;uixi;uictum+Theme=SUP+TRAD=vivre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=3+TP=fta
-uicti runt,uiuere,V+PRIM=o;is;ere;uixi;uictum+Theme=SUP+TRAD=vivre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=3+TP=fta
-uictus ris,uiuere,V+PRIM=o;is;ere;uixi;uictum+Theme=SUP+TRAD=vivre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=3+TP=fta
-uictus rit,uiuere,V+PRIM=o;is;ere;uixi;uictum+Theme=SUP+TRAD=vivre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=3+TP=fta
-uictus ro,uiuere,V+PRIM=o;is;ere;uixi;uictum+Theme=SUP+TRAD=vivre+FLX=GP3_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=3+TP=fta
 caperis,capere,V+Theme=INF+TRAD=prendre+FLX=GP4_INF+GP=4+TP=pres+MOD=ind+VX=pas+P=2+NB=sg
 caperem,capere,V+Theme=INF+TRAD=prendre+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=1+NB=sg+GP=4
 caperes,capere,V+Theme=INF+TRAD=prendre+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=2+NB=sg+GP=4
@@ -3779,12 +3539,6 @@ ceperat,capere,V+Theme=PER+TRAD=prendre+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=3+NB
 ceperamus,capere,V+Theme=PER+TRAD=prendre+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=4
 ceperatis,capere,V+Theme=PER+TRAD=prendre+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=4
 ceperant,capere,V+Theme=PER+TRAD=prendre+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=4
-capti rimus,capere,V+PRIM=io;is;ere;cepi;captum+Theme=SUP+TRAD=prendre+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=4+TP=fta
-capti ritis,capere,V+PRIM=io;is;ere;cepi;captum+Theme=SUP+TRAD=prendre+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=4+TP=fta
-capti runt,capere,V+PRIM=io;is;ere;cepi;captum+Theme=SUP+TRAD=prendre+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=4+TP=fta
-captus ris,capere,V+PRIM=io;is;ere;cepi;captum+Theme=SUP+TRAD=prendre+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=4+TP=fta
-captus rit,capere,V+PRIM=io;is;ere;cepi;captum+Theme=SUP+TRAD=prendre+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=4+TP=fta
-captus ro,capere,V+PRIM=io;is;ere;cepi;captum+Theme=SUP+TRAD=prendre+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=4+TP=fta
 acciperis,accipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=INF+TRAD=recevoir;accueillir+FLX=GP4_INF+GP=4+TP=pres+MOD=ind+VX=pas+P=2+NB=sg
 acciperem,accipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=INF+TRAD=recevoir;accueillir+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=1+NB=sg+GP=4
 acciperes,accipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=INF+TRAD=recevoir;accueillir+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=2+NB=sg+GP=4
@@ -3858,12 +3612,6 @@ acceperat,accipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=PER+TRAD=recevoir;accueill
 acceperamus,accipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=PER+TRAD=recevoir;accueillir+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=4
 acceperatis,accipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=PER+TRAD=recevoir;accueillir+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=4
 acceperant,accipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=PER+TRAD=recevoir;accueillir+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=4
-accepti rimus,accipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=recevoir;accueillir+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=4+TP=fta
-accepti ritis,accipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=recevoir;accueillir+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=4+TP=fta
-accepti runt,accipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=recevoir;accueillir+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=4+TP=fta
-acceptus ris,accipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=recevoir;accueillir+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=4+TP=fta
-acceptus rit,accipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=recevoir;accueillir+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=4+TP=fta
-acceptus ro,accipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=recevoir;accueillir+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=4+TP=fta
 cuperis,cupere,V+PRIM=io;is;ere;iui;itum+Theme=INF+TRAD=désirer+FLX=GP4_INF+GP=4+TP=pres+MOD=ind+VX=pas+P=2+NB=sg
 cuperem,cupere,V+PRIM=io;is;ere;iui;itum+Theme=INF+TRAD=désirer+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=1+NB=sg+GP=4
 cuperes,cupere,V+PRIM=io;is;ere;iui;itum+Theme=INF+TRAD=désirer+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=2+NB=sg+GP=4
@@ -3937,12 +3685,6 @@ cupiuerat,cupere,V+PRIM=io;is;ere;iui;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+T
 cupiueramus,cupere,V+PRIM=io;is;ere;iui;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=4
 cupiueratis,cupere,V+PRIM=io;is;ere;iui;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=4
 cupiuerant,cupere,V+PRIM=io;is;ere;iui;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=4
-cupiti rimus,cupere,V+PRIM=io;is;ere;iui;itum+Theme=SUP+TRAD=désirer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=4+TP=fta
-cupiti ritis,cupere,V+PRIM=io;is;ere;iui;itum+Theme=SUP+TRAD=désirer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=4+TP=fta
-cupiti runt,cupere,V+PRIM=io;is;ere;iui;itum+Theme=SUP+TRAD=désirer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=4+TP=fta
-cupitus ris,cupere,V+PRIM=io;is;ere;iui;itum+Theme=SUP+TRAD=désirer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=4+TP=fta
-cupitus rit,cupere,V+PRIM=io;is;ere;iui;itum+Theme=SUP+TRAD=désirer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=4+TP=fta
-cupitus ro,cupere,V+PRIM=io;is;ere;iui;itum+Theme=SUP+TRAD=désirer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=4+TP=fta
 faceris,facere,V+PRIM=io;is;ere;feci;factum+Theme=INF+TRAD=faire+FLX=GP4_INF+GP=4+TP=pres+MOD=ind+VX=pas+P=2+NB=sg
 facerem,facere,V+PRIM=io;is;ere;feci;factum+Theme=INF+TRAD=faire+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=1+NB=sg+GP=4
 faceres,facere,V+PRIM=io;is;ere;feci;factum+Theme=INF+TRAD=faire+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=2+NB=sg+GP=4
@@ -4016,12 +3758,6 @@ fecerat,facere,V+PRIM=io;is;ere;feci;factum+Theme=PER+TRAD=faire+FLX=GP4_PER+TP=
 feceramus,facere,V+PRIM=io;is;ere;feci;factum+Theme=PER+TRAD=faire+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=4
 feceratis,facere,V+PRIM=io;is;ere;feci;factum+Theme=PER+TRAD=faire+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=4
 fecerant,facere,V+PRIM=io;is;ere;feci;factum+Theme=PER+TRAD=faire+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=4
-facti rimus,facere,V+PRIM=io;is;ere;feci;factum+Theme=SUP+TRAD=faire+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=4+TP=fta
-facti ritis,facere,V+PRIM=io;is;ere;feci;factum+Theme=SUP+TRAD=faire+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=4+TP=fta
-facti runt,facere,V+PRIM=io;is;ere;feci;factum+Theme=SUP+TRAD=faire+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=4+TP=fta
-factus ris,facere,V+PRIM=io;is;ere;feci;factum+Theme=SUP+TRAD=faire+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=4+TP=fta
-factus rit,facere,V+PRIM=io;is;ere;feci;factum+Theme=SUP+TRAD=faire+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=4+TP=fta
-factus ro,facere,V+PRIM=io;is;ere;feci;factum+Theme=SUP+TRAD=faire+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=4+TP=fta
 inciperis,incipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=INF+TRAD=commencer+FLX=GP4_INF+GP=4+TP=pres+MOD=ind+VX=pas+P=2+NB=sg
 inciperem,incipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=INF+TRAD=commencer+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=1+NB=sg+GP=4
 inciperes,incipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=INF+TRAD=commencer+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=2+NB=sg+GP=4
@@ -4095,12 +3831,6 @@ inceperat,incipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=PER+TRAD=commencer+FLX=GP4
 inceperamus,incipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=PER+TRAD=commencer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=4
 inceperatis,incipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=PER+TRAD=commencer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=4
 inceperant,incipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=PER+TRAD=commencer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=4
-incepti rimus,incipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=commencer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=4+TP=fta
-incepti ritis,incipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=commencer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=4+TP=fta
-incepti runt,incipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=commencer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=4+TP=fta
-inceptus ris,incipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=commencer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=4+TP=fta
-inceptus rit,incipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=commencer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=4+TP=fta
-inceptus ro,incipere,V+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=commencer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=4+TP=fta
 interficeris,interficere,V+PRIM=io;is;ere;feci;fectum+Theme=INF+TRAD=tuer+FLX=GP4_INF+GP=4+TP=pres+MOD=ind+VX=pas+P=2+NB=sg
 interficerem,interficere,V+PRIM=io;is;ere;feci;fectum+Theme=INF+TRAD=tuer+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=1+NB=sg+GP=4
 interficeres,interficere,V+PRIM=io;is;ere;feci;fectum+Theme=INF+TRAD=tuer+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=2+NB=sg+GP=4
@@ -4174,12 +3904,6 @@ interfecerat,interficere,V+PRIM=io;is;ere;feci;fectum+Theme=PER+TRAD=tuer+FLX=GP
 interfeceramus,interficere,V+PRIM=io;is;ere;feci;fectum+Theme=PER+TRAD=tuer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=4
 interfeceratis,interficere,V+PRIM=io;is;ere;feci;fectum+Theme=PER+TRAD=tuer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=4
 interfecerant,interficere,V+PRIM=io;is;ere;feci;fectum+Theme=PER+TRAD=tuer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=4
-interfecti rimus,interficere,V+PRIM=io;is;ere;feci;fectum+Theme=SUP+TRAD=tuer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=4+TP=fta
-interfecti ritis,interficere,V+PRIM=io;is;ere;feci;fectum+Theme=SUP+TRAD=tuer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=4+TP=fta
-interfecti runt,interficere,V+PRIM=io;is;ere;feci;fectum+Theme=SUP+TRAD=tuer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=4+TP=fta
-interfectus ris,interficere,V+PRIM=io;is;ere;feci;fectum+Theme=SUP+TRAD=tuer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=4+TP=fta
-interfectus rit,interficere,V+PRIM=io;is;ere;feci;fectum+Theme=SUP+TRAD=tuer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=4+TP=fta
-interfectus ro,interficere,V+PRIM=io;is;ere;feci;fectum+Theme=SUP+TRAD=tuer+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=4+TP=fta
 raperis,rapere,V+PRIM=io;is;ere;rapui;raptum+Theme=INF+TRAD=arracher;ravir+FLX=GP4_INF+GP=4+TP=pres+MOD=ind+VX=pas+P=2+NB=sg
 raperem,rapere,V+PRIM=io;is;ere;rapui;raptum+Theme=INF+TRAD=arracher;ravir+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=1+NB=sg+GP=4
 raperes,rapere,V+PRIM=io;is;ere;rapui;raptum+Theme=INF+TRAD=arracher;ravir+FLX=GP4_INF+TP=impf+MOD=sub+VX=act+P=2+NB=sg+GP=4
@@ -4253,12 +3977,6 @@ rapuerat,rapere,V+PRIM=io;is;ere;rapui;raptum+Theme=PER+TRAD=arracher;ravir+FLX=
 rapueramus,rapere,V+PRIM=io;is;ere;rapui;raptum+Theme=PER+TRAD=arracher;ravir+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=4
 rapueratis,rapere,V+PRIM=io;is;ere;rapui;raptum+Theme=PER+TRAD=arracher;ravir+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=4
 rapuerant,rapere,V+PRIM=io;is;ere;rapui;raptum+Theme=PER+TRAD=arracher;ravir+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=4
-rapti rimus,rapere,V+PRIM=io;is;ere;rapui;raptum+Theme=SUP+TRAD=arracher;ravir+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=4+TP=fta
-rapti ritis,rapere,V+PRIM=io;is;ere;rapui;raptum+Theme=SUP+TRAD=arracher;ravir+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=4+TP=fta
-rapti runt,rapere,V+PRIM=io;is;ere;rapui;raptum+Theme=SUP+TRAD=arracher;ravir+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=4+TP=fta
-raptus ris,rapere,V+PRIM=io;is;ere;rapui;raptum+Theme=SUP+TRAD=arracher;ravir+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=4+TP=fta
-raptus rit,rapere,V+PRIM=io;is;ere;rapui;raptum+Theme=SUP+TRAD=arracher;ravir+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=4+TP=fta
-raptus ro,rapere,V+PRIM=io;is;ere;rapui;raptum+Theme=SUP+TRAD=arracher;ravir+FLX=GP4_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=4+TP=fta
 audiebam,audire,V+PRIM=io;is;ire;iui;itum+Theme=INF+TRAD=écouter;entendre+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=1+NB=sg
 audiebas,audire,V+PRIM=io;is;ire;iui;itum+Theme=INF+TRAD=écouter;entendre+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=2+NB=sg
 audiebat,audire,V+PRIM=io;is;ire;iui;itum+Theme=INF+TRAD=écouter;entendre+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=3+NB=sg
@@ -4337,12 +4055,6 @@ audiuerat,audire,V+PRIM=io;is;ire;iui;itum+Theme=PER+TRAD=écouter;entendre+FLX=
 audiueramus,audire,V+PRIM=io;is;ire;iui;itum+Theme=PER+TRAD=écouter;entendre+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=5
 audiueratis,audire,V+PRIM=io;is;ire;iui;itum+Theme=PER+TRAD=écouter;entendre+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=5
 audiuerant,audire,V+PRIM=io;is;ire;iui;itum+Theme=PER+TRAD=écouter;entendre+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=5
-auditi rimus,audire,V+PRIM=io;is;ire;iui;itum+Theme=SUP+TRAD=écouter;entendre+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=5+TP=fta
-auditi ritis,audire,V+PRIM=io;is;ire;iui;itum+Theme=SUP+TRAD=écouter;entendre+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=5+TP=fta
-auditi runt,audire,V+PRIM=io;is;ire;iui;itum+Theme=SUP+TRAD=écouter;entendre+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=5+TP=fta
-auditus ris,audire,V+PRIM=io;is;ire;iui;itum+Theme=SUP+TRAD=écouter;entendre+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=5+TP=fta
-auditus rit,audire,V+PRIM=io;is;ire;iui;itum+Theme=SUP+TRAD=écouter;entendre+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=5+TP=fta
-auditus ro,audire,V+PRIM=io;is;ire;iui;itum+Theme=SUP+TRAD=écouter;entendre+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=5+TP=fta
 inueniebam,inuenire,V+PRIM=io;is;ire;ueni;uentum+Theme=INF+TRAD=trouver+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=1+NB=sg
 inueniebas,inuenire,V+PRIM=io;is;ire;ueni;uentum+Theme=INF+TRAD=trouver+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=2+NB=sg
 inueniebat,inuenire,V+PRIM=io;is;ire;ueni;uentum+Theme=INF+TRAD=trouver+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=3+NB=sg
@@ -4421,12 +4133,6 @@ inuenerat,inuenire,V+PRIM=io;is;ire;ueni;uentum+Theme=PER+TRAD=trouver+FLX=GP5_P
 inueneramus,inuenire,V+PRIM=io;is;ire;ueni;uentum+Theme=PER+TRAD=trouver+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=5
 inueneratis,inuenire,V+PRIM=io;is;ire;ueni;uentum+Theme=PER+TRAD=trouver+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=5
 inuenerant,inuenire,V+PRIM=io;is;ire;ueni;uentum+Theme=PER+TRAD=trouver+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=5
-inuenti rimus,inuenire,V+PRIM=io;is;ire;ueni;uentum+Theme=SUP+TRAD=trouver+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=5+TP=fta
-inuenti ritis,inuenire,V+PRIM=io;is;ire;ueni;uentum+Theme=SUP+TRAD=trouver+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=5+TP=fta
-inuenti runt,inuenire,V+PRIM=io;is;ire;ueni;uentum+Theme=SUP+TRAD=trouver+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=5+TP=fta
-inuentus ris,inuenire,V+PRIM=io;is;ire;ueni;uentum+Theme=SUP+TRAD=trouver+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=5+TP=fta
-inuentus rit,inuenire,V+PRIM=io;is;ire;ueni;uentum+Theme=SUP+TRAD=trouver+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=5+TP=fta
-inuentus ro,inuenire,V+PRIM=io;is;ire;ueni;uentum+Theme=SUP+TRAD=trouver+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=5+TP=fta
 sciebam,scire,V+PRIM=io;is;ire;iui;itum+Theme=INF+TRAD=savoir+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=1+NB=sg
 sciebas,scire,V+PRIM=io;is;ire;iui;itum+Theme=INF+TRAD=savoir+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=2+NB=sg
 sciebat,scire,V+PRIM=io;is;ire;iui;itum+Theme=INF+TRAD=savoir+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=3+NB=sg
@@ -4505,12 +4211,6 @@ sciuerat,scire,V+PRIM=io;is;ire;iui;itum+Theme=PER+TRAD=savoir+FLX=GP5_PER+TP=pq
 sciueramus,scire,V+PRIM=io;is;ire;iui;itum+Theme=PER+TRAD=savoir+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=5
 sciueratis,scire,V+PRIM=io;is;ire;iui;itum+Theme=PER+TRAD=savoir+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=5
 sciuerant,scire,V+PRIM=io;is;ire;iui;itum+Theme=PER+TRAD=savoir+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=5
-sciti rimus,scire,V+PRIM=io;is;ire;iui;itum+Theme=SUP+TRAD=savoir+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=5+TP=fta
-sciti ritis,scire,V+PRIM=io;is;ire;iui;itum+Theme=SUP+TRAD=savoir+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=5+TP=fta
-sciti runt,scire,V+PRIM=io;is;ire;iui;itum+Theme=SUP+TRAD=savoir+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=5+TP=fta
-scitus ris,scire,V+PRIM=io;is;ire;iui;itum+Theme=SUP+TRAD=savoir+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=5+TP=fta
-scitus rit,scire,V+PRIM=io;is;ire;iui;itum+Theme=SUP+TRAD=savoir+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=5+TP=fta
-scitus ro,scire,V+PRIM=io;is;ire;iui;itum+Theme=SUP+TRAD=savoir+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=5+TP=fta
 sentiebam,sentire,V+PRIM=io;is;ire;sensi;sensum+Theme=INF+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=1+NB=sg
 sentiebas,sentire,V+PRIM=io;is;ire;sensi;sensum+Theme=INF+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=2+NB=sg
 sentiebat,sentire,V+PRIM=io;is;ire;sensi;sensum+Theme=INF+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=3+NB=sg
@@ -4589,12 +4289,6 @@ senserat,sentire,V+PRIM=io;is;ire;sensi;sensum+Theme=PER+TRAD=percevoir;se\ rend
 senseramus,sentire,V+PRIM=io;is;ire;sensi;sensum+Theme=PER+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=5
 senseratis,sentire,V+PRIM=io;is;ire;sensi;sensum+Theme=PER+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=5
 senserant,sentire,V+PRIM=io;is;ire;sensi;sensum+Theme=PER+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=5
-sensi rimus,sentire,V+PRIM=io;is;ire;sensi;sensum+Theme=SUP+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=5+TP=fta
-sensi ritis,sentire,V+PRIM=io;is;ire;sensi;sensum+Theme=SUP+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=5+TP=fta
-sensi runt,sentire,V+PRIM=io;is;ire;sensi;sensum+Theme=SUP+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=5+TP=fta
-sensus ris,sentire,V+PRIM=io;is;ire;sensi;sensum+Theme=SUP+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=5+TP=fta
-sensus rit,sentire,V+PRIM=io;is;ire;sensi;sensum+Theme=SUP+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=5+TP=fta
-sensus ro,sentire,V+PRIM=io;is;ire;sensi;sensum+Theme=SUP+TRAD=percevoir;se\ rendre\ compte;juger+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=5+TP=fta
 ueniebam,uenire,V+PRIM=io;is;ire;ueni;uentum+Theme=INF+TRAD=venir+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=1+NB=sg
 ueniebas,uenire,V+PRIM=io;is;ire;ueni;uentum+Theme=INF+TRAD=venir+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=2+NB=sg
 ueniebat,uenire,V+PRIM=io;is;ire;ueni;uentum+Theme=INF+TRAD=venir+FLX=GP5_INF+GP=5+TP=impf+MOD=ind+VX=act+P=3+NB=sg
@@ -4673,12 +4367,6 @@ uenerat,uenire,V+PRIM=io;is;ire;ueni;uentum+Theme=PER+TRAD=venir+FLX=GP5_PER+TP=
 ueneramus,uenire,V+PRIM=io;is;ire;ueni;uentum+Theme=PER+TRAD=venir+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=5
 ueneratis,uenire,V+PRIM=io;is;ire;ueni;uentum+Theme=PER+TRAD=venir+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=5
 uenerant,uenire,V+PRIM=io;is;ire;ueni;uentum+Theme=PER+TRAD=venir+FLX=GP5_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=5
-uenti rimus,uenire,V+PRIM=io;is;ire;ueni;uentum+Theme=SUP+TRAD=venir+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=pl+GP=5+TP=fta
-uenti ritis,uenire,V+PRIM=io;is;ire;ueni;uentum+Theme=SUP+TRAD=venir+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=pl+GP=5+TP=fta
-uenti runt,uenire,V+PRIM=io;is;ire;ueni;uentum+Theme=SUP+TRAD=venir+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=pl+GP=5+TP=fta
-uentus ris,uenire,V+PRIM=io;is;ire;ueni;uentum+Theme=SUP+TRAD=venir+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=2+NB=sg+GP=5+TP=fta
-uentus rit,uenire,V+PRIM=io;is;ire;ueni;uentum+Theme=SUP+TRAD=venir+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=3+NB=sg+GP=5+TP=fta
-uentus ro,uenire,V+PRIM=io;is;ire;ueni;uentum+Theme=SUP+TRAD=venir+FLX=GP5_SUP+VX=pas+TP=fut+MOD=ind+VX=act+P=1+NB=sg+GP=5+TP=fta
 es,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl
 est,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=pl
 estis,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl
@@ -4688,12 +4376,12 @@ esset,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=act+P=3+NB
 essemus,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=act+P=1+NB=pl
 essetis,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=act+P=2+NB=pl
 essent,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=act+P=3+NB=pl
-eris,esse,V+GP=0+Theme=INF+TRAD=être+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=2+NB=sg
-erit,esse,V+GP=0+Theme=INF+TRAD=être+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=3+NB=sg
-erimus,esse,V+GP=0+Theme=INF+TRAD=être+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=1+NB=pl
-eritis,esse,V+GP=0+Theme=INF+TRAD=être+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=2+NB=pl
-ero,esse,V+GP=0+Theme=INF+TRAD=être+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=1+NB=sg
-eruP3_ACT,esse,V+GP=0+Theme=INF+TRAD=être+FLX=GP0_INF+TP=fut+MOD=ind+VX=act
+eris,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=2+NB=sg
+erit,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=3+NB=sg
+erimus,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=1+NB=pl
+eritis,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=2+NB=pl
+ero,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=1+NB=sg
+erunt,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 eram,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=impf+MOD=ind+VX=act+P=1+NB=sg
 eras,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=impf+MOD=ind+VX=act+P=2+NB=sg
 erat,esse,V+Theme=INF+TRAD=être+FLX=GP0_INF+GP=0+TP=impf+MOD=ind+VX=act+P=3+NB=sg
@@ -4736,12 +4424,12 @@ abesset,abesse,V+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+V
 abessemus,abesse,V+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=act+P=1+NB=pl
 abessetis,abesse,V+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=act+P=2+NB=pl
 abessent,abesse,V+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=act+P=3+NB=pl
-aberis,abesse,V+GP=0+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=2+NB=sg
-aberit,abesse,V+GP=0+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=3+NB=sg
-aberimus,abesse,V+GP=0+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=1+NB=pl
-aberitis,abesse,V+GP=0+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=2+NB=pl
-abero,abesse,V+GP=0+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=1+NB=sg
-aberuP3_ACT,abesse,V+GP=0+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+TP=fut+MOD=ind+VX=act
+aberis,abesse,V+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=2+NB=sg
+aberit,abesse,V+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=3+NB=sg
+aberimus,abesse,V+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=1+NB=pl
+aberitis,abesse,V+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=2+NB=pl
+abero,abesse,V+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=1+NB=sg
+aberunt,abesse,V+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 aberam,abesse,V+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+GP=0+TP=impf+MOD=ind+VX=act+P=1+NB=sg
 aberas,abesse,V+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+GP=0+TP=impf+MOD=ind+VX=act+P=2+NB=sg
 aberat,abesse,V+Theme=INF+TRAD=être\ absent+FLX=GP0_INF+GP=0+TP=impf+MOD=ind+VX=act+P=3+NB=sg
@@ -4784,12 +4472,12 @@ adesset,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=a
 adessemus,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=act+P=1+NB=pl
 adessetis,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=act+P=2+NB=pl
 adessent,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=act+P=3+NB=pl
-aderis,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=2+NB=sg
-aderit,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=3+NB=sg
-aderimus,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=1+NB=pl
-aderitis,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=2+NB=pl
-adero,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=1+NB=sg
-aderuP3_ACT,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+TP=fut+MOD=ind+VX=act
+aderis,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=2+NB=sg
+aderit,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=3+NB=sg
+aderimus,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=1+NB=pl
+aderitis,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=2+NB=pl
+adero,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=1+NB=sg
+aderunt,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 aderam,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+GP=0+TP=impf+MOD=ind+VX=act+P=1+NB=sg
 aderas,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+GP=0+TP=impf+MOD=ind+VX=act+P=2+NB=sg
 aderat,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF+GP=0+TP=impf+MOD=ind+VX=act+P=3+NB=sg
@@ -4838,12 +4526,12 @@ potesset,posse,V+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+GP=0+TP=impf+MOD=sub+V
 potessemus,posse,V+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+GP=0+TP=impf+MOD=sub+VX=act+P=1+NB=pl
 potessetis,posse,V+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+GP=0+TP=impf+MOD=sub+VX=act+P=2+NB=pl
 potessent,posse,V+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+GP=0+TP=impf+MOD=sub+VX=act+P=3+NB=pl
-poteris,posse,V+GP=0+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+TP=fut+MOD=ind+VX=act+P=2+NB=sg
-poterit,posse,V+GP=0+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+TP=fut+MOD=ind+VX=act+P=3+NB=sg
-poterimus,posse,V+GP=0+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+TP=fut+MOD=ind+VX=act+P=1+NB=pl
-poteritis,posse,V+GP=0+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+TP=fut+MOD=ind+VX=act+P=2+NB=pl
-potero,posse,V+GP=0+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+TP=fut+MOD=ind+VX=act+P=1+NB=sg
-poteruP3_ACT,posse,V+GP=0+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+TP=fut+MOD=ind+VX=act
+poteris,posse,V+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+GP=0+TP=fut+MOD=ind+VX=act+P=2+NB=sg
+poterit,posse,V+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+GP=0+TP=fut+MOD=ind+VX=act+P=3+NB=sg
+poterimus,posse,V+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+GP=0+TP=fut+MOD=ind+VX=act+P=1+NB=pl
+poteritis,posse,V+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+GP=0+TP=fut+MOD=ind+VX=act+P=2+NB=pl
+potero,posse,V+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+GP=0+TP=fut+MOD=ind+VX=act+P=1+NB=sg
+poterunt,posse,V+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+GP=0+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 poteram,posse,V+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+GP=0+TP=impf+MOD=ind+VX=act+P=1+NB=sg
 poteras,posse,V+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+GP=0+TP=impf+MOD=ind+VX=act+P=2+NB=sg
 poterat,posse,V+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE+GP=0+TP=impf+MOD=ind+VX=act+P=3+NB=sg
@@ -4886,12 +4574,12 @@ prodesset,prodesse,V+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+GP=0+TP=impf+MO
 prodessemus,prodesse,V+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=act+P=1+NB=pl
 prodessetis,prodesse,V+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=act+P=2+NB=pl
 prodessent,prodesse,V+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+GP=0+TP=impf+MOD=sub+VX=act+P=3+NB=pl
-proderis,prodesse,V+GP=0+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=2+NB=sg
-proderit,prodesse,V+GP=0+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=3+NB=sg
-proderimus,prodesse,V+GP=0+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=1+NB=pl
-proderitis,prodesse,V+GP=0+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=2+NB=pl
-prodero,prodesse,V+GP=0+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+TP=fut+MOD=ind+VX=act+P=1+NB=sg
-proderuP3_ACT,prodesse,V+GP=0+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+TP=fut+MOD=ind+VX=act
+proderis,prodesse,V+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=2+NB=sg
+proderit,prodesse,V+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=3+NB=sg
+proderimus,prodesse,V+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=1+NB=pl
+proderitis,prodesse,V+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=2+NB=pl
+prodero,prodesse,V+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=1+NB=sg
+proderunt,prodesse,V+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+GP=0+TP=fut+MOD=ind+VX=act+P=3+NB=pl
 proderam,prodesse,V+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+GP=0+TP=impf+MOD=ind+VX=act+P=1+NB=sg
 proderas,prodesse,V+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+GP=0+TP=impf+MOD=ind+VX=act+P=2+NB=sg
 proderat,prodesse,V+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF+GP=0+TP=impf+MOD=ind+VX=act+P=3+NB=sg

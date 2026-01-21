@@ -104,7 +104,7 @@ GP2_INF =
 
 	:GP2_E :P1_OR/TP=pres+MOD=ind | :GP2_E :P_PAS/TP=pres+MOD=ind | :GP2_E :P3_PAS/TP=pres+MOD=ind | 
 	:GP2_E :IMPF_IND :P1_OR <L><B>/ | :GP2_E :IMPF_IND :P_PAS/ | :GP2_E :IMPF_IND :P3_PAS/ |
-	:GP2_E :FUT_GP1-2 <B> :P1_OR/ | :GP2_E :FUT_GP1-2 <B>eris/P=2+NB=sg | :GP2_E :FUT_GP1-2 :P_PAS/ | :GP2_E :FUT_GP1-2 <B>u :P3_PAS/ |
+	:GP2_E :FUT_GP1-2 <B> :P1_OR/ | :GP2_E :FUT_GP1-2 <B>eris/VX=pas+P=2+NB=sg | :GP2_E :FUT_GP1-2 :P_PAS/ | :GP2_E :FUT_GP1-2 <B>u :P3_PAS/ |
 
 	:GP2_E :GP_SUB :P1_M/ | :GP2_E :GP_SUB :P_ACT/ | :GP2_E :GP_SUB :P3_ACT/ |
 	:GP2_E :IMPF_SUB :P1_M/ | :GP2_E :IMPF_SUB :P_ACT/ | :GP2_E :IMPF_SUB :P3_ACT/ |
@@ -252,7 +252,7 @@ GP5_SUP =
 GP0_INF =
 	<B2>sum/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=sg | /GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl | t/GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=pl | <B2>sumus/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | tis/GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl  | <B2>su :P3_ACT/GP=0+TP=pres+MOD=ind |
 	<B> :IMPF_IND_GP0 :P1_M/ | <B> :IMPF_IND_GP0 :P_ACT/ | <B> :IMPF_IND_GP0 :P3_ACT/ |
-	<B> :FUT_GP0 <B> :P1_O/ | <B> :FUT_GP0 :P_ACT/ | <B> :FUT_GP0 <B>u P3_ACT/ |
+	<B> :FUT_GP0 <B> :P1_O/ | <B> :FUT_GP0 :P_ACT/ | <B> :FUT_GP0 <B>u :P3_ACT/ |
 
 	<B2>s :GP_SUB :P1_M/GP=0+VX=act | <B2>s :GP_SUB :P_ACT/GP=0+VX=act | <B2>s :GP_SUB :P3_ACT/GP=0+VX=act | 
 	:IMPF_SUB_GP0 :P1_M/ | :IMPF_SUB_GP0 :P_ACT/ | :IMPF_SUB_GP0 :P3_ACT/ ;
@@ -260,7 +260,7 @@ GP0_INF =
 GP0_INF_POSSE =
 	<B3>ssum/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=sg | /GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=sg | t/GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=sg | <B3>ssumus/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | tis/GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl  | <B2>ssu :P3_ACT/GP=0+TP=pres+MOD=ind |
 	<B> :IMPF_IND_GP0 :P1_M/ | <B> :IMPF_IND_GP0 :P_ACT/ | <B> :IMPF_IND_GP0 :P3_ACT/ |
-	<B> :FUT_GP0 <B> :P1_O/ | <B> :FUT_GP0 :P_ACT/ | <B> :FUT_GP0 <B>u P3_ACT/ |
+	<B> :FUT_GP0 <B> :P1_O/ | <B> :FUT_GP0 :P_ACT/ | <B> :FUT_GP0 <B>u :P3_ACT/ |
 
 	<B3>ss :GP_SUB :P1_M/GP=0+VX=act | <B3>s :GP_SUB :P_ACT/GP=0+VX=act | <B3>s :GP_SUB :P3_ACT/GP=0+VX=act | 
 	 :IMPF_SUB_GP0 :P1_M/ | :IMPF_SUB_GP0 :P_ACT/ | :IMPF_SUB_GP0 :P3_ACT/ ;
@@ -348,7 +348,7 @@ FUT_GP1-2 = bi/TP=fut+MOD=ind ;
 FUT_GP3-4-5 = e/TP=fut+MOD=ind ;
 
 #### GROUPE 0 (erit)
-FUT_GP0 = ri/TP=fut+MOD=ind+VX=act ;
+FUT_GP0 = ri/GP=0+TP=fut+MOD=ind+VX=act ;
 
 
 ## PERFECTUM

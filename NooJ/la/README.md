@@ -99,17 +99,18 @@ Le projet couvre déjà tous les groupes verbaux, pour les temps et modes suivan
 ```bash
 # INFECTUM (am-)
 ## INDICATIF (ind)
-#### > ACTIF (act) : l.1 présent (pres) | l.2 imparfait (impf) | l.3 futur (fta)
-#### > PASSIF (pas) : l.4 présent (pres) | l.5 imparfait (impf) | l.6 futur (fut)
+#### > ACTIF (act) : présent (pres) | imparfait (impf) | futur (fut)
+#### > PASSIF (pas) : présent (pres) | imparfait (impf) | futur (fut)
 ## SUBJONCTIF (sub)
-#### > ACTIF (act) : l.7 présent (pres) | l.8 imparfait (impf)
-#### > PASSIF (pas) : l.9 présent (pres)
+#### > ACTIF (act) : présent (pres) | imparfait (impf)
+#### > PASSIF (pas) : présent (pres)
 
 # PERFECTUM (amau-)
 ## INDICATIF (ind)
-#### > ACTIF (act) : l.10 parfait (pft) | l.11 plus-que-parfait (pqp) | l.12 futur antérieur(fta)
-## SUBJONCTIF (sub) :
-#### > ACTIF (act) : l.13 plus-que-parfait (pqp)
+#### > ACTIF (act) : parfait (pft) | plus-que-parfait (pqp) | futur antérieur(fta)
+## SUBJONCTIF (sub)
+#### > ACTIF (act) : parfait (pft) | plus-que-parfait (pqp)
+#### > PASSIF (pas) : parfait (pft)
 ```
 
 ### Reste à faire :
