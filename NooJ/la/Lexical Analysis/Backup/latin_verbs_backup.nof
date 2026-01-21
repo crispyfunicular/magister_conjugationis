@@ -42,7 +42,7 @@
 
 # INFECTUM (am-)
 ## INDICATIF (ind)
-#### > ACTIF (act) : l.1 présent (pres) | l.2 imparfait (impf) | l.3 futur (fta)
+#### > ACTIF (act) : l.1 présent (pres) | l.2 imparfait (impf) | l.3 futur (fut)
 #### > PASSIF (pas) : l.4 présent (pres) | l.5 imparfait (impf) | l.6 futur (fut)
 ## SUBJONCTIF (sub)
 #### > ACTIF (act) : l.7 présent (pres) | l.8 imparfait (impf)
@@ -51,8 +51,9 @@
 # PERFECTUM (amau-)
 ## INDICATIF (ind)
 #### > ACTIF (act) : l.10 parfait (pft) | l.11 plus-que-parfait (pqp) | l.12 futur antérieur(fta)
-## SUBJONCTIF (sub) :
-#### > ACTIF (act) : l.13 plus-que-parfait (pqp)
+## SUBJONCTIF (sub)
+#### > ACTIF (act) : l.13 parfait (pft) | l.14 plus-que-parfait (pqp)
+#### > PASSIF (pas) : l.15 parfait (pft)
 
 
 # GP1 (AMARE)
@@ -76,11 +77,12 @@ GP1_INF =
 ## PERFECTUM (amau-)
 
 GP1_PER =
-	:PFT/GP=1 |
+	:PFT_IND/GP=1 |
 	:PQP_IND :P1_M/GP=1 | :PQP_IND :P_ACT/GP=1 | :PQP_IND :P3_ACT/GP=1 |
 	:FTA <B> :P1_O/GP=1 | :FTA :P_ACT/GP=1 | :FTA :P3_ACT/GP=1 |
 
-	:PQP_SUB :P1_M/GP=1 | :PQP_SUB :P_ACT/GP=1 | :PQP_SUB :P3_ACT/GP=1 ;
+	:PQP_SUB :P1_M/GP=1 | :PQP_SUB :P_ACT/GP=1 | :PQP_SUB :P3_ACT/GP=1 |
+	:PFT_SUB :P1_M/GP=1 | :PFT :P_ACT/GP=1 | :PFT :P3_ACT/GP=1 ;
 
 
 ##SUPINUM (amat-)
@@ -89,6 +91,7 @@ GP1_SUP =
 	:PPP_SG " " :SUM_PRES_SG/GP=1+TP=pft | :PPP_PL " " :SUM_PRES_PL/GP=1+TP=pft |
 	:PPP_SG " " :SUM_IMPF_SG/GP=1+TP=pqp | :PPP_PL " " :SUM_IMPF_PL/GP=1+TP=pqp |
 	:PPP_SG " " :SUM_FUT_SG/GP=1+TP=fta | :PPP_PL " " :SUM_FUT_PL/GP=1+TP=fta ;
+
 
 
 # GP2 (DELERE)
@@ -112,11 +115,12 @@ GP2_INF =
 ## PERFECTUM (deleu-)
 
 GP2_PER =
-	:PFT/GP=2 |
+	:PFT_IND/GP=2 |
 	:PQP_IND :P1_M/GP=2 | :PQP_IND :P_ACT/GP=2 | :PQP_IND :P3_ACT/GP=2 |
 	:FTA <B> :P1_O/GP=2 | :FTA :P_ACT/GP=2 | :FTA :P3_ACT/GP=2 |
 
-	:PQP_SUB :P1_M/GP=2 | :PQP_SUB :P_ACT/GP=2 | :PQP_SUB :P3_ACT/GP=2 ;
+	:PQP_SUB :P1_M/GP=2 | :PQP_SUB :P_ACT/GP=2 | :PQP_SUB :P3_ACT/GP=2 |
+	:PFT_SUB :P1_M/GP=2 | :PFT :P_ACT/GP=2 | :PFT :P3_ACT/GP=2 ;
 
 
 ##SUPINUM (delet-)
@@ -149,11 +153,12 @@ GP3_INF =
 ## PERFECTUM (leg-)
 
 GP3_PER =
-	:PFT/GP=3 |
+	:PFT_IND/GP=3 |
 	:PQP_IND :P1_M/GP=3 | :PQP_IND :P_ACT/GP=3 | :PQP_IND :P3_ACT/GP=3 |
 	:FTA <B> :P1_O/GP=3 | :FTA :P_ACT/GP=3 | :FTA :P3_ACT/GP=3 |
 
-	:PQP_SUB :P1_M/GP=3 | :PQP_SUB :P_ACT/GP=3 | :PQP_SUB :P3_ACT/GP=3 ;
+	:PQP_SUB :P1_M/GP=3 | :PQP_SUB :P_ACT/GP=3 | :PQP_SUB :P3_ACT/GP=3 |
+	:PFT_SUB :P1_M/GP=1 | :PFT :P_ACT/GP=1 | :PFT :P3_ACT/GP=1 ;
 
 
 ##SUPINUM (lect-)
@@ -186,11 +191,12 @@ GP4_INF =
 ## PERFECTUM (cep-)
 
 GP4_PER =
-	:PFT/GP=4 |
+	:PFT_IND/GP=4 |
 	:PQP_IND :P1_M/GP=4 | :PQP_IND :P_ACT/GP=4 | :PQP_IND :P3_ACT/GP=4 |
 	:FTA <B> :P1_O/GP=4 | :FTA :P_ACT/GP=4 | :FTA :P3_ACT/GP=4 |
 
-	:PQP_SUB :P1_M/GP=3 | :PQP_SUB :P_ACT/GP=3 | :PQP_SUB :P3_ACT/GP=3 ;
+	:PQP_SUB :P1_M/GP=3 | :PQP_SUB :P_ACT/GP=3 | :PQP_SUB :P3_ACT/GP=3 |
+	:PFT_SUB :P1_M/GP=1 | :PFT :P_ACT/GP=1 | :PFT :P3_ACT/GP=1 ;
 
 
 ##SUPINUM (delet-)
@@ -223,11 +229,12 @@ GP5_INF =
 ## PERFECTUM (audiu-)
 
 GP5_PER =
-	:PFT/GP=5 |
+	:PFT_IND/GP=5 |
 	:PQP_IND :P1_M/GP=5 | :PQP_IND :P_ACT/GP=5 | :PQP_IND :P3_ACT/GP=5 |
 	:FTA <B> :P1_O/GP=5 | :FTA :P_ACT/GP=5 | :FTA :P3_ACT/GP=5 |
 
-	:PQP_SUB :P1_M/GP=5 | :PQP_SUB :P_ACT/GP=5 | :PQP_SUB :P3_ACT/GP=5 ;
+	:PQP_SUB :P1_M/GP=5 | :PQP_SUB :P_ACT/GP=5 | :PQP_SUB :P3_ACT/GP=5 |
+	:PFT_SUB :P1_M/GP=1 | :PFT :P_ACT/GP=1 | :PFT :P3_ACT/GP=1 ;
 
 
 ##SUPINUM (delet-)
@@ -247,28 +254,29 @@ GP0_INF =
 	<B> :IMPF_IND_GP0 :P1_M/ | <B> :IMPF_IND_GP0 :P_ACT/ | <B> :IMPF_IND_GP0 :P3_ACT/ |
 	<B> :FUT_GP0 <B> :P1_O/ | <B> :FUT_GP0 :P_ACT/ | <B> :FUT_GP0 <B>u P3_ACT/ |
 
-	 :IMPF_SUB_GP0 :P1_M/ | :IMPF_SUB_GP0 :P_ACT/ | :IMPF_SUB_GP0 :P3_ACT/ ;
+	<B2>s :GP_SUB :P1_M/GP=0+VX=act | <B2>s :GP_SUB :P_ACT/GP=0+VX=act | <B2>s :GP_SUB :P3_ACT/GP=0+VX=act | 
+	:IMPF_SUB_GP0 :P1_M/ | :IMPF_SUB_GP0 :P_ACT/ | :IMPF_SUB_GP0 :P3_ACT/ ;
 
 GP0_INF_POSSE =
 	<B3>ssum/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=sg | /GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=sg | t/GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=sg | <B3>ssumus/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | tis/GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl  | <B2>ssu :P3_ACT/GP=0+TP=pres+MOD=ind |
 	<B> :IMPF_IND_GP0 :P1_M/ | <B> :IMPF_IND_GP0 :P_ACT/ | <B> :IMPF_IND_GP0 :P3_ACT/ |
 	<B> :FUT_GP0 <B> :P1_O/ | <B> :FUT_GP0 :P_ACT/ | <B> :FUT_GP0 <B>u P3_ACT/ |
 
+	<B3>ss :GP_SUB :P1_M/GP=0+VX=act | <B3>s :GP_SUB :P_ACT/GP=0+VX=act | <B3>s :GP_SUB :P3_ACT/GP=0+VX=act | 
 	 :IMPF_SUB_GP0 :P1_M/ | :IMPF_SUB_GP0 :P_ACT/ | :IMPF_SUB_GP0 :P3_ACT/ ;
 
 
-SUM_PRES_SG = sum/P=1+NB=sg | es/P=2+NB=sg | est/P=3+NB=sg ;
-SUM_PRES_PL = sumus/P=1+NB=pl | estis/P=2+NB=pl | su :P3_ACT/ ;
+SUM_PRES_SG = sum/GP=0+P=1+NB=sg | es/GP=0+P=2+NB=sg | est/GP=0+P=3+NB=sg ;
+SUM_PRES_PL = sumus/GP=0+P=1+NB=pl | estis/GP=0+P=2+NB=pl | su :P3_ACT/GP=0+ ;
 SUM_IMPF_SG = :IMPF_IND_GP0 :P1_M/ | :IMPF_IND_GP0 s/P=2+NB=sg | <B> :IMPF_IND_GP0 t/P=3+NB=sg ;
 SUM_IMPF_PL = :IMPF_IND_GP0 mus/P=1+NB=pl | :IMPF_IND_GP0 tis/P=2+NB=pl | :IMPF_IND_GP0 :P3_ACT/ ;
 SUM_FUT_SG = :FUT_GP0 <B> :P1_O/ | :FUT_GP0 s/P=2+NB=sg | :FUT_GP0 t/P=3+NB=sg ;
 SUM_FUT_PL = :FUT_GP0 mus/P=1+NB=pl | :FUT_GP0 tis/P=2+NB=pl | :FUT_GP0 <B>u :P3_ACT/ ;
 
-
 ## PERFECTUM (fu-)
 
 GP0_PER =
-	:PFT/GP=0 |
+	:PFT_IND/GP=0 |
 	:PQP_IND :P1_M/GP=0 | :PQP_IND :P_ACT/GP=0 | :PQP_IND :P3_ACT/GP=0 |
 	:FTA <B> :P1_O/GP=0 | :FTA :P_ACT/GP=0 | :FTA :P3_ACT/GP=0 |
 
@@ -344,14 +352,16 @@ FUT_GP0 = ri/TP=fut+MOD=ind+VX=act ;
 
 
 ## PERFECTUM
-### PARFAIT (pft)
-PFT =
+### PARFAIT (pft) INDICATIF & SUBJONCTIF
+PFT_IND =
 	i/TP=pft+MOD=ind+VX=act+P=1+NB=sg |
 	isti/TP=pft+MOD=ind+VX=act+P=2+NB=sg |
 	it/TP=pft+MOD=ind+VX=act+P=3+NB=sg |
 	imus/TP=pft+MOD=ind+VX=act+P=1+NB=pl |
 	istis/TP=pft+MOD=ind+VX=act+P=2+NB=pl |
 	eru :P3_ACT/TP=pft+MOD=ind ;
+
+PFT_SUB = eri/TP=pft+MOD=sub+VX=act ;
 
 ### PLUS-QUE-PARFAIT (pqp) INDICATIF & SUBJONCTIF
 PQP_IND =

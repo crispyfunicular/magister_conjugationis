@@ -25,12 +25,12 @@ amat,amare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=aimer+FLX=GP1_SUP
 # cogitare
 cogit,cogitare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=penser+FLX=GP1_INF
 cogitau,cogitare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER
-,cogitare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP
+cogitat,cogitare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP
 
 # curare
 cur,curare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=soigner+FLX=GP1_INF
 curau,curare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=soigner+FLX=GP1_PER
-,amare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP
+curat,curare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP
 
 # dare
 d,dare,V+GP=1+PRIM=o;as;are;dedi;datum+Theme=INF+TRAD=donner+FLX=GP1_INF
