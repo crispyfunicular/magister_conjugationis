@@ -176,14 +176,14 @@ dux,ducere,V+GP=3+PRIM=o;is;ere;duxi;ductum+Theme=PER+TRAD=conduire;considérer\
 duct,ducere,V+GP=3+PRIM=o;is;ere;duxi;ductum+Theme=SUP+TRAD=conduire;considérer\ comme+FLX=GP3_SUP
 
 #gerere
-ger,gerere,V+GP=3+Theme=INF+TRAD=faire;accomplir+FLX=GP3_INF
-gess,gerere,V+GP=3+Theme=PER+TRAD=faire;accomplir+FLX=GP3_PER
-gerere,V+GP=3+PRIM=o;is;ere;uidi;uisum+Theme=SUP+TRAD=faire;accomplir+FLX=GP3_SUP
+ger,gerere,V+GP=3+PRIM=o;is;ere;uidi;uisum+Theme=INF+TRAD=faire;accomplir+FLX=GP3_INF
+gess,gerere,V+GP=3+PRIM=o;is;ere;uidi;uisum+Theme=PER+TRAD=faire;accomplir+FLX=GP3_PER
+gest,gerere,V+GP=3+PRIM=o;is;ere;uidi;uisum+Theme=SUP+TRAD=faire;accomplir+FLX=GP3_SUP
 
 #intellegere
 intelleg,intellegere,V+GP=3+PRIM=o;is;ere;gessi;gestum+Theme=INF+TRAD=comprendre+FLX=GP3_INF
 intellex,intellegere,V+GP=3+PRIM=o;is;ere;gessi;gestum+Theme=PER+TRAD=comprendre+FLX=GP3_PER
-gest,intellegere,V+GP=3+PRIM=o;is;ere;gessi;gestum+Theme=SUP+TRAD=comprendre+FLX=GP3_SUP
+intellect,intellegere,V+GP=3+PRIM=o;is;ere;gessi;gestum+Theme=SUP+TRAD=comprendre+FLX=GP3_SUP
 
 #mittere
 mitt,mittere,V+GP=3+PRIM=o;is;ere;misi;missum+Theme=INF+TRAD=envoyer+FLX=GP3_INF
@@ -233,8 +233,8 @@ uict,uiuere,V+GP=3+PRIM=o;is;ere;uixi;uictum+Theme=SUP+TRAD=vivre+FLX=GP3_SUP
 
 # GP4 (CAPERE)
 #capere
-cap,capere,V+GP=4+Theme=INF+TRAD=prendre+FLX=GP4_INF
-cep,capere,V+GP=4+Theme=PER+TRAD=prendre+FLX=GP4_PER
+cap,capere,V+GP=4+PRIM=io;is;ere;cepi;captum+Theme=INF+TRAD=prendre+FLX=GP4_INF
+cep,capere,V+GP=4+PRIM=io;is;ere;cepi;captum+Theme=PER+TRAD=prendre+FLX=GP4_PER
 capt,capere,V+GP=4+PRIM=io;is;ere;cepi;captum+Theme=SUP+TRAD=prendre+FLX=GP4_SUP
 
 #accipere
@@ -297,21 +297,21 @@ uent,uenire,V+GP=5+PRIM=io;is;ire;ueni;uentum+Theme=SUP+TRAD=venir+FLX=GP5_SUP
 
 # GP0 (ESSE)
 #esse
-es,esse,V+GP=0+Theme=INF+TRAD=être+FLX=GP0_INF
-fu,esse,V+GP=0+Theme=PER+TRAD=être+FLX=GP0_PER
+es,esse,V+GP=0+PRIM=sum;es;esse;fui+Theme=INF+TRAD=être+FLX=GP0_INF
+fu,esse,V+GP=0+PRIM=sum;es;esse;fui+Theme=PER+TRAD=être+FLX=GP0_PER
 
 #abesse
-abes,abesse,V+GP=0+Theme=INF+TRAD=être\ absent+FLX=GP0_INF
-afu,abesse,V+GP=0+Theme=PER+TRAD=être\ absent+FLX=GP0_PER
+abes,abesse,V+GP=0+PRIM=absum;abes;abesse;afui+Theme=INF+TRAD=être\ absent+FLX=GP0_INF
+afu,abesse,V+GP=0+PRIM=absum;abes;abesse;afui+Theme=PER+TRAD=être\ absent+FLX=GP0_PER
 
 #adesse
-ades,adesse,V+Theme=INF+TRAD=être\ là+FLX=GP0_INF
-adf,adesse,V+Theme=PER+TRAD=être\ là+FLX=GP0_PER
+ades,adesse,V+GP=0+PRIM=adsum;ades;adesse;adfui+Theme=INF+TRAD=être\ là+FLX=GP0_INF
+adfu,adesse,V+GP=0+PRIM=adsum;ades;adesse;adfui+Theme=PER+TRAD=être\ là+FLX=GP0_PER
 
 #posse
-potes,posse,V+GP=0+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE
-potu,posse,V+GP=0+Theme=PER+TRAD=pouvoir+FLX=GP0_PER
+potes,posse,V+GP=0+PRIM=posum;potes;posse;potui+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE
+potu,posse,V+GP=0+PRIM=posum;potes;posse;potui+Theme=PER+TRAD=pouvoir+FLX=GP0_PER
 
 #prodesse
-prodes,prodesse,V+GP=0+Theme=INF+TRAD=être\ utile\ à+FLX=GP0_INF
-prof,prodesse,V+GP=0+Theme=PER+TRAD=être\ utile\ à+FLX=GP0_PER
+prodes,prodesse,V+GP=0+PRIM=prosum;prodes;prodesse;profui+Theme=INF+TRAD=être\ utile+FLX=GP0_INF
+profu,prodesse,V+GP=0+PRIM=prosum;prodes;prodesse;profui+Theme=PER+TRAD=être\ utile+FLX=GP0_PER
