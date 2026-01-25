@@ -48,7 +48,7 @@ def main():
     json_path = "verbs_latin.json"
     print("writing verbs to json file:", json_path)
     with open (json_path, "w", encoding="utf-8") as f:
-        json.dump(verbs_lst, f, indent=2)
+        json.dump(verbs_lst, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
     main()
