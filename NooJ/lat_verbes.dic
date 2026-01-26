@@ -55,7 +55,7 @@ laudat,laudare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=louer;approuver+FLX=
 # narrare
 narr,narrare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=raconter+FLX=GP1_INF
 narrau,narrare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=raconter+FLX=GP1_PER
-laudat,laudare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=raconter+FLX=GP1_SUP
+narrat,narrare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=raconter+FLX=GP1_SUP
 
 # pugnare
 pugn,pugnare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=combattre+FLX=GP1_INF
@@ -117,7 +117,7 @@ mans,manere,V+GP=2+PRIM=eo;es;ere;mansi;mansum+Theme=SUP+TRAD=rester+FLX=GP2_SUP
 #monere
 mon,monere,V+GP=2+PRIM=eo;es;ere;ui;itum+Theme=INF+TRAD=avertir+FLX=GP2_INF
 monu,monere,V+GP=2+PRIM=eo;es;ere;ui;itum+Theme=PER+TRAD=avertir+FLX=GP2_PER
-monit,monere,V+GP=2+PRIM=eo;es;ere;ui;itum+Theme=SUP+TRAD=avertir+FLX=GP1_SUP
+monit,monere,V+GP=2+PRIM=eo;es;ere;ui;itum+Theme=SUP+TRAD=avertir+FLX=GP2_SUP
 
 #mouere
 mou,mouere,V+GP=2+PRIM=eo;es;ere;moui;motum+Theme=INF+TRAD=mouvoir;émouvoir;susciter+FLX=GP2_INF
