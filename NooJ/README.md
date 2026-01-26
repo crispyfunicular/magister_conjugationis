@@ -103,14 +103,19 @@ Le projet couvre déjà tous les groupes verbaux, pour les temps et modes suivan
 #### > PASSIF (pas) : présent (pres) | imparfait (impf) | futur (fut)
 ## SUBJONCTIF (sub)
 #### > ACTIF (act) : présent (pres) | imparfait (impf)
-#### > PASSIF (pas) : présent (pres)
+#### > PASSIF (pas) : présent (pres) | imparfait (impf)
 
 # PERFECTUM (amau-)
 ## INDICATIF (ind)
 #### > ACTIF (act) : parfait (pft) | plus-que-parfait (pqp) | futur antérieur(fta)
 ## SUBJONCTIF (sub)
 #### > ACTIF (act) : parfait (pft) | plus-que-parfait (pqp)
-#### > PASSIF (pas) : parfait (pft)
+
+# SUPINUM (amat-)
+## INDICATIF (ind)
+#### > PASSIF (pas) : parfait (pft) | plus-que-parfait (pqp) | futur antérieur(fta)
+## SUBJONCTIF (sub)
+#### > PASSIF (pas) : parfait (pft) | plus-que-parfait (pqp)
 ```
 
 ### Reste à faire :

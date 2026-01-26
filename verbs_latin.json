@@ -1662,6 +1662,162 @@
     "person": 6
   },
   {
+    "latin": "acceperim",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "acceperis",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "acceperit",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "acceperimus",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "acceperitis",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "acceperint",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
+    "latin": "accepissem",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 1
+  },
+  {
+    "latin": "accepisses",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 2
+  },
+  {
+    "latin": "accepisset",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 3
+  },
+  {
+    "latin": "accepissemus",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 4
+  },
+  {
+    "latin": "accepissetis",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 5
+  },
+  {
+    "latin": "accepissent",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 6
+  },
+  {
     "latin": "accipiam",
     "lemma": "accipere",
     "group": 4,
@@ -1737,6 +1893,84 @@
       "accueillir"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "acciperer",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "accipereris",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "acciperetur",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "acciperemur",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "acciperemini",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "acciperentur",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -3714,6 +3948,90 @@
     "person": 6
   },
   {
+    "latin": "egerim",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "egeris",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "egerit",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "egerimus",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "egeritis",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "egerint",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "egissem",
     "lemma": "agere",
     "group": 3,
@@ -3879,6 +4197,90 @@
       "pousser"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "agerer",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "agereris",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "ageretur",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "ageremur",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "ageremini",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "agerentur",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -6588,6 +6990,84 @@
     "person": 6
   },
   {
+    "latin": "audiuerim",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "audiueris",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "audiuerit",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "audiuerimus",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "audiueritis",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "audiuerint",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "audiuissem",
     "lemma": "audire",
     "group": 5,
@@ -6741,6 +7221,84 @@
       "entendre"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "audirer",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "audireris",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "audiretur",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "audiremur",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "audiremini",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "audirentur",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -8130,6 +8688,78 @@
     "person": 6
   },
   {
+    "latin": "augerer",
+    "lemma": "augere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "augmenter"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "augereris",
+    "lemma": "augere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "augmenter"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "augeretur",
+    "lemma": "augere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "augmenter"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "augeremur",
+    "lemma": "augere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "augmenter"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "augeremini",
+    "lemma": "augere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "augmenter"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "augerentur",
+    "lemma": "augere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "augmenter"
+    ],
+    "tense": "imparfait",
+    "person": 6
+  },
+  {
     "latin": "auctus sim",
     "lemma": "augere",
     "group": 2,
@@ -9282,6 +9912,150 @@
     "person": 6
   },
   {
+    "latin": "ceperim",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "ceperis",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "ceperit",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "ceperimus",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "ceperitis",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "ceperint",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
+    "latin": "cepissem",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 1
+  },
+  {
+    "latin": "cepisses",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 2
+  },
+  {
+    "latin": "cepisset",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 3
+  },
+  {
+    "latin": "cepissemus",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 4
+  },
+  {
+    "latin": "cepissetis",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 5
+  },
+  {
+    "latin": "cepissent",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 6
+  },
+  {
     "latin": "capiam",
     "lemma": "capere",
     "group": 4,
@@ -9351,6 +10125,78 @@
       "prendre"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "caperer",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "capereris",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "caperetur",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "caperemur",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "caperemini",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "caperentur",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "prendre"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -12024,6 +12870,84 @@
     "person": 6
   },
   {
+    "latin": "cognouerim",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "cognoueris",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "cognouerit",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "cognouerimus",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "cognoueritis",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "cognouerint",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "cognouissem",
     "lemma": "cognoscere",
     "group": 3,
@@ -12177,6 +13101,84 @@
       "connaître"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "cognoscerer",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "cognoscereris",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "cognosceretur",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "cognosceremur",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "cognosceremini",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "cognoscerentur",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -13506,6 +14508,90 @@
     "person": 6
   },
   {
+    "latin": "coluerim",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "colueris",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "coluerit",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "coluerimus",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "colueritis",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "coluerint",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "coluissem",
     "lemma": "colere",
     "group": 3,
@@ -13671,6 +14757,90 @@
       "habiter"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "colerer",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "colereris",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "coleretur",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "coleremur",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "coleremini",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "colerentur",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -14862,6 +16032,78 @@
     "person": 6
   },
   {
+    "latin": "crediderim",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "croire"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "credideris",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "croire"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "crediderit",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "croire"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "crediderimus",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "croire"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "credideritis",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "croire"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "crediderint",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "croire"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "credidissem",
     "lemma": "credere",
     "group": 3,
@@ -15003,6 +16245,78 @@
       "croire"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "crederer",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "croire"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "credereris",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "croire"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "crederetur",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "croire"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "crederemur",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "croire"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "crederemini",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "croire"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "crederentur",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "croire"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -16158,6 +17472,150 @@
     "person": 6
   },
   {
+    "latin": "cupiuerim",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "cupiueris",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "cupiuerit",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "cupiuerimus",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "cupiueritis",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "cupiuerint",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
+    "latin": "cupiuissem",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 1
+  },
+  {
+    "latin": "cupiuisses",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 2
+  },
+  {
+    "latin": "cupiuisset",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 3
+  },
+  {
+    "latin": "cupiuissemus",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 4
+  },
+  {
+    "latin": "cupiuissetis",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 5
+  },
+  {
+    "latin": "cupiuissent",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 6
+  },
+  {
     "latin": "cupiam",
     "lemma": "cupere",
     "group": 4,
@@ -16227,6 +17685,78 @@
       "désirer"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "cuperer",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "cupereris",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "cuperetur",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "cuperemur",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "cuperemini",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "cuperentur",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "désirer"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -20478,6 +22008,78 @@
     "person": 6
   },
   {
+    "latin": "deberer",
+    "lemma": "debere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "devoir"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "debereris",
+    "lemma": "debere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "devoir"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "deberetur",
+    "lemma": "debere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "devoir"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "deberemur",
+    "lemma": "debere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "devoir"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "deberemini",
+    "lemma": "debere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "devoir"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "deberentur",
+    "lemma": "debere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "devoir"
+    ],
+    "tense": "imparfait",
+    "person": 6
+  },
+  {
     "latin": "debitus sim",
     "lemma": "debere",
     "group": 2,
@@ -21846,6 +23448,78 @@
     "person": 6
   },
   {
+    "latin": "delerer",
+    "lemma": "delere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "détruire"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "delereris",
+    "lemma": "delere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "détruire"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "deleretur",
+    "lemma": "delere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "détruire"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "deleremur",
+    "lemma": "delere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "détruire"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "deleremini",
+    "lemma": "delere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "détruire"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "delerentur",
+    "lemma": "delere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "détruire"
+    ],
+    "tense": "imparfait",
+    "person": 6
+  },
+  {
     "latin": "deletus sim",
     "lemma": "delere",
     "group": 2,
@@ -22998,6 +24672,78 @@
     "person": 6
   },
   {
+    "latin": "dixerim",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "dire"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "dixeris",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "dire"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "dixerit",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "dire"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "dixerimus",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "dire"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "dixeritis",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "dire"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "dixerint",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "dire"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "dixissem",
     "lemma": "dicere",
     "group": 3,
@@ -23139,6 +24885,78 @@
       "dire"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "dicerer",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "dire"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "dicereris",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "dire"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "diceretur",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "dire"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "diceremur",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "dire"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "diceremini",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "dire"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "dicerentur",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "dire"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -24372,6 +26190,84 @@
     "person": 6
   },
   {
+    "latin": "duxerim",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "duxeris",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "duxerit",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "duxerimus",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "duxeritis",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "duxerint",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "duxissem",
     "lemma": "ducere",
     "group": 3,
@@ -24525,6 +26421,84 @@
       "considérer comme"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "ducerer",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "ducereris",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "duceretur",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "duceremur",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "duceremini",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "ducerentur",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -29466,6 +31440,150 @@
     "person": 6
   },
   {
+    "latin": "fecerim",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "feceris",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "fecerit",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "fecerimus",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "feceritis",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "fecerint",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
+    "latin": "fecissem",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 1
+  },
+  {
+    "latin": "fecisses",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 2
+  },
+  {
+    "latin": "fecisset",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 3
+  },
+  {
+    "latin": "fecissemus",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 4
+  },
+  {
+    "latin": "fecissetis",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 5
+  },
+  {
+    "latin": "fecissent",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 6
+  },
+  {
     "latin": "faciam",
     "lemma": "facere",
     "group": 4,
@@ -29535,6 +31653,78 @@
       "faire"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "facerer",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "facereris",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "faceretur",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "faceremur",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "faceremini",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "facerentur",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -30768,6 +32958,84 @@
     "person": 6
   },
   {
+    "latin": "gesserim",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "gesseris",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "gesserit",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "gesserimus",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "gesseritis",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "gesserint",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "gessissem",
     "lemma": "gerere",
     "group": 3,
@@ -30921,6 +33189,84 @@
       "accomplir"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "gererer",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "gerereris",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "gereretur",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "gereremur",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "gereremini",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "gererentur",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -32310,6 +34656,78 @@
     "person": 6
   },
   {
+    "latin": "haberer",
+    "lemma": "habere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avoir"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "habereris",
+    "lemma": "habere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avoir"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "haberetur",
+    "lemma": "habere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avoir"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "haberemur",
+    "lemma": "habere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avoir"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "haberemini",
+    "lemma": "habere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avoir"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "haberentur",
+    "lemma": "habere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avoir"
+    ],
+    "tense": "imparfait",
+    "person": 6
+  },
+  {
     "latin": "habitus sim",
     "lemma": "habere",
     "group": 2,
@@ -33462,6 +35880,150 @@
     "person": 6
   },
   {
+    "latin": "inceperim",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "inceperis",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "inceperit",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "inceperimus",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "inceperitis",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "inceperint",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
+    "latin": "incepissem",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 1
+  },
+  {
+    "latin": "incepisses",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 2
+  },
+  {
+    "latin": "incepisset",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 3
+  },
+  {
+    "latin": "incepissemus",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 4
+  },
+  {
+    "latin": "incepissetis",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 5
+  },
+  {
+    "latin": "incepissent",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 6
+  },
+  {
     "latin": "incipiam",
     "lemma": "incipere",
     "group": 4,
@@ -33531,6 +36093,78 @@
       "commencer"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "inciperer",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "incipereris",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "inciperetur",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "inciperemur",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "inciperemini",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "inciperentur",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "commencer"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -34686,6 +37320,78 @@
     "person": 6
   },
   {
+    "latin": "intellexerim",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "comprendre"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "intellexeris",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "comprendre"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "intellexerit",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "comprendre"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "intellexerimus",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "comprendre"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "intellexeritis",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "comprendre"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "intellexerint",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "comprendre"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "intellexissem",
     "lemma": "intellegere",
     "group": 3,
@@ -34827,6 +37533,78 @@
       "comprendre"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "intellegerer",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "comprendre"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "intellegereris",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "comprendre"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "intellegeretur",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "comprendre"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "intellegeremur",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "comprendre"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "intellegeremini",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "comprendre"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "intellegerentur",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "comprendre"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -35982,6 +38760,150 @@
     "person": 6
   },
   {
+    "latin": "interfecerim",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "interfeceris",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "interfecerit",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "interfecerimus",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "interfeceritis",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "interfecerint",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
+    "latin": "interfecissem",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 1
+  },
+  {
+    "latin": "interfecisses",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 2
+  },
+  {
+    "latin": "interfecisset",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 3
+  },
+  {
+    "latin": "interfecissemus",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 4
+  },
+  {
+    "latin": "interfecissetis",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 5
+  },
+  {
+    "latin": "interfecissent",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 6
+  },
+  {
     "latin": "interficiam",
     "lemma": "interficere",
     "group": 4,
@@ -36051,6 +38973,78 @@
       "tuer"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "interficerer",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "interficereris",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "interficeretur",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "interficeremur",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "interficeremini",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "interficerentur",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "tuer"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -37206,6 +40200,78 @@
     "person": 6
   },
   {
+    "latin": "inuenerim",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "trouver"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "inueneris",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "trouver"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "inuenerit",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "trouver"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "inuenerimus",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "trouver"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "inueneritis",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "trouver"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "inuenerint",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "trouver"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "inuenissem",
     "lemma": "inuenire",
     "group": 5,
@@ -37347,6 +40413,78 @@
       "trouver"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "inuenirer",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "trouver"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "inuenireris",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "trouver"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "inueniretur",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "trouver"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "inueniremur",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "trouver"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "inueniremini",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "trouver"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "inuenirentur",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "trouver"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -38718,6 +41856,78 @@
     "person": 6
   },
   {
+    "latin": "iuberer",
+    "lemma": "iubere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "ordonner"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "iubereris",
+    "lemma": "iubere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "ordonner"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "iuberetur",
+    "lemma": "iubere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "ordonner"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "iuberemur",
+    "lemma": "iubere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "ordonner"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "iuberemini",
+    "lemma": "iubere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "ordonner"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "iuberentur",
+    "lemma": "iubere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "ordonner"
+    ],
+    "tense": "imparfait",
+    "person": 6
+  },
+  {
     "latin": "iussus sim",
     "lemma": "iubere",
     "group": 2,
@@ -39493,18 +42703,6 @@
     "person": 1
   },
   {
-    "latin": "laudatus ero",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "futur antérieur",
-    "person": 1
-  },
-  {
     "latin": "laudatus eris",
     "lemma": "laudare",
     "group": 1,
@@ -39513,18 +42711,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "futur antérieur",
-    "person": 2
-  },
-  {
-    "latin": "laudatus eris",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "futur antérieur",
     "person": 2
@@ -39543,18 +42729,6 @@
     "person": 3
   },
   {
-    "latin": "laudatus erit",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "futur antérieur",
-    "person": 3
-  },
-  {
     "latin": "laudati erimus",
     "lemma": "laudare",
     "group": 1,
@@ -39563,18 +42737,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "futur antérieur",
-    "person": 4
-  },
-  {
-    "latin": "laudati erimus",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "futur antérieur",
     "person": 4
@@ -39593,18 +42755,6 @@
     "person": 5
   },
   {
-    "latin": "laudati eritis",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "futur antérieur",
-    "person": 5
-  },
-  {
     "latin": "laudati erunt",
     "lemma": "laudare",
     "group": 1,
@@ -39613,18 +42763,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "futur antérieur",
-    "person": 6
-  },
-  {
-    "latin": "laudati erunt",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "futur antérieur",
     "person": 6
@@ -39721,18 +42859,6 @@
     "person": 1
   },
   {
-    "latin": "laudatus sum",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "parfait",
-    "person": 1
-  },
-  {
     "latin": "laudatus es",
     "lemma": "laudare",
     "group": 1,
@@ -39741,18 +42867,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "parfait",
-    "person": 2
-  },
-  {
-    "latin": "laudatus es",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "parfait",
     "person": 2
@@ -39771,18 +42885,6 @@
     "person": 3
   },
   {
-    "latin": "laudatus est",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "parfait",
-    "person": 3
-  },
-  {
     "latin": "laudati sumus",
     "lemma": "laudare",
     "group": 1,
@@ -39791,18 +42893,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "parfait",
-    "person": 4
-  },
-  {
-    "latin": "laudati sumus",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "parfait",
     "person": 4
@@ -39821,18 +42911,6 @@
     "person": 5
   },
   {
-    "latin": "laudati estis",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "parfait",
-    "person": 5
-  },
-  {
     "latin": "laudati sunt",
     "lemma": "laudare",
     "group": 1,
@@ -39841,18 +42919,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "parfait",
-    "person": 6
-  },
-  {
-    "latin": "laudati sunt",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "parfait",
     "person": 6
@@ -39871,18 +42937,6 @@
     "person": 1
   },
   {
-    "latin": "laudatus eram",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "plus-que-parfait",
-    "person": 1
-  },
-  {
     "latin": "laudatus eras",
     "lemma": "laudare",
     "group": 1,
@@ -39891,18 +42945,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "plus-que-parfait",
-    "person": 2
-  },
-  {
-    "latin": "laudatus eras",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "plus-que-parfait",
     "person": 2
@@ -39921,18 +42963,6 @@
     "person": 3
   },
   {
-    "latin": "laudatus erat",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "plus-que-parfait",
-    "person": 3
-  },
-  {
     "latin": "laudati eramus",
     "lemma": "laudare",
     "group": 1,
@@ -39941,18 +42971,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "plus-que-parfait",
-    "person": 4
-  },
-  {
-    "latin": "laudati eramus",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "plus-que-parfait",
     "person": 4
@@ -39971,18 +42989,6 @@
     "person": 5
   },
   {
-    "latin": "laudati eratis",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "plus-que-parfait",
-    "person": 5
-  },
-  {
     "latin": "laudati erant",
     "lemma": "laudare",
     "group": 1,
@@ -39991,18 +42997,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "plus-que-parfait",
-    "person": 6
-  },
-  {
-    "latin": "laudati erant",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "indicatif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "plus-que-parfait",
     "person": 6
@@ -40489,18 +43483,6 @@
     "person": 1
   },
   {
-    "latin": "laudatus sim",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "subjonctif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "parfait",
-    "person": 1
-  },
-  {
     "latin": "laudatus sis",
     "lemma": "laudare",
     "group": 1,
@@ -40509,18 +43491,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "parfait",
-    "person": 2
-  },
-  {
-    "latin": "laudatus sis",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "subjonctif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "parfait",
     "person": 2
@@ -40539,18 +43509,6 @@
     "person": 3
   },
   {
-    "latin": "laudatus sit",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "subjonctif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "parfait",
-    "person": 3
-  },
-  {
     "latin": "laudati simus",
     "lemma": "laudare",
     "group": 1,
@@ -40559,18 +43517,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "parfait",
-    "person": 4
-  },
-  {
-    "latin": "laudati simus",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "subjonctif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "parfait",
     "person": 4
@@ -40589,18 +43535,6 @@
     "person": 5
   },
   {
-    "latin": "laudati sitis",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "subjonctif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "parfait",
-    "person": 5
-  },
-  {
     "latin": "laudati sint",
     "lemma": "laudare",
     "group": 1,
@@ -40609,18 +43543,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "parfait",
-    "person": 6
-  },
-  {
-    "latin": "laudati sint",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "subjonctif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "parfait",
     "person": 6
@@ -40639,18 +43561,6 @@
     "person": 1
   },
   {
-    "latin": "laudatus essem",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "subjonctif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "plus-que-parfait",
-    "person": 1
-  },
-  {
     "latin": "laudatus esses",
     "lemma": "laudare",
     "group": 1,
@@ -40659,18 +43569,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "plus-que-parfait",
-    "person": 2
-  },
-  {
-    "latin": "laudatus esses",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "subjonctif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "plus-que-parfait",
     "person": 2
@@ -40689,18 +43587,6 @@
     "person": 3
   },
   {
-    "latin": "laudatus esset",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "subjonctif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "plus-que-parfait",
-    "person": 3
-  },
-  {
     "latin": "laudati essemus",
     "lemma": "laudare",
     "group": 1,
@@ -40709,18 +43595,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "plus-que-parfait",
-    "person": 4
-  },
-  {
-    "latin": "laudati essemus",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "subjonctif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "plus-que-parfait",
     "person": 4
@@ -40739,18 +43613,6 @@
     "person": 5
   },
   {
-    "latin": "laudati essetis",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "subjonctif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
-    ],
-    "tense": "plus-que-parfait",
-    "person": 5
-  },
-  {
     "latin": "laudati essent",
     "lemma": "laudare",
     "group": 1,
@@ -40759,18 +43621,6 @@
     "translation": [
       "louer",
       "approuver"
-    ],
-    "tense": "plus-que-parfait",
-    "person": 6
-  },
-  {
-    "latin": "laudati essent",
-    "lemma": "laudare",
-    "group": 1,
-    "mood": "subjonctif",
-    "voice": "passif",
-    "translation": [
-      "raconter"
     ],
     "tense": "plus-que-parfait",
     "person": 6
@@ -41910,6 +44760,90 @@
     "person": 6
   },
   {
+    "latin": "legerim",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "legeris",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "legerit",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "legerimus",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "legeritis",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "legerint",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "legissem",
     "lemma": "legere",
     "group": 3,
@@ -42075,6 +45009,90 @@
       "choisir"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "legerer",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "legereris",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "legeretur",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "legeremur",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "legeremini",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "legerentur",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -43458,6 +46476,78 @@
     "person": 6
   },
   {
+    "latin": "manerer",
+    "lemma": "manere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "rester"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "manereris",
+    "lemma": "manere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "rester"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "maneretur",
+    "lemma": "manere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "rester"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "maneremur",
+    "lemma": "manere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "rester"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "maneremini",
+    "lemma": "manere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "rester"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "manerentur",
+    "lemma": "manere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "rester"
+    ],
+    "tense": "imparfait",
+    "person": 6
+  },
+  {
     "latin": "mansus sim",
     "lemma": "manere",
     "group": 2,
@@ -44610,6 +47700,78 @@
     "person": 6
   },
   {
+    "latin": "miserim",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "envoyer"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "miseris",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "envoyer"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "miserit",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "envoyer"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "miserimus",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "envoyer"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "miseritis",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "envoyer"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "miserint",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "envoyer"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "misissem",
     "lemma": "mittere",
     "group": 3,
@@ -44751,6 +47913,78 @@
       "envoyer"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "mitterer",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "envoyer"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "mittereris",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "envoyer"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "mitteretur",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "envoyer"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "mitteremur",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "envoyer"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "mitteremini",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "envoyer"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "mitterentur",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "envoyer"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -45474,6 +48708,78 @@
     "person": 6
   },
   {
+    "latin": "monitus ero",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "futur antérieur",
+    "person": 1
+  },
+  {
+    "latin": "monitus eris",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "futur antérieur",
+    "person": 2
+  },
+  {
+    "latin": "monitus erit",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "futur antérieur",
+    "person": 3
+  },
+  {
+    "latin": "moniti erimus",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "futur antérieur",
+    "person": 4
+  },
+  {
+    "latin": "moniti eritis",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "futur antérieur",
+    "person": 5
+  },
+  {
+    "latin": "moniti erunt",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "futur antérieur",
+    "person": 6
+  },
+  {
     "latin": "monebar",
     "lemma": "monere",
     "group": 2,
@@ -45543,6 +48849,150 @@
       "avertir"
     ],
     "tense": "imparfait",
+    "person": 6
+  },
+  {
+    "latin": "monitus sum",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "monitus es",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "monitus est",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "moniti sumus",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "moniti estis",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "moniti sunt",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
+    "latin": "monitus eram",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 1
+  },
+  {
+    "latin": "monitus eras",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 2
+  },
+  {
+    "latin": "monitus erat",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 3
+  },
+  {
+    "latin": "moniti eramus",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 4
+  },
+  {
+    "latin": "moniti eratis",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 5
+  },
+  {
+    "latin": "moniti erant",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "plus-que-parfait",
     "person": 6
   },
   {
@@ -45903,6 +49353,222 @@
       "avertir"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "monerer",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "monereris",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "moneretur",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "moneremur",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "moneremini",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "monerentur",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "imparfait",
+    "person": 6
+  },
+  {
+    "latin": "monitus sim",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "monitus sis",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "monitus sit",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "moniti simus",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "moniti sitis",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "moniti sint",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
+    "latin": "monitus essem",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 1
+  },
+  {
+    "latin": "monitus esses",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 2
+  },
+  {
+    "latin": "monitus esset",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 3
+  },
+  {
+    "latin": "moniti essemus",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 4
+  },
+  {
+    "latin": "moniti essetis",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 5
+  },
+  {
+    "latin": "moniti essent",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "tense": "plus-que-parfait",
     "person": 6
   },
   {
@@ -47322,6 +50988,90 @@
     "person": 6
   },
   {
+    "latin": "mouerer",
+    "lemma": "mouere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "mouvoir",
+      "émouvoir",
+      "susciter"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "mouereris",
+    "lemma": "mouere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "mouvoir",
+      "émouvoir",
+      "susciter"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "moueretur",
+    "lemma": "mouere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "mouvoir",
+      "émouvoir",
+      "susciter"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "moueremur",
+    "lemma": "mouere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "mouvoir",
+      "émouvoir",
+      "susciter"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "moueremini",
+    "lemma": "mouere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "mouvoir",
+      "émouvoir",
+      "susciter"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "mouerentur",
+    "lemma": "mouere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "mouvoir",
+      "émouvoir",
+      "susciter"
+    ],
+    "tense": "imparfait",
+    "person": 6
+  },
+  {
     "latin": "motus sim",
     "lemma": "mouere",
     "group": 2,
@@ -48078,6 +51828,78 @@
     "person": 6
   },
   {
+    "latin": "narratus ero",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "futur antérieur",
+    "person": 1
+  },
+  {
+    "latin": "narratus eris",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "futur antérieur",
+    "person": 2
+  },
+  {
+    "latin": "narratus erit",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "futur antérieur",
+    "person": 3
+  },
+  {
+    "latin": "narrati erimus",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "futur antérieur",
+    "person": 4
+  },
+  {
+    "latin": "narrati eritis",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "futur antérieur",
+    "person": 5
+  },
+  {
+    "latin": "narrati erunt",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "futur antérieur",
+    "person": 6
+  },
+  {
     "latin": "narrabar",
     "lemma": "narrare",
     "group": 1,
@@ -48147,6 +51969,150 @@
       "raconter"
     ],
     "tense": "imparfait",
+    "person": 6
+  },
+  {
+    "latin": "narratus sum",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "narratus es",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "narratus est",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "narrati sumus",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "narrati estis",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "narrati sunt",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
+    "latin": "narratus eram",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 1
+  },
+  {
+    "latin": "narratus eras",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 2
+  },
+  {
+    "latin": "narratus erat",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 3
+  },
+  {
+    "latin": "narrati eramus",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 4
+  },
+  {
+    "latin": "narrati eratis",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 5
+  },
+  {
+    "latin": "narrati erant",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "indicatif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "plus-que-parfait",
     "person": 6
   },
   {
@@ -48579,6 +52545,150 @@
       "raconter"
     ],
     "tense": "imparfait",
+    "person": 6
+  },
+  {
+    "latin": "narratus sim",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "narratus sis",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "narratus sit",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "narrati simus",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "narrati sitis",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "narrati sint",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
+    "latin": "narratus essem",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 1
+  },
+  {
+    "latin": "narratus esses",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 2
+  },
+  {
+    "latin": "narratus esset",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 3
+  },
+  {
+    "latin": "narrati essemus",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 4
+  },
+  {
+    "latin": "narrati essetis",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 5
+  },
+  {
+    "latin": "narrati essent",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "tense": "plus-que-parfait",
     "person": 6
   },
   {
@@ -49668,6 +53778,84 @@
     "person": 6
   },
   {
+    "latin": "occiderim",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "occideris",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "occiderit",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "occiderimus",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "occideritis",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "occiderint",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "occidissem",
     "lemma": "occidere",
     "group": 3,
@@ -49821,6 +54009,84 @@
       "tomber"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "occiderer",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "occidereris",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "occideretur",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "occideremur",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "occideremini",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "occiderentur",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -51072,6 +55338,84 @@
     "person": 6
   },
   {
+    "latin": "pepulerim",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "pepuleris",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "pepulerit",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "pepulerimus",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "pepuleritis",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "pepulerint",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "pepulissem",
     "lemma": "pellere",
     "group": 3,
@@ -51225,6 +55569,84 @@
       "chasser"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "pellerer",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "pellereris",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "pelleretur",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "pelleremur",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "pelleremini",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "pellerentur",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -53355,6 +57777,84 @@
       "offrir"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "praeberer",
+    "lemma": "praebere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "présenter",
+      "offrir"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "praebereris",
+    "lemma": "praebere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "présenter",
+      "offrir"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "praeberetur",
+    "lemma": "praebere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "présenter",
+      "offrir"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "praeberemur",
+    "lemma": "praebere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "présenter",
+      "offrir"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "praeberemini",
+    "lemma": "praebere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "présenter",
+      "offrir"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "praeberentur",
+    "lemma": "praebere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "présenter",
+      "offrir"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -58134,6 +62634,162 @@
     "person": 6
   },
   {
+    "latin": "rapuerim",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "rapueris",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "rapuerit",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "rapuerimus",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "rapueritis",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "rapuerint",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
+    "latin": "rapuissem",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 1
+  },
+  {
+    "latin": "rapuisses",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 2
+  },
+  {
+    "latin": "rapuisset",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 3
+  },
+  {
+    "latin": "rapuissemus",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 4
+  },
+  {
+    "latin": "rapuissetis",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 5
+  },
+  {
+    "latin": "rapuissent",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "plus-que-parfait",
+    "person": 6
+  },
+  {
     "latin": "rapiam",
     "lemma": "rapere",
     "group": 4,
@@ -58209,6 +62865,84 @@
       "ravir"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "raperer",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "rapereris",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "raperetur",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "raperemur",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "raperemini",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "raperentur",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -59460,6 +64194,84 @@
     "person": 6
   },
   {
+    "latin": "reliquerim",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "reliqueris",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "reliquerit",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "reliquerimus",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "reliqueritis",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "reliquerint",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "reliquissem",
     "lemma": "relinquere",
     "group": 3,
@@ -59613,6 +64425,84 @@
       "tomber"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "relinquerer",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "relinquereris",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "relinqueretur",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "relinqueremur",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "relinqueremini",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "relinquerentur",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -62226,6 +67116,78 @@
     "person": 6
   },
   {
+    "latin": "sciuerim",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "savoir"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "sciueris",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "savoir"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "sciuerit",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "savoir"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "sciuerimus",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "savoir"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "sciueritis",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "savoir"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "sciuerint",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "savoir"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "sciuissem",
     "lemma": "scire",
     "group": 5,
@@ -62367,6 +67329,78 @@
       "savoir"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "scirer",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "savoir"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "scireris",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "savoir"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "sciretur",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "savoir"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "sciremur",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "savoir"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "sciremini",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "savoir"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "scirentur",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "savoir"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -63522,6 +68556,78 @@
     "person": 6
   },
   {
+    "latin": "scripserim",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "écrire"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "scripseris",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "écrire"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "scripserit",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "écrire"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "scripserimus",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "écrire"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "scripseritis",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "écrire"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "scripserint",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "écrire"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "scripsissem",
     "lemma": "scribere",
     "group": 3,
@@ -63663,6 +68769,78 @@
       "écrire"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "scriberer",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "écrire"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "scribereris",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "écrire"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "scriberetur",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "écrire"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "scriberemur",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "écrire"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "scriberemini",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "écrire"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "scriberentur",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "écrire"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -64974,6 +70152,90 @@
     "person": 6
   },
   {
+    "latin": "senserim",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "senseris",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "senserit",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "senserimus",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "senseritis",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "senserint",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "sensissem",
     "lemma": "sentire",
     "group": 5,
@@ -65139,6 +70401,90 @@
       "juger"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "sentirer",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "sentireris",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "sentiretur",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "sentiremur",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "sentiremini",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "sentirentur",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -67848,6 +73194,84 @@
     "person": 6
   },
   {
+    "latin": "statuerim",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "statueris",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "statuerit",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "statuerimus",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "statueritis",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "statuerint",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "statuissem",
     "lemma": "statuere",
     "group": 3,
@@ -68001,6 +73425,84 @@
       "déterminer"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "statuerer",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "statuereris",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "statueretur",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "statueremur",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "statueremini",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "statuerentur",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -69174,6 +74676,78 @@
     "person": 6
   },
   {
+    "latin": "timerer",
+    "lemma": "timere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "craindre"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "timereris",
+    "lemma": "timere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "craindre"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "timeretur",
+    "lemma": "timere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "craindre"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "timeremur",
+    "lemma": "timere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "craindre"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "timeremini",
+    "lemma": "timere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "craindre"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "timerentur",
+    "lemma": "timere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "craindre"
+    ],
+    "tense": "imparfait",
+    "person": 6
+  },
+  {
     "latin": "timear",
     "lemma": "timere",
     "group": 2,
@@ -70242,6 +75816,84 @@
     "person": 6
   },
   {
+    "latin": "tradiderim",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "tradideris",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "tradiderit",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "tradiderimus",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "tradideritis",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "tradiderint",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "tradidissem",
     "lemma": "tradere",
     "group": 3,
@@ -70395,6 +76047,84 @@
       "raconter"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "traderer",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "tradereris",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "traderetur",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "traderemur",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "traderemini",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "traderentur",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -71556,6 +77286,78 @@
     "person": 6
   },
   {
+    "latin": "uenerim",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "venir"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "ueneris",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "venir"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "uenerit",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "venir"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "uenerimus",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "venir"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "ueneritis",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "venir"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "uenerint",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "venir"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "uenissem",
     "lemma": "uenire",
     "group": 5,
@@ -71697,6 +77499,78 @@
       "venir"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "uenirer",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "venir"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "uenireris",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "venir"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "ueniretur",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "venir"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "ueniremur",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "venir"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "ueniremini",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "venir"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "uenirentur",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "venir"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -73068,6 +78942,78 @@
     "person": 6
   },
   {
+    "latin": "uiderer",
+    "lemma": "uidere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "voir"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "uidereris",
+    "lemma": "uidere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "voir"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "uideretur",
+    "lemma": "uidere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "voir"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "uideremur",
+    "lemma": "uidere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "voir"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "uideremini",
+    "lemma": "uidere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "voir"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "uiderentur",
+    "lemma": "uidere",
+    "group": 2,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "voir"
+    ],
+    "tense": "imparfait",
+    "person": 6
+  },
+  {
     "latin": "uisus sim",
     "lemma": "uidere",
     "group": 2,
@@ -74220,6 +80166,78 @@
     "person": 6
   },
   {
+    "latin": "uicerim",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "vaincre"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "uiceris",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "vaincre"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "uicerit",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "vaincre"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "uicerimus",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "vaincre"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "uiceritis",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "vaincre"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "uicerint",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "vaincre"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "uicissem",
     "lemma": "uincere",
     "group": 3,
@@ -74361,6 +80379,78 @@
       "vaincre"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "uincerer",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "vaincre"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "uincereris",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "vaincre"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "uinceretur",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "vaincre"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "uinceremur",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "vaincre"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "uinceremini",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "vaincre"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "uincerentur",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "vaincre"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
@@ -75516,6 +81606,78 @@
     "person": 6
   },
   {
+    "latin": "uixerim",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "vivre"
+    ],
+    "tense": "parfait",
+    "person": 1
+  },
+  {
+    "latin": "uixeris",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "vivre"
+    ],
+    "tense": "parfait",
+    "person": 2
+  },
+  {
+    "latin": "uixerit",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "vivre"
+    ],
+    "tense": "parfait",
+    "person": 3
+  },
+  {
+    "latin": "uixerimus",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "vivre"
+    ],
+    "tense": "parfait",
+    "person": 4
+  },
+  {
+    "latin": "uixeritis",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "vivre"
+    ],
+    "tense": "parfait",
+    "person": 5
+  },
+  {
+    "latin": "uixerint",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "actif",
+    "translation": [
+      "vivre"
+    ],
+    "tense": "parfait",
+    "person": 6
+  },
+  {
     "latin": "uixissem",
     "lemma": "uiuere",
     "group": 3,
@@ -75657,6 +81819,78 @@
       "vivre"
     ],
     "tense": "présent",
+    "person": 6
+  },
+  {
+    "latin": "uiuerer",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "vivre"
+    ],
+    "tense": "imparfait",
+    "person": 1
+  },
+  {
+    "latin": "uiuereris",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "vivre"
+    ],
+    "tense": "imparfait",
+    "person": 2
+  },
+  {
+    "latin": "uiueretur",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "vivre"
+    ],
+    "tense": "imparfait",
+    "person": 3
+  },
+  {
+    "latin": "uiueremur",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "vivre"
+    ],
+    "tense": "imparfait",
+    "person": 4
+  },
+  {
+    "latin": "uiueremini",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "vivre"
+    ],
+    "tense": "imparfait",
+    "person": 5
+  },
+  {
+    "latin": "uiuerentur",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "subjonctif",
+    "voice": "passif",
+    "translation": [
+      "vivre"
+    ],
+    "tense": "imparfait",
     "person": 6
   },
   {
