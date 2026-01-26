@@ -46,14 +46,19 @@
 #### > PASSIF (pas) : l.4 présent (pres) | l.5 imparfait (impf) | l.6 futur (fut)
 ## SUBJONCTIF (sub)
 #### > ACTIF (act) : l.7 présent (pres) | l.8 imparfait (impf)
-#### > PASSIF (pas) : l.9 présent (pres)
+#### > PASSIF (pas) : l.9 présent (pres) | l.10 imparfait (impf)
 
 # PERFECTUM (amau-)
 ## INDICATIF (ind)
-#### > ACTIF (act) : l.10 parfait (pft) | l.11 plus-que-parfait (pqp) | l.12 futur antérieur(fta)
+#### > ACTIF (act) : l.11 parfait (pft) | l.12 plus-que-parfait (pqp) | l.13 futur antérieur(fta)
 ## SUBJONCTIF (sub)
-#### > ACTIF (act) : l.13 parfait (pft) | l.14 plus-que-parfait (pqp)
-#### > PASSIF (pas) : l.15 parfait (pft)
+#### > ACTIF (act) : l.14 parfait (pft) | l.15 plus-que-parfait (pqp)
+
+# SUPINUM (amat-)
+## INDICATIF (ind)
+#### > PASSIF (pas) : l.16 parfait (pft) | l.17 plus-que-parfait (pqp) | l.18 futur antérieur(fta)
+## SUBJONCTIF (sub)
+#### > PASSIF (pas) : l.19 parfait (pft) | l.20 plus-que-parfait (pqp)
 
 
 # GP1 (AMARE)
@@ -64,14 +69,15 @@ GP1_INF =
 	:GP1_A :IMPF_IND :P1_M/ | :GP1_A :IMPF_IND :P_ACT/ | :GP1_A :IMPF_IND :P3_ACT/ |
 	:GP1_A :FUT_GP1-2 <B> :P1_O/ | :GP1_A :FUT_GP1-2 :P_ACT/ | :GP1_A :FUT_GP1-2 <B>u :P3_ACT/ |
 
-	:P1_OR/GP=1+TP=pres+MOD=ind | :GP1_A :P_PAS/TP=pres+MOD=ind |
+	:P1_OR/GP=1+TP=pres+MOD=ind | :GP1_A :P_PAS/TP=pres+MOD=ind | :GP1_A :P3_PAS/TP=pres+MOD=ind |
 	:GP1_A :IMPF_IND :P1_OR <L><B>/ | :GP1_A :IMPF_IND :P_PAS/ | :GP1_A :IMPF_IND :P3_PAS/ |
 	:GP1_A :FUT_GP1-2 <B> :P1_OR/ | :GP1_A :FUT_GP1-2 <B>eris/VX=pas+P=2+NB=sg | :GP1_A :FUT_GP1-2 :P_PAS/ | :GP1_A :FUT_GP1-2 <B>u :P3_PAS/ |
 
 	:GP_SUB :P1_M/ | :GP_SUB :P_ACT/ | :GP_SUB :P3_ACT/ |
 	:GP1_A :IMPF_SUB :P1_M/ | :GP1_A :IMPF_SUB :P_ACT/ | :GP1_A :IMPF_SUB :P3_ACT/ |
 
-	:GP_SUB :P1_OR <L><B>/ | :GP_SUB :P_PAS/ | :GP_SUB :P3_PAS/ ;
+	:GP_SUB :P1_OR <L><B>/ | :GP_SUB :P_PAS/ | :GP_SUB :P3_PAS/ |
+	:GP1_A :IMPF_SUB :P1_OR <L><B>/ | :GP1_A :IMPF_SUB :P_PAS/ | :GP1_A :IMPF_SUB :P3_PAS/ ;
 
 
 ## PERFECTUM (amau-)
@@ -88,9 +94,12 @@ GP1_PER =
 ##SUPINUM (amat-)
 
 GP1_SUP =
-	:PPP_SG " " :SUM_PRES_SG/GP=1+TP=pft | :PPP_PL " " :SUM_PRES_PL/GP=1+TP=pft |
-	:PPP_SG " " :SUM_IMPF_SG/GP=1+TP=pqp | :PPP_PL " " :SUM_IMPF_PL/GP=1+TP=pqp |
-	:PPP_SG " " :SUM_FUT_SG/GP=1+TP=fta | :PPP_PL " " :SUM_FUT_PL/GP=1+TP=fta ;
+	:PPP_SG " " :ESSE_PRES_SG/GP=1+VX=pas+MOD=ind+TP=pft | :PPP_PL " " :ESSE_PRES_PL/GP=1+VX=pas+MOD=ind+TP=pft |
+	:PPP_SG " " :ESSE_IMPF :P_SUP_SG/GP=1+VX=pas+MOD=ind+TP=pqp | :PPP_PL " " :ESSE_IMPF :P_SUP_PL/GP=1+VX=pas+MOD=ind+TP=pqp |
+	:PPP_SG " " :ESSE_FUT_SG/GP=1+VX=pas+MOD=ind+TP=fta | :PPP_PL " " :ESSE_FUT_PL/GP=1+VX=pas+MOD=ind+TP=fta |
+
+	:PPP_SG " " :ESSE_SUB :P_SUP_SG/GP=1+VX=pas+MOD=sub+TP=pft | :PPP_PL " " :ESSE_SUB :P_SUP_PL/GP=1+VX=pas+MOD=sub+TP=pft |
+	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=1+VX=pas+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=1+VX=pas+MOD=sub+TP=pqp ;
 
 
 
@@ -126,9 +135,12 @@ GP2_PER =
 ##SUPINUM (delet-)
 
 GP2_SUP =
-	:PPP_SG " " :SUM_PRES_SG/GP=2+TP=pft | :PPP_PL " " :SUM_PRES_PL/GP=2+TP=pft |
-	:PPP_SG " " :SUM_IMPF_SG/GP=2+TP=pqp | :PPP_PL " " :SUM_IMPF_PL/GP=2+TP=pqp |
-	:PPP_SG " " :SUM_FUT_SG/GP=2+TP=fta | :PPP_PL " " :SUM_FUT_PL/GP=2+TP=fta ;
+	:PPP_SG " " :ESSE_PRES_SG/GP=2+VX=pas+MOD=ind+TP=pft | :PPP_PL " " :ESSE_PRES_PL/GP=2+VX=pas+MOD=ind+TP=pft |
+	:PPP_SG " " :ESSE_IMPF :P_SUP_SG/GP=2+VX=pas+MOD=ind+TP=pqp | :PPP_PL " " :ESSE_IMPF :P_SUP_PL/GP=2+VX=pas+MOD=ind+TP=pqp |
+	:PPP_SG " " :ESSE_FUT_SG/GP=2+VX=pas+MOD=ind+TP=fta | :PPP_PL " " :ESSE_FUT_PL/GP=2+VX=pas+MOD=ind+TP=fta |
+
+	:PPP_SG " " :ESSE_SUB :P_SUP_SG/GP=2+VX=pas+MOD=sub+TP=pft | :PPP_PL " " :ESSE_SUB :P_SUP_PL/GP=2+VX=pas+MOD=sub+TP=pft |
+	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=2+VX=pas+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=2+VX=pas+MOD=sub+TP=pqp ;
 
 
 
@@ -164,9 +176,13 @@ GP3_PER =
 ##SUPINUM (lect-)
 
 GP3_SUP =
-	:PPP_SG " " :SUM_PRES_SG/GP=3+TP=pft | :PPP_PL " " :SUM_PRES_PL/GP=3+TP=pft |
-	:PPP_SG " " :SUM_IMPF_SG/GP=3+TP=pqp | :PPP_PL " " :SUM_IMPF_PL/GP=3+TP=pqp |
-	:PPP_SG " " :SUM_FUT_SG/GP=3+TP=fta | :PPP_PL " " :SUM_FUT_PL/GP=3+TP=fta ;
+	:PPP_SG " " :ESSE_PRES_SG/GP=3+VX=pas+MOD=ind+TP=pft | :PPP_PL " " :ESSE_PRES_PL/GP=3+VX=pas+MOD=ind+TP=pft |
+	:PPP_SG " " :ESSE_IMPF :P_SUP_SG/GP=3+VX=pas+MOD=ind+TP=pqp | :PPP_PL " " :ESSE_IMPF :P_SUP_PL/GP=3+VX=pas+MOD=ind+TP=pqp |
+	:PPP_SG " " :ESSE_FUT_SG/GP=3+VX=pas+MOD=ind+TP=fta | :PPP_PL " " :ESSE_FUT_PL/GP=3+VX=pas+MOD=ind+TP=fta |
+
+	:PPP_SG " " :ESSE_SUB :P_SUP_SG/GP=3+VX=pas+MOD=sub+TP=pft | :PPP_PL " " :ESSE_SUB :P_SUP_PL/GP=3+VX=pas+MOD=sub+TP=pft |
+	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=3+VX=pas+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=3+VX=pas+MOD=sub+TP=pqp ;
+
 
 
 
@@ -202,9 +218,13 @@ GP4_PER =
 ##SUPINUM (delet-)
 
 GP4_SUP =
-	:PPP_SG " " :SUM_PRES_SG/GP=4+TP=pft | :PPP_PL " " :SUM_PRES_PL/GP=4+TP=pft |
-	:PPP_SG " " :SUM_IMPF_SG/GP=4+TP=pqp | :PPP_PL " " :SUM_IMPF_PL/GP=4+TP=pqp |
-	:PPP_SG " " :SUM_FUT_SG/GP=4+TP=fta | :PPP_PL " " :SUM_FUT_PL/GP=4+TP=fta ;
+	:PPP_SG " " :ESSE_PRES_SG/GP=4+VX=pas+MOD=ind+TP=pft | :PPP_PL " " :ESSE_PRES_PL/GP=4+VX=pas+MOD=ind+TP=pft |
+	:PPP_SG " " :ESSE_IMPF :P_SUP_SG/GP=4+VX=pas+MOD=ind+TP=pqp | :PPP_PL " " :ESSE_IMPF :P_SUP_PL/GP=4+VX=pas+MOD=ind+TP=pqp |
+	:PPP_SG " " :ESSE_FUT_SG/GP=4+VX=pas+MOD=ind+TP=fta | :PPP_PL " " :ESSE_FUT_PL/GP=4+VX=pas+MOD=ind+TP=fta |
+
+	:PPP_SG " " :ESSE_SUB :P_SUP_SG/GP=4+VX=pas+MOD=sub+TP=pft | :PPP_PL " " :ESSE_SUB :P_SUP_PL/GP=4+VX=pas+MOD=sub+TP=pft |
+	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=4+VX=pas+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=4+VX=pas+MOD=sub+TP=pqp ;
+
 
 
 
@@ -240,9 +260,13 @@ GP5_PER =
 ##SUPINUM (delet-)
 
 GP5_SUP =
-	:PPP_SG " " :SUM_PRES_SG/GP=5+TP=pft | :PPP_PL " " :SUM_PRES_PL/GP=5+TP=pft |
-	:PPP_SG " " :SUM_IMPF_SG/GP=5+TP=pqp | :PPP_PL " " :SUM_IMPF_PL/GP=5+TP=pqp |
-	:PPP_SG " " :SUM_FUT_SG/GP=5+TP=fta | :PPP_PL " " :SUM_FUT_PL/GP=5+TP=fta ;
+	:PPP_SG " " :ESSE_PRES_SG/GP=5+VX=pas+MOD=ind+TP=pft | :PPP_PL " " :ESSE_PRES_PL/GP=5+VX=pas+MOD=ind+TP=pft |
+	:PPP_SG " " :ESSE_IMPF :P_SUP_SG/GP=5+VX=pas+MOD=ind+TP=pqp | :PPP_PL " " :ESSE_IMPF :P_SUP_PL/GP=5+VX=pas+MOD=ind+TP=pqp |
+	:PPP_SG " " :ESSE_FUT_SG/GP=5+VX=pas+MOD=ind+TP=fta | :PPP_PL " " :ESSE_FUT_PL/GP=5+VX=pas+MOD=ind+TP=fta |
+
+	:PPP_SG " " :ESSE_SUB :P_SUP_SG/GP=5+VX=pas+MOD=sub+TP=pft | :PPP_PL " " :ESSE_SUB :P_SUP_PL/GP=5+VX=pas+MOD=sub+TP=pft |
+	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=5+VX=pas+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=5+VX=pas+MOD=sub+TP=pqp ;
+
 
 
 
@@ -250,7 +274,7 @@ GP5_SUP =
 ## INFECTUM (es-)
 
 GP0_INF =
-	<B2>sum/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=sg | /GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl | t/GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=pl | <B2>sumus/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | tis/GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl  | <B2>su :P3_ACT/GP=0+TP=pres+MOD=ind |
+	<B2>su :P1_M/GP=0+TP=pres+MOD=ind+VX=act| /GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl | t/GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=pl | <B2>sumus/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | tis/GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl  | <B2>su :P3_ACT/GP=0+TP=pres+MOD=ind |
 	<B> :IMPF_IND_GP0 :P1_M/ | <B> :IMPF_IND_GP0 :P_ACT/ | <B> :IMPF_IND_GP0 :P3_ACT/ |
 	<B> :FUT_GP0 <B> :P1_O/ | <B> :FUT_GP0 :P_ACT/ | <B> :FUT_GP0 <B>u :P3_ACT/ |
 
@@ -258,7 +282,7 @@ GP0_INF =
 	:IMPF_SUB_GP0 :P1_M/ | :IMPF_SUB_GP0 :P_ACT/ | :IMPF_SUB_GP0 :P3_ACT/ ;
 
 GP0_INF_POSSE =
-	<B3>ssum/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=sg | /GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=sg | t/GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=sg | <B3>ssumus/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | tis/GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl  | <B2>ssu :P3_ACT/GP=0+TP=pres+MOD=ind |
+	<B3>ssu :P1_M/GP=0+TP=pres+MOD=ind+VX=act| /GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=sg | t/GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=sg | <B3>ssumus/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | tis/GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl  | <B2>ssu :P3_ACT/GP=0+TP=pres+MOD=ind |
 	<B> :IMPF_IND_GP0 :P1_M/ | <B> :IMPF_IND_GP0 :P_ACT/ | <B> :IMPF_IND_GP0 :P3_ACT/ |
 	<B> :FUT_GP0 <B> :P1_O/ | <B> :FUT_GP0 :P_ACT/ | <B> :FUT_GP0 <B>u :P3_ACT/ |
 
@@ -266,12 +290,15 @@ GP0_INF_POSSE =
 	 :IMPF_SUB_GP0 :P1_M/ | :IMPF_SUB_GP0 :P_ACT/ | :IMPF_SUB_GP0 :P3_ACT/ ;
 
 
-SUM_PRES_SG = sum/GP=0+P=1+NB=sg | es/GP=0+P=2+NB=sg | est/GP=0+P=3+NB=sg ;
-SUM_PRES_PL = sumus/GP=0+P=1+NB=pl | estis/GP=0+P=2+NB=pl | su :P3_ACT/GP=0+ ;
-SUM_IMPF_SG = :IMPF_IND_GP0 :P1_M/ | :IMPF_IND_GP0 s/P=2+NB=sg | <B> :IMPF_IND_GP0 t/P=3+NB=sg ;
-SUM_IMPF_PL = :IMPF_IND_GP0 mus/P=1+NB=pl | :IMPF_IND_GP0 tis/P=2+NB=pl | :IMPF_IND_GP0 :P3_ACT/ ;
-SUM_FUT_SG = :FUT_GP0 <B> :P1_O/ | :FUT_GP0 s/P=2+NB=sg | :FUT_GP0 t/P=3+NB=sg ;
-SUM_FUT_PL = :FUT_GP0 mus/P=1+NB=pl | :FUT_GP0 tis/P=2+NB=pl | :FUT_GP0 <B>u :P3_ACT/ ;
+## Formes sans marques pour la construction du supinum des autres groupes
+ESSE_PRES_SG = sum/P=1+NB=sg | es/P=2+NB=sg | est/P=3+NB=sg ;
+ESSE_PRES_PL = sumus/P=1+NB=pl | estis/P=2+NB=pl | sunt/P=3+NB=pl ;
+ESSE_IMPF = era/ ;
+ESSE_FUT_SG = ero/ | eris/P=2+NB=sg | erit/P=3+NB=sg ;
+ESSE_FUT_PL = erimus/P=1+NB=pl | eritis/P=2+NB=pl | erunt/ ;
+ESSE_SUB = si ;
+ESSE_INF = esse/ ;
+
 
 ## PERFECTUM (fu-)
 
@@ -331,6 +358,17 @@ P_PAS =
 	tur/VX=pas+P=3+NB=sg |
 	mur/VX=pas+P=1+NB=pl |
 	mini/VX=pas+P=2+NB=pl ;
+
+### SANS MARQUES DE VOIX(pour former les temps du supinum)
+P_SUP_SG =
+	m/P=1+NB=sg |
+	s/P=2+NB=sg |
+	t/P=3+NB=sg ;
+
+P_SUP_PL =
+	mus/P=1+NB=pl |
+	tis/P=2+NB=pl |
+	nt/P=3+NB=pl ;
 
 
 ## INFECTUM
