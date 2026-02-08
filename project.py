@@ -1,37 +1,34 @@
+import json
 import re
 import sys
-import csv
 import random
 import argparse
+import os
 import emoji
 
 
-def get_verbs(verbs_latin_csv: str):
-    """ Loads all the verbs from a CSV file (format in README.md)
+def get_verbs(verbs_path: str) -> list[dict]:
+    """ Loads all the verbs from a folder of .json files
 
     *Input* (one)
-    verbs_latin_csv = CSV filename
+    verbs_path = path to a folder (str)
 
     *Output* (one)
-    retlist_verbs = list of dicts (one per line)
+    verbs = list of dicts (one per inflected form)
     """
+    verbs = []
 
-    list_verbs = []
-    with open(verbs_latin_csv, encoding="utf-8-sig") as csvfile:
-        csv.register_dialect('semicolumn', delimiter=';')
-        reader = csv.DictReader(csvfile, dialect='semicolumn')
-        for verb in reader:
-            verb["latin"] = verb["latin"].replace("v", "u").replace("j", "i")
-            verb["infinitive"] = verb["infinitive"].replace("v", "u").replace("j", "i")
-            verb["primitive tenses"] = verb["primitive tenses"].replace("v", "u").replace("j", "i")
-            verb["person"] = int(verb["person"])
-            if verb["person"] not in range(0,7):
-                raise ValueError(f"Invalid csv file, the person is invalid for {verb}")
-            list_verbs.append(verb)
-        return list_verbs
+    for json_filename in os.listdir(verbs_path):
+        if not json_filename.endswith(".json"):
+            continue
+        full_path = os.path.join(verbs_path, json_filename)
+        with open (full_path, "r", encoding="utf-8") as f:
+            verbs.extend(json.load(f))
+
+    return verbs
 
 
-def get_tenses(list_verbs):
+def get_tenses(list_verbs) -> list[str]:
     """ Gets all the tenses available in the list of potential questions/answers (present, future,...) and lists them (only once each) in a dedicated list.
 
     *Input* (one)
@@ -49,25 +46,27 @@ def get_tenses(list_verbs):
     return list_tenses
 
 
-def get_groups(list_verbs):
+def get_groups(list_verbs) -> list[int]:
     """ Gets all the verb groups available in the list of potential questions/answers (0, 1, 2, 3 or 4) and lists them (only once each) in a dedicated list.
 
     *Input* (one)
     list_verbs (list of dict) = the list of potential questions/answers
 
     *Output* (one)
-    list_groups (list of str) = list of all the available groups (only one of each) in the csv.
-        => Ex: ["0", "1", "3"]
+    list_groups (list of int) = list of all the available groups (only one of each) in the csv.
+        => Ex: [0, 1, 3]
     """
 
     list_groups = []
     for verb in list_verbs:
         if verb["group"] not in list_groups:
             list_groups.append(verb["group"])
+    list_groups.sort()
+    
     return list_groups
 
 
-def filter_tense(tense_user, list_verbs):
+def filter_tense(tense_user, list_verbs) -> list[dict]:
     """ Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the tense, if applicable.
 
     From main():
@@ -95,7 +94,7 @@ def filter_tense(tense_user, list_verbs):
         return list_verbs
 
 
-def filter_group(group_user, list_verbs):
+def filter_group(group_user, list_verbs) -> list[dict]:
     """ Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the verb group, if applicable.
 
     From main():
@@ -123,28 +122,83 @@ def filter_group(group_user, list_verbs):
         return list_verbs
 
 
-def filter_person(person_user, list_verbs):
+def filter_person(person_user, list_verbs) -> list[dict]:
     """ Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the person, if applicable.
 
     From main():
-    parser.add_argument('-p', '--person', type=int, choices=range(0,7), default=None, help="Choose a person")
+    parser.add_argument('-p', '--person', type=int, choices=range(0,7), default=None, help="The person (1 to 6) to practice")
     person_user = args.person
 
     *Input* (two)
-    group_user (int) = the user's choice regarding the person (if applicable).
+    person_user (int) = the user's choice regarding the person (if applicable).
         => Ex: "4"
     list_verbs (list of dict) = the list of potential questions/answers
 
     *Output* (one)
     filtered_verbs (list of dict) = list of all the potential questions/answers, filtered according to the user's choice regarding the person.
         => Ex: a list with all the verbs, but only conjugated at the fourth person ("we").
-    OR list_verbs (list of dict) = the output is the same as the input when the user has declared no choice regarding the verb group.
+    OR list_verbs (list of dict) = the output is the same as the input when the user has declared no choice regarding the person.
     """
 
     filtered_verbs = []
     if person_user:
         for verb in list_verbs:
             if person_user == verb["person"]:
+                filtered_verbs.append(verb)
+        return filtered_verbs
+    else:
+        return list_verbs
+
+
+def filter_voice(voice_user, list_verbs) -> list[dict]:
+    """ Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the voice, if applicable.
+
+    From main():
+    parser.add_argument('-v', '--voice', type=str, choices=["actif", "passif"], default=None, help="The voice (actif or passif) to practice")
+    voice_user = args.voice
+
+    *Input* (two)
+    voice_user (str) = the user's choice regarding the voice (if applicable).
+        => Ex: "active"
+    list_verbs (list of dict) = the list of potential questions/answers
+
+    *Output* (one)
+    filtered_verbs (list of dict) = list of all the potential questions/answers, filtered according to the user's choice regarding the voice.
+        => Ex: a list with all the verbs, but only conjugated at the passive voice.
+    OR list_verbs (list of dict) = the output is the same as the input when the user has declared no choice regarding the voice.
+    """
+
+    filtered_verbs = []
+    if voice_user:
+        for verb in list_verbs:
+            if voice_user == verb["voice"]:
+                filtered_verbs.append(verb)
+        return filtered_verbs
+    else:
+        return list_verbs
+
+
+def filter_mood(mood_user, list_verbs) -> list[dict]:
+    """ Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the mood, if applicable.
+
+    From main():
+    parser.add_argument('-m', '--mood', type=str, choices=["indicatif", "subjonctif"], default=None, help="The mood (indicatif or subjonctif) to practice")
+    mood_user = args.mood
+
+    *Input* (two)
+    mood_user (str) = the user's choice regarding the mood (if applicable).
+        => Ex: "active"
+    list_verbs (list of dict) = the list of potential questions/answers
+
+    *Output* (one)
+    filtered_verbs (list of dict) = list of all the potential questions/answers, filtered according to the user's choice regarding the mood.
+        => Ex: a list with all the verbs, but only conjugated at the subjonctive mood.
+    OR list_verbs (list of dict) = the output is the same as the input when the user has declared no choice regarding the mood.
+    """
+    filtered_verbs = []
+    if mood_user:
+        for verb in list_verbs:
+            if mood_user == verb["mood"]:
                 filtered_verbs.append(verb)
         return filtered_verbs
     else:
@@ -177,7 +231,7 @@ def get_difficulty(difficulty_user):
     return max_attempts
 
 
-def random_verb(list_verbs) -> dict:
+def random_verb(list_verbs: list[dict]) -> dict:
     """ Randomly picks a line (dict) randomly from the list of all potential questions/answers (list of dict), which might have been previously filtered according to the user's choice, when applicable.
 
     From main():
@@ -347,7 +401,8 @@ def ask_verb(question, translation, hint) -> str:
         else:
             print("Invalid format, try again")
 
-
+# Inutile
+"""
 def compare_answers(user_answer, list_all_answers, language_answer):
     """ Compares the answers given by the user with the correct answer from the CSV file. If they matches, returns True. If they don't, returns False.
 
@@ -375,6 +430,91 @@ def compare_answers(user_answer, list_all_answers, language_answer):
         if user_answer == correct_answer:
             return True
     return False
+"""
+
+def ask_verb(filtered_verbs):
+    chosen_verb = random_verb(filtered_verbs)
+    check_all_answers = 0
+    count_rounds = 0
+    print("Combien de verbes voulez-vous pratiquer ?")
+    rounds_input = int(input("Entrez un nombre compris entre 1 et 10 : "))
+    
+    while count_rounds < rounds_input:
+        rounds_input += 1
+        print("Nouveau verbe à trouver :", chosen_verb["latin"])
+
+        # Personne (1 à 6)
+        person = str(chosen_verb["person"])
+        person_check = False
+
+        while person_check == False:
+            if debug:
+                print(person)
+            person_input = input("Indiquez la personne (de 1 à 6) : ").strip()
+            if int(person_input) > 6:
+                print("La personne doit être comprise entre 1 et 6.")
+            if person == person_input:
+                person_check = True
+                check_all_answers += 1
+                print("Bravo !")
+            else:
+                choice_user = int(input("""Essayer à nouveau cette question (1),
+                                        continuer avec les autres questions du même verbe (2) ou
+                                        essayer avec le verbe suivant (3) ?"""))
+                if choice_user == 1:
+                    continue
+                if choice_user == 2:
+                    person_check = True
+                if choice_user == 3:
+                    person_check = True
+                    continue
+
+
+
+        # Temps (présent, imparfait, futur, parfait, plus-que-parfait ou futur antérieur)
+        tense = chosen_verb["tense"]
+        tense_check = False
+
+        while tense_check == False:
+            if debug:
+                print(tense)
+            tense_input = input("Indiquez le temps (présent, imparfait, futur, parfait, plus-que-parfait ou futur antérieur) : ").strip().lower()
+            if tense == tense_input:
+                tense_check = True
+                check_all_answers += 1
+                print("Bravo !")
+            else:
+                print("Essayez encore !")
+
+        # Voix (passif ou actif)
+        voice = chosen_verb["voice"]
+        voice_check = False
+
+        while voice_check == False:
+            if debug:
+                print(voice)
+            voice_input = input("Indiquez la voix (actif ou passif) : ").strip().lower()
+            if voice == voice_input:
+                voice_check = True
+                check_all_answers += 1
+                print("Bravo !")
+            else:
+                print("Essayez encore !")
+
+        # Mode (indicatif ou subjonctif)
+        mood = chosen_verb["mood"]
+        mood_check = False
+
+        while mood_check == False:
+            if debug:
+                print(mood)
+            mood_input = input("Indiquez le mode (indicatif ou subjonctif) : ").strip().lower()
+            if mood == mood_input:
+                mood_check = True
+                check_all_answers += 1
+                print("Bravo !")
+            else:
+                print("Essayez encore !")
 
 
 def main():
@@ -396,17 +536,16 @@ def main():
     """
 
     ###
-    # Load CSV file
+    # Load JSON files from a folder
     ###
 
-    verbs_latin_csv = "verbs_latin.csv"
-    try:
-        list_verbs = get_verbs(verbs_latin_csv)
-    except FileNotFoundError:
-        print("File not found")
-        sys.exit(1)
+    verbs_latin_path = "verbs_json_chatGPT"
+    list_verbs = get_verbs(verbs_latin_path)
+    print("loaded:", len(list_verbs))
     list_tenses = get_tenses(list_verbs)
+    print("tenses:", list_tenses)
     list_groups = get_groups(list_verbs)
+    print("groups:", list_groups)
 
     ###
     # Get CLI params
@@ -418,10 +557,12 @@ def main():
                     epilog='Bonam fortunam!')
     parser.add_argument('-c', '--count', type=int, default=5, help="Number of verbs to practice")
     parser.add_argument('-d', '--difficulty', type=str, choices=["easy", "medium", "hard"], default="easy", help="The difficulty level which determines the number of possible attempts (3, 2 or 1)")
-    parser.add_argument('-g', '--group', type=str, choices=list_groups, default=None, help="The verb group (ex: 1) to practice (0 corresponds to \"sum\" and its derivatives)")
-    parser.add_argument('-l', '--language', type=str, choices=["latin", "french"], default=None, help="The language (Latin and/or French) from which the user wants to translate. If they don't want to practice both languages, they can choose one of them")
+    parser.add_argument('-g', '--group', type=int, choices=list_groups, default=None, help="The verb group (ex: 1) to practice (0 corresponds to \"sum\" and its derivatives)")
+    parser.add_argument('-l', '--language', type=str, choices=["latin", "français"], default=None, help="The language (Latin and/or French) from which the user wants to translate. If they don't want to practice both languages, they can choose one of them")
     parser.add_argument('-p', '--person', type=int, choices=range(0,7), default=None, help="The person (1 to 6) to practice")
     parser.add_argument('-t', '--tense', type=str, choices=list_tenses, default=None, help="The tense (ex: \"présent\") to practice")
+    parser.add_argument('-v', '--voice', type=str, choices=["actif", "passif"], default=None, help="The voice (ex: actif or passif) to practice")
+    parser.add_argument('-m', '--mood', type=str, choices=["indicatif", "subjonctif"], default=None, help="The mood (indicatif or subjonctif) to practice")
     parser.add_argument('--debug', action='store_true', help="Enable debug mode")
     args = parser.parse_args()
     number_verbs = args.count
@@ -431,6 +572,8 @@ def main():
     tense_user = args.tense
     group_user = args.group
     person_user = args.person
+    voice_user = args.voice
+    mood_user = args.mood
     debug = args.debug
 
     ###
@@ -438,25 +581,30 @@ def main():
     ###
 
     if debug:
-        print(f"Loaded {len(list_verbs)} from {verbs_latin_csv}")
+        print(f"Loaded {len(list_verbs)} from {verbs_latin_path}")
 
     filtered_verbs = filter_tense(tense_user, list_verbs)
     filtered_verbs = filter_group(group_user, filtered_verbs)
     filtered_verbs = filter_person(person_user, filtered_verbs)
+    filtered_verbs = filter_voice(voice_user, filtered_verbs)
+    filtered_verbs = filter_mood(mood_user, filtered_verbs)
     if len(filtered_verbs) == 0:
         print("No available verbs for these choices")
         sys.exit(1)
 
     if debug:
-        print(f"Kept {len(filtered_verbs)} after filtering by tense and group")
+        print(f"Kept {len(filtered_verbs)} after filtering")
 
+
+
+"""
     correct_answers = []
     wrong_answers = []
     #How many verbs the user has already seen
     total_count = 0
     while total_count < number_verbs:
         chosen_verb = random_verb(filtered_verbs)
-        french = chosen_verb["french"]
+        french = chosen_verb["translation"] #dict of list of str
         latin = chosen_verb["latin"]
         language_question = random_language(language_user)
         language_answer = get_language_answer(language_question)
@@ -514,7 +662,7 @@ def main():
         print(emoji.emojize(f":cross_mark: The incorrect answer{s} {was_were}:"))
         for answer in wrong_answers:
             print("*", answer)
-
+"""
 
 if __name__ == "__main__":
     main()

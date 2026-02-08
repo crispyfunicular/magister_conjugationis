@@ -5,7 +5,7 @@ verbs_CSV = get_verbs("verbs_latin.csv")
 print("Nombre de verbes latins CSV :", len(verbs_CSV))
 
 # Parse a NooJ dictionary file
-verbs_NooJ = read_dic("NooJ/la/Lexical Analysis/lat_verbes-flx.dic")
+verbs_NooJ = read_dic("NooJ/lat_verbes-flx.dic")
 print("Nombre de verbes latins NooJ :", len(verbs_NooJ))
 
 for verb_NooJ in verbs_NooJ:
