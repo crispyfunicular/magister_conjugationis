@@ -1,4 +1,2 @@
-emoji
 genanki
-openai
 pynooj
