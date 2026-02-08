@@ -73,6 +73,7 @@ def main():
             dic_mc["mood"] = dic_nooj["traits"]["MOD"].replace("ind", "indicatif").replace("sub", "subjonctif")
             dic_mc["voice"] = dic_nooj["traits"]["VX"].replace("act", "actif").replace("pas", "passif")
             dic_mc["translation"] = dic_nooj["traits"]["TRAD"].split(";")
+            dic_mc["primitive tenses"] = dic_nooj["traits"]["PRIM"].replace(";", ", ")
 
             # Convert to (French) human-readable tense (fut --> futur)
             match dic_nooj["traits"]["TP"]:
