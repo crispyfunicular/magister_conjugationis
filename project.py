@@ -20,10 +20,10 @@ def get_verbs(json_path: str) -> list[dict]:
 
 
 def get_tenses(list_verbs) -> list[str]:
-    """Gets all the tenses available in the list of potential questions/answers (present, future,...) and lists them (only once each) in a dedicated list.
+    """Gets all the tenses available in the list of inflected forms and lists them (only once each) in a dedicated list.
 
     *Input* (one)
-    list_verbs (list of dict) = the list of potential questions/answers
+    list_verbs = list of dicts (one per inflected form)
 
     *Output* (one)
     list_tenses (list of str) = list of all the available tenses (names in French, and only one of each) in the csv.
@@ -41,10 +41,10 @@ def get_groups(list_verbs) -> list[int]:
     """Gets all the verb groups available in the list of potential questions/answers (0, 1, 2, 3 or 4) and lists them (only once each) in a dedicated list.
 
     *Input* (one)
-    list_verbs (list of dict) = the list of potential questions/answers
+    list_verbs = list of dicts (one per inflected form)
 
     *Output* (one)
-    list_groups (list of int) = list of all the available groups (only one of each) in the csv.
+    list_groups (list of int) = list of the groups (0, 1, 2, 3, 4 and 5).
         => Ex: [0, 1, 3]
     """
 
@@ -66,8 +66,8 @@ def filter_tense(tense_user: list[str]|None, list_verbs) -> list[dict]:
 
     *Input* (two)
     tense_user (str) = the user's choice regarding the tense (if applicable).
-        => Ex: "present"
-    list_verbs (list of dict) = the list of potential questions/answers
+        => Ex: "présent"
+    list_verbs = list of dicts (one per inflected form)
 
     *Output* (one)
     filtered_verbs (list of dict) = list of all the potential questions/answers, filtered according to the user's choice regarding the tense.
@@ -95,7 +95,7 @@ def filter_group(group_user: list[int]|None, list_verbs) -> list[dict]:
     *Input* (two)
     group_user (int) = the user's choice regarding the verb group (if applicable).
         => Ex: "2"
-    list_verbs (list of dict) = the list of potential questions/answers
+    list_verbs = list of dicts (one per inflected form)
 
     *Output* (one)
     filtered_verbs (list of dict) = list of all the potential questions/answers, filtered according to the user's choice regarding the verb group.
@@ -123,7 +123,7 @@ def filter_person(person_user: list[int]|None, list_verbs) -> list[dict]:
     *Input* (two)
     person_user (int) = the user's choice regarding the person (if applicable).
         => Ex: "4"
-    list_verbs (list of dict) = the list of potential questions/answers
+    list_verbs = list of dicts (one per inflected form)
 
     *Output* (one)
     filtered_verbs (list of dict) = list of all the potential questions/answers, filtered according to the user's choice regarding the person.
@@ -151,7 +151,7 @@ def filter_voice(voice_user, list_verbs) -> list[dict]:
     *Input* (two)
     voice_user (str) = the user's choice regarding the voice (if applicable).
         => Ex: "active"
-    list_verbs (list of dict) = the list of potential questions/answers
+    list_verbs = list of dicts (one per inflected form)
 
     *Output* (one)
     filtered_verbs (list of dict) = list of all the potential questions/answers, filtered according to the user's choice regarding the voice.
@@ -179,7 +179,7 @@ def filter_mood(mood_user, list_verbs) -> list[dict]:
     *Input* (two)
     mood_user (str) = the user's choice regarding the mood (if applicable).
         => Ex: "active"
-    list_verbs (list of dict) = the list of potential questions/answers
+    list_verbs = list of dicts (one per inflected form)
 
     *Output* (one)
     filtered_verbs (list of dict) = list of all the potential questions/answers, filtered according to the user's choice regarding the mood.
@@ -203,7 +203,7 @@ def random_verb(list_verbs: list[dict]) -> dict:
     chosen_verb = random_verb(filtered_verbs)
 
     *Input* (one)
-    list_verbs (list of dict): the list of potential questions/answers
+    list_verbs = list of dicts (one per inflected form)
 
     *Output* (one)
     a dict corresponding to a verb in latin, conjugated to one person and one tense, and its translation in French, as well as its Latin and French infinitive and primitive tenses
