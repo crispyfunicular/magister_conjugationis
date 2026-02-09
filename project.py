@@ -249,7 +249,7 @@ def ask_verb(verb) -> int:
             print("Bravo !")
             break
         else:
-            print("Mauvaise réponse !")
+            print("Mauvaise réponse ! Errare humanum est...")
             choice_user = int(
                 ask(
                     "Essayer à nouveau cette question (1), voir les temps primitifs (2) ou voir la réponse (3) ? ",
@@ -259,9 +259,9 @@ def ask_verb(verb) -> int:
             )
             if choice_user == 1:
                 continue
-            if choice_user == 2:
+            elif choice_user == 2:
                 print("Voici les temps primitifs :", verb["primitive tenses"])
-            if choice_user == 3:
+            elif choice_user == 3:
                 print(person)
                 break
 
@@ -280,7 +280,7 @@ def ask_verb(verb) -> int:
             print("Bravo !")
             break
         else:
-            print("Mauvaise réponse !")
+            print("Mauvaise réponse ! Errare humanum est...")
             choice_user = int(
                 ask(
                     "Essayer à nouveau cette question (1), voir les temps primitifs (2) ou voir la réponse (3) ? ",
@@ -290,9 +290,9 @@ def ask_verb(verb) -> int:
             )
             if choice_user == 1:
                 continue
-            if choice_user == 2:
+            elif choice_user == 2:
                 print("Voici les temps primitifs :", verb["primitive tenses"])
-            if choice_user == 3:
+            elif choice_user == 3:
                 print(tense)
                 break
 
@@ -313,7 +313,7 @@ def ask_verb(verb) -> int:
             print("Bravo !")
             break
         else:
-            print("Mauvaise réponse !")
+            print("Mauvaise réponse ! Errare humanum est...")
             choice_user = int(
                 ask(
                     "Essayer à nouveau cette question (1), voir les temps primitifs (2) ou voir la réponse (3) ? ",
@@ -323,9 +323,9 @@ def ask_verb(verb) -> int:
             )
             if choice_user == 1:
                 continue
-            if choice_user == 2:
+            elif choice_user == 2:
                 print("Voici les temps primitifs :", verb["primitive tenses"])
-            if choice_user == 3:
+            elif choice_user == 3:
                 print(voice)
                 break
 
@@ -343,7 +343,7 @@ def ask_verb(verb) -> int:
             print("Bravo !")
             break
         else:
-            print("Mauvaise réponse !")
+            print("Mauvaise réponse ! Errare humanum est...")
             choice_user = int(
                 ask(
                     "Essayer à nouveau cette question (1), voir les temps primitifs (2) ou voir la réponse (3) ? ",
@@ -353,9 +353,9 @@ def ask_verb(verb) -> int:
             )
             if choice_user == 1:
                 continue
-            if choice_user == 2:
+            elif choice_user == 2:
                 print("Voici les temps primitifs :", verb["primitive tenses"])
-            if choice_user == 3:
+            elif choice_user == 3:
                 print(mood)
                 break
 
@@ -375,7 +375,7 @@ def ask_verb(verb) -> int:
             print("Bravo !")
             break
         else:
-            print("Mauvaise réponse !")
+            print("Mauvaise réponse ! Errare humanum est...")
             choice_user = int(
                 ask(
                     "Essayer à nouveau cette question (1) ou voir la réponse (2) ? ",
@@ -385,7 +385,7 @@ def ask_verb(verb) -> int:
             )
             if choice_user == 1:
                 continue
-            if choice_user == 2:
+            elif choice_user == 2:
                 print(", ".join(translations))
                 break
 
@@ -405,14 +405,14 @@ def ask_verbs(verbs: list[dict], direction):
     for _ in range(rounds_input):
         verb = random_verb(verbs)
 
-        if direction == None:
+        if not direction:
             choice = random.choice(["latin", "français"])
         else:
             choice = direction
 
         if choice == "latin":
             score = ask_verb(verb) / 5
-        if choice == "français":
+        elif choice == "français":
             score = ask_verb_reverse(verb)
 
         total_score += score
@@ -427,7 +427,7 @@ def personne(person: int) -> str:
         person -= 3
         nb = "pluriel"
 
-    return f"{person}e du {nb}"
+    return f"{person}e personne du {nb}"
 
 
 def ask_verb_reverse(verb) -> int:
@@ -439,7 +439,7 @@ def ask_verb_reverse(verb) -> int:
             print(latin)
 
         answer = ask(
-            f"Indiquer la forme fléchie pour {", ".join(verb["translation"])}, {personne(verb["person"])}, {verb["tense"]}, {verb["voice"]}, {verb["mood"]} : ",
+            f"Indiquer la forme fléchie pour le(s) verbe(s) '{", ".join(verb["translation"])}', à la {personne(verb["person"])}, {verb["tense"]}, {verb["voice"]}, {verb["mood"]} : ",
             lambda x: x,
             "Veuillez indiquer une réponse.",
         )
@@ -448,7 +448,7 @@ def ask_verb_reverse(verb) -> int:
             print("Bravo !")
             break
         else:
-            print("Mauvaise réponse !")
+            print("Mauvaise réponse ! Errare humanum est...")
             choice_user = int(
                 ask(
                     "Essayer à nouveau cette question (1), voir les temps primitifs (2), voir le lemme (3) ou voir la réponse (4) ? ",
