@@ -1,8 +1,6 @@
-# MAGISTER CONJUGATIONIS
-Projet développé par Morgane Bona-Pellissier entre 2025 et 2026
-
-Lien vers le site internet : https://crispyfunicular.github.io/magister_conjugationis/
-
+# MAGISTER CONJUGATIONIS : Entraînement à la conjugaison latine
+Lien vers le site internet : https://crispyfunicular.github.io/magister_conjugationis/  
+Ce site permet de s'entraîner aux conjugaisons latines en proposant des exercices personnalisables par temps, personne, voix, mode ou encore groupe de verbes. Amo, capiebantur, deleuissetis... l'apprentissage de la conjugaison latine devient un vrai jeu d'enfant !  
 
 ![Aperçu du site Magister Conjugationis](magister_img.png "Aperçu du site Magister Conjugationis")
 
@@ -152,3 +150,4 @@ Score total : 2.6/3
 Prêt-e pour une nouvelle partie ?
 ```
 
+*Projet développé par Morgane Bona-Pellissier entre 2025 et 2026*
