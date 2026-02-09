@@ -38,7 +38,7 @@ Les verbes latins sont en effet classés en groupes. Le programme utilise la cla
 - (5) "io, is ire"
 - (0) Pour les besoin du programme, la catégorie 0 correspond au verbe "esse" et à ses dérivés.
 
-Les lettres "u" et "v" sont interchangeables (le "v" correspondant à une graphie tardive). Par conséquent, "amavi" est aussi valide qu'"amaui" et "jussi" est aussi valide que "iussi".  
+Les lettres "u" et "v" sont interchangeables, ainsi que "i" et "j" (le "v" et le "j" correspondant tous deux à une graphie tardive). Par conséquent, "amavi" est aussi valide qu'"amaui" et "jussi" est aussi valide que "iussi".  
 
 Les formes verbales latines ne portant aucune marque de genre, "amat" peut aussi bien être traduit par "il aime" que par "elle aime". En revanche, "on aime" n'est pas pris en compte par le programme.  
 
