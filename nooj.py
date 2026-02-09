@@ -173,7 +173,7 @@ def main():
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(filtered_verbs, f, indent=2, ensure_ascii=False)
 
-    js_path = "verbs_latin.js"
+    js_path = "web/verbs_latin.js"
     # Generated for static hosting: allows loading data without fetch/CORS on GitHub Pages.
     print(f"writing {len(filtered_verbs)} verbs to js file:", js_path)
     with open(js_path, "w", encoding="utf-8") as f:
