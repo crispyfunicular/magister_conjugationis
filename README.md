@@ -49,8 +49,33 @@ Les formes verbales latines ne portant aucune marque de genre, "amat" peut aussi
 Lorsqu'un verbe latin admet plusieurs traductions en français, n'importe laquelle de celles-ci est admise par le programme (p. ex. : "legere" = lire, ceuillir, choisir).
 
 
-## NooJ
-...
+## NooJ : génération des formes fléchies
+La richesse morphologique du latin est gérée grâce à NooJ, un outil de traitement automatique du langage naturel. Le cœur du système repose sur la séparation stricte entre le lexique (les racines) et la grammaire (les règles de flexion).
+
+### Dictionnaire (.dic)
+Chaque verbe est entré dans le dictionnaire avec deux racines distinctes, correspondant aux deux thèmes fondamentaux du système verbal latin :
+
+- Theme=INF (**infectum**) : utilisé pour les temps suivants : présent, imparfait et futur actifs et passifs.
+- Theme=PER (**perfectum**) : utilisé pour les temps suivants : parfait, plus-que-parfait et futur antérieur *actifs*.
+- Theme=SUP (**supinum**) : utilisé pour les temps suivants : parfait, plus-que-parfait et futur antérieur *passifs*.
+
+Exemple pour le verbe "amare" (aimer) :
+
+```
+am,amare,V+GP=1+Theme=INF+FLX=GP1_INF   # Racine "am-" pour l'infectum (INF)
+amau,amare,V+GP=1+Theme=PER+FLX=GP1_PER # Racine "amau-" pour le perfectum (PER)
+amat,amare,V+GP=1+Theme=SUP+FLX=GP1_SUP # Racine "amat-" pour le supinum (SUP)
+```
+
+### Grammaire flexionnelle (.nof)
+Les formes conjuguées sont générées par des grammaires graphiques qui assemblent dynamiquement :
+- Le thème verbal fourni par le dictionnaire.
+- La voyelle thématique propre au groupe verbal (ex : "a" pour le 1er groupe, "e" pour le 2e...).
+- Le suffixe temporel (ex: "ba" pour l'imparfait, "bi" pour le futur des 1er et 2e groupes...).
+- La désinence personnelle (ex: "o" ou "m", "s", "t", "mus", "tis", "nt" pour les temps de l'actif).
+
+Exemple de règle pour l'imparfait actif du 1er groupe : thème de l'infectum (**am**) + voyelle thématique (**a**) + suffixe temporel (**ba**) + désinence personnelle (**m**) -> **amabam**
+
 
 ## Installation de l'environnement
 ```bash
