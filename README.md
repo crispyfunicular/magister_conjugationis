@@ -1,6 +1,10 @@
 # MAGISTER CONJUGATIONIS
 Projet développé par Morgane Bona-Pellissier entre 2025 et 2026
 
+Lien vers le site internet : https://crispyfunicular.github.io/magister_conjugationis/
+
+
+![Aperçu du site Magister Conjugationis](magister_img.png "Aperçu du site Magister Conjugationis")
 
 ## Description
 Ce programme permet de faire pratiquer les conjugaisons latines à l'utilisateurice de la façon suivante :
