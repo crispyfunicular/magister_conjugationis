@@ -57,7 +57,7 @@ def get_groups(list_verbs) -> list[int]:
     return list_groups
 
 
-def filter_tense(tense_user, list_verbs) -> list[dict]:
+def filter_tense(tense_user: list[str]|None, list_verbs) -> list[dict]:
     """Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the tense, if applicable.
 
     From main():
@@ -78,18 +78,18 @@ def filter_tense(tense_user, list_verbs) -> list[dict]:
     filtered_verbs = []
     if tense_user:
         for verb in list_verbs:
-            if tense_user == verb["tense"]:
+            if verb["tense"] in tense_user:
                 filtered_verbs.append(verb)
         return filtered_verbs
     else:
         return list_verbs
 
 
-def filter_group(group_user, list_verbs) -> list[dict]:
+def filter_group(group_user: list[int]|None, list_verbs) -> list[dict]:
     """Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the verb group, if applicable.
 
     From main():
-    parser.add_argument('-g', '--groupe', type=str, choices=list_groups, default=None, help="Le groupe verbal (ex: 1) que vous souhaitez réviser (0 correspond à "sum" et ses dérivés)")
+    parser.add_argument('-g', '--groupe', type=str, choices=list_groups, default=None, help="Le groupe verbal (ex: 1) que vous souhaitez réviser (0 correspond à "esse" et ses dérivés)")
     group_user = args.group
 
     *Input* (two)
@@ -106,14 +106,14 @@ def filter_group(group_user, list_verbs) -> list[dict]:
     filtered_verbs = []
     if group_user:
         for verb in list_verbs:
-            if group_user == verb["group"]:
+            if verb["group"] in group_user:
                 filtered_verbs.append(verb)
         return filtered_verbs
     else:
         return list_verbs
 
 
-def filter_person(person_user, list_verbs) -> list[dict]:
+def filter_person(person_user: list[int]|None, list_verbs) -> list[dict]:
     """Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the person, if applicable.
 
     From main():
@@ -134,7 +134,7 @@ def filter_person(person_user, list_verbs) -> list[dict]:
     filtered_verbs = []
     if person_user:
         for verb in list_verbs:
-            if person_user == verb["person"]:
+            if verb["person"] in person_user:
                 filtered_verbs.append(verb)
         return filtered_verbs
     else:
@@ -162,7 +162,7 @@ def filter_voice(voice_user, list_verbs) -> list[dict]:
     filtered_verbs = []
     if voice_user:
         for verb in list_verbs:
-            if voice_user == verb["voice"]:
+            if verb["voice"] == voice_user:
                 filtered_verbs.append(verb)
         return filtered_verbs
     else:
@@ -189,7 +189,7 @@ def filter_mood(mood_user, list_verbs) -> list[dict]:
     filtered_verbs = []
     if mood_user:
         for verb in list_verbs:
-            if mood_user == verb["mood"]:
+            if verb["mood"] == mood_user:
                 filtered_verbs.append(verb)
         return filtered_verbs
     else:
@@ -507,28 +507,31 @@ def main():
         help="latin : latin -> français ; français : français -> latin",
     )
     parser.add_argument(
+        "-t",
+        "--temps",
+        type=str,
+        choices=list_tenses,
+        nargs="*",
+        default=None,
+        help='Le temps (ex: "présent") que vous souhaitez pratiquer',
+    )
+    parser.add_argument(
         "-g",
         "--groupe",
         type=int,
         choices=list_groups,
+        nargs="*",
         default=None,
-        help='Le groupe verbal (ex: 1) que vous souhaitez réviser (0 correspond à "sum" et ses dérivés)',
+        help='Le groupe verbal (ex: 1) que vous souhaitez réviser (0 correspond à "esse" et ses dérivés)',
     )
     parser.add_argument(
         "-p",
         "--personne",
         type=int,
         choices=range(0, 7),
+        nargs="*",
         default=None,
         help="La personne (comprise entre 1 et 6) que vous souhaitez pratiquer",
-    )
-    parser.add_argument(
-        "-t",
-        "--temps",
-        type=str,
-        choices=list_tenses,
-        default=None,
-        help='Le temps (ex: "présent") que vous souhaitez pratiquer',
     )
     parser.add_argument(
         "-v",
@@ -572,7 +575,7 @@ def main():
     filtered_verbs = filter_voice(voice_user, filtered_verbs)
     filtered_verbs = filter_mood(mood_user, filtered_verbs)
     if len(filtered_verbs) == 0:
-        print("No available verbs for these choices")
+        print("Aucun verbe disponible pour ces options")
         sys.exit(1)
 
     if debug:

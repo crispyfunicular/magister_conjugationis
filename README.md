@@ -29,19 +29,20 @@ Essayer à nouveau cette question (1), voir les temps primitifs (2) ou voir la r
 ```
 
 ## Rappel concernant les conjugaisons latines
-Latin verbs are usually designated by their so called "primitive tenses" (ex: "amo, as, are, avi, atum"), which carry a lot of information, such as the **group** the verb belongs to.
-Verbs are ordered in 4 (sometimes 5) groups:
+Le lemme de chaque verbe latin indique ses "**temps primitifs**", qui fournissent un certain nombre d'informations cruciales à son sujet, notamment le groupe verbal auquel il appartient. Ainsi, "o, as, are, aui, atum" indique de façon univoque qu'il s'agit d'un verbe du premier groupe.  
+Les verbes latins sont en effet classés en groupes. Le programme utilise la classification suivante :
 - (1) "o, as, are"
 - (2) "eo, es, ere"
 - (3) "o, is, ere"
 - (4) "io, is, ere"
 - (5) "io, is ire"
+- (0) Pour les besoin du programme, la catégorie 0 correspond au verbe "esse" et à ses dérivés.
 
 Les lettres "u" et "v" sont interchangeables (le "v" correspondant à une graphie tardive). Par conséquent, "amavi" est aussi valide qu'"amaui" et "jussi" est aussi valide que "iussi".  
 
 Les formes verbales latines ne portant aucune marque de genre, "amat" peut aussi bien être traduit par "il aime" que par "elle aime". En revanche, "on aime" n'est pas pris en compte par le programme.  
 
-Lorsqu'un verbe latin admet plusieurs traductions en français, n'importe laquelle de celles-ci est admise par le programme (p. ex. : leger = lire, ceuillir, choisir).
+Lorsqu'un verbe latin admet plusieurs traductions en français, n'importe laquelle de celles-ci est admise par le programme (p. ex. : "legere" = lire, ceuillir, choisir).
 
 
 ## NooJ
@@ -67,7 +68,7 @@ options:
   -d {latin,français}, --direction {latin,français}
                         latin : latin -> français ; français : français -> latin
   -g {0,1,2,3,4,5}, --groupe {0,1,2,3,4,5}
-                        Le groupe verbal (ex: 1) que vous souhaitez réviser (0 correspond à "sum" et ses dérivés)
+                        Le groupe verbal (ex: 1) que vous souhaitez réviser (0 correspond à "esse" et ses dérivés)
   -p {0,1,2,3,4,5,6}, --personne {0,1,2,3,4,5,6}
                         La personne (comprise entre 1 et 6) que vous souhaitez pratiquer
   -t {futur,futur antérieur,imparfait,parfait,plus-que-parfait,présent}, --temps {futur,futur antérieur,imparfait,parfait,plus-que-parfait,présent}
