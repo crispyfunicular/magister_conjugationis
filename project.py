@@ -2,7 +2,6 @@ import json
 import sys
 import random
 import argparse
-import os
 
 debug = False
 
@@ -62,7 +61,7 @@ def filter_tense(tense_user, list_verbs) -> list[dict]:
     """Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the tense, if applicable.
 
     From main():
-    parser.add_argument('-t', '--tense', type=str, choices=list_tenses, default=None, help="Choose a tense")
+    parser.add_argument('-t', '--temps', type=str, choices=list_tenses, default=None, help="Le temps (ex: "présent") que vous souhaitez pratiquer")
     tense_user = args.tense
 
     *Input* (two)
@@ -90,7 +89,7 @@ def filter_group(group_user, list_verbs) -> list[dict]:
     """Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the verb group, if applicable.
 
     From main():
-    parser.add_argument('-g', '--group', type=str, choices=list_groups, default=None, help="Choose a verb group")
+    parser.add_argument('-g', '--groupe', type=str, choices=list_groups, default=None, help="Le groupe verbal (ex: 1) que vous souhaitez réviser (0 correspond à "sum" et ses dérivés)")
     group_user = args.group
 
     *Input* (two)
@@ -118,7 +117,7 @@ def filter_person(person_user, list_verbs) -> list[dict]:
     """Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the person, if applicable.
 
     From main():
-    parser.add_argument('-p', '--person', type=int, choices=range(0,7), default=None, help="The person (1 to 6) to practice")
+    parser.add_argument('-p', '--personne', type=int, choices=range(0,7), default=None, help="La personne (comprise entre 1 et 6) que vous souhaitez pratiquer")
     person_user = args.person
 
     *Input* (two)
@@ -146,7 +145,7 @@ def filter_voice(voice_user, list_verbs) -> list[dict]:
     """Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the voice, if applicable.
 
     From main():
-    parser.add_argument('-v', '--voice', type=str, choices=["actif", "passif"], default=None, help="The voice (actif or passif) to practice")
+    parser.add_argument('-v', '--voix', type=str, choices=["actif", "passif"], default=None, help="La voix (actif ou passif) que vous souhaitez pratiquer")
     voice_user = args.voice
 
     *Input* (two)
@@ -174,7 +173,7 @@ def filter_mood(mood_user, list_verbs) -> list[dict]:
     """Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the mood, if applicable.
 
     From main():
-    parser.add_argument('-m', '--mood', type=str, choices=["indicatif", "subjonctif"], default=None, help="The mood (indicatif or subjonctif) to practice")
+    parser.add_argument('-m', '--mode', type=str, choices=["indicatif", "subjonctif"], default=None, help="Le mode (indicatif ou subjonctif) que vous souhaitez pratiquer")
     mood_user = args.mood
 
     *Input* (two)
@@ -418,7 +417,7 @@ def ask_verbs(verbs: list[dict], direction):
 
         total_score += score
     print(f"Score total : {total_score}/{rounds_input}")
-    print("Prêt-e pour ne nouvelle partie ?")
+    print("Prêt-e pour une nouvelle partie ?")
 
 
 def personne(person: int) -> str:
@@ -496,7 +495,7 @@ def main():
 
     parser = argparse.ArgumentParser(
         prog="project.py",
-        description="Asks the user the translation of a conjugated verb in Latin or in French",
+        description="Interroge l'utilisateur sur les verbes latins",
         epilog="Bonam fortunam!",
     )
     parser.add_argument(
@@ -509,53 +508,53 @@ def main():
     )
     parser.add_argument(
         "-g",
-        "--group",
+        "--groupe",
         type=int,
         choices=list_groups,
         default=None,
-        help='The verb group (ex: 1) to practice (0 corresponds to "sum" and its derivatives)',
+        help='Le groupe verbal (ex: 1) que vous souhaitez réviser (0 correspond à "sum" et ses dérivés)',
     )
     parser.add_argument(
         "-p",
-        "--person",
+        "--personne",
         type=int,
         choices=range(0, 7),
         default=None,
-        help="The person (1 to 6) to practice",
+        help="La personne (comprise entre 1 et 6) que vous souhaitez pratiquer",
     )
     parser.add_argument(
         "-t",
-        "--tense",
+        "--temps",
         type=str,
         choices=list_tenses,
         default=None,
-        help='The tense (ex: "présent") to practice',
+        help='Le temps (ex: "présent") que vous souhaitez pratiquer',
     )
     parser.add_argument(
         "-v",
-        "--voice",
+        "--voix",
         type=str,
         choices=["actif", "passif"],
         default=None,
-        help="The voice (ex: actif or passif) to practice",
+        help="La voix (actif ou passif) que vous souhaitez pratiquer",
     )
     parser.add_argument(
         "-m",
-        "--mood",
+        "--mode",
         type=str,
         choices=["indicatif", "subjonctif"],
         default=None,
-        help="The mood (indicatif or subjonctif) to practice",
+        help="Le mode (indicatif ou subjonctif) que vous souhaitez pratiquer",
     )
-    parser.add_argument("--debug", action="store_true", help="Enable debug mode")
+    parser.add_argument("--debug", action="store_true", help="activer le mode debug")
     args = parser.parse_args()
 
     direction_user = args.direction
-    tense_user = args.tense
-    group_user = args.group
-    person_user = args.person
-    voice_user = args.voice
-    mood_user = args.mood
+    tense_user = args.temps
+    group_user = args.groupe
+    person_user = args.personne
+    voice_user = args.voix
+    mood_user = args.mode
 
     global debug
     debug = args.debug
