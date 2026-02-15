@@ -6,7 +6,7 @@ Ce site permet de s'entraîner aux conjugaisons latines en proposant des exercic
 
 ## Description
 Ce programme permet de faire pratiquer les conjugaisons latines à l'utilisateurice de la façon suivante :
-- Le programme peut afficher un verbe conjugué (ou forme fléchie) en latin, l'utilisateruice doit donner successivement les informations suivantes : personne, temps, voix, mode, traduction de l'infinitif. Exemple :
+- Le programme peut afficher un verbe conjugué (ou forme fléchie) en latin, l'utilisateurice doit donner successivement les informations suivantes : personne, temps, voix, mode, traduction de l'infinitif. Exemple :
 ```
   Nouveau verbe à trouver : narrabamus
   Indiquer la personne (de 1 à 6) : 4
@@ -42,6 +42,8 @@ Les verbes latins sont en effet classés en groupes. Le programme utilise la cla
 
 Les lettres "u" et "v" sont interchangeables, ainsi que "i" et "j" (le "v" et le "j" correspondant tous deux à une graphie tardive). Par conséquent, "amavi" est aussi valide qu'"amaui" et "jussi" est aussi valide que "iussi".  
 
+Le latin comporte également des verbes déponents. Ces verbes ont la particularité de présenter une morphologie passive (ex: "sequor", "miraris"...) mais un sens actif. Bien qu'ils se conjuguent comme le passif de leur groupe respectif, ils se traduisent par une voix active (ex: miror = "je m'étonne"). Nous les avons marqués avec l'étiquette `VX=dep`.
+
 Les formes verbales latines ne portant aucune marque de genre, "amat" peut aussi bien être traduit par "il aime" que par "elle aime". En revanche, "on aime" n'est pas pris en compte par le programme.  
 
 Lorsqu'un verbe latin admet plusieurs traductions en français, n'importe laquelle de celles-ci est admise par le programme (p. ex. : "legere" = lire, ceuillir, choisir).
@@ -74,6 +76,15 @@ Les formes conjuguées sont générées par des grammaires graphiques qui assemb
 
 Exemple de règle pour l'imparfait actif du 1er groupe : thème de l'infectum (**am**) + voyelle thématique (**a**) + suffixe temporel (**ba**) + désinence personnelle (**m**) -> **amabam**
 
+### Les verbes déponents
+Une gestion spécifique a été implémentée pour les verbes déponents (verbes ayant une forme passive mais un sens actif, comme *sequor* ou *miror*). Ils sont identifiés par l'étiquette `VX=dep`.
+
+Ces verbes ne possédant pas de forme active, et dans la mesure où le thème du *perfectum* ne sert à former que des temps de la forme active, les verbes déponents ne disposent pas de thème perfectum dans le dictionnaire, mais uniquement des deux thèmes suivants :
+- Theme=INF : utilise les désinences passives pour former les temps de l'infectum (ex: "sequeris").
+- Theme=SUP : utilise les formes composées (participe + "esse") pour former les temps du perfectum (ex: "secutus sum").
+
+### Nettoyage des faux positifs
+Par souci d'efficacité et de simplicité, la grammaire NooJ gère les formes régulières et "régulièrement irrégulières" et génère occasionnellement de "faux positifs" pour les formes "irrégulièrement irrégulières" (p. ex. *"loquiris" vs "loqueris"). Ces formes incorrectes sont filtrées *a posteriori* en Python via `pynooj.py`.
 
 ## Installation de l'environnement
 ```bash
