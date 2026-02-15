@@ -315,3 +315,66 @@ potu,posse,V+GP=0+PRIM=posum;potes;posse;potui+Theme=PER+TRAD=pouvoir+FLX=GP0_PE
 #prodesse
 prodes,prodesse,V+GP=0+PRIM=prosum;prodes;prodesse;profui+Theme=INF+TRAD=être\ utile+FLX=GP0_INF
 profu,prodesse,V+GP=0+PRIM=prosum;prodes;prodesse;profui+Theme=PER+TRAD=être\ utile+FLX=GP0_PER
+
+
+# Verbes déponents
+# GP1
+#imitari
+imit,imitari,V+GP=1+VX=dep+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF
+imitat,imitari,V+GP=1+VX=dep+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP
+
+#mirari
+mir,mirari,V+GP=1+VX=dep+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF
+mirat,mirari,V+GP=1+VX=dep+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP
+
+
+# GP2
+#uideri
+uid,uideri,V+GP=2+VX=dep+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF
+uis,uideri,V+GP=2+VX=dep+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP
+
+#uereri
+uer,uereri,V+GP=2+VX=dep+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF
+uerit,uereri,V+GP=2+VX=dep+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP
+
+
+# GP3
+#proficisci
+proficisc,proficisci,V+GP=3+VX=dep+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF
+profect,proficisci,V+GP=3+VX=dep+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP
+
+#nasci
+nasc,nasci,V+GP=3+VX=dep+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF
+nat,nasci,V+GP=3+VX=dep+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP
+
+#loqui
+loqu,loqui,V+GP=3+VX=dep+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF
+locut,loqui,V+GP=3+VX=dep+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP
+
+#uti
+ut,uti,V+GP=3+VX=dep+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF
+us,uti,V+GP=3+VX=dep+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP
+
+#sequi
+sequ,sequi,V+GP=3+VX=dep+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF
+secut,sequi,V+GP=3+VX=dep+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP
+
+
+# GP4
+#mori
+mor,mori,V+GP=4+VX=dep+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF
+mortu,mori,V+GP=4+VX=dep+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP
+
+#pati
+pat,pati,V+GP=4+VX=dep+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF
+pass,pati,V+GP=4+VX=dep+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP
+
+
+# GP 5
+#experiri
+exper,experiri,V+GP=5+VX=dep+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF
+expert,experiri,V+GP=5+VX=dep+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP
+
+#oriri
+or,oriri,V+GP=5+VX=dep+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF
+ort,oriri,V+GP=5+VX=dep+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP

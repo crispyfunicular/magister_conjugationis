@@ -80,6 +80,16 @@ GP1_INF =
 	:GP1_A :IMPF_SUB :P1_OR <L><B>/ | :GP1_A :IMPF_SUB :P_PAS/ | :GP1_A :IMPF_SUB :P3_PAS/ ;
 
 
+### Verbes déponents (imit-)
+GP1_DEP_INF =
+	:P1_DEP/GP=1+TP=pres+MOD=ind | :GP1_A :P_DEP/TP=pres+MOD=ind | :GP1_A :P3_DEP/TP=pres+MOD=ind |
+	:GP1_A :IMPF_IND :P1_DEP <L><B>/ | :GP1_A :IMPF_IND :P_DEP/ | :GP1_A :IMPF_IND :P3_DEP/ |
+	:GP1_A :FUT_GP1-2 <B> :P1_DEP/ | :GP1_A :FUT_GP1-2 <B>eris/VX=dep+P=2+NB=sg | :GP1_A :FUT_GP1-2 :P_DEP/ | :GP1_A :FUT_GP1-2 <B>u :P3_DEP/ |
+
+	:GP_SUB :P1_DEP <L><B>/ | :GP_SUB :P_DEP/ | :GP_SUB :P3_DEP/ |
+	:GP1_A :IMPF_SUB :P1_DEP <L><B>/ | :GP1_A :IMPF_SUB :P_DEP/ | :GP1_A :IMPF_SUB :P3_DEP/ ;
+
+
 ## PERFECTUM (amau-)
 
 GP1_PER =
@@ -102,6 +112,15 @@ GP1_SUP =
 	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=1+VX=pas+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=1+VX=pas+MOD=sub+TP=pqp ;
 
 
+### Verbes déponents (imitat-)
+GP1_DEP_SUP =
+	:PPP_SG " " :ESSE_PRES_SG/GP=1+VX=dep+MOD=ind+TP=pft | :PPP_PL " " :ESSE_PRES_PL/GP=1+VX=dep+MOD=ind+TP=pft |
+	:PPP_SG " " :ESSE_IMPF :P_SUP_SG/GP=1+VX=dep+MOD=ind+TP=pqp | :PPP_PL " " :ESSE_IMPF :P_SUP_PL/GP=1+VX=dep+MOD=ind+TP=pqp |
+	:PPP_SG " " :ESSE_FUT_SG/GP=1+VX=dep+MOD=ind+TP=fta | :PPP_PL " " :ESSE_FUT_PL/GP=1+VX=dep+MOD=ind+TP=fta | 
+
+	:PPP_SG " " :ESSE_SUB :P_SUP_SG/GP=1+VX=dep+MOD=sub+TP=pft | :PPP_PL " " :ESSE_SUB :P_SUP_PL/GP=1+VX=dep+MOD=sub+TP=pft |
+	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=1+VX=dep+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=1+VX=dep+MOD=sub+TP=pqp ;
+
 
 # GP2 (DELERE)
 ## INFECTUM (del-)
@@ -111,7 +130,7 @@ GP2_INF =
 	:GP2_E :IMPF_IND :P1_M/ | :GP2_E :IMPF_IND :P_ACT/ | :GP2_E :IMPF_IND :P3_ACT/ |
 	:GP2_E :FUT_GP1-2 <B> :P1_O/ | :GP2_E :FUT_GP1-2 :P_ACT/ | :GP2_E :FUT_GP1-2 <B>u :P3_ACT/ |
 
-	:GP2_E :P1_OR/TP=pres+MOD=ind | :GP2_E :P_PAS/TP=pres+MOD=ind | :GP2_E :P3_PAS/TP=pres+MOD=ind | 
+	:GP2_E :P1_OR/TP=pres+MOD=ind | :GP2_E :P_PAS/TP=pres+MOD=ind | :GP2_E :P3_PAS/TP=pres+MOD=ind |
 	:GP2_E :IMPF_IND :P1_OR <L><B>/ | :GP2_E :IMPF_IND :P_PAS/ | :GP2_E :IMPF_IND :P3_PAS/ |
 	:GP2_E :FUT_GP1-2 <B> :P1_OR/ | :GP2_E :FUT_GP1-2 <B>eris/VX=pas+P=2+NB=sg | :GP2_E :FUT_GP1-2 :P_PAS/ | :GP2_E :FUT_GP1-2 <B>u :P3_PAS/ |
 
@@ -120,6 +139,16 @@ GP2_INF =
 
 	:GP2_E :GP_SUB :P1_OR <L><B>/ | :GP2_E :GP_SUB :P_PAS/ | :GP2_E :GP_SUB :P3_PAS/ |
 	:GP2_E :IMPF_SUB :P1_OR <L><B>/ | :GP2_E :IMPF_SUB :P_PAS/ | :GP2_E :IMPF_SUB :P3_PAS/ ;
+
+
+### Verbes déponents (uid-)
+GP2_DEP_INF =
+	:GP2_E :P1_DEP/TP=pres+MOD=ind | :GP2_E :P_DEP/TP=pres+MOD=ind | :GP2_E :P3_DEP/TP=pres+MOD=ind |
+	:GP2_E :IMPF_IND :P1_DEP <L><B>/ | :GP2_E :IMPF_IND :P_DEP/ | :GP2_E :IMPF_IND :P3_DEP/ |
+	:GP2_E :FUT_GP1-2 <B> :P1_DEP/ | :GP2_E :FUT_GP1-2 <B>eris/VX=dep+P=2+NB=sg | :GP2_E :FUT_GP1-2 :P_DEP/ | :GP2_E :FUT_GP1-2 <B>u :P3_DEP/ |
+
+	:GP2_E :GP_SUB :P1_DEP <L><B>/ | :GP2_E :GP_SUB :P_DEP/ | :GP2_E :GP_SUB :P3_DEP/ |
+	:GP2_E :IMPF_SUB :P1_DEP <L><B>/ | :GP2_E :IMPF_SUB :P_DEP/ | :GP2_E :IMPF_SUB :P3_DEP/ ;
 
 
 ## PERFECTUM (deleu-)
@@ -144,6 +173,15 @@ GP2_SUP =
 	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=2+VX=pas+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=2+VX=pas+MOD=sub+TP=pqp ;
 
 
+### Verbes déponents (uis-)
+GP2_DEP_SUP =
+	:PPP_SG " " :ESSE_PRES_SG/GP=2+VX=dep+MOD=ind+TP=pft | :PPP_PL " " :ESSE_PRES_PL/GP=2+VX=dep+MOD=ind+TP=pft |
+	:PPP_SG " " :ESSE_IMPF :P_SUP_SG/GP=2+VX=dep+MOD=ind+TP=pqp | :PPP_PL " " :ESSE_IMPF :P_SUP_PL/GP=2+VX=dep+MOD=ind+TP=pqp |
+	:PPP_SG " " :ESSE_FUT_SG/GP=2+VX=dep+MOD=ind+TP=fta | :PPP_PL " " :ESSE_FUT_PL/GP=2+VX=dep+MOD=ind+TP=fta |
+
+	:PPP_SG " " :ESSE_SUB :P_SUP_SG/GP=2+VX=dep+MOD=sub+TP=pft | :PPP_PL " " :ESSE_SUB :P_SUP_PL/GP=2+VX=dep+MOD=sub+TP=pft |
+	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=2+VX=dep+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=2+VX=dep+MOD=sub+TP=pqp ;
+
 
 # GP3 (LEGERE)
 ## INFECTUM (leg-)
@@ -153,7 +191,7 @@ GP3_INF =
 	:GP3_E :IMPF_IND :P1_M/ | :GP3_E :IMPF_IND :P_ACT/ | :GP3_E :IMPF_IND :P3_ACT/ |
 	a :P1_M/GP=3+TP=fut+MOD=ind+VX=act | :FUT_GP3-4-5 :P_ACT/GP=3 | :FUT_GP3-4-5 :P3_ACT/GP=3 |
 
-	:P1_OR/GP=3+TP=pres+MOD=ind | :GP3_E ris/TP=pres+MOD=ind+VX=pas+P=2+NB=sg | :GP3_I :P_PAS/TP=pres+MOD=ind | u :P3_PAS/GP=3+TP=pres+MOD=ind | 
+	:P1_OR/GP=3+TP=pres+MOD=ind | :GP3_E ris/TP=pres+MOD=ind+VX=pas+P=2+NB=sg | :GP3_I :P_PAS/TP=pres+MOD=ind | u :P3_PAS/GP=3+TP=pres+MOD=ind |
 	:GP3_E :IMPF_IND :P1_OR <L><B>/ | :GP3_E :IMPF_IND :P_PAS/ | :GP3_E :IMPF_IND :P3_PAS/ |
 	:P1_OR <L><B>a/GP=3+TP=fut+MOD=ind | :FUT_GP3-4-5 :P_PAS/GP=3 | :FUT_GP3-4-5 :P3_PAS/GP=3 |
 
@@ -162,6 +200,16 @@ GP3_INF =
 
 	:GP_SUB :P1_OR <L><B>/ | :GP_SUB :P_PAS/ | :GP_SUB :P3_PAS/ |
 	:GP3_E :IMPF_SUB :P1_OR <L><B>/ | :GP3_E :IMPF_SUB :P_PAS/ | :GP3_E :IMPF_SUB :P3_PAS/ ;
+
+
+### Verbes déponents (proficisc-)
+GP3_DEP_INF =
+	:P1_DEP/GP=3+TP=pres+MOD=ind | :GP3_E ris/TP=pres+MOD=ind+VX=dep+P=2+NB=sg | :GP3_I :P_DEP/TP=pres+MOD=ind | u :P3_DEP/GP=3+TP=pres+MOD=ind |
+	:GP3_E :IMPF_IND :P1_DEP <L><B>/ | :GP3_E :IMPF_IND :P_DEP/ | :GP3_E :IMPF_IND :P3_DEP/ |
+	:P1_DEP <L><B>a/GP=3+TP=fut+MOD=ind | :FUT_GP3-4-5 :P_DEP/GP=3 | :FUT_GP3-4-5 :P3_DEP/GP=3 |
+
+	:GP_SUB :P1_DEP <L><B>/ | :GP_SUB :P_DEP/ | :GP_SUB :P3_DEP/ |
+	:GP3_E :IMPF_SUB :P1_DEP <L><B>/ | :GP3_E :IMPF_SUB :P_DEP/ | :GP3_E :IMPF_SUB :P3_DEP/ ;
 
 
 ## PERFECTUM (leg-)
@@ -186,6 +234,16 @@ GP3_SUP =
 	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=3+VX=pas+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=3+VX=pas+MOD=sub+TP=pqp ;
 
 
+### Verbes déponents (profect-)
+GP3_DEP_SUP =
+	:PPP_SG " " :ESSE_PRES_SG/GP=3+VX=dep+MOD=ind+TP=pft | :PPP_PL " " :ESSE_PRES_PL/GP=3+VX=dep+MOD=ind+TP=pft |
+	:PPP_SG " " :ESSE_IMPF :P_SUP_SG/GP=3+VX=dep+MOD=ind+TP=pqp | :PPP_PL " " :ESSE_IMPF :P_SUP_PL/GP=3+VX=dep+MOD=ind+TP=pqp |
+	:PPP_SG " " :ESSE_FUT_SG/GP=3+VX=dep+MOD=ind+TP=fta | :PPP_PL " " :ESSE_FUT_PL/GP=3+VX=dep+MOD=ind+TP=fta |
+
+	:PPP_SG " " :ESSE_SUB :P_SUP_SG/GP=3+VX=dep+MOD=sub+TP=pft | :PPP_PL " " :ESSE_SUB :P_SUP_PL/GP=3+VX=dep+MOD=sub+TP=pft |
+	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=3+VX=dep+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=3+VX=dep+MOD=sub+TP=pqp ;
+
+
 
 
 # GP4 (CAPERE)
@@ -205,6 +263,16 @@ GP4_INF =
 
 	:GP4_I :GP_SUB :P1_OR <L><B>/ | :GP4_I :GP_SUB :P_PAS/ | :GP4_I :GP_SUB :P3_PAS/ |
 	:GP4_E :IMPF_SUB :P1_OR <L><B>/ | :GP4_E :IMPF_SUB :P_PAS/ | :GP4_E :IMPF_SUB :P3_PAS/ ;
+
+
+### Verbes déponents (mor-)
+GP4_DEP_INF =
+	:GP4_I :P1_DEP/TP=pres+MOD=ind | eris/GP=4+TP=pres+MOD=ind+VX=dep+P=2+NB=sg | :GP4_I :P_DEP/TP=pres+MOD=ind | :GP4_I u :P3_DEP/TP=pres+MOD=ind |
+	:GP4_IE :IMPF_IND :P1_DEP <L><B>/ | :GP4_IE :IMPF_IND :P_DEP/ | :GP4_IE :IMPF_IND :P3_DEP/ |
+	:GP4_I :P1_DEP <L><B>a/TP=fut+MOD=ind | :GP4_I :FUT_GP3-4-5 :P_DEP/ | :GP4_I :FUT_GP3-4-5 :P3_DEP/ |
+
+	:GP4_I :GP_SUB :P1_DEP <L><B>/ | :GP4_I :GP_SUB :P_DEP/ | :GP4_I :GP_SUB :P3_DEP/ |
+	:GP4_E :IMPF_SUB :P1_DEP <L><B>/ | :GP4_E :IMPF_SUB :P_DEP/ | :GP4_E :IMPF_SUB :P3_DEP/ ;
 
 
 ## PERFECTUM (cep-)
@@ -229,6 +297,14 @@ GP4_SUP =
 	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=4+VX=pas+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=4+VX=pas+MOD=sub+TP=pqp ;
 
 
+### Verbes déponents (mortu-)
+GP4_DEP_SUP =
+	:PPP_SG " " :ESSE_PRES_SG/GP=4+VX=dep+MOD=ind+TP=pft | :PPP_PL " " :ESSE_PRES_PL/GP=4+VX=dep+MOD=ind+TP=pft |
+	:PPP_SG " " :ESSE_IMPF :P_SUP_SG/GP=4+VX=dep+MOD=ind+TP=pqp | :PPP_PL " " :ESSE_IMPF :P_SUP_PL/GP=4+VX=dep+MOD=ind+TP=pqp |
+	:PPP_SG " " :ESSE_FUT_SG/GP=4+VX=dep+MOD=ind+TP=fta | :PPP_PL " " :ESSE_FUT_PL/GP=4+VX=dep+MOD=ind+TP=fta |
+
+	:PPP_SG " " :ESSE_SUB :P_SUP_SG/GP=4+VX=dep+MOD=sub+TP=pft | :PPP_PL " " :ESSE_SUB :P_SUP_PL/GP=4+VX=dep+MOD=sub+TP=pft |
+	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=4+VX=dep+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=4+VX=dep+MOD=sub+TP=pqp ;
 
 
 # GP5 (AUDIRE)
@@ -250,6 +326,16 @@ GP5_INF =
 	:GP5_I :IMPF_SUB :P1_OR <L><B>/ | :GP5_I :IMPF_SUB :P_PAS/ | :GP5_I :IMPF_SUB :P3_PAS/ ;
 
 
+### Verbes déponents (exper-)
+GP5_DEP_INF =
+	:GP5_I :P1_DEP/TP=pres+MOD=ind | :GP5_I :P_DEP/TP=pres+MOD=ind | :GP5_I u :P3_DEP/TP=pres+MOD=ind |
+	:GP5_IE :IMPF_IND :P1_DEP <L><B>/ | :GP5_IE :IMPF_IND :P_DEP/ | :GP5_IE :IMPF_IND :P3_DEP/ |
+	:GP5_I :P1_DEP <L><B>a/TP=fut+MOD=ind | :GP5_I :FUT_GP3-4-5 :P_DEP/ | :GP5_I :FUT_GP3-4-5 :P3_DEP/ |
+
+	:GP5_I :GP_SUB :P1_DEP <L><B>/ | :GP5_I :GP_SUB :P_DEP/ | :GP5_I :GP_SUB :P3_DEP/ |
+	:GP5_I :IMPF_SUB :P1_DEP <L><B>/ | :GP5_I :IMPF_SUB :P_DEP/ | :GP5_I :IMPF_SUB :P3_DEP/ ;
+
+
 ## PERFECTUM (audiu-)
 
 GP5_PER =
@@ -261,7 +347,7 @@ GP5_PER =
 	:PQP_SUB :P1_M/GP=5 | :PQP_SUB :P_ACT/GP=5 | :PQP_SUB :P3_ACT/GP=5 ;
 
 
-##SUPINUM (delet-)
+##SUPINUM (audit-)
 
 GP5_SUP =
 	:PPP_SG " " :ESSE_PRES_SG/GP=5+VX=pas+MOD=ind+TP=pft | :PPP_PL " " :ESSE_PRES_PL/GP=5+VX=pas+MOD=ind+TP=pft |
@@ -270,6 +356,16 @@ GP5_SUP =
 
 	:PPP_SG " " :ESSE_SUB :P_SUP_SG/GP=5+VX=pas+MOD=sub+TP=pft | :PPP_PL " " :ESSE_SUB :P_SUP_PL/GP=5+VX=pas+MOD=sub+TP=pft |
 	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=5+VX=pas+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=5+VX=pas+MOD=sub+TP=pqp ;
+
+
+### Verbes déponents (expert-)
+GP5_DEP_SUP =
+	:PPP_SG " " :ESSE_PRES_SG/GP=5+VX=dep+MOD=ind+TP=pft | :PPP_PL " " :ESSE_PRES_PL/GP=5+VX=dep+MOD=ind+TP=pft |
+	:PPP_SG " " :ESSE_IMPF :P_SUP_SG/GP=5+VX=dep+MOD=ind+TP=pqp | :PPP_PL " " :ESSE_IMPF :P_SUP_PL/GP=5+VX=dep+MOD=ind+TP=pqp |
+	:PPP_SG " " :ESSE_FUT_SG/GP=5+VX=dep+MOD=ind+TP=fta | :PPP_PL " " :ESSE_FUT_PL/GP=5+VX=dep+MOD=ind+TP=fta |
+
+	:PPP_SG " " :ESSE_SUB :P_SUP_SG/GP=5+VX=dep+MOD=sub+TP=pft | :PPP_PL " " :ESSE_SUB :P_SUP_PL/GP=5+VX=dep+MOD=sub+TP=pft |
+	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=5+VX=dep+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=5+VX=dep+MOD=sub+TP=pqp ;
 
 
 
@@ -364,7 +460,7 @@ P_PAS =
 	mur/VX=pas+P=1+NB=pl |
 	mini/VX=pas+P=2+NB=pl ;
 
-### SANS MARQUES DE VOIX(pour former les temps du supinum)
+### SANS MARQUES DE VOIX (pour former les temps du supinum)
 P_SUP_SG =
 	m/P=1+NB=sg |
 	s/P=2+NB=sg |
@@ -374,6 +470,16 @@ P_SUP_PL =
 	mus/P=1+NB=pl |
 	tis/P=2+NB=pl |
 	nt/P=3+NB=pl ;
+
+### SANS MARQUES DE MODE (pour les verbes déponents)
+P1_DEP = or/VX=dep+P=1+NB=sg ;
+P3_DEP = ntur/VX=dep+P=3+NB=pl ;
+P_DEP =
+	ris/VX=dep+P=2+NB=sg |
+	tur/VX=dep+P=3+NB=sg |
+	mur/VX=dep+P=1+NB=pl |
+	mini/VX=dep+P=2+NB=pl ;
+
 
 
 ## INFECTUM
@@ -417,6 +523,6 @@ FTA = eri/TP=fta+MOD=ind+VX=act ;
 
 
 ## SUPINUM
-PPP_SG = us/VX=pas+NB=sg ;
-PPP_PL = i/VX=pas+NB=pl ;
+PPP_SG = us/NB=sg ;
+PPP_PL = i/NB=pl ;
 

@@ -6786,3 +6786,794 @@ profuerat,prodesse,V+PRIM=prosum;prodes;prodesse;profui+Theme=PER+TRAD=être\ ut
 profueramus,prodesse,V+PRIM=prosum;prodes;prodesse;profui+Theme=PER+TRAD=être\ utile+FLX=GP0_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=0
 profueratis,prodesse,V+PRIM=prosum;prodes;prodesse;profui+Theme=PER+TRAD=être\ utile+FLX=GP0_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=0
 profuerant,prodesse,V+PRIM=prosum;prodes;prodesse;profui+Theme=PER+TRAD=être\ utile+FLX=GP0_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=0
+imitor,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+VX=dep+P=1+NB=sg+GP=1+TP=pres+MOD=ind
+imiteris,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=pres+MOD=sub+VX=dep+P=2+NB=sg
+imitetur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=pres+MOD=sub+VX=dep+P=3+NB=sg
+imitemur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=pres+MOD=sub+VX=dep+P=1+NB=pl
+imitemini,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=pres+MOD=sub+VX=dep+P=2+NB=pl
+imitentur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=pres+MOD=sub+VX=dep+P=3+NB=pl
+imiter,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=pres+MOD=sub+VX=dep+P=1+NB=sg
+imitaris,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+VX=dep+P=2+NB=sg+TP=pres+MOD=ind
+imitatur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+VX=dep+P=3+NB=sg+TP=pres+MOD=ind
+imitamur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+VX=dep+P=1+NB=pl+TP=pres+MOD=ind
+imitamini,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+VX=dep+P=2+NB=pl+TP=pres+MOD=ind
+imitantur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+VX=dep+P=3+NB=pl+TP=pres+MOD=ind
+imitareris,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=sub+VX=dep+P=2+NB=sg
+imitaretur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=sub+VX=dep+P=3+NB=sg
+imitaremur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=sub+VX=dep+P=1+NB=pl
+imitaremini,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=sub+VX=dep+P=2+NB=pl
+imitarentur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=sub+VX=dep+P=3+NB=pl
+imitarer,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=sub+VX=dep+P=1+NB=sg
+imitabiris,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=2+NB=sg
+imitabitur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=3+NB=sg
+imitabimur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=1+NB=pl
+imitabimini,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=2+NB=pl
+imitabor,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=1+NB=sg
+imitaberis,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=2+NB=sg
+imitabuntur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=3+NB=pl
+imitabaris,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=ind+VX=dep+P=2+NB=sg
+imitabatur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=ind+VX=dep+P=3+NB=sg
+imitabamur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=ind+VX=dep+P=1+NB=pl
+imitabamini,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=ind+VX=dep+P=2+NB=pl
+imitabantur,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=ind+VX=dep+P=3+NB=pl
+imitabar,imitari,V+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=ind+VX=dep+P=1+NB=sg
+imitati sumus,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=1+NB=pl+GP=1+VX=dep+MOD=ind+TP=pft
+imitati estis,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=2+NB=pl+GP=1+VX=dep+MOD=ind+TP=pft
+imitati sunt,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=3+NB=pl+GP=1+VX=dep+MOD=ind+TP=pft
+imitati erimus,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=1+NB=pl+GP=1+VX=dep+MOD=ind+TP=fta
+imitati eritis,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=2+NB=pl+GP=1+VX=dep+MOD=ind+TP=fta
+imitati erunt,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=3+NB=pl+GP=1+VX=dep+MOD=ind+TP=fta
+imitati essemus,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=1+NB=pl+GP=1+VX=dep+MOD=sub+TP=pqp
+imitati essetis,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=2+NB=pl+GP=1+VX=dep+MOD=sub+TP=pqp
+imitati essent,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=3+NB=pl+GP=1+VX=dep+MOD=sub+TP=pqp
+imitati simus,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=1+NB=pl+GP=1+VX=dep+MOD=sub+TP=pft
+imitati sitis,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=2+NB=pl+GP=1+VX=dep+MOD=sub+TP=pft
+imitati sint,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=3+NB=pl+GP=1+VX=dep+MOD=sub+TP=pft
+imitati eramus,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=1+NB=pl+GP=1+VX=dep+MOD=ind+TP=pqp
+imitati eratis,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=2+NB=pl+GP=1+VX=dep+MOD=ind+TP=pqp
+imitati erant,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=3+NB=pl+GP=1+VX=dep+MOD=ind+TP=pqp
+imitatus sum,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=1+NB=sg+GP=1+VX=dep+MOD=ind+TP=pft
+imitatus es,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=2+NB=sg+GP=1+VX=dep+MOD=ind+TP=pft
+imitatus est,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=3+NB=sg+GP=1+VX=dep+MOD=ind+TP=pft
+imitatus ero,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=1+NB=sg+GP=1+VX=dep+MOD=ind+TP=fta
+imitatus eris,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=2+NB=sg+GP=1+VX=dep+MOD=ind+TP=fta
+imitatus erit,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=3+NB=sg+GP=1+VX=dep+MOD=ind+TP=fta
+imitatus essem,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=1+NB=sg+GP=1+VX=dep+MOD=sub+TP=pqp
+imitatus esses,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=2+NB=sg+GP=1+VX=dep+MOD=sub+TP=pqp
+imitatus esset,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=3+NB=sg+GP=1+VX=dep+MOD=sub+TP=pqp
+imitatus sim,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=1+NB=sg+GP=1+VX=dep+MOD=sub+TP=pft
+imitatus sis,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=2+NB=sg+GP=1+VX=dep+MOD=sub+TP=pft
+imitatus sit,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=3+NB=sg+GP=1+VX=dep+MOD=sub+TP=pft
+imitatus eram,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=1+NB=sg+GP=1+VX=dep+MOD=ind+TP=pqp
+imitatus eras,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=2+NB=sg+GP=1+VX=dep+MOD=ind+TP=pqp
+imitatus erat,imitari,V+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP+P=3+NB=sg+GP=1+VX=dep+MOD=ind+TP=pqp
+miror,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+VX=dep+P=1+NB=sg+GP=1+TP=pres+MOD=ind
+mireris,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=pres+MOD=sub+VX=dep+P=2+NB=sg
+miretur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=pres+MOD=sub+VX=dep+P=3+NB=sg
+miremur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=pres+MOD=sub+VX=dep+P=1+NB=pl
+miremini,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=pres+MOD=sub+VX=dep+P=2+NB=pl
+mirentur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=pres+MOD=sub+VX=dep+P=3+NB=pl
+mirer,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=pres+MOD=sub+VX=dep+P=1+NB=sg
+miraris,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+VX=dep+P=2+NB=sg+TP=pres+MOD=ind
+miratur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+VX=dep+P=3+NB=sg+TP=pres+MOD=ind
+miramur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+VX=dep+P=1+NB=pl+TP=pres+MOD=ind
+miramini,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+VX=dep+P=2+NB=pl+TP=pres+MOD=ind
+mirantur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+VX=dep+P=3+NB=pl+TP=pres+MOD=ind
+mirareris,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=sub+VX=dep+P=2+NB=sg
+miraretur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=sub+VX=dep+P=3+NB=sg
+miraremur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=sub+VX=dep+P=1+NB=pl
+miraremini,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=sub+VX=dep+P=2+NB=pl
+mirarentur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=sub+VX=dep+P=3+NB=pl
+mirarer,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=sub+VX=dep+P=1+NB=sg
+mirabiris,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=2+NB=sg
+mirabitur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=3+NB=sg
+mirabimur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=1+NB=pl
+mirabimini,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=2+NB=pl
+mirabor,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=1+NB=sg
+miraberis,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=2+NB=sg
+mirabuntur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=fut+MOD=ind+VX=dep+P=3+NB=pl
+mirabaris,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=ind+VX=dep+P=2+NB=sg
+mirabatur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=ind+VX=dep+P=3+NB=sg
+mirabamur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=ind+VX=dep+P=1+NB=pl
+mirabamini,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=ind+VX=dep+P=2+NB=pl
+mirabantur,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=ind+VX=dep+P=3+NB=pl
+mirabar,mirari,V+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF+GP=1+TP=impf+MOD=ind+VX=dep+P=1+NB=sg
+mirati sumus,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=1+NB=pl+GP=1+VX=dep+MOD=ind+TP=pft
+mirati estis,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=2+NB=pl+GP=1+VX=dep+MOD=ind+TP=pft
+mirati sunt,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=3+NB=pl+GP=1+VX=dep+MOD=ind+TP=pft
+mirati erimus,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=1+NB=pl+GP=1+VX=dep+MOD=ind+TP=fta
+mirati eritis,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=2+NB=pl+GP=1+VX=dep+MOD=ind+TP=fta
+mirati erunt,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=3+NB=pl+GP=1+VX=dep+MOD=ind+TP=fta
+mirati essemus,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=1+NB=pl+GP=1+VX=dep+MOD=sub+TP=pqp
+mirati essetis,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=2+NB=pl+GP=1+VX=dep+MOD=sub+TP=pqp
+mirati essent,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=3+NB=pl+GP=1+VX=dep+MOD=sub+TP=pqp
+mirati simus,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=1+NB=pl+GP=1+VX=dep+MOD=sub+TP=pft
+mirati sitis,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=2+NB=pl+GP=1+VX=dep+MOD=sub+TP=pft
+mirati sint,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=3+NB=pl+GP=1+VX=dep+MOD=sub+TP=pft
+mirati eramus,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=1+NB=pl+GP=1+VX=dep+MOD=ind+TP=pqp
+mirati eratis,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=2+NB=pl+GP=1+VX=dep+MOD=ind+TP=pqp
+mirati erant,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=3+NB=pl+GP=1+VX=dep+MOD=ind+TP=pqp
+miratus sum,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=1+NB=sg+GP=1+VX=dep+MOD=ind+TP=pft
+miratus es,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=2+NB=sg+GP=1+VX=dep+MOD=ind+TP=pft
+miratus est,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=3+NB=sg+GP=1+VX=dep+MOD=ind+TP=pft
+miratus ero,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=1+NB=sg+GP=1+VX=dep+MOD=ind+TP=fta
+miratus eris,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=2+NB=sg+GP=1+VX=dep+MOD=ind+TP=fta
+miratus erit,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=3+NB=sg+GP=1+VX=dep+MOD=ind+TP=fta
+miratus essem,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=1+NB=sg+GP=1+VX=dep+MOD=sub+TP=pqp
+miratus esses,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=2+NB=sg+GP=1+VX=dep+MOD=sub+TP=pqp
+miratus esset,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=3+NB=sg+GP=1+VX=dep+MOD=sub+TP=pqp
+miratus sim,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=1+NB=sg+GP=1+VX=dep+MOD=sub+TP=pft
+miratus sis,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=2+NB=sg+GP=1+VX=dep+MOD=sub+TP=pft
+miratus sit,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=3+NB=sg+GP=1+VX=dep+MOD=sub+TP=pft
+miratus eram,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=1+NB=sg+GP=1+VX=dep+MOD=ind+TP=pqp
+miratus eras,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=2+NB=sg+GP=1+VX=dep+MOD=ind+TP=pqp
+miratus erat,mirari,V+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP+P=3+NB=sg+GP=1+VX=dep+MOD=ind+TP=pqp
+uideor,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+VX=dep+P=1+NB=sg+TP=pres+MOD=ind
+uideris,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+VX=dep+P=2+NB=sg+TP=pres+MOD=ind
+uidetur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+VX=dep+P=3+NB=sg+TP=pres+MOD=ind
+uidemur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+VX=dep+P=1+NB=pl+TP=pres+MOD=ind
+uidemini,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+VX=dep+P=2+NB=pl+TP=pres+MOD=ind
+uidentur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+VX=dep+P=3+NB=pl+TP=pres+MOD=ind
+uidereris,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=sub+VX=dep+P=2+NB=sg
+uideretur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=sub+VX=dep+P=3+NB=sg
+uideremur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=sub+VX=dep+P=1+NB=pl
+uideremini,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=sub+VX=dep+P=2+NB=pl
+uiderentur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=sub+VX=dep+P=3+NB=pl
+uiderer,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=sub+VX=dep+P=1+NB=sg
+uidearis,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=pres+MOD=sub+VX=dep+P=2+NB=sg
+uideatur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=pres+MOD=sub+VX=dep+P=3+NB=sg
+uideamur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=pres+MOD=sub+VX=dep+P=1+NB=pl
+uideamini,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=pres+MOD=sub+VX=dep+P=2+NB=pl
+uideantur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=pres+MOD=sub+VX=dep+P=3+NB=pl
+uidear,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=pres+MOD=sub+VX=dep+P=1+NB=sg
+uidebiris,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=2+NB=sg
+uidebitur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=3+NB=sg
+uidebimur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=1+NB=pl
+uidebimini,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=2+NB=pl
+uidebor,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=1+NB=sg
+uideberis,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=2+NB=sg
+uidebuntur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=3+NB=pl
+uidebaris,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=ind+VX=dep+P=2+NB=sg
+uidebatur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=ind+VX=dep+P=3+NB=sg
+uidebamur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=ind+VX=dep+P=1+NB=pl
+uidebamini,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=ind+VX=dep+P=2+NB=pl
+uidebantur,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=ind+VX=dep+P=3+NB=pl
+uidebar,uideri,V+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=ind+VX=dep+P=1+NB=sg
+uisi sumus,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=1+NB=pl+GP=2+VX=dep+MOD=ind+TP=pft
+uisi estis,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=2+NB=pl+GP=2+VX=dep+MOD=ind+TP=pft
+uisi sunt,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=3+NB=pl+GP=2+VX=dep+MOD=ind+TP=pft
+uisi erimus,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=1+NB=pl+GP=2+VX=dep+MOD=ind+TP=fta
+uisi eritis,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=2+NB=pl+GP=2+VX=dep+MOD=ind+TP=fta
+uisi erunt,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=3+NB=pl+GP=2+VX=dep+MOD=ind+TP=fta
+uisi essemus,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=1+NB=pl+GP=2+VX=dep+MOD=sub+TP=pqp
+uisi essetis,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=2+NB=pl+GP=2+VX=dep+MOD=sub+TP=pqp
+uisi essent,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=3+NB=pl+GP=2+VX=dep+MOD=sub+TP=pqp
+uisi simus,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=1+NB=pl+GP=2+VX=dep+MOD=sub+TP=pft
+uisi sitis,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=2+NB=pl+GP=2+VX=dep+MOD=sub+TP=pft
+uisi sint,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=3+NB=pl+GP=2+VX=dep+MOD=sub+TP=pft
+uisi eramus,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=1+NB=pl+GP=2+VX=dep+MOD=ind+TP=pqp
+uisi eratis,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=2+NB=pl+GP=2+VX=dep+MOD=ind+TP=pqp
+uisi erant,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=3+NB=pl+GP=2+VX=dep+MOD=ind+TP=pqp
+uisus sum,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=1+NB=sg+GP=2+VX=dep+MOD=ind+TP=pft
+uisus es,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=2+NB=sg+GP=2+VX=dep+MOD=ind+TP=pft
+uisus est,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=3+NB=sg+GP=2+VX=dep+MOD=ind+TP=pft
+uisus ero,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=1+NB=sg+GP=2+VX=dep+MOD=ind+TP=fta
+uisus eris,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=2+NB=sg+GP=2+VX=dep+MOD=ind+TP=fta
+uisus erit,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=3+NB=sg+GP=2+VX=dep+MOD=ind+TP=fta
+uisus essem,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=1+NB=sg+GP=2+VX=dep+MOD=sub+TP=pqp
+uisus esses,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=2+NB=sg+GP=2+VX=dep+MOD=sub+TP=pqp
+uisus esset,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=3+NB=sg+GP=2+VX=dep+MOD=sub+TP=pqp
+uisus sim,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=1+NB=sg+GP=2+VX=dep+MOD=sub+TP=pft
+uisus sis,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=2+NB=sg+GP=2+VX=dep+MOD=sub+TP=pft
+uisus sit,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=3+NB=sg+GP=2+VX=dep+MOD=sub+TP=pft
+uisus eram,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=1+NB=sg+GP=2+VX=dep+MOD=ind+TP=pqp
+uisus eras,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=2+NB=sg+GP=2+VX=dep+MOD=ind+TP=pqp
+uisus erat,uideri,V+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP+P=3+NB=sg+GP=2+VX=dep+MOD=ind+TP=pqp
+uereor,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+VX=dep+P=1+NB=sg+TP=pres+MOD=ind
+uereris,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+VX=dep+P=2+NB=sg+TP=pres+MOD=ind
+ueretur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+VX=dep+P=3+NB=sg+TP=pres+MOD=ind
+ueremur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+VX=dep+P=1+NB=pl+TP=pres+MOD=ind
+ueremini,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+VX=dep+P=2+NB=pl+TP=pres+MOD=ind
+uerentur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+VX=dep+P=3+NB=pl+TP=pres+MOD=ind
+uerereris,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=sub+VX=dep+P=2+NB=sg
+uereretur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=sub+VX=dep+P=3+NB=sg
+uereremur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=sub+VX=dep+P=1+NB=pl
+uereremini,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=sub+VX=dep+P=2+NB=pl
+uererentur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=sub+VX=dep+P=3+NB=pl
+uererer,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=sub+VX=dep+P=1+NB=sg
+uerearis,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=pres+MOD=sub+VX=dep+P=2+NB=sg
+uereatur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=pres+MOD=sub+VX=dep+P=3+NB=sg
+uereamur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=pres+MOD=sub+VX=dep+P=1+NB=pl
+uereamini,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=pres+MOD=sub+VX=dep+P=2+NB=pl
+uereantur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=pres+MOD=sub+VX=dep+P=3+NB=pl
+uerear,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=pres+MOD=sub+VX=dep+P=1+NB=sg
+uerebiris,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=2+NB=sg
+uerebitur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=3+NB=sg
+uerebimur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=1+NB=pl
+uerebimini,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=2+NB=pl
+uerebor,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=1+NB=sg
+uereberis,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=2+NB=sg
+uerebuntur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=fut+MOD=ind+VX=dep+P=3+NB=pl
+uerebaris,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=ind+VX=dep+P=2+NB=sg
+uerebatur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=ind+VX=dep+P=3+NB=sg
+uerebamur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=ind+VX=dep+P=1+NB=pl
+uerebamini,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=ind+VX=dep+P=2+NB=pl
+uerebantur,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=ind+VX=dep+P=3+NB=pl
+uerebar,uereri,V+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF+GP=2+TP=impf+MOD=ind+VX=dep+P=1+NB=sg
+ueriti sumus,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=1+NB=pl+GP=2+VX=dep+MOD=ind+TP=pft
+ueriti estis,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=2+NB=pl+GP=2+VX=dep+MOD=ind+TP=pft
+ueriti sunt,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=3+NB=pl+GP=2+VX=dep+MOD=ind+TP=pft
+ueriti erimus,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=1+NB=pl+GP=2+VX=dep+MOD=ind+TP=fta
+ueriti eritis,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=2+NB=pl+GP=2+VX=dep+MOD=ind+TP=fta
+ueriti erunt,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=3+NB=pl+GP=2+VX=dep+MOD=ind+TP=fta
+ueriti essemus,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=1+NB=pl+GP=2+VX=dep+MOD=sub+TP=pqp
+ueriti essetis,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=2+NB=pl+GP=2+VX=dep+MOD=sub+TP=pqp
+ueriti essent,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=3+NB=pl+GP=2+VX=dep+MOD=sub+TP=pqp
+ueriti simus,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=1+NB=pl+GP=2+VX=dep+MOD=sub+TP=pft
+ueriti sitis,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=2+NB=pl+GP=2+VX=dep+MOD=sub+TP=pft
+ueriti sint,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=3+NB=pl+GP=2+VX=dep+MOD=sub+TP=pft
+ueriti eramus,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=1+NB=pl+GP=2+VX=dep+MOD=ind+TP=pqp
+ueriti eratis,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=2+NB=pl+GP=2+VX=dep+MOD=ind+TP=pqp
+ueriti erant,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=3+NB=pl+GP=2+VX=dep+MOD=ind+TP=pqp
+ueritus sum,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=1+NB=sg+GP=2+VX=dep+MOD=ind+TP=pft
+ueritus es,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=2+NB=sg+GP=2+VX=dep+MOD=ind+TP=pft
+ueritus est,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=3+NB=sg+GP=2+VX=dep+MOD=ind+TP=pft
+ueritus ero,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=1+NB=sg+GP=2+VX=dep+MOD=ind+TP=fta
+ueritus eris,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=2+NB=sg+GP=2+VX=dep+MOD=ind+TP=fta
+ueritus erit,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=3+NB=sg+GP=2+VX=dep+MOD=ind+TP=fta
+ueritus essem,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=1+NB=sg+GP=2+VX=dep+MOD=sub+TP=pqp
+ueritus esses,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=2+NB=sg+GP=2+VX=dep+MOD=sub+TP=pqp
+ueritus esset,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=3+NB=sg+GP=2+VX=dep+MOD=sub+TP=pqp
+ueritus sim,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=1+NB=sg+GP=2+VX=dep+MOD=sub+TP=pft
+ueritus sis,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=2+NB=sg+GP=2+VX=dep+MOD=sub+TP=pft
+ueritus sit,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=3+NB=sg+GP=2+VX=dep+MOD=sub+TP=pft
+ueritus eram,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=1+NB=sg+GP=2+VX=dep+MOD=ind+TP=pqp
+ueritus eras,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=2+NB=sg+GP=2+VX=dep+MOD=ind+TP=pqp
+ueritus erat,uereri,V+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP+P=3+NB=sg+GP=2+VX=dep+MOD=ind+TP=pqp
+proficiscor,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+VX=dep+P=1+NB=sg+GP=3+TP=pres+MOD=ind
+proficiscaris,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=2+NB=sg
+proficiscatur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=3+NB=sg
+proficiscamur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=1+NB=pl
+proficiscamini,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=2+NB=pl
+proficiscantur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=3+NB=pl
+proficiscar,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=1+NB=sg
+proficisceris,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=2+NB=sg+GP=3
+proficiscetur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=3+NB=sg+GP=3
+proficiscemur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=1+NB=pl+GP=3
+proficiscemini,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=2+NB=pl+GP=3
+proficiscentur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=3+NB=pl+GP=3
+proficiscar,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+VX=dep+P=1+NB=sg+GP=3+TP=fut+MOD=ind
+proficiscuntur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+VX=dep+P=3+NB=pl+GP=3+TP=pres+MOD=ind
+proficisciris,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+VX=dep+P=2+NB=sg+TP=pres+MOD=ind
+proficiscitur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+VX=dep+P=3+NB=sg+TP=pres+MOD=ind
+proficiscimur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+VX=dep+P=1+NB=pl+TP=pres+MOD=ind
+proficiscimini,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+VX=dep+P=2+NB=pl+TP=pres+MOD=ind
+proficisceris,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=ind+VX=dep+P=2+NB=sg
+proficiscereris,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=2+NB=sg
+proficisceretur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=3+NB=sg
+proficisceremur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=1+NB=pl
+proficisceremini,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=2+NB=pl
+proficiscerentur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=3+NB=pl
+proficiscerer,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=1+NB=sg
+proficiscebaris,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=2+NB=sg
+proficiscebatur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=3+NB=sg
+proficiscebamur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=1+NB=pl
+proficiscebamini,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=2+NB=pl
+proficiscebantur,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=3+NB=pl
+proficiscebar,proficisci,V+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=1+NB=sg
+profecti sumus,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+profecti estis,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+profecti sunt,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+profecti erimus,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+profecti eritis,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+profecti erunt,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+profecti essemus,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+profecti essetis,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+profecti essent,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+profecti simus,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+profecti sitis,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+profecti sint,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+profecti eramus,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+profecti eratis,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+profecti erant,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+profectus sum,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+profectus es,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+profectus est,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+profectus ero,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+profectus eris,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+profectus erit,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+profectus essem,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+profectus esses,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+profectus esset,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+profectus sim,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+profectus sis,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+profectus sit,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+profectus eram,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+profectus eras,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+profectus erat,proficisci,V+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+nascor,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+VX=dep+P=1+NB=sg+GP=3+TP=pres+MOD=ind
+nascaris,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=2+NB=sg
+nascatur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=3+NB=sg
+nascamur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=1+NB=pl
+nascamini,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=2+NB=pl
+nascantur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=3+NB=pl
+nascar,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=1+NB=sg
+nasceris,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=2+NB=sg+GP=3
+nascetur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=3+NB=sg+GP=3
+nascemur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=1+NB=pl+GP=3
+nascemini,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=2+NB=pl+GP=3
+nascentur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=3+NB=pl+GP=3
+nascar,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+VX=dep+P=1+NB=sg+GP=3+TP=fut+MOD=ind
+nascuntur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+VX=dep+P=3+NB=pl+GP=3+TP=pres+MOD=ind
+nasciris,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+VX=dep+P=2+NB=sg+TP=pres+MOD=ind
+nascitur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+VX=dep+P=3+NB=sg+TP=pres+MOD=ind
+nascimur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+VX=dep+P=1+NB=pl+TP=pres+MOD=ind
+nascimini,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+VX=dep+P=2+NB=pl+TP=pres+MOD=ind
+nasceris,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=ind+VX=dep+P=2+NB=sg
+nascereris,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=2+NB=sg
+nasceretur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=3+NB=sg
+nasceremur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=1+NB=pl
+nasceremini,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=2+NB=pl
+nascerentur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=3+NB=pl
+nascerer,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=1+NB=sg
+nascebaris,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=2+NB=sg
+nascebatur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=3+NB=sg
+nascebamur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=1+NB=pl
+nascebamini,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=2+NB=pl
+nascebantur,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=3+NB=pl
+nascebar,nasci,V+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=1+NB=sg
+nati sumus,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+nati estis,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+nati sunt,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+nati erimus,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+nati eritis,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+nati erunt,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+nati essemus,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+nati essetis,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+nati essent,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+nati simus,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+nati sitis,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+nati sint,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+nati eramus,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+nati eratis,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+nati erant,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+natus sum,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+natus es,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+natus est,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+natus ero,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+natus eris,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+natus erit,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+natus essem,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+natus esses,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+natus esset,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+natus sim,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+natus sis,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+natus sit,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+natus eram,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+natus eras,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+natus erat,nasci,V+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+loquor,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+VX=dep+P=1+NB=sg+GP=3+TP=pres+MOD=ind
+loquaris,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=2+NB=sg
+loquatur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=3+NB=sg
+loquamur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=1+NB=pl
+loquamini,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=2+NB=pl
+loquantur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=3+NB=pl
+loquar,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=1+NB=sg
+loqueris,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=2+NB=sg+GP=3
+loquetur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=3+NB=sg+GP=3
+loquemur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=1+NB=pl+GP=3
+loquemini,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=2+NB=pl+GP=3
+loquentur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=3+NB=pl+GP=3
+loquar,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+VX=dep+P=1+NB=sg+GP=3+TP=fut+MOD=ind
+loquuntur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+VX=dep+P=3+NB=pl+GP=3+TP=pres+MOD=ind
+loquiris,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+VX=dep+P=2+NB=sg+TP=pres+MOD=ind
+loquitur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+VX=dep+P=3+NB=sg+TP=pres+MOD=ind
+loquimur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+VX=dep+P=1+NB=pl+TP=pres+MOD=ind
+loquimini,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+VX=dep+P=2+NB=pl+TP=pres+MOD=ind
+loqueris,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=ind+VX=dep+P=2+NB=sg
+loquereris,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=2+NB=sg
+loqueretur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=3+NB=sg
+loqueremur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=1+NB=pl
+loqueremini,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=2+NB=pl
+loquerentur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=3+NB=pl
+loquerer,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=1+NB=sg
+loquebaris,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=2+NB=sg
+loquebatur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=3+NB=sg
+loquebamur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=1+NB=pl
+loquebamini,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=2+NB=pl
+loquebantur,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=3+NB=pl
+loquebar,loqui,V+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=1+NB=sg
+locuti sumus,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+locuti estis,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+locuti sunt,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+locuti erimus,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+locuti eritis,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+locuti erunt,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+locuti essemus,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+locuti essetis,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+locuti essent,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+locuti simus,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+locuti sitis,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+locuti sint,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+locuti eramus,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+locuti eratis,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+locuti erant,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+locutus sum,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+locutus es,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+locutus est,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+locutus ero,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+locutus eris,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+locutus erit,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+locutus essem,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+locutus esses,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+locutus esset,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+locutus sim,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+locutus sis,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+locutus sit,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+locutus eram,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+locutus eras,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+locutus erat,loqui,V+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+utor,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+VX=dep+P=1+NB=sg+GP=3+TP=pres+MOD=ind
+utaris,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=2+NB=sg
+utatur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=3+NB=sg
+utamur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=1+NB=pl
+utamini,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=2+NB=pl
+utantur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=3+NB=pl
+utar,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=1+NB=sg
+uteris,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=2+NB=sg+GP=3
+utetur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=3+NB=sg+GP=3
+utemur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=1+NB=pl+GP=3
+utemini,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=2+NB=pl+GP=3
+utentur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=3+NB=pl+GP=3
+utar,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+VX=dep+P=1+NB=sg+GP=3+TP=fut+MOD=ind
+utuntur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+VX=dep+P=3+NB=pl+GP=3+TP=pres+MOD=ind
+utiris,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+VX=dep+P=2+NB=sg+TP=pres+MOD=ind
+utitur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+VX=dep+P=3+NB=sg+TP=pres+MOD=ind
+utimur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+VX=dep+P=1+NB=pl+TP=pres+MOD=ind
+utimini,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+VX=dep+P=2+NB=pl+TP=pres+MOD=ind
+uteris,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=ind+VX=dep+P=2+NB=sg
+utereris,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=2+NB=sg
+uteretur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=3+NB=sg
+uteremur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=1+NB=pl
+uteremini,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=2+NB=pl
+uterentur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=3+NB=pl
+uterer,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=1+NB=sg
+utebaris,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=2+NB=sg
+utebatur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=3+NB=sg
+utebamur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=1+NB=pl
+utebamini,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=2+NB=pl
+utebantur,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=3+NB=pl
+utebar,uti,V+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=1+NB=sg
+usi sumus,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+usi estis,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+usi sunt,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+usi erimus,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+usi eritis,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+usi erunt,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+usi essemus,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+usi essetis,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+usi essent,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+usi simus,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+usi sitis,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+usi sint,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+usi eramus,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+usi eratis,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+usi erant,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+usus sum,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+usus es,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+usus est,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+usus ero,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+usus eris,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+usus erit,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+usus essem,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+usus esses,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+usus esset,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+usus sim,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+usus sis,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+usus sit,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+usus eram,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+usus eras,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+usus erat,uti,V+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+sequor,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+VX=dep+P=1+NB=sg+GP=3+TP=pres+MOD=ind
+sequaris,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=2+NB=sg
+sequatur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=3+NB=sg
+sequamur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=1+NB=pl
+sequamini,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=2+NB=pl
+sequantur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=3+NB=pl
+sequar,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=sub+VX=dep+P=1+NB=sg
+sequeris,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=2+NB=sg+GP=3
+sequetur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=3+NB=sg+GP=3
+sequemur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=1+NB=pl+GP=3
+sequemini,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=2+NB=pl+GP=3
+sequentur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+TP=fut+MOD=ind+VX=dep+P=3+NB=pl+GP=3
+sequar,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+VX=dep+P=1+NB=sg+GP=3+TP=fut+MOD=ind
+sequuntur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+VX=dep+P=3+NB=pl+GP=3+TP=pres+MOD=ind
+sequiris,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+VX=dep+P=2+NB=sg+TP=pres+MOD=ind
+sequitur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+VX=dep+P=3+NB=sg+TP=pres+MOD=ind
+sequimur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+VX=dep+P=1+NB=pl+TP=pres+MOD=ind
+sequimini,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+VX=dep+P=2+NB=pl+TP=pres+MOD=ind
+sequeris,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=pres+MOD=ind+VX=dep+P=2+NB=sg
+sequereris,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=2+NB=sg
+sequeretur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=3+NB=sg
+sequeremur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=1+NB=pl
+sequeremini,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=2+NB=pl
+sequerentur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=3+NB=pl
+sequerer,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=sub+VX=dep+P=1+NB=sg
+sequebaris,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=2+NB=sg
+sequebatur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=3+NB=sg
+sequebamur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=1+NB=pl
+sequebamini,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=2+NB=pl
+sequebantur,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=3+NB=pl
+sequebar,sequi,V+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF+GP=3+TP=impf+MOD=ind+VX=dep+P=1+NB=sg
+secuti sumus,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+secuti estis,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+secuti sunt,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=pft
+secuti erimus,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+secuti eritis,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+secuti erunt,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=fta
+secuti essemus,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+secuti essetis,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+secuti essent,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=sub+TP=pqp
+secuti simus,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+secuti sitis,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+secuti sint,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=sub+TP=pft
+secuti eramus,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=1+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+secuti eratis,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=2+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+secuti erant,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=3+NB=pl+GP=3+VX=dep+MOD=ind+TP=pqp
+secutus sum,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+secutus es,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+secutus est,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=pft
+secutus ero,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+secutus eris,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+secutus erit,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=fta
+secutus essem,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+secutus esses,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+secutus esset,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=sub+TP=pqp
+secutus sim,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+secutus sis,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+secutus sit,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=sub+TP=pft
+secutus eram,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=1+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+secutus eras,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=2+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+secutus erat,sequi,V+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP+P=3+NB=sg+GP=3+VX=dep+MOD=ind+TP=pqp
+moreris,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=ind+VX=dep+P=2+NB=sg
+morereris,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=sub+VX=dep+P=2+NB=sg
+moreretur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=sub+VX=dep+P=3+NB=sg
+moreremur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=sub+VX=dep+P=1+NB=pl
+moreremini,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=sub+VX=dep+P=2+NB=pl
+morerentur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=sub+VX=dep+P=3+NB=pl
+morerer,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=sub+VX=dep+P=1+NB=sg
+moriebaris,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=ind+VX=dep+P=2+NB=sg
+moriebatur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=ind+VX=dep+P=3+NB=sg
+moriebamur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=ind+VX=dep+P=1+NB=pl
+moriebamini,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=ind+VX=dep+P=2+NB=pl
+moriebantur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=ind+VX=dep+P=3+NB=pl
+moriebar,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=ind+VX=dep+P=1+NB=sg
+morior,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+VX=dep+P=1+NB=sg+TP=pres+MOD=ind
+moriris,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+VX=dep+P=2+NB=sg+TP=pres+MOD=ind
+moritur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+VX=dep+P=3+NB=sg+TP=pres+MOD=ind
+morimur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+VX=dep+P=1+NB=pl+TP=pres+MOD=ind
+morimini,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+VX=dep+P=2+NB=pl+TP=pres+MOD=ind
+moriaris,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=sub+VX=dep+P=2+NB=sg
+moriatur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=sub+VX=dep+P=3+NB=sg
+moriamur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=sub+VX=dep+P=1+NB=pl
+moriamini,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=sub+VX=dep+P=2+NB=pl
+moriantur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=sub+VX=dep+P=3+NB=pl
+moriar,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=sub+VX=dep+P=1+NB=sg
+morieris,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=fut+MOD=ind+VX=dep+P=2+NB=sg
+morietur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=fut+MOD=ind+VX=dep+P=3+NB=sg
+moriemur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=fut+MOD=ind+VX=dep+P=1+NB=pl
+moriemini,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=fut+MOD=ind+VX=dep+P=2+NB=pl
+morientur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+TP=fut+MOD=ind+VX=dep+P=3+NB=pl
+moriar,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+VX=dep+P=1+NB=sg+TP=fut+MOD=ind
+moriuntur,mori,V+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF+GP=4+VX=dep+P=3+NB=pl+TP=pres+MOD=ind
+mortui sumus,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=1+NB=pl+GP=4+VX=dep+MOD=ind+TP=pft
+mortui estis,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=2+NB=pl+GP=4+VX=dep+MOD=ind+TP=pft
+mortui sunt,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=3+NB=pl+GP=4+VX=dep+MOD=ind+TP=pft
+mortui erimus,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=1+NB=pl+GP=4+VX=dep+MOD=ind+TP=fta
+mortui eritis,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=2+NB=pl+GP=4+VX=dep+MOD=ind+TP=fta
+mortui erunt,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=3+NB=pl+GP=4+VX=dep+MOD=ind+TP=fta
+mortui essemus,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=1+NB=pl+GP=4+VX=dep+MOD=sub+TP=pqp
+mortui essetis,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=2+NB=pl+GP=4+VX=dep+MOD=sub+TP=pqp
+mortui essent,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=3+NB=pl+GP=4+VX=dep+MOD=sub+TP=pqp
+mortui simus,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=1+NB=pl+GP=4+VX=dep+MOD=sub+TP=pft
+mortui sitis,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=2+NB=pl+GP=4+VX=dep+MOD=sub+TP=pft
+mortui sint,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=3+NB=pl+GP=4+VX=dep+MOD=sub+TP=pft
+mortui eramus,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=1+NB=pl+GP=4+VX=dep+MOD=ind+TP=pqp
+mortui eratis,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=2+NB=pl+GP=4+VX=dep+MOD=ind+TP=pqp
+mortui erant,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=3+NB=pl+GP=4+VX=dep+MOD=ind+TP=pqp
+mortuus sum,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=1+NB=sg+GP=4+VX=dep+MOD=ind+TP=pft
+mortuus es,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=2+NB=sg+GP=4+VX=dep+MOD=ind+TP=pft
+mortuus est,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=3+NB=sg+GP=4+VX=dep+MOD=ind+TP=pft
+mortuus ero,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=1+NB=sg+GP=4+VX=dep+MOD=ind+TP=fta
+mortuus eris,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=2+NB=sg+GP=4+VX=dep+MOD=ind+TP=fta
+mortuus erit,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=3+NB=sg+GP=4+VX=dep+MOD=ind+TP=fta
+mortuus essem,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=1+NB=sg+GP=4+VX=dep+MOD=sub+TP=pqp
+mortuus esses,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=2+NB=sg+GP=4+VX=dep+MOD=sub+TP=pqp
+mortuus esset,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=3+NB=sg+GP=4+VX=dep+MOD=sub+TP=pqp
+mortuus sim,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=1+NB=sg+GP=4+VX=dep+MOD=sub+TP=pft
+mortuus sis,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=2+NB=sg+GP=4+VX=dep+MOD=sub+TP=pft
+mortuus sit,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=3+NB=sg+GP=4+VX=dep+MOD=sub+TP=pft
+mortuus eram,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=1+NB=sg+GP=4+VX=dep+MOD=ind+TP=pqp
+mortuus eras,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=2+NB=sg+GP=4+VX=dep+MOD=ind+TP=pqp
+mortuus erat,mori,V+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP+P=3+NB=sg+GP=4+VX=dep+MOD=ind+TP=pqp
+pateris,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=ind+VX=dep+P=2+NB=sg
+patereris,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=sub+VX=dep+P=2+NB=sg
+pateretur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=sub+VX=dep+P=3+NB=sg
+pateremur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=sub+VX=dep+P=1+NB=pl
+pateremini,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=sub+VX=dep+P=2+NB=pl
+paterentur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=sub+VX=dep+P=3+NB=pl
+paterer,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=sub+VX=dep+P=1+NB=sg
+patiebaris,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=ind+VX=dep+P=2+NB=sg
+patiebatur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=ind+VX=dep+P=3+NB=sg
+patiebamur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=ind+VX=dep+P=1+NB=pl
+patiebamini,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=ind+VX=dep+P=2+NB=pl
+patiebantur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=ind+VX=dep+P=3+NB=pl
+patiebar,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=impf+MOD=ind+VX=dep+P=1+NB=sg
+patior,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+VX=dep+P=1+NB=sg+TP=pres+MOD=ind
+patiris,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+VX=dep+P=2+NB=sg+TP=pres+MOD=ind
+patitur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+VX=dep+P=3+NB=sg+TP=pres+MOD=ind
+patimur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+VX=dep+P=1+NB=pl+TP=pres+MOD=ind
+patimini,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+VX=dep+P=2+NB=pl+TP=pres+MOD=ind
+patiaris,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=sub+VX=dep+P=2+NB=sg
+patiatur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=sub+VX=dep+P=3+NB=sg
+patiamur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=sub+VX=dep+P=1+NB=pl
+patiamini,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=sub+VX=dep+P=2+NB=pl
+patiantur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=sub+VX=dep+P=3+NB=pl
+patiar,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=pres+MOD=sub+VX=dep+P=1+NB=sg
+patieris,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=fut+MOD=ind+VX=dep+P=2+NB=sg
+patietur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=fut+MOD=ind+VX=dep+P=3+NB=sg
+patiemur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=fut+MOD=ind+VX=dep+P=1+NB=pl
+patiemini,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=fut+MOD=ind+VX=dep+P=2+NB=pl
+patientur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+TP=fut+MOD=ind+VX=dep+P=3+NB=pl
+patiar,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+VX=dep+P=1+NB=sg+TP=fut+MOD=ind
+patiuntur,pati,V+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF+GP=4+VX=dep+P=3+NB=pl+TP=pres+MOD=ind
+passi sumus,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=1+NB=pl+GP=4+VX=dep+MOD=ind+TP=pft
+passi estis,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=2+NB=pl+GP=4+VX=dep+MOD=ind+TP=pft
+passi sunt,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=3+NB=pl+GP=4+VX=dep+MOD=ind+TP=pft
+passi erimus,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=1+NB=pl+GP=4+VX=dep+MOD=ind+TP=fta
+passi eritis,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=2+NB=pl+GP=4+VX=dep+MOD=ind+TP=fta
+passi erunt,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=3+NB=pl+GP=4+VX=dep+MOD=ind+TP=fta
+passi essemus,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=1+NB=pl+GP=4+VX=dep+MOD=sub+TP=pqp
+passi essetis,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=2+NB=pl+GP=4+VX=dep+MOD=sub+TP=pqp
+passi essent,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=3+NB=pl+GP=4+VX=dep+MOD=sub+TP=pqp
+passi simus,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=1+NB=pl+GP=4+VX=dep+MOD=sub+TP=pft
+passi sitis,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=2+NB=pl+GP=4+VX=dep+MOD=sub+TP=pft
+passi sint,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=3+NB=pl+GP=4+VX=dep+MOD=sub+TP=pft
+passi eramus,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=1+NB=pl+GP=4+VX=dep+MOD=ind+TP=pqp
+passi eratis,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=2+NB=pl+GP=4+VX=dep+MOD=ind+TP=pqp
+passi erant,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=3+NB=pl+GP=4+VX=dep+MOD=ind+TP=pqp
+passus sum,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=1+NB=sg+GP=4+VX=dep+MOD=ind+TP=pft
+passus es,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=2+NB=sg+GP=4+VX=dep+MOD=ind+TP=pft
+passus est,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=3+NB=sg+GP=4+VX=dep+MOD=ind+TP=pft
+passus ero,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=1+NB=sg+GP=4+VX=dep+MOD=ind+TP=fta
+passus eris,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=2+NB=sg+GP=4+VX=dep+MOD=ind+TP=fta
+passus erit,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=3+NB=sg+GP=4+VX=dep+MOD=ind+TP=fta
+passus essem,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=1+NB=sg+GP=4+VX=dep+MOD=sub+TP=pqp
+passus esses,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=2+NB=sg+GP=4+VX=dep+MOD=sub+TP=pqp
+passus esset,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=3+NB=sg+GP=4+VX=dep+MOD=sub+TP=pqp
+passus sim,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=1+NB=sg+GP=4+VX=dep+MOD=sub+TP=pft
+passus sis,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=2+NB=sg+GP=4+VX=dep+MOD=sub+TP=pft
+passus sit,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=3+NB=sg+GP=4+VX=dep+MOD=sub+TP=pft
+passus eram,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=1+NB=sg+GP=4+VX=dep+MOD=ind+TP=pqp
+passus eras,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=2+NB=sg+GP=4+VX=dep+MOD=ind+TP=pqp
+passus erat,pati,V+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP+P=3+NB=sg+GP=4+VX=dep+MOD=ind+TP=pqp
+experiebaris,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=ind+VX=dep+P=2+NB=sg
+experiebatur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=ind+VX=dep+P=3+NB=sg
+experiebamur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=ind+VX=dep+P=1+NB=pl
+experiebamini,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=ind+VX=dep+P=2+NB=pl
+experiebantur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=ind+VX=dep+P=3+NB=pl
+experiebar,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=ind+VX=dep+P=1+NB=sg
+experior,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+VX=dep+P=1+NB=sg+TP=pres+MOD=ind
+experiris,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+VX=dep+P=2+NB=sg+TP=pres+MOD=ind
+experitur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+VX=dep+P=3+NB=sg+TP=pres+MOD=ind
+experimur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+VX=dep+P=1+NB=pl+TP=pres+MOD=ind
+experimini,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+VX=dep+P=2+NB=pl+TP=pres+MOD=ind
+experireris,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=sub+VX=dep+P=2+NB=sg
+experiretur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=sub+VX=dep+P=3+NB=sg
+experiremur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=sub+VX=dep+P=1+NB=pl
+experiremini,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=sub+VX=dep+P=2+NB=pl
+experirentur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=sub+VX=dep+P=3+NB=pl
+experirer,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=sub+VX=dep+P=1+NB=sg
+experiaris,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=pres+MOD=sub+VX=dep+P=2+NB=sg
+experiatur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=pres+MOD=sub+VX=dep+P=3+NB=sg
+experiamur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=pres+MOD=sub+VX=dep+P=1+NB=pl
+experiamini,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=pres+MOD=sub+VX=dep+P=2+NB=pl
+experiantur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=pres+MOD=sub+VX=dep+P=3+NB=pl
+experiar,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=pres+MOD=sub+VX=dep+P=1+NB=sg
+experieris,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=fut+MOD=ind+VX=dep+P=2+NB=sg
+experietur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=fut+MOD=ind+VX=dep+P=3+NB=sg
+experiemur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=fut+MOD=ind+VX=dep+P=1+NB=pl
+experiemini,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=fut+MOD=ind+VX=dep+P=2+NB=pl
+experientur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+TP=fut+MOD=ind+VX=dep+P=3+NB=pl
+experiar,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+VX=dep+P=1+NB=sg+TP=fut+MOD=ind
+experiuntur,experiri,V+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF+GP=5+VX=dep+P=3+NB=pl+TP=pres+MOD=ind
+experti sumus,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=1+NB=pl+GP=5+VX=dep+MOD=ind+TP=pft
+experti estis,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=2+NB=pl+GP=5+VX=dep+MOD=ind+TP=pft
+experti sunt,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=3+NB=pl+GP=5+VX=dep+MOD=ind+TP=pft
+experti erimus,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=1+NB=pl+GP=5+VX=dep+MOD=ind+TP=fta
+experti eritis,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=2+NB=pl+GP=5+VX=dep+MOD=ind+TP=fta
+experti erunt,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=3+NB=pl+GP=5+VX=dep+MOD=ind+TP=fta
+experti essemus,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=1+NB=pl+GP=5+VX=dep+MOD=sub+TP=pqp
+experti essetis,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=2+NB=pl+GP=5+VX=dep+MOD=sub+TP=pqp
+experti essent,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=3+NB=pl+GP=5+VX=dep+MOD=sub+TP=pqp
+experti simus,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=1+NB=pl+GP=5+VX=dep+MOD=sub+TP=pft
+experti sitis,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=2+NB=pl+GP=5+VX=dep+MOD=sub+TP=pft
+experti sint,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=3+NB=pl+GP=5+VX=dep+MOD=sub+TP=pft
+experti eramus,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=1+NB=pl+GP=5+VX=dep+MOD=ind+TP=pqp
+experti eratis,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=2+NB=pl+GP=5+VX=dep+MOD=ind+TP=pqp
+experti erant,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=3+NB=pl+GP=5+VX=dep+MOD=ind+TP=pqp
+expertus sum,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=1+NB=sg+GP=5+VX=dep+MOD=ind+TP=pft
+expertus es,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=2+NB=sg+GP=5+VX=dep+MOD=ind+TP=pft
+expertus est,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=3+NB=sg+GP=5+VX=dep+MOD=ind+TP=pft
+expertus ero,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=1+NB=sg+GP=5+VX=dep+MOD=ind+TP=fta
+expertus eris,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=2+NB=sg+GP=5+VX=dep+MOD=ind+TP=fta
+expertus erit,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=3+NB=sg+GP=5+VX=dep+MOD=ind+TP=fta
+expertus essem,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=1+NB=sg+GP=5+VX=dep+MOD=sub+TP=pqp
+expertus esses,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=2+NB=sg+GP=5+VX=dep+MOD=sub+TP=pqp
+expertus esset,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=3+NB=sg+GP=5+VX=dep+MOD=sub+TP=pqp
+expertus sim,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=1+NB=sg+GP=5+VX=dep+MOD=sub+TP=pft
+expertus sis,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=2+NB=sg+GP=5+VX=dep+MOD=sub+TP=pft
+expertus sit,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=3+NB=sg+GP=5+VX=dep+MOD=sub+TP=pft
+expertus eram,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=1+NB=sg+GP=5+VX=dep+MOD=ind+TP=pqp
+expertus eras,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=2+NB=sg+GP=5+VX=dep+MOD=ind+TP=pqp
+expertus erat,experiri,V+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP+P=3+NB=sg+GP=5+VX=dep+MOD=ind+TP=pqp
+oriebaris,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=ind+VX=dep+P=2+NB=sg
+oriebatur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=ind+VX=dep+P=3+NB=sg
+oriebamur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=ind+VX=dep+P=1+NB=pl
+oriebamini,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=ind+VX=dep+P=2+NB=pl
+oriebantur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=ind+VX=dep+P=3+NB=pl
+oriebar,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=ind+VX=dep+P=1+NB=sg
+orior,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+VX=dep+P=1+NB=sg+TP=pres+MOD=ind
+oriris,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+VX=dep+P=2+NB=sg+TP=pres+MOD=ind
+oritur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+VX=dep+P=3+NB=sg+TP=pres+MOD=ind
+orimur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+VX=dep+P=1+NB=pl+TP=pres+MOD=ind
+orimini,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+VX=dep+P=2+NB=pl+TP=pres+MOD=ind
+orireris,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=sub+VX=dep+P=2+NB=sg
+oriretur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=sub+VX=dep+P=3+NB=sg
+oriremur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=sub+VX=dep+P=1+NB=pl
+oriremini,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=sub+VX=dep+P=2+NB=pl
+orirentur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=sub+VX=dep+P=3+NB=pl
+orirer,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=impf+MOD=sub+VX=dep+P=1+NB=sg
+oriaris,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=pres+MOD=sub+VX=dep+P=2+NB=sg
+oriatur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=pres+MOD=sub+VX=dep+P=3+NB=sg
+oriamur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=pres+MOD=sub+VX=dep+P=1+NB=pl
+oriamini,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=pres+MOD=sub+VX=dep+P=2+NB=pl
+oriantur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=pres+MOD=sub+VX=dep+P=3+NB=pl
+oriar,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=pres+MOD=sub+VX=dep+P=1+NB=sg
+orieris,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=fut+MOD=ind+VX=dep+P=2+NB=sg
+orietur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=fut+MOD=ind+VX=dep+P=3+NB=sg
+oriemur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=fut+MOD=ind+VX=dep+P=1+NB=pl
+oriemini,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=fut+MOD=ind+VX=dep+P=2+NB=pl
+orientur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+TP=fut+MOD=ind+VX=dep+P=3+NB=pl
+oriar,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+VX=dep+P=1+NB=sg+TP=fut+MOD=ind
+oriuntur,oriri,V+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF+GP=5+VX=dep+P=3+NB=pl+TP=pres+MOD=ind
+orti sumus,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=1+NB=pl+GP=5+VX=dep+MOD=ind+TP=pft
+orti estis,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=2+NB=pl+GP=5+VX=dep+MOD=ind+TP=pft
+orti sunt,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=3+NB=pl+GP=5+VX=dep+MOD=ind+TP=pft
+orti erimus,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=1+NB=pl+GP=5+VX=dep+MOD=ind+TP=fta
+orti eritis,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=2+NB=pl+GP=5+VX=dep+MOD=ind+TP=fta
+orti erunt,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=3+NB=pl+GP=5+VX=dep+MOD=ind+TP=fta
+orti essemus,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=1+NB=pl+GP=5+VX=dep+MOD=sub+TP=pqp
+orti essetis,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=2+NB=pl+GP=5+VX=dep+MOD=sub+TP=pqp
+orti essent,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=3+NB=pl+GP=5+VX=dep+MOD=sub+TP=pqp
+orti simus,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=1+NB=pl+GP=5+VX=dep+MOD=sub+TP=pft
+orti sitis,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=2+NB=pl+GP=5+VX=dep+MOD=sub+TP=pft
+orti sint,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=3+NB=pl+GP=5+VX=dep+MOD=sub+TP=pft
+orti eramus,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=1+NB=pl+GP=5+VX=dep+MOD=ind+TP=pqp
+orti eratis,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=2+NB=pl+GP=5+VX=dep+MOD=ind+TP=pqp
+orti erant,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=3+NB=pl+GP=5+VX=dep+MOD=ind+TP=pqp
+ortus sum,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=1+NB=sg+GP=5+VX=dep+MOD=ind+TP=pft
+ortus es,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=2+NB=sg+GP=5+VX=dep+MOD=ind+TP=pft
+ortus est,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=3+NB=sg+GP=5+VX=dep+MOD=ind+TP=pft
+ortus ero,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=1+NB=sg+GP=5+VX=dep+MOD=ind+TP=fta
+ortus eris,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=2+NB=sg+GP=5+VX=dep+MOD=ind+TP=fta
+ortus erit,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=3+NB=sg+GP=5+VX=dep+MOD=ind+TP=fta
+ortus essem,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=1+NB=sg+GP=5+VX=dep+MOD=sub+TP=pqp
+ortus esses,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=2+NB=sg+GP=5+VX=dep+MOD=sub+TP=pqp
+ortus esset,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=3+NB=sg+GP=5+VX=dep+MOD=sub+TP=pqp
+ortus sim,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=1+NB=sg+GP=5+VX=dep+MOD=sub+TP=pft
+ortus sis,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=2+NB=sg+GP=5+VX=dep+MOD=sub+TP=pft
+ortus sit,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=3+NB=sg+GP=5+VX=dep+MOD=sub+TP=pft
+ortus eram,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=1+NB=sg+GP=5+VX=dep+MOD=ind+TP=pqp
+ortus eras,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=2+NB=sg+GP=5+VX=dep+MOD=ind+TP=pqp
+ortus erat,oriri,V+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP+P=3+NB=sg+GP=5+VX=dep+MOD=ind+TP=pqp
