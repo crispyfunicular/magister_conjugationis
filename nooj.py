@@ -24,10 +24,18 @@ def check_inflected_forms(inflected_forms):
         group = inflected_forms[0]["group"]
         lemma = inflected_forms[0]["lemma"]
 
+        # Renvoie True si le verbe est déponent, False dans le cas contraire
+        deponent = inflected_forms[0]["voice"] == "déponent"
+
         if group == 0:
             continue
         for mood in ["indicatif", "subjonctif"]:
-            for voice in ["actif", "passif"]:
+
+            # Si le verbe est déponent, il n'aura pas de voix active ou passive, et inversement
+            # Il ne faut donc vérifier que la voix passive pour les verbes déponents,
+            # et que les voix actives et passives pour les verbes non déponents.
+            voices_to_check = ["déponent"] if deponent else ["actif", "passif"]
+            for voice in voices_to_check:
                 for tense in [
                     "présent",
                     "imparfait",
@@ -106,6 +114,7 @@ def main():
                 dic_nooj["traits"]["VX"]
                 .replace("act", "actif")
                 .replace("pas", "passif")
+                .replace("dep", "déponent")
             )
             dic_mc["translation"] = dic_nooj["traits"]["TRAD"].split(";")
             dic_mc["primitive tenses"] = dic_nooj["traits"]["PRIM"].replace(";", ", ")
@@ -149,18 +158,18 @@ def main():
     # Filter out some invalid inflected forms.
     filtered_verbs = []
     for inflected_form in verbs_lst:
-        if (
-            inflected_form["person"] == 2
-            and inflected_form["mood"] == "indicatif"
-            and inflected_form["voice"] == "passif"
+        if inflected_form["person"] == 2 and (
+            inflected_form["mood"] == "indicatif"
+            and (
+                inflected_form["voice"] == "passif"
+                or inflected_form["voice"] == "déponent"
+            )
         ):
             if (
-                inflected_form["group"] == 1
-                or inflected_form["group"] == 2
+                (inflected_form["group"] == 1 or inflected_form["group"] == 2)
                 and inflected_form["tense"] == "futur"
             ) or (
-                inflected_form["group"] == 3
-                or inflected_form["group"] == 4
+                (inflected_form["group"] == 3 or inflected_form["group"] == 4)
                 and inflected_form["tense"] == "présent"
             ):
                 if inflected_form["latin"][-4:] == "iris":
