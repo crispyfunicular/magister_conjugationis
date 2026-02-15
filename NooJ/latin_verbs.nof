@@ -417,6 +417,6 @@ FTA = eri/TP=fta+MOD=ind+VX=act ;
 
 
 ## SUPINUM
-PPP_SG = us/MOD=ind+VX=pas+NB=sg ;
-PPP_PL = i/MOD=ind+VX=pas+NB=pl ;
+PPP_SG = us/VX=pas+NB=sg ;
+PPP_PL = i/VX=pas+NB=pl ;
 
