@@ -321,61 +321,61 @@ profu,prodesse,V+GP=0+PRIM=prosum;prodes;prodesse;profui+Theme=PER+TRAD=être\ u
 
 # GP1
 #imitari
-imit,imitari,V+GP=1+VX=dep+PRIM=imitor;aris;ari;atus\ sum+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF
-imitat,imitari,V+GP=1+VX=dep+PRIM=imitor;aris;ari;atus\ sum+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP
+imit,imitari,V+GP=1+VX=dep+PRIM=or;aris;ari;atus\ sum+Theme=INF+TRAD=imiter+FLX=GP1_DEP_INF
+imitat,imitari,V+GP=1+VX=dep+PRIM=or;aris;ari;atus\ sum+Theme=SUP+TRAD=imiter+FLX=GP1_DEP_SUP
 
 #mirari
-mir,mirari,V+GP=1+VX=dep+PRIM=miror;aris;ari;atus\ sum+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF
-mirat,mirari,V+GP=1+VX=dep+PRIM=miror;aris;ari;atus\ sum+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP
+mir,mirari,V+GP=1+VX=dep+PRIM=or;aris;ari;atus\ sum+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF
+mirat,mirari,V+GP=1+VX=dep+PRIM=or;aris;ari;atus\ sum+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP
 
 
 # GP2
 #uideri
-uid,uideri,V+GP=2+VX=dep+PRIM=uideor;eris;eri;uisus\ sum+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF
-uis,uideri,V+GP=2+VX=dep+PRIM=uideor;eris;eri;uisus\ sum+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP
+uid,uideri,V+GP=2+VX=dep+PRIM=eor;eris;eri;uisus\ sum+Theme=INF+TRAD=sembler;paraître+FLX=GP2_DEP_INF
+uis,uideri,V+GP=2+VX=dep+PRIM=eor;eris;eri;uisus\ sum+Theme=SUP+TRAD=sembler;paraître+FLX=GP2_DEP_SUP
 
 #uereri
-uer,uereri,V+GP=2+VX=dep+PRIM=uereor;eris;eri;itus\ sum+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF
-uerit,uereri,V+GP=2+VX=dep+PRIM=uereor;eris;eri;itus\ sum+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP
+uer,uereri,V+GP=2+VX=dep+PRIM=eor;eris;eri;itus\ sum+Theme=INF+TRAD=craindre;redouter+FLX=GP2_DEP_INF
+uerit,uereri,V+GP=2+VX=dep+PRIM=eor;eris;eri;itus\ sum+Theme=SUP+TRAD=craindre;redouter+FLX=GP2_DEP_SUP
 
 
 # GP3
 #proficisci
-proficisc,proficisci,V+GP=3+VX=dep+PRIM=proficiscor;eris;i;fectus\ sum+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF
-profect,proficisci,V+GP=3+VX=dep+PRIM=proficiscor;eris;i;fectus\ sum+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP
+proficisc,proficisci,V+GP=3+VX=dep+PRIM=or;eris;i;fectus\ sum+Theme=INF+TRAD=partir;s'en\ aller+FLX=GP3_DEP_INF
+profect,proficisci,V+GP=3+VX=dep+PRIM=or;eris;i;fectus\ sum+Theme=SUP+TRAD=partir;s'en\ aller+FLX=GP3_DEP_SUP
 
 #nasci
-nasc,nasci,V+GP=3+VX=dep+PRIM=nascor;eris;nasci;natus\ sum+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF
-nat,nasci,V+GP=3+VX=dep+PRIM=nascor;eris;nasci;natus\ sum+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP
+nasc,nasci,V+GP=3+VX=dep+PRIM=or;eris;nasci;natus\ sum+Theme=INF+TRAD=naître+FLX=GP3_DEP_INF
+nat,nasci,V+GP=3+VX=dep+PRIM=or;eris;nasci;natus\ sum+Theme=SUP+TRAD=naître+FLX=GP3_DEP_SUP
 
 #loqui
-loqu,loqui,V+GP=3+VX=dep+PRIM=loquor;eris;loqui;locutus\ sum+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF
-locut,loqui,V+GP=3+VX=dep+PRIM=loquor;eris;loqui;locutus\ sum+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP
+loqu,loqui,V+GP=3+VX=dep+PRIM=or;eris;loqui;locutus\ sum+Theme=INF+TRAD=parler+FLX=GP3_DEP_INF
+locut,loqui,V+GP=3+VX=dep+PRIM=or;eris;loqui;locutus\ sum+Theme=SUP+TRAD=parler+FLX=GP3_DEP_SUP
 
 #uti
-ut,uti,V+GP=3+VX=dep+PRIM=utor;eris;uti;usus\ sum+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF
-us,uti,V+GP=3+VX=dep+PRIM=utor;eris;uti;usus\ sum+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP
+ut,uti,V+GP=3+VX=dep+PRIM=or;eris;uti;usus\ sum+Theme=INF+TRAD=utiliser+FLX=GP3_DEP_INF
+us,uti,V+GP=3+VX=dep+PRIM=or;eris;uti;usus\ sum+Theme=SUP+TRAD=utiliser+FLX=GP3_DEP_SUP
 
 #sequi
-sequ,sequi,V+GP=3+VX=dep+PRIM=sequor;eris;sequi;secutus\ sum+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF
-secut,sequi,V+GP=3+VX=dep+PRIM=sequor;eris;sequi;secutus\ sum+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP
+sequ,sequi,V+GP=3+VX=dep+PRIM=or;eris;sequi;secutus\ sum+Theme=INF+TRAD=suivre+FLX=GP3_DEP_INF
+secut,sequi,V+GP=3+VX=dep+PRIM=or;eris;sequi;secutus\ sum+Theme=SUP+TRAD=suivre+FLX=GP3_DEP_SUP
 
 
 # GP4
 #mori
-mor,mori,V+GP=4+VX=dep+PRIM=morior;eris;mori;mortuus\ sum+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF
-mortu,mori,V+GP=4+VX=dep+PRIM=morior;eris;mori;mortuus\ sum+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP
+mor,mori,V+GP=4+VX=dep+PRIM=ior;eris;mori;mortuus\ sum+Theme=INF+TRAD=mourir+FLX=GP4_DEP_INF
+mortu,mori,V+GP=4+VX=dep+PRIM=ior;eris;mori;mortuus\ sum+Theme=SUP+TRAD=mourir+FLX=GP4_DEP_SUP
 
 #pati
-pat,pati,V+GP=4+VX=dep+PRIM=patior;eris;pati;passus\ sum+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF
-pass,pati,V+GP=4+VX=dep+PRIM=patior;eris;pati;passus\ sum+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP
+pat,pati,V+GP=4+VX=dep+PRIM=ior;eris;pati;passus\ sum+Theme=INF+TRAD=souffrir;supporter+FLX=GP4_DEP_INF
+pass,pati,V+GP=4+VX=dep+PRIM=ior;eris;pati;passus\ sum+Theme=SUP+TRAD=souffrir;supporter+FLX=GP4_DEP_SUP
 
 
 # GP 5
 #experiri
-exper,experiri,V+GP=5+VX=dep+PRIM=experior;iris;iri;pertus\ sum+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF
-expert,experiri,V+GP=5+VX=dep+PRIM=experior;iris;iri;pertus\ sum+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP
+exper,experiri,V+GP=5+VX=dep+PRIM=ior;iris;iri;pertus\ sum+Theme=INF+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_INF
+expert,experiri,V+GP=5+VX=dep+PRIM=ior;iris;iri;pertus\ sum+Theme=SUP+TRAD=faire\ l'expérience\ de+FLX=GP5_DEP_SUP
 
 #oriri
-or,oriri,V+GP=5+VX=dep+PRIM=orior;iris;iri;ortus\ sum+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF
-ort,oriri,V+GP=5+VX=dep+PRIM=orior;iris;iri;ortus\ sum+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP
+or,oriri,V+GP=5+VX=dep+PRIM=ior;iris;iri;ortus\ sum+Theme=INF+TRAD=naître;se\ lever+FLX=GP5_DEP_INF
+ort,oriri,V+GP=5+VX=dep+PRIM=ior;iris;iri;ortus\ sum+Theme=SUP+TRAD=naître;se\ lever+FLX=GP5_DEP_SUP
