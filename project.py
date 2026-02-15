@@ -145,7 +145,7 @@ def filter_voice(voice_user, list_verbs) -> list[dict]:
     """Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the voice, if applicable.
 
     From main():
-    parser.add_argument('-v', '--voix', type=str, choices=["actif", "passif"], default=None, help="La voix (actif ou passif) que vous souhaitez pratiquer")
+    parser.add_argument('-v', '--voix', type=str, choices=["actif", "passif", "déponent"], default=None, help="La voix (actif, passif ou déponent) que vous souhaitez pratiquer")
     voice_user = args.voice
 
     *Input* (two)
@@ -296,16 +296,16 @@ def ask_verb(verb) -> int:
                 print(tense)
                 break
 
-    # Voix (passif ou actif)
+    # Voix (passif, actif ou déponent)
     voice = verb["voice"]
 
     while True:
         if debug:
             print(voice)
         voice_input = ask(
-            "Indiquer la voix (actif ou passif) : ",
-            lambda x: x.lower() in ["actif", "passif"],
-            "La réponse doit être soit 'actif', soit 'passif'.",
+            "Indiquer la voix (actif, passif ou déponent) : ",
+            lambda x: x.lower() in ["actif", "passif", "déponent"],
+            "La réponse doit être 'actif', 'passif' ou 'déponent'.",
         )
 
         if voice == voice_input:
@@ -537,9 +537,9 @@ def main():
         "-v",
         "--voix",
         type=str,
-        choices=["actif", "passif"],
+        choices=["actif", "passif", "déponent"],
         default=None,
-        help="La voix (actif ou passif) que vous souhaitez pratiquer",
+        help="La voix (actif, passif ou déponent) que vous souhaitez pratiquer",
     )
     parser.add_argument(
         "-m",
