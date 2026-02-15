@@ -305,7 +305,7 @@ function conjugationApp() {
     get allowedVoices() {
       return this.session.voices.length
         ? this.session.voices
-        : ["actif", "passif"];
+        : ["actif", "passif", "déponent"];
     },
     get allowedMoods() {
       return this.session.moods.length
