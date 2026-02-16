@@ -403,6 +403,32 @@
     "person": 1
   },
   {
+    "latin": "abes",
+    "lemma": "abesse",
+    "group": 0,
+    "mood": "indicatif",
+    "voice": "actif",
+    "translation": [
+      "être absent"
+    ],
+    "primitive tenses": "absum, abes, abesse, afui",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "abest",
+    "lemma": "abesse",
+    "group": 0,
+    "mood": "indicatif",
+    "voice": "actif",
+    "translation": [
+      "être absent"
+    ],
+    "primitive tenses": "absum, abes, abesse, afui",
+    "tense": "présent",
+    "person": 3
+  },
+  {
     "latin": "absumus",
     "lemma": "abesse",
     "group": 0,
@@ -416,19 +442,6 @@
     "person": 4
   },
   {
-    "latin": "abes",
-    "lemma": "abesse",
-    "group": 0,
-    "mood": "indicatif",
-    "voice": "actif",
-    "translation": [
-      "être absent"
-    ],
-    "primitive tenses": "absum, abes, abesse, afui",
-    "tense": "présent",
-    "person": 5
-  },
-  {
     "latin": "abestis",
     "lemma": "abesse",
     "group": 0,
@@ -440,19 +453,6 @@
     "primitive tenses": "absum, abes, abesse, afui",
     "tense": "présent",
     "person": 5
-  },
-  {
-    "latin": "abest",
-    "lemma": "abesse",
-    "group": 0,
-    "mood": "indicatif",
-    "voice": "actif",
-    "translation": [
-      "être absent"
-    ],
-    "primitive tenses": "absum, abes, abesse, afui",
-    "tense": "présent",
-    "person": 6
   },
   {
     "latin": "absunt",
@@ -700,6 +700,62 @@
     "primitive tenses": "absum, abes, abesse, afui",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "accipe",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "primitive tenses": "io, is, ere, cepi, ceptum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "accipite",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "primitive tenses": "io, is, ere, cepi, ceptum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "accipere",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "primitive tenses": "io, is, ere, cepi, ceptum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "accipimini",
+    "lemma": "accipere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "recevoir",
+      "accueillir"
+    ],
+    "primitive tenses": "io, is, ere, cepi, ceptum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "accipiam",
@@ -1651,7 +1707,8 @@
     ],
     "primitive tenses": "io, is, ere, cepi, ceptum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "accipitur",
@@ -2785,6 +2842,32 @@
     "person": 1
   },
   {
+    "latin": "ades",
+    "lemma": "adesse",
+    "group": 0,
+    "mood": "indicatif",
+    "voice": "actif",
+    "translation": [
+      "être là"
+    ],
+    "primitive tenses": "adsum, ades, adesse, adfui",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "adest",
+    "lemma": "adesse",
+    "group": 0,
+    "mood": "indicatif",
+    "voice": "actif",
+    "translation": [
+      "être là"
+    ],
+    "primitive tenses": "adsum, ades, adesse, adfui",
+    "tense": "présent",
+    "person": 3
+  },
+  {
     "latin": "adsumus",
     "lemma": "adesse",
     "group": 0,
@@ -2798,19 +2881,6 @@
     "person": 4
   },
   {
-    "latin": "ades",
-    "lemma": "adesse",
-    "group": 0,
-    "mood": "indicatif",
-    "voice": "actif",
-    "translation": [
-      "être là"
-    ],
-    "primitive tenses": "adsum, ades, adesse, adfui",
-    "tense": "présent",
-    "person": 5
-  },
-  {
     "latin": "adestis",
     "lemma": "adesse",
     "group": 0,
@@ -2822,19 +2892,6 @@
     "primitive tenses": "adsum, ades, adesse, adfui",
     "tense": "présent",
     "person": 5
-  },
-  {
-    "latin": "adest",
-    "lemma": "adesse",
-    "group": 0,
-    "mood": "indicatif",
-    "voice": "actif",
-    "translation": [
-      "être là"
-    ],
-    "primitive tenses": "adsum, ades, adesse, adfui",
-    "tense": "présent",
-    "person": 6
   },
   {
     "latin": "adsunt",
@@ -3082,6 +3139,66 @@
     "primitive tenses": "adsum, ades, adesse, adfui",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "age",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "primitive tenses": "o, is, ere, egi, actum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "agite",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "primitive tenses": "o, is, ere, egi, actum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "agere",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "primitive tenses": "o, is, ere, egi, actum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "agimini",
+    "lemma": "agere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir",
+      "pousser"
+    ],
+    "primitive tenses": "o, is, ere, egi, actum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "agam",
@@ -4101,7 +4218,8 @@
     ],
     "primitive tenses": "o, is, ere, egi, actum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "agitur",
@@ -4884,6 +5002,58 @@
     "person": 6
   },
   {
+    "latin": "ama",
+    "lemma": "amare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "aimer"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "amate",
+    "lemma": "amare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "aimer"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "amare",
+    "lemma": "amare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "aimer"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "amamini",
+    "lemma": "amare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "aimer"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "amabo",
     "lemma": "amare",
     "group": 1,
@@ -5375,7 +5545,8 @@
     ],
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "amabitur",
@@ -6442,6 +6613,62 @@
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "audi",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "primitive tenses": "io, is, ire, iui, itum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "audite",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "primitive tenses": "io, is, ire, iui, itum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "audire",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "primitive tenses": "io, is, ire, iui, itum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "audimini",
+    "lemma": "audire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "écouter",
+      "entendre"
+    ],
+    "primitive tenses": "io, is, ire, iui, itum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "audiam",
@@ -8124,6 +8351,58 @@
     "person": 6
   },
   {
+    "latin": "auge",
+    "lemma": "augere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "augmenter"
+    ],
+    "primitive tenses": "eo, es, ere, auxi, auctum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "augete",
+    "lemma": "augere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "augmenter"
+    ],
+    "primitive tenses": "eo, es, ere, auxi, auctum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "augere",
+    "lemma": "augere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "augmenter"
+    ],
+    "primitive tenses": "eo, es, ere, auxi, auctum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "augemini",
+    "lemma": "augere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "augmenter"
+    ],
+    "primitive tenses": "eo, es, ere, auxi, auctum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "augebo",
     "lemma": "augere",
     "group": 2,
@@ -8615,7 +8894,8 @@
     ],
     "primitive tenses": "eo, es, ere, auxi, auctum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "augebitur",
@@ -9684,6 +9964,58 @@
     "person": 6
   },
   {
+    "latin": "cape",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "primitive tenses": "io, is, ere, cepi, captum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "capite",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "prendre"
+    ],
+    "primitive tenses": "io, is, ere, cepi, captum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "capere",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "prendre"
+    ],
+    "primitive tenses": "io, is, ere, cepi, captum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "capimini",
+    "lemma": "capere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "prendre"
+    ],
+    "primitive tenses": "io, is, ere, cepi, captum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "capiam",
     "lemma": "capere",
     "group": 4,
@@ -10565,7 +10897,8 @@
     ],
     "primitive tenses": "io, is, ere, cepi, captum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "capitur",
@@ -11244,6 +11577,58 @@
     "person": 6
   },
   {
+    "latin": "cogita",
+    "lemma": "cogitare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "penser"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "cogitate",
+    "lemma": "cogitare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "penser"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "cogitare",
+    "lemma": "cogitare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "penser"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "cogitamini",
+    "lemma": "cogitare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "penser"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "cogitabo",
     "lemma": "cogitare",
     "group": 1,
@@ -11735,7 +12120,8 @@
     ],
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "cogitabitur",
@@ -12804,6 +13190,62 @@
     "person": 6
   },
   {
+    "latin": "cognosce",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "primitive tenses": "o, is, ere, gnoui, gnitum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "cognoscite",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "primitive tenses": "o, is, ere, gnoui, gnitum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "cognoscere",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "primitive tenses": "o, is, ere, gnoui, gnitum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "cognoscimini",
+    "lemma": "cognoscere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "apprendre à connaître",
+      "connaître"
+    ],
+    "primitive tenses": "o, is, ere, gnoui, gnitum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "cognoscam",
     "lemma": "cognoscere",
     "group": 3,
@@ -13753,7 +14195,8 @@
     ],
     "primitive tenses": "o, is, ere, gnoui, gnitum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "cognoscitur",
@@ -14482,6 +14925,66 @@
     "primitive tenses": "o, is, ere, gnoui, gnitum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "cole",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "primitive tenses": "o, is, ere, colui, cultum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "colite",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "primitive tenses": "o, is, ere, colui, cultum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "colere",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "primitive tenses": "o, is, ere, colui, cultum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "colimini",
+    "lemma": "colere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "cultiver",
+      "honorer",
+      "habiter"
+    ],
+    "primitive tenses": "o, is, ere, colui, cultum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "colam",
@@ -15501,7 +16004,8 @@
     ],
     "primitive tenses": "o, is, ere, colui, cultum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "colitur",
@@ -16282,6 +16786,58 @@
     "primitive tenses": "o, is, ere, colui, cultum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "crede",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "croire"
+    ],
+    "primitive tenses": "o, is, ere, didi, ditum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "credite",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "croire"
+    ],
+    "primitive tenses": "o, is, ere, didi, ditum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "credere",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "croire"
+    ],
+    "primitive tenses": "o, is, ere, didi, ditum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "credimini",
+    "lemma": "credere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "croire"
+    ],
+    "primitive tenses": "o, is, ere, didi, ditum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "credam",
@@ -17165,7 +17721,8 @@
     ],
     "primitive tenses": "o, is, ere, didi, ditum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "creditur",
@@ -17842,6 +18399,58 @@
     "primitive tenses": "o, is, ere, didi, ditum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "cupe",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "primitive tenses": "io, is, ere, iui, itum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "cupite",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "désirer"
+    ],
+    "primitive tenses": "io, is, ere, iui, itum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "cupere",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "désirer"
+    ],
+    "primitive tenses": "io, is, ere, iui, itum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "cupimini",
+    "lemma": "cupere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "désirer"
+    ],
+    "primitive tenses": "io, is, ere, iui, itum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "cupiam",
@@ -18725,7 +19334,8 @@
     ],
     "primitive tenses": "io, is, ere, iui, itum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "cupitur",
@@ -19404,6 +20014,58 @@
     "person": 6
   },
   {
+    "latin": "cura",
+    "lemma": "curare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "soigner"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "curate",
+    "lemma": "curare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "soigner"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "curare",
+    "lemma": "curare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "soigner"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "curamini",
+    "lemma": "curare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "soigner"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "curabo",
     "lemma": "curare",
     "group": 1,
@@ -19895,7 +20557,8 @@
     ],
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "curabitur",
@@ -20964,6 +21627,58 @@
     "person": 6
   },
   {
+    "latin": "da",
+    "lemma": "dare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "donner"
+    ],
+    "primitive tenses": "o, as, are, dedi, datum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "date",
+    "lemma": "dare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "donner"
+    ],
+    "primitive tenses": "o, as, are, dedi, datum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "dare",
+    "lemma": "dare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "donner"
+    ],
+    "primitive tenses": "o, as, are, dedi, datum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "damini",
+    "lemma": "dare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "donner"
+    ],
+    "primitive tenses": "o, as, are, dedi, datum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "dabo",
     "lemma": "dare",
     "group": 1,
@@ -21455,7 +22170,8 @@
     ],
     "primitive tenses": "o, as, are, dedi, datum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "dabitur",
@@ -22524,6 +23240,58 @@
     "person": 6
   },
   {
+    "latin": "debe",
+    "lemma": "debere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "devoir"
+    ],
+    "primitive tenses": "eo, es, ere, bui, bitum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "debete",
+    "lemma": "debere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "devoir"
+    ],
+    "primitive tenses": "eo, es, ere, bui, bitum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "debere",
+    "lemma": "debere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "devoir"
+    ],
+    "primitive tenses": "eo, es, ere, bui, bitum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "debemini",
+    "lemma": "debere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "devoir"
+    ],
+    "primitive tenses": "eo, es, ere, bui, bitum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "debebo",
     "lemma": "debere",
     "group": 2,
@@ -23015,7 +23783,8 @@
     ],
     "primitive tenses": "eo, es, ere, bui, bitum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "debebitur",
@@ -24084,6 +24853,58 @@
     "person": 6
   },
   {
+    "latin": "dele",
+    "lemma": "delere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "détruire"
+    ],
+    "primitive tenses": "eo, es, ere, eui, etum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "delete",
+    "lemma": "delere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "détruire"
+    ],
+    "primitive tenses": "eo, es, ere, eui, etum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "delere",
+    "lemma": "delere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "détruire"
+    ],
+    "primitive tenses": "eo, es, ere, eui, etum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "delemini",
+    "lemma": "delere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "détruire"
+    ],
+    "primitive tenses": "eo, es, ere, eui, etum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "delebo",
     "lemma": "delere",
     "group": 2,
@@ -24575,7 +25396,8 @@
     ],
     "primitive tenses": "eo, es, ere, eui, etum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "delebitur",
@@ -25644,6 +26466,59 @@
     "person": 6
   },
   {
+    "latin": "dic",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "dire"
+    ],
+    "primitive tenses": "o, is, ere, dixi, dictum",
+    "tense": "présent",
+    "person": 2,
+    "irrégulier": true
+  },
+  {
+    "latin": "dicite",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "dire"
+    ],
+    "primitive tenses": "o, is, ere, dixi, dictum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "dicere",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "dire"
+    ],
+    "primitive tenses": "o, is, ere, dixi, dictum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "dicimini",
+    "lemma": "dicere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "dire"
+    ],
+    "primitive tenses": "o, is, ere, dixi, dictum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "dicam",
     "lemma": "dicere",
     "group": 3,
@@ -26525,7 +27400,8 @@
     ],
     "primitive tenses": "o, is, ere, dixi, dictum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "dicitur",
@@ -27202,6 +28078,63 @@
     "primitive tenses": "o, is, ere, dixi, dictum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "duc",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "primitive tenses": "o, is, ere, duxi, ductum",
+    "tense": "présent",
+    "person": 2,
+    "irrégulier": true
+  },
+  {
+    "latin": "ducite",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "primitive tenses": "o, is, ere, duxi, ductum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "ducere",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "primitive tenses": "o, is, ere, duxi, ductum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "ducimini",
+    "lemma": "ducere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "conduire",
+      "considérer comme"
+    ],
+    "primitive tenses": "o, is, ere, duxi, ductum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "ducam",
@@ -28153,7 +29086,8 @@
     ],
     "primitive tenses": "o, is, ere, duxi, ductum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "ducitur",
@@ -28884,6 +29818,62 @@
     "person": 6
   },
   {
+    "latin": "erra",
+    "lemma": "errare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "errer",
+      "se tromper"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "errate",
+    "lemma": "errare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "errer",
+      "se tromper"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "errare",
+    "lemma": "errare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "errer",
+      "se tromper"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "erramini",
+    "lemma": "errare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "errer",
+      "se tromper"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "errabo",
     "lemma": "errare",
     "group": 1,
@@ -29413,7 +30403,8 @@
     ],
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "errabitur",
@@ -30967,6 +31958,32 @@
     "person": 1
   },
   {
+    "latin": "es",
+    "lemma": "esse",
+    "group": 0,
+    "mood": "indicatif",
+    "voice": "actif",
+    "translation": [
+      "être"
+    ],
+    "primitive tenses": "sum, es, esse, fui",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "est",
+    "lemma": "esse",
+    "group": 0,
+    "mood": "indicatif",
+    "voice": "actif",
+    "translation": [
+      "être"
+    ],
+    "primitive tenses": "sum, es, esse, fui",
+    "tense": "présent",
+    "person": 3
+  },
+  {
     "latin": "sumus",
     "lemma": "esse",
     "group": 0,
@@ -30980,19 +31997,6 @@
     "person": 4
   },
   {
-    "latin": "es",
-    "lemma": "esse",
-    "group": 0,
-    "mood": "indicatif",
-    "voice": "actif",
-    "translation": [
-      "être"
-    ],
-    "primitive tenses": "sum, es, esse, fui",
-    "tense": "présent",
-    "person": 5
-  },
-  {
     "latin": "estis",
     "lemma": "esse",
     "group": 0,
@@ -31004,19 +32008,6 @@
     "primitive tenses": "sum, es, esse, fui",
     "tense": "présent",
     "person": 5
-  },
-  {
-    "latin": "est",
-    "lemma": "esse",
-    "group": 0,
-    "mood": "indicatif",
-    "voice": "actif",
-    "translation": [
-      "être"
-    ],
-    "primitive tenses": "sum, es, esse, fui",
-    "tense": "présent",
-    "person": 6
   },
   {
     "latin": "sunt",
@@ -31264,6 +32255,62 @@
     "primitive tenses": "sum, es, esse, fui",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "existima",
+    "lemma": "existimare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "estimer",
+      "penser"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "existimate",
+    "lemma": "existimare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "estimer",
+      "penser"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "existimare",
+    "lemma": "existimare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "estimer",
+      "penser"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "existimamini",
+    "lemma": "existimare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "estimer",
+      "penser"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "existimabo",
@@ -31795,7 +32842,8 @@
     ],
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "existimabitur",
@@ -32946,6 +33994,32 @@
     "person": 6
   },
   {
+    "latin": "experire",
+    "lemma": "experiri",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "faire l'expérience de"
+    ],
+    "primitive tenses": "ior, iris, iri, pertus sum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "experimini",
+    "lemma": "experiri",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "faire l'expérience de"
+    ],
+    "primitive tenses": "ior, iris, iri, pertus sum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "experiar",
     "lemma": "experiri",
     "group": 5,
@@ -33724,6 +34798,58 @@
     "primitive tenses": "ior, iris, iri, pertus sum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "face",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "primitive tenses": "io, is, ere, feci, factum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "facite",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "faire"
+    ],
+    "primitive tenses": "io, is, ere, feci, factum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "facere",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "faire"
+    ],
+    "primitive tenses": "io, is, ere, feci, factum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "facimini",
+    "lemma": "facere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "faire"
+    ],
+    "primitive tenses": "io, is, ere, feci, factum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "faciam",
@@ -34607,7 +35733,8 @@
     ],
     "primitive tenses": "io, is, ere, feci, factum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "facitur",
@@ -35284,6 +36411,62 @@
     "primitive tenses": "io, is, ere, feci, factum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "gere",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "primitive tenses": "o, is, ere, uidi, uisum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "gerite",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "primitive tenses": "o, is, ere, uidi, uisum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "gerere",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "primitive tenses": "o, is, ere, uidi, uisum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "gerimini",
+    "lemma": "gerere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "faire",
+      "accomplir"
+    ],
+    "primitive tenses": "o, is, ere, uidi, uisum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "geram",
@@ -36235,7 +37418,8 @@
     ],
     "primitive tenses": "o, is, ere, uidi, uisum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "geritur",
@@ -36966,6 +38150,58 @@
     "person": 6
   },
   {
+    "latin": "habe",
+    "lemma": "habere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "avoir"
+    ],
+    "primitive tenses": "habeo, es, ere, ui, itum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "habete",
+    "lemma": "habere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "avoir"
+    ],
+    "primitive tenses": "habeo, es, ere, ui, itum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "habere",
+    "lemma": "habere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "avoir"
+    ],
+    "primitive tenses": "habeo, es, ere, ui, itum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "habemini",
+    "lemma": "habere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "avoir"
+    ],
+    "primitive tenses": "habeo, es, ere, ui, itum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "habebo",
     "lemma": "habere",
     "group": 2,
@@ -37457,7 +38693,8 @@
     ],
     "primitive tenses": "habeo, es, ere, ui, itum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "habebitur",
@@ -38526,6 +39763,32 @@
     "person": 6
   },
   {
+    "latin": "imitare",
+    "lemma": "imitari",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "imiter"
+    ],
+    "primitive tenses": "or, aris, ari, atus sum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "imitamini",
+    "lemma": "imitari",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "imiter"
+    ],
+    "primitive tenses": "or, aris, ari, atus sum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "imitabor",
     "lemma": "imitari",
     "group": 1,
@@ -38549,7 +39812,8 @@
     ],
     "primitive tenses": "or, aris, ari, atus sum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "imitabitur",
@@ -39304,6 +40568,58 @@
     "primitive tenses": "or, aris, ari, atus sum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "incipe",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "primitive tenses": "io, is, ere, cepi, ceptum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "incipite",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "commencer"
+    ],
+    "primitive tenses": "io, is, ere, cepi, ceptum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "incipere",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "commencer"
+    ],
+    "primitive tenses": "io, is, ere, cepi, ceptum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "incipimini",
+    "lemma": "incipere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "commencer"
+    ],
+    "primitive tenses": "io, is, ere, cepi, ceptum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "incipiam",
@@ -40187,7 +41503,8 @@
     ],
     "primitive tenses": "io, is, ere, cepi, ceptum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "incipitur",
@@ -40864,6 +42181,58 @@
     "primitive tenses": "io, is, ere, cepi, ceptum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "intellege",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "comprendre"
+    ],
+    "primitive tenses": "o, is, ere, gessi, gestum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "intellegite",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "comprendre"
+    ],
+    "primitive tenses": "o, is, ere, gessi, gestum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "intellegere",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "comprendre"
+    ],
+    "primitive tenses": "o, is, ere, gessi, gestum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "intellegimini",
+    "lemma": "intellegere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "comprendre"
+    ],
+    "primitive tenses": "o, is, ere, gessi, gestum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "intellegam",
@@ -41747,7 +43116,8 @@
     ],
     "primitive tenses": "o, is, ere, gessi, gestum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "intellegitur",
@@ -42424,6 +43794,58 @@
     "primitive tenses": "o, is, ere, gessi, gestum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "interfice",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "primitive tenses": "io, is, ere, feci, fectum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "interficite",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "tuer"
+    ],
+    "primitive tenses": "io, is, ere, feci, fectum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "interficere",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "tuer"
+    ],
+    "primitive tenses": "io, is, ere, feci, fectum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "interficimini",
+    "lemma": "interficere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "tuer"
+    ],
+    "primitive tenses": "io, is, ere, feci, fectum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "interficiam",
@@ -43307,7 +44729,8 @@
     ],
     "primitive tenses": "io, is, ere, feci, fectum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "interficitur",
@@ -43984,6 +45407,58 @@
     "primitive tenses": "io, is, ere, feci, fectum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "inueni",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "trouver"
+    ],
+    "primitive tenses": "io, is, ire, ueni, uentum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "inuenite",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "trouver"
+    ],
+    "primitive tenses": "io, is, ire, ueni, uentum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "inuenire",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "trouver"
+    ],
+    "primitive tenses": "io, is, ire, ueni, uentum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "inuenimini",
+    "lemma": "inuenire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "trouver"
+    ],
+    "primitive tenses": "io, is, ire, ueni, uentum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "inueniam",
@@ -45546,6 +47021,58 @@
     "person": 6
   },
   {
+    "latin": "iube",
+    "lemma": "iubere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "ordonner"
+    ],
+    "primitive tenses": "eo, es, ere, iussi, iussum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "iubete",
+    "lemma": "iubere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "ordonner"
+    ],
+    "primitive tenses": "eo, es, ere, iussi, iussum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "iubere",
+    "lemma": "iubere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "ordonner"
+    ],
+    "primitive tenses": "eo, es, ere, iussi, iussum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "iubemini",
+    "lemma": "iubere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "ordonner"
+    ],
+    "primitive tenses": "eo, es, ere, iussi, iussum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "iubebo",
     "lemma": "iubere",
     "group": 2,
@@ -46037,7 +47564,8 @@
     ],
     "primitive tenses": "eo, es, ere, iussi, iussum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "iubebitur",
@@ -47106,6 +48634,62 @@
     "person": 6
   },
   {
+    "latin": "lauda",
+    "lemma": "laudare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "louer",
+      "approuver"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "laudate",
+    "lemma": "laudare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "louer",
+      "approuver"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "laudare",
+    "lemma": "laudare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "louer",
+      "approuver"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "laudamini",
+    "lemma": "laudare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "louer",
+      "approuver"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "laudabo",
     "lemma": "laudare",
     "group": 1,
@@ -47635,7 +49219,8 @@
     ],
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "laudabitur",
@@ -48786,6 +50371,66 @@
     "person": 6
   },
   {
+    "latin": "lege",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "primitive tenses": "o, is, ere, legi, lectum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "legite",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "primitive tenses": "o, is, ere, legi, lectum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "legere",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "primitive tenses": "o, is, ere, legi, lectum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "legimini",
+    "lemma": "legere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "lire",
+      "cueillir",
+      "choisir"
+    ],
+    "primitive tenses": "o, is, ere, legi, lectum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "legam",
     "lemma": "legere",
     "group": 3,
@@ -49767,7 +51412,8 @@
     ],
     "primitive tenses": "o, is, ere, legi, lectum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "legitur",
@@ -50526,6 +52172,32 @@
     "person": 6
   },
   {
+    "latin": "loquere",
+    "lemma": "loqui",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "parler"
+    ],
+    "primitive tenses": "or, eris, loqui, locutus sum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "loquimini",
+    "lemma": "loqui",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "parler"
+    ],
+    "primitive tenses": "or, eris, loqui, locutus sum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "loquar",
     "lemma": "loqui",
     "group": 3,
@@ -50939,7 +52611,8 @@
     ],
     "primitive tenses": "or, eris, loqui, locutus sum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "loquitur",
@@ -51304,6 +52977,58 @@
     "primitive tenses": "or, eris, loqui, locutus sum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "mane",
+    "lemma": "manere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "rester"
+    ],
+    "primitive tenses": "eo, es, ere, mansi, mansum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "manete",
+    "lemma": "manere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "rester"
+    ],
+    "primitive tenses": "eo, es, ere, mansi, mansum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "manere",
+    "lemma": "manere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "rester"
+    ],
+    "primitive tenses": "eo, es, ere, mansi, mansum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "manemini",
+    "lemma": "manere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "rester"
+    ],
+    "primitive tenses": "eo, es, ere, mansi, mansum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "manebo",
@@ -51797,7 +53522,8 @@
     ],
     "primitive tenses": "eo, es, ere, mansi, mansum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "manebitur",
@@ -52866,6 +54592,32 @@
     "person": 6
   },
   {
+    "latin": "mirare",
+    "lemma": "mirari",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "s'étonner"
+    ],
+    "primitive tenses": "or, aris, ari, atus sum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "miramini",
+    "lemma": "mirari",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "s'étonner"
+    ],
+    "primitive tenses": "or, aris, ari, atus sum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "mirabor",
     "lemma": "mirari",
     "group": 1,
@@ -52889,7 +54641,8 @@
     ],
     "primitive tenses": "or, aris, ari, atus sum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "mirabitur",
@@ -53644,6 +55397,58 @@
     "primitive tenses": "or, aris, ari, atus sum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "mitte",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "envoyer"
+    ],
+    "primitive tenses": "o, is, ere, misi, missum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "mittite",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "envoyer"
+    ],
+    "primitive tenses": "o, is, ere, misi, missum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "mittere",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "envoyer"
+    ],
+    "primitive tenses": "o, is, ere, misi, missum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "mittimini",
+    "lemma": "mittere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "envoyer"
+    ],
+    "primitive tenses": "o, is, ere, misi, missum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "mittam",
@@ -54527,7 +56332,8 @@
     ],
     "primitive tenses": "o, is, ere, misi, missum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "mittitur",
@@ -55206,6 +57012,58 @@
     "person": 6
   },
   {
+    "latin": "mone",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "avertir"
+    ],
+    "primitive tenses": "eo, es, ere, ui, itum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "monete",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "avertir"
+    ],
+    "primitive tenses": "eo, es, ere, ui, itum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "monere",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "primitive tenses": "eo, es, ere, ui, itum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "monemini",
+    "lemma": "monere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "avertir"
+    ],
+    "primitive tenses": "eo, es, ere, ui, itum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "monebo",
     "lemma": "monere",
     "group": 2,
@@ -55697,7 +57555,8 @@
     ],
     "primitive tenses": "eo, es, ere, ui, itum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "monebitur",
@@ -56766,6 +58625,32 @@
     "person": 6
   },
   {
+    "latin": "morere",
+    "lemma": "mori",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "mourir"
+    ],
+    "primitive tenses": "ior, eris, mori, mortuus sum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "morimini",
+    "lemma": "mori",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "mourir"
+    ],
+    "primitive tenses": "ior, eris, mori, mortuus sum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "moriar",
     "lemma": "mori",
     "group": 4,
@@ -57179,7 +59064,8 @@
     ],
     "primitive tenses": "ior, eris, mori, mortuus sum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "moritur",
@@ -57544,6 +59430,66 @@
     "primitive tenses": "ior, eris, mori, mortuus sum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "moue",
+    "lemma": "mouere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "mouvoir",
+      "émouvoir",
+      "susciter"
+    ],
+    "primitive tenses": "eo, es, ere, moui, motum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "mouete",
+    "lemma": "mouere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "mouvoir",
+      "émouvoir",
+      "susciter"
+    ],
+    "primitive tenses": "eo, es, ere, moui, motum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "mouere",
+    "lemma": "mouere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "mouvoir",
+      "émouvoir",
+      "susciter"
+    ],
+    "primitive tenses": "eo, es, ere, moui, motum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "mouemini",
+    "lemma": "mouere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "mouvoir",
+      "émouvoir",
+      "susciter"
+    ],
+    "primitive tenses": "eo, es, ere, moui, motum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "mouebo",
@@ -58113,7 +60059,8 @@
     ],
     "primitive tenses": "eo, es, ere, moui, motum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "mouebitur",
@@ -59346,6 +61293,58 @@
     "person": 6
   },
   {
+    "latin": "narra",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "raconter"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "narrate",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "raconter"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "narrare",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "narramini",
+    "lemma": "narrare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "raconter"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "narrabo",
     "lemma": "narrare",
     "group": 1,
@@ -59837,7 +61836,8 @@
     ],
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "narrabitur",
@@ -60906,6 +62906,32 @@
     "person": 6
   },
   {
+    "latin": "nascere",
+    "lemma": "nasci",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "naître"
+    ],
+    "primitive tenses": "or, eris, nasci, natus sum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "nascimini",
+    "lemma": "nasci",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "naître"
+    ],
+    "primitive tenses": "or, eris, nasci, natus sum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "nascar",
     "lemma": "nasci",
     "group": 3,
@@ -61319,7 +63345,8 @@
     ],
     "primitive tenses": "or, eris, nasci, natus sum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "nascitur",
@@ -61684,6 +63711,62 @@
     "primitive tenses": "or, eris, nasci, natus sum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "occide",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "primitive tenses": "o, is, ere, cidi, cisum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "occidite",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "primitive tenses": "o, is, ere, cidi, cisum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "occidere",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "primitive tenses": "o, is, ere, cidi, cisum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "occidimini",
+    "lemma": "occidere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "tuer",
+      "tomber"
+    ],
+    "primitive tenses": "o, is, ere, cidi, cisum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "occidam",
@@ -62635,7 +64718,8 @@
     ],
     "primitive tenses": "o, is, ere, cidi, cisum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "occiditur",
@@ -63364,6 +65448,34 @@
     "primitive tenses": "o, is, ere, cidi, cisum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "orire",
+    "lemma": "oriri",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "naître",
+      "se lever"
+    ],
+    "primitive tenses": "ior, iris, iri, ortus sum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "orimini",
+    "lemma": "oriri",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "naître",
+      "se lever"
+    ],
+    "primitive tenses": "ior, iris, iri, ortus sum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "oriar",
@@ -64206,6 +66318,34 @@
     "person": 6
   },
   {
+    "latin": "patere",
+    "lemma": "pati",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "souffrir",
+      "supporter"
+    ],
+    "primitive tenses": "ior, eris, pati, passus sum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "patimini",
+    "lemma": "pati",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "souffrir",
+      "supporter"
+    ],
+    "primitive tenses": "ior, eris, pati, passus sum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "patiar",
     "lemma": "pati",
     "group": 4,
@@ -64651,7 +66791,8 @@
     ],
     "primitive tenses": "ior, eris, pati, passus sum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "patitur",
@@ -65044,6 +67185,62 @@
     "primitive tenses": "ior, eris, pati, passus sum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "pelle",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "primitive tenses": "o, is, ere, pepuli, pulsum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "pellite",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "primitive tenses": "o, is, ere, pepuli, pulsum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "pellere",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "primitive tenses": "o, is, ere, pepuli, pulsum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "pellimini",
+    "lemma": "pellere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "pousser",
+      "chasser"
+    ],
+    "primitive tenses": "o, is, ere, pepuli, pulsum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "pellam",
@@ -65995,7 +68192,8 @@
     ],
     "primitive tenses": "o, is, ere, pepuli, pulsum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "pellitur",
@@ -67428,6 +69626,62 @@
     "person": 6
   },
   {
+    "latin": "praebe",
+    "lemma": "praebere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "présenter",
+      "offrir"
+    ],
+    "primitive tenses": "eo, es, ere, ui, itum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "praebete",
+    "lemma": "praebere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "présenter",
+      "offrir"
+    ],
+    "primitive tenses": "eo, es, ere, ui, itum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "praebere",
+    "lemma": "praebere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "présenter",
+      "offrir"
+    ],
+    "primitive tenses": "eo, es, ere, ui, itum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "praebemini",
+    "lemma": "praebere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "présenter",
+      "offrir"
+    ],
+    "primitive tenses": "eo, es, ere, ui, itum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "praebebo",
     "lemma": "praebere",
     "group": 2,
@@ -67957,7 +70211,8 @@
     ],
     "primitive tenses": "eo, es, ere, ui, itum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "praebebitur",
@@ -69511,6 +71766,32 @@
     "person": 1
   },
   {
+    "latin": "prodes",
+    "lemma": "prodesse",
+    "group": 0,
+    "mood": "indicatif",
+    "voice": "actif",
+    "translation": [
+      "être utile"
+    ],
+    "primitive tenses": "prosum, prodes, prodesse, profui",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "prodest",
+    "lemma": "prodesse",
+    "group": 0,
+    "mood": "indicatif",
+    "voice": "actif",
+    "translation": [
+      "être utile"
+    ],
+    "primitive tenses": "prosum, prodes, prodesse, profui",
+    "tense": "présent",
+    "person": 3
+  },
+  {
     "latin": "prodsumus",
     "lemma": "prodesse",
     "group": 0,
@@ -69524,19 +71805,6 @@
     "person": 4
   },
   {
-    "latin": "prodes",
-    "lemma": "prodesse",
-    "group": 0,
-    "mood": "indicatif",
-    "voice": "actif",
-    "translation": [
-      "être utile"
-    ],
-    "primitive tenses": "prosum, prodes, prodesse, profui",
-    "tense": "présent",
-    "person": 5
-  },
-  {
     "latin": "prodestis",
     "lemma": "prodesse",
     "group": 0,
@@ -69548,19 +71816,6 @@
     "primitive tenses": "prosum, prodes, prodesse, profui",
     "tense": "présent",
     "person": 5
-  },
-  {
-    "latin": "prodest",
-    "lemma": "prodesse",
-    "group": 0,
-    "mood": "indicatif",
-    "voice": "actif",
-    "translation": [
-      "être utile"
-    ],
-    "primitive tenses": "prosum, prodes, prodesse, profui",
-    "tense": "présent",
-    "person": 6
   },
   {
     "latin": "prodsunt",
@@ -69808,6 +72063,34 @@
     "primitive tenses": "prosum, prodes, prodesse, profui",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "proficiscere",
+    "lemma": "proficisci",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "partir",
+      "s'en aller"
+    ],
+    "primitive tenses": "or, eris, i, fectus sum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "proficiscimini",
+    "lemma": "proficisci",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "partir",
+      "s'en aller"
+    ],
+    "primitive tenses": "or, eris, i, fectus sum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "proficiscar",
@@ -70255,7 +72538,8 @@
     ],
     "primitive tenses": "or, eris, i, fectus sum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "proficiscitur",
@@ -70648,6 +72932,58 @@
     "primitive tenses": "or, eris, i, fectus sum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "pugna",
+    "lemma": "pugnare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "combattre"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "pugnate",
+    "lemma": "pugnare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "combattre"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "pugnare",
+    "lemma": "pugnare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "combattre"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "pugnamini",
+    "lemma": "pugnare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "combattre"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "pugnabo",
@@ -71141,7 +73477,8 @@
     ],
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "pugnabitur",
@@ -72210,6 +74547,58 @@
     "person": 6
   },
   {
+    "latin": "puta",
+    "lemma": "putare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "penser"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "putate",
+    "lemma": "putare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "penser"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "putare",
+    "lemma": "putare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "penser"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "putamini",
+    "lemma": "putare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "penser"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "putabo",
     "lemma": "putare",
     "group": 1,
@@ -72701,7 +75090,8 @@
     ],
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "putabitur",
@@ -73770,6 +76160,62 @@
     "person": 6
   },
   {
+    "latin": "rape",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "primitive tenses": "io, is, ere, rapui, raptum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "rapite",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "primitive tenses": "io, is, ere, rapui, raptum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "rapere",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "primitive tenses": "io, is, ere, rapui, raptum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "rapimini",
+    "lemma": "rapere",
+    "group": 4,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "arracher",
+      "ravir"
+    ],
+    "primitive tenses": "io, is, ere, rapui, raptum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "rapiam",
     "lemma": "rapere",
     "group": 4,
@@ -74719,7 +77165,8 @@
     ],
     "primitive tenses": "io, is, ere, rapui, raptum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "rapitur",
@@ -75448,6 +77895,62 @@
     "primitive tenses": "io, is, ere, rapui, raptum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "relinque",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "primitive tenses": "o, is, ere, liqui, lictum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "relinquite",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "primitive tenses": "o, is, ere, liqui, lictum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "relinquere",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "primitive tenses": "o, is, ere, liqui, lictum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "relinquimini",
+    "lemma": "relinquere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "laisser",
+      "tomber"
+    ],
+    "primitive tenses": "o, is, ere, liqui, lictum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "relinquam",
@@ -76399,7 +78902,8 @@
     ],
     "primitive tenses": "o, is, ere, liqui, lictum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "relinquitur",
@@ -77130,6 +79634,58 @@
     "person": 6
   },
   {
+    "latin": "roga",
+    "lemma": "rogare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "demander"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "rogate",
+    "lemma": "rogare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "demander"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "rogare",
+    "lemma": "rogare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "demander"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "rogamini",
+    "lemma": "rogare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "demander"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "rogabo",
     "lemma": "rogare",
     "group": 1,
@@ -77621,7 +80177,8 @@
     ],
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "rogabitur",
@@ -78688,6 +81245,58 @@
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "sci",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "savoir"
+    ],
+    "primitive tenses": "io, is, ire, iui, itum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "scite",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "savoir"
+    ],
+    "primitive tenses": "io, is, ire, iui, itum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "scire",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "savoir"
+    ],
+    "primitive tenses": "io, is, ire, iui, itum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "scimini",
+    "lemma": "scire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "savoir"
+    ],
+    "primitive tenses": "io, is, ire, iui, itum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "sciam",
@@ -80250,6 +82859,58 @@
     "person": 6
   },
   {
+    "latin": "scribe",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "écrire"
+    ],
+    "primitive tenses": "o, is, ere, scripsi, scriptum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "scribite",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "écrire"
+    ],
+    "primitive tenses": "o, is, ere, scripsi, scriptum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "scribere",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "écrire"
+    ],
+    "primitive tenses": "o, is, ere, scripsi, scriptum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "scribimini",
+    "lemma": "scribere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "écrire"
+    ],
+    "primitive tenses": "o, is, ere, scripsi, scriptum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "scribam",
     "lemma": "scribere",
     "group": 3,
@@ -81131,7 +83792,8 @@
     ],
     "primitive tenses": "o, is, ere, scripsi, scriptum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "scribitur",
@@ -81808,6 +84470,66 @@
     "primitive tenses": "o, is, ere, scripsi, scriptum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "senti",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "primitive tenses": "io, is, ire, sensi, sensum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "sentite",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "primitive tenses": "io, is, ire, sensi, sensum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "sentire",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "primitive tenses": "io, is, ire, sensi, sensum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "sentimini",
+    "lemma": "sentire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "percevoir",
+      "se rendre compte",
+      "juger"
+    ],
+    "primitive tenses": "io, is, ire, sensi, sensum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "sentiam",
@@ -83610,6 +86332,32 @@
     "person": 6
   },
   {
+    "latin": "sequere",
+    "lemma": "sequi",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "suivre"
+    ],
+    "primitive tenses": "or, eris, sequi, secutus sum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "sequimini",
+    "lemma": "sequi",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "suivre"
+    ],
+    "primitive tenses": "or, eris, sequi, secutus sum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "sequar",
     "lemma": "sequi",
     "group": 3,
@@ -84023,7 +86771,8 @@
     ],
     "primitive tenses": "or, eris, sequi, secutus sum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "sequitur",
@@ -84388,6 +87137,58 @@
     "primitive tenses": "or, eris, sequi, secutus sum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "specta",
+    "lemma": "spectare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "regarder"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "spectate",
+    "lemma": "spectare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "regarder"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "spectare",
+    "lemma": "spectare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "regarder"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "spectamini",
+    "lemma": "spectare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "regarder"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "spectabo",
@@ -84881,7 +87682,8 @@
     ],
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "spectabitur",
@@ -85950,6 +88752,62 @@
     "person": 6
   },
   {
+    "latin": "statue",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "primitive tenses": "o, is, ere, ui, utum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "statuite",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "primitive tenses": "o, is, ere, ui, utum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "statuere",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "primitive tenses": "o, is, ere, ui, utum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "statuimini",
+    "lemma": "statuere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "décider",
+      "déterminer"
+    ],
+    "primitive tenses": "o, is, ere, ui, utum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "statuam",
     "lemma": "statuere",
     "group": 3,
@@ -86899,7 +89757,8 @@
     ],
     "primitive tenses": "o, is, ere, ui, utum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "statuitur",
@@ -87630,6 +90489,58 @@
     "person": 6
   },
   {
+    "latin": "time",
+    "lemma": "timere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "craindre"
+    ],
+    "primitive tenses": "eo, es, ere, ui",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "timete",
+    "lemma": "timere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "craindre"
+    ],
+    "primitive tenses": "eo, es, ere, ui",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "timere",
+    "lemma": "timere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "craindre"
+    ],
+    "primitive tenses": "eo, es, ere, ui",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "timemini",
+    "lemma": "timere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "craindre"
+    ],
+    "primitive tenses": "eo, es, ere, ui",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "timebo",
     "lemma": "timere",
     "group": 2,
@@ -88121,7 +91032,8 @@
     ],
     "primitive tenses": "eo, es, ere, ui",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "timebitur",
@@ -88798,6 +91710,62 @@
     "primitive tenses": "eo, es, ere, ui",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "trade",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "primitive tenses": "o, is, ere, didi, ditum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "tradite",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "primitive tenses": "o, is, ere, didi, ditum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "tradere",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "primitive tenses": "o, is, ere, didi, ditum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "tradimini",
+    "lemma": "tradere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "transmettre",
+      "raconter"
+    ],
+    "primitive tenses": "o, is, ere, didi, ditum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "tradam",
@@ -89731,7 +92699,8 @@
     ],
     "primitive tenses": "o, is, ere, didi, ditum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "traditur",
@@ -90448,6 +93417,58 @@
     "primitive tenses": "o, is, ere, didi, ditum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "ueni",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "venir"
+    ],
+    "primitive tenses": "io, is, ire, ueni, uentum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "uenite",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "venir"
+    ],
+    "primitive tenses": "io, is, ire, ueni, uentum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "uenire",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "venir"
+    ],
+    "primitive tenses": "io, is, ire, ueni, uentum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "uenimini",
+    "lemma": "uenire",
+    "group": 5,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "venir"
+    ],
+    "primitive tenses": "io, is, ire, ueni, uentum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "ueniam",
@@ -92010,6 +95031,34 @@
     "person": 6
   },
   {
+    "latin": "uerere",
+    "lemma": "uereri",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "craindre",
+      "redouter"
+    ],
+    "primitive tenses": "eor, eris, eri, itus sum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "ueremini",
+    "lemma": "uereri",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "craindre",
+      "redouter"
+    ],
+    "primitive tenses": "eor, eris, eri, itus sum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "uerebor",
     "lemma": "uereri",
     "group": 2,
@@ -92035,7 +95084,8 @@
     ],
     "primitive tenses": "eor, eris, eri, itus sum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "uerebitur",
@@ -92850,6 +95900,58 @@
     "person": 6
   },
   {
+    "latin": "uide",
+    "lemma": "uidere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "voir"
+    ],
+    "primitive tenses": "eo, es, ere, uidi, uisum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "uidete",
+    "lemma": "uidere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "voir"
+    ],
+    "primitive tenses": "eo, es, ere, uidi, uisum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "uidere",
+    "lemma": "uidere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "voir"
+    ],
+    "primitive tenses": "eo, es, ere, uidi, uisum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "uidemini",
+    "lemma": "uidere",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "voir"
+    ],
+    "primitive tenses": "eo, es, ere, uidi, uisum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "uidebo",
     "lemma": "uidere",
     "group": 2,
@@ -93341,7 +96443,8 @@
     ],
     "primitive tenses": "eo, es, ere, uidi, uisum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "uidebitur",
@@ -94410,6 +97513,34 @@
     "person": 6
   },
   {
+    "latin": "uidere",
+    "lemma": "uideri",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "sembler",
+      "paraître"
+    ],
+    "primitive tenses": "eor, eris, eri, uisus sum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "uidemini",
+    "lemma": "uideri",
+    "group": 2,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "sembler",
+      "paraître"
+    ],
+    "primitive tenses": "eor, eris, eri, uisus sum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "uidebor",
     "lemma": "uideri",
     "group": 2,
@@ -94435,7 +97566,8 @@
     ],
     "primitive tenses": "eor, eris, eri, uisus sum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "uidebitur",
@@ -95248,6 +98380,58 @@
     "primitive tenses": "eor, eris, eri, uisus sum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "uince",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "vaincre"
+    ],
+    "primitive tenses": "o, is, ere, uici, uictum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "uincite",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "vaincre"
+    ],
+    "primitive tenses": "o, is, ere, uici, uictum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "uincere",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "vaincre"
+    ],
+    "primitive tenses": "o, is, ere, uici, uictum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "uincimini",
+    "lemma": "uincere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "vaincre"
+    ],
+    "primitive tenses": "o, is, ere, uici, uictum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "uincam",
@@ -96131,7 +99315,8 @@
     ],
     "primitive tenses": "o, is, ere, uici, uictum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "uincitur",
@@ -96808,6 +99993,58 @@
     "primitive tenses": "o, is, ere, uici, uictum",
     "tense": "présent",
     "person": 6
+  },
+  {
+    "latin": "uiue",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "vivre"
+    ],
+    "primitive tenses": "o, is, ere, uixi, uictum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "uiuite",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "vivre"
+    ],
+    "primitive tenses": "o, is, ere, uixi, uictum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "uiuere",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "vivre"
+    ],
+    "primitive tenses": "o, is, ere, uixi, uictum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "uiuimini",
+    "lemma": "uiuere",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "vivre"
+    ],
+    "primitive tenses": "o, is, ere, uixi, uictum",
+    "tense": "présent",
+    "person": 5
   },
   {
     "latin": "uiuam",
@@ -97691,7 +100928,8 @@
     ],
     "primitive tenses": "o, is, ere, uixi, uictum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "uiuitur",
@@ -98370,6 +101608,58 @@
     "person": 6
   },
   {
+    "latin": "uoca",
+    "lemma": "uocare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "appeler"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "uocate",
+    "lemma": "uocare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "actif",
+    "translation": [
+      "appeler"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
+    "latin": "uocare",
+    "lemma": "uocare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "appeler"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "uocamini",
+    "lemma": "uocare",
+    "group": 1,
+    "mood": "impératif",
+    "voice": "passif",
+    "translation": [
+      "appeler"
+    ],
+    "primitive tenses": "o, as, are, aui, atum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "uocabo",
     "lemma": "uocare",
     "group": 1,
@@ -98861,7 +102151,8 @@
     ],
     "primitive tenses": "o, as, are, aui, atum",
     "tense": "futur",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "uocabitur",
@@ -99930,6 +103221,32 @@
     "person": 6
   },
   {
+    "latin": "utere",
+    "lemma": "uti",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "utiliser"
+    ],
+    "primitive tenses": "or, eris, uti, usus sum",
+    "tense": "présent",
+    "person": 2
+  },
+  {
+    "latin": "utimini",
+    "lemma": "uti",
+    "group": 3,
+    "mood": "impératif",
+    "voice": "déponent",
+    "translation": [
+      "utiliser"
+    ],
+    "primitive tenses": "or, eris, uti, usus sum",
+    "tense": "présent",
+    "person": 5
+  },
+  {
     "latin": "utar",
     "lemma": "uti",
     "group": 3,
@@ -100343,7 +103660,8 @@
     ],
     "primitive tenses": "or, eris, uti, usus sum",
     "tense": "présent",
-    "person": 2
+    "person": 2,
+    "irrégulier": true
   },
   {
     "latin": "utitur",

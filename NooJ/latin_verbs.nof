@@ -71,23 +71,28 @@ GP1_INF =
 
 	:P1_OR/GP=1+TP=pres+MOD=ind | :GP1_A :P_PAS/TP=pres+MOD=ind | :GP1_A :P3_PAS/TP=pres+MOD=ind |
 	:GP1_A :IMPF_IND :P1_OR <L><B>/ | :GP1_A :IMPF_IND :P_PAS/ | :GP1_A :IMPF_IND :P3_PAS/ |
-	:GP1_A :FUT_GP1-2 <B> :P1_OR/ | :GP1_A :FUT_GP1-2 <B>eris/VX=pas+P=2+NB=sg | :GP1_A :FUT_GP1-2 :P_PAS/ | :GP1_A :FUT_GP1-2 <B>u :P3_PAS/ |
+	:GP1_A :FUT_GP1-2 <B> :P1_OR/ | :GP1_A :FUT_GP1-2 <B>eris/VX=pas+P=2+NB=sg+FORM=irr | :GP1_A :FUT_GP1-2 :P_PAS/ | :GP1_A :FUT_GP1-2 <B>u :P3_PAS/ |
 
 	:GP_SUB :P1_M/ | :GP_SUB :P_ACT/ | :GP_SUB :P3_ACT/ |
 	:GP1_A :IMPF_SUB :P1_M/ | :GP1_A :IMPF_SUB :P_ACT/ | :GP1_A :IMPF_SUB :P3_ACT/ |
 
 	:GP_SUB :P1_OR <L><B>/ | :GP_SUB :P_PAS/ | :GP_SUB :P3_PAS/ |
-	:GP1_A :IMPF_SUB :P1_OR <L><B>/ | :GP1_A :IMPF_SUB :P_PAS/ | :GP1_A :IMPF_SUB :P3_PAS/ ;
+	:GP1_A :IMPF_SUB :P1_OR <L><B>/ | :GP1_A :IMPF_SUB :P_PAS/ | :GP1_A :IMPF_SUB :P3_PAS/ |
+
+	:GP1_A/TP=pres+MOD=imp+VX=act+P=2+NB=sg | :GP1_A :IMP_ACT_PL/ |
+	:GP1_A :IMP_PAS_SG/| :GP1_A :IMP_PAS_PL/ ;
 
 
 ### Verbes déponents (imit-)
 GP1_DEP_INF =
 	:P1_DEP/GP=1+TP=pres+MOD=ind | :GP1_A :P_DEP/TP=pres+MOD=ind | :GP1_A :P3_DEP/TP=pres+MOD=ind |
 	:GP1_A :IMPF_IND :P1_DEP <L><B>/ | :GP1_A :IMPF_IND :P_DEP/ | :GP1_A :IMPF_IND :P3_DEP/ |
-	:GP1_A :FUT_GP1-2 <B> :P1_DEP/ | :GP1_A :FUT_GP1-2 <B>eris/VX=dep+P=2+NB=sg | :GP1_A :FUT_GP1-2 :P_DEP/ | :GP1_A :FUT_GP1-2 <B>u :P3_DEP/ |
+	:GP1_A :FUT_GP1-2 <B> :P1_DEP/ | :GP1_A :FUT_GP1-2 <B>eris/VX=dep+P=2+NB=sg+FORM=irr | :GP1_A :FUT_GP1-2 :P_DEP/ | :GP1_A :FUT_GP1-2 <B>u :P3_DEP/ |
 
 	:GP_SUB :P1_DEP <L><B>/ | :GP_SUB :P_DEP/ | :GP_SUB :P3_DEP/ |
-	:GP1_A :IMPF_SUB :P1_DEP <L><B>/ | :GP1_A :IMPF_SUB :P_DEP/ | :GP1_A :IMPF_SUB :P3_DEP/ ;
+	:GP1_A :IMPF_SUB :P1_DEP <L><B>/ | :GP1_A :IMPF_SUB :P_DEP/ | :GP1_A :IMPF_SUB :P3_DEP/ |
+
+	:GP1_A :IMP_DEP_SG/| :GP1_A :IMP_DEP_PL/ ;
 
 
 ## PERFECTUM (amau-)
@@ -132,23 +137,28 @@ GP2_INF =
 
 	:GP2_E :P1_OR/TP=pres+MOD=ind | :GP2_E :P_PAS/TP=pres+MOD=ind | :GP2_E :P3_PAS/TP=pres+MOD=ind |
 	:GP2_E :IMPF_IND :P1_OR <L><B>/ | :GP2_E :IMPF_IND :P_PAS/ | :GP2_E :IMPF_IND :P3_PAS/ |
-	:GP2_E :FUT_GP1-2 <B> :P1_OR/ | :GP2_E :FUT_GP1-2 <B>eris/VX=pas+P=2+NB=sg | :GP2_E :FUT_GP1-2 :P_PAS/ | :GP2_E :FUT_GP1-2 <B>u :P3_PAS/ |
+	:GP2_E :FUT_GP1-2 <B> :P1_OR/ | :GP2_E :FUT_GP1-2 <B>eris/VX=pas+P=2+NB=sg+FORM=irr | :GP2_E :FUT_GP1-2 :P_PAS/ | :GP2_E :FUT_GP1-2 <B>u :P3_PAS/ |
 
 	:GP2_E :GP_SUB :P1_M/ | :GP2_E :GP_SUB :P_ACT/ | :GP2_E :GP_SUB :P3_ACT/ |
 	:GP2_E :IMPF_SUB :P1_M/ | :GP2_E :IMPF_SUB :P_ACT/ | :GP2_E :IMPF_SUB :P3_ACT/ |
 
 	:GP2_E :GP_SUB :P1_OR <L><B>/ | :GP2_E :GP_SUB :P_PAS/ | :GP2_E :GP_SUB :P3_PAS/ |
-	:GP2_E :IMPF_SUB :P1_OR <L><B>/ | :GP2_E :IMPF_SUB :P_PAS/ | :GP2_E :IMPF_SUB :P3_PAS/ ;
+	:GP2_E :IMPF_SUB :P1_OR <L><B>/ | :GP2_E :IMPF_SUB :P_PAS/ | :GP2_E :IMPF_SUB :P3_PAS/ |
+
+	:GP2_E/TP=pres+MOD=imp+VX=act+P=2+NB=sg | :GP2_E :IMP_ACT_PL/ |
+	:GP2_E :IMP_PAS_SG/| :GP2_E :IMP_PAS_PL/ ;
 
 
 ### Verbes déponents (uid-)
 GP2_DEP_INF =
 	:GP2_E :P1_DEP/TP=pres+MOD=ind | :GP2_E :P_DEP/TP=pres+MOD=ind | :GP2_E :P3_DEP/TP=pres+MOD=ind |
 	:GP2_E :IMPF_IND :P1_DEP <L><B>/ | :GP2_E :IMPF_IND :P_DEP/ | :GP2_E :IMPF_IND :P3_DEP/ |
-	:GP2_E :FUT_GP1-2 <B> :P1_DEP/ | :GP2_E :FUT_GP1-2 <B>eris/VX=dep+P=2+NB=sg | :GP2_E :FUT_GP1-2 :P_DEP/ | :GP2_E :FUT_GP1-2 <B>u :P3_DEP/ |
+	:GP2_E :FUT_GP1-2 <B> :P1_DEP/ | :GP2_E :FUT_GP1-2 <B>eris/VX=dep+P=2+NB=sg+FORM=irr | :GP2_E :FUT_GP1-2 :P_DEP/ | :GP2_E :FUT_GP1-2 <B>u :P3_DEP/ |
 
 	:GP2_E :GP_SUB :P1_DEP <L><B>/ | :GP2_E :GP_SUB :P_DEP/ | :GP2_E :GP_SUB :P3_DEP/ |
-	:GP2_E :IMPF_SUB :P1_DEP <L><B>/ | :GP2_E :IMPF_SUB :P_DEP/ | :GP2_E :IMPF_SUB :P3_DEP/ ;
+	:GP2_E :IMPF_SUB :P1_DEP <L><B>/ | :GP2_E :IMPF_SUB :P_DEP/ | :GP2_E :IMPF_SUB :P3_DEP/ |
+
+	:GP2_E :IMP_DEP_SG/| :GP2_E :IMP_DEP_PL/ ;
 
 
 ## PERFECTUM (deleu-)
@@ -191,7 +201,7 @@ GP3_INF =
 	:GP3_E :IMPF_IND :P1_M/ | :GP3_E :IMPF_IND :P_ACT/ | :GP3_E :IMPF_IND :P3_ACT/ |
 	a :P1_M/GP=3+TP=fut+MOD=ind+VX=act | :FUT_GP3-4-5 :P_ACT/GP=3 | :FUT_GP3-4-5 :P3_ACT/GP=3 |
 
-	:P1_OR/GP=3+TP=pres+MOD=ind | :GP3_E ris/TP=pres+MOD=ind+VX=pas+P=2+NB=sg | :GP3_I :P_PAS/TP=pres+MOD=ind | u :P3_PAS/GP=3+TP=pres+MOD=ind |
+	:P1_OR/GP=3+TP=pres+MOD=ind | :GP3_E ris/TP=pres+MOD=ind+VX=pas+P=2+NB=sg+FORM=irr | :GP3_I :P_PAS/TP=pres+MOD=ind | u :P3_PAS/GP=3+TP=pres+MOD=ind |
 	:GP3_E :IMPF_IND :P1_OR <L><B>/ | :GP3_E :IMPF_IND :P_PAS/ | :GP3_E :IMPF_IND :P3_PAS/ |
 	:P1_OR <L><B>a/GP=3+TP=fut+MOD=ind | :FUT_GP3-4-5 :P_PAS/GP=3 | :FUT_GP3-4-5 :P3_PAS/GP=3 |
 
@@ -199,17 +209,22 @@ GP3_INF =
 	:GP3_E :IMPF_SUB :P1_M/ | :GP3_E :IMPF_SUB :P_ACT/ | :GP3_E :IMPF_SUB :P3_ACT/ |
 
 	:GP_SUB :P1_OR <L><B>/ | :GP_SUB :P_PAS/ | :GP_SUB :P3_PAS/ |
-	:GP3_E :IMPF_SUB :P1_OR <L><B>/ | :GP3_E :IMPF_SUB :P_PAS/ | :GP3_E :IMPF_SUB :P3_PAS/ ;
+	:GP3_E :IMPF_SUB :P1_OR <L><B>/ | :GP3_E :IMPF_SUB :P_PAS/ | :GP3_E :IMPF_SUB :P3_PAS/ |
+
+	:GP3_E/TP=pres+MOD=imp+VX=act+P=2+NB=sg | :GP3_I :IMP_ACT_PL/ |
+	:GP3_E :IMP_PAS_SG/| :GP3_I :IMP_PAS_PL/  ;
 
 
 ### Verbes déponents (proficisc-)
 GP3_DEP_INF =
-	:P1_DEP/GP=3+TP=pres+MOD=ind | :GP3_E ris/TP=pres+MOD=ind+VX=dep+P=2+NB=sg | :GP3_I :P_DEP/TP=pres+MOD=ind | u :P3_DEP/GP=3+TP=pres+MOD=ind |
+	:P1_DEP/GP=3+TP=pres+MOD=ind | :GP3_E ris/TP=pres+MOD=ind+VX=dep+P=2+NB=sg+FORM=irr | :GP3_I :P_DEP/TP=pres+MOD=ind | u :P3_DEP/GP=3+TP=pres+MOD=ind |
 	:GP3_E :IMPF_IND :P1_DEP <L><B>/ | :GP3_E :IMPF_IND :P_DEP/ | :GP3_E :IMPF_IND :P3_DEP/ |
 	:P1_DEP <L><B>a/GP=3+TP=fut+MOD=ind | :FUT_GP3-4-5 :P_DEP/GP=3 | :FUT_GP3-4-5 :P3_DEP/GP=3 |
 
 	:GP_SUB :P1_DEP <L><B>/ | :GP_SUB :P_DEP/ | :GP_SUB :P3_DEP/ |
-	:GP3_E :IMPF_SUB :P1_DEP <L><B>/ | :GP3_E :IMPF_SUB :P_DEP/ | :GP3_E :IMPF_SUB :P3_DEP/ ;
+	:GP3_E :IMPF_SUB :P1_DEP <L><B>/ | :GP3_E :IMPF_SUB :P_DEP/ | :GP3_E :IMPF_SUB :P3_DEP/ |
+
+	:GP3_E :IMP_DEP_SG/| :GP3_I :IMP_DEP_PL/ ;
 
 
 ## PERFECTUM (leg-)
@@ -245,7 +260,6 @@ GP3_DEP_SUP =
 
 
 
-
 # GP4 (CAPERE)
 ## INFECTUM (cap-)
 
@@ -254,7 +268,7 @@ GP4_INF =
 	:GP4_IE :IMPF_IND :P1_M/ | :GP4_IE :IMPF_IND :P_ACT/ | :GP4_IE :IMPF_IND :P3_ACT/ |
 	:GP4_I a :P1_M/TP=fut+MOD=ind+VX=act | :GP4_I :FUT_GP3-4-5 :P_ACT/ | :GP4_I :FUT_GP3-4-5 :P3_ACT/ |
 
-	:GP4_I :P1_OR/TP=pres+MOD=ind | eris/GP=4+TP=pres+MOD=ind+VX=pas+P=2+NB=sg | :GP4_I :P_PAS/TP=pres+MOD=ind | :GP4_I u :P3_PAS/TP=pres+MOD=ind |
+	:GP4_I :P1_OR/TP=pres+MOD=ind | eris/GP=4+TP=pres+MOD=ind+VX=pas+P=2+NB=sg+FORM=irr | :GP4_I :P_PAS/TP=pres+MOD=ind | :GP4_I u :P3_PAS/TP=pres+MOD=ind |
 	:GP4_IE :IMPF_IND :P1_OR <L><B>/ | :GP4_IE :IMPF_IND :P_PAS/ | :GP4_IE :IMPF_IND :P3_PAS/ |
 	:GP4_I :P1_OR <L><B>a/TP=fut+MOD=ind | :GP4_I :FUT_GP3-4-5 :P_PAS/ | :GP4_I :FUT_GP3-4-5 :P3_PAS/ |
 
@@ -262,17 +276,22 @@ GP4_INF =
 	e :IMPF_SUB :P1_M/GP=4 | e :IMPF_SUB :P_ACT/GP=4 | e :IMPF_SUB :P3_ACT/GP=4 |
 
 	:GP4_I :GP_SUB :P1_OR <L><B>/ | :GP4_I :GP_SUB :P_PAS/ | :GP4_I :GP_SUB :P3_PAS/ |
-	:GP4_E :IMPF_SUB :P1_OR <L><B>/ | :GP4_E :IMPF_SUB :P_PAS/ | :GP4_E :IMPF_SUB :P3_PAS/ ;
+	:GP4_E :IMPF_SUB :P1_OR <L><B>/ | :GP4_E :IMPF_SUB :P_PAS/ | :GP4_E :IMPF_SUB :P3_PAS/ |
+
+	:GP4_E/TP=pres+MOD=imp+VX=act+P=2+NB=sg | :GP4_I :IMP_ACT_PL/ |
+	:GP4_E :IMP_PAS_SG/| :GP4_I :IMP_PAS_PL/  ;
 
 
 ### Verbes déponents (mor-)
 GP4_DEP_INF =
-	:GP4_I :P1_DEP/TP=pres+MOD=ind | eris/GP=4+TP=pres+MOD=ind+VX=dep+P=2+NB=sg | :GP4_I :P_DEP/TP=pres+MOD=ind | :GP4_I u :P3_DEP/TP=pres+MOD=ind |
+	:GP4_I :P1_DEP/TP=pres+MOD=ind | :GP4_E ris/TP=pres+MOD=ind+VX=dep+P=2+NB=sg+FORM=irr | :GP4_I :P_DEP/TP=pres+MOD=ind | :GP4_I u :P3_DEP/TP=pres+MOD=ind |
 	:GP4_IE :IMPF_IND :P1_DEP <L><B>/ | :GP4_IE :IMPF_IND :P_DEP/ | :GP4_IE :IMPF_IND :P3_DEP/ |
 	:GP4_I :P1_DEP <L><B>a/TP=fut+MOD=ind | :GP4_I :FUT_GP3-4-5 :P_DEP/ | :GP4_I :FUT_GP3-4-5 :P3_DEP/ |
 
 	:GP4_I :GP_SUB :P1_DEP <L><B>/ | :GP4_I :GP_SUB :P_DEP/ | :GP4_I :GP_SUB :P3_DEP/ |
-	:GP4_E :IMPF_SUB :P1_DEP <L><B>/ | :GP4_E :IMPF_SUB :P_DEP/ | :GP4_E :IMPF_SUB :P3_DEP/ ;
+	:GP4_E :IMPF_SUB :P1_DEP <L><B>/ | :GP4_E :IMPF_SUB :P_DEP/ | :GP4_E :IMPF_SUB :P3_DEP/ |
+
+	:GP4_E :IMP_DEP_SG/| :GP4_I :IMP_DEP_PL/ ;
 
 
 ## PERFECTUM (cep-)
@@ -323,7 +342,10 @@ GP5_INF =
 	:GP5_I :IMPF_SUB :P1_M/ | :GP5_I :IMPF_SUB :P_ACT/ | :GP5_I :IMPF_SUB :P3_ACT/ |
 
 	:GP5_I :GP_SUB :P1_OR <L><B>/ | :GP5_I :GP_SUB :P_PAS/ | :GP5_I :GP_SUB :P3_PAS/ |
-	:GP5_I :IMPF_SUB :P1_OR <L><B>/ | :GP5_I :IMPF_SUB :P_PAS/ | :GP5_I :IMPF_SUB :P3_PAS/ ;
+	:GP5_I :IMPF_SUB :P1_OR <L><B>/ | :GP5_I :IMPF_SUB :P_PAS/ | :GP5_I :IMPF_SUB :P3_PAS/ |
+
+	:GP5_I/TP=pres+MOD=imp+VX=act+P=2+NB=sg | :GP5_I :IMP_ACT_PL/ |
+	:GP5_I :IMP_PAS_SG/| :GP5_I :IMP_PAS_PL/  ;
 
 
 ### Verbes déponents (exper-)
@@ -333,7 +355,9 @@ GP5_DEP_INF =
 	:GP5_I :P1_DEP <L><B>a/TP=fut+MOD=ind | :GP5_I :FUT_GP3-4-5 :P_DEP/ | :GP5_I :FUT_GP3-4-5 :P3_DEP/ |
 
 	:GP5_I :GP_SUB :P1_DEP <L><B>/ | :GP5_I :GP_SUB :P_DEP/ | :GP5_I :GP_SUB :P3_DEP/ |
-	:GP5_I :IMPF_SUB :P1_DEP <L><B>/ | :GP5_I :IMPF_SUB :P_DEP/ | :GP5_I :IMPF_SUB :P3_DEP/ ;
+	:GP5_I :IMPF_SUB :P1_DEP <L><B>/ | :GP5_I :IMPF_SUB :P_DEP/ | :GP5_I :IMPF_SUB :P3_DEP/ |
+
+	:GP5_I :IMP_DEP_SG/| :GP5_I :IMP_DEP_PL/ ;
 
 
 ## PERFECTUM (audiu-)
@@ -374,7 +398,7 @@ GP5_DEP_SUP =
 ## INFECTUM (es-)
 
 GP0_INF =
-	<B2>su :P1_M/GP=0+TP=pres+MOD=ind+VX=act| /GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl | t/GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=pl | <B2>sumus/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | tis/GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl  | <B2>su :P3_ACT/GP=0+TP=pres+MOD=ind |
+	<B2>su :P1_M/GP=0+TP=pres+MOD=ind+VX=act| /GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=sg | t/GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=sg | <B2>sumus/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | tis/GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl  | <B2>su :P3_ACT/GP=0+TP=pres+MOD=ind |
 	<B> :IMPF_IND_GP0 :P1_M/ | <B> :IMPF_IND_GP0 :P_ACT/ | <B> :IMPF_IND_GP0 :P3_ACT/ |
 	<B> :FUT_GP0 <B> :P1_O/ | <B> :FUT_GP0 :P_ACT/ | <B> :FUT_GP0 <B>u :P3_ACT/ |
 
@@ -408,6 +432,12 @@ GP0_PER =
 	:FTA <B> :P1_O/GP=0 | :FTA :P_ACT/GP=0 | :FTA :P3_ACT/GP=0 |
 
 	:PQP_SUB :P1_M/GP=0 | :PQP_SUB :P_ACT/GP=0 | :PQP_SUB :P3_ACT/GP=0 ;
+
+
+# GP_IRR
+## INFECTUM
+### IMPERATIF
+GP_IRR = <E>/TP=pres+MOD=imp+VX=act+P=2+NB=sg+FORM=irr ;
 
 
 
@@ -481,7 +511,6 @@ P_DEP =
 	mini/VX=dep+P=2+NB=pl ;
 
 
-
 ## INFECTUM
 ### IMPARFAIT (impf) INDICATIF & SUBJONCTIF
 IMPF_IND = ba/TP=impf+MOD=ind ;
@@ -499,6 +528,12 @@ FUT_GP3-4-5 = e/TP=fut+MOD=ind ;
 #### GROUPE 0 (erit)
 FUT_GP0 = ri/GP=0+TP=fut+MOD=ind+VX=act ;
 
+### IMPERATIF (imp)
+IMP_ACT_PL = te/TP=pres+MOD=imp+VX=act+P=2+NB=pl ;
+IMP_PAS_SG = re/TP=pres+MOD=imp+VX=pas+P=2+NB=sg ;
+IMP_PAS_PL = mini/TP=pres+MOD=imp+VX=pas+P=2+NB=pl ;
+IMP_DEP_SG = re/TP=pres+MOD=imp+VX=dep+P=2+NB=sg ;
+IMP_DEP_PL = mini/TP=pres+MOD=imp+VX=dep+P=2+NB=pl ;
 
 ## PERFECTUM
 ### PARFAIT (pft) INDICATIF & SUBJONCTIF
@@ -525,4 +560,3 @@ FTA = eri/TP=fta+MOD=ind+VX=act ;
 ## SUPINUM
 PPP_SG = us/NB=sg ;
 PPP_PL = i/NB=pl ;
-

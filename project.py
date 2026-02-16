@@ -173,7 +173,7 @@ def filter_mood(mood_user, list_verbs) -> list[dict]:
     """Filters the list of potential questions/answers (list_verbs) so as to keep only those matching the user's choice regarding the mood, if applicable.
 
     From main():
-    parser.add_argument('-m', '--mode', type=str, choices=["indicatif", "subjonctif"], default=None, help="Le mode (indicatif ou subjonctif) que vous souhaitez pratiquer")
+    parser.add_argument('-m', '--mode', type=str, choices=["indicatif", "subjonctif", "impératif"], default=None, help="Le mode (indicatif, subjonctif ou impératif) que vous souhaitez pratiquer")
     mood_user = args.mood
 
     *Input* (two)
@@ -336,7 +336,7 @@ def ask_verb(verb) -> int:
         if debug:
             print(mood)
         mood_input = (
-            input("Indiquer le mode (indicatif ou subjonctif) : ").strip().lower()
+            input("Indiquer le mode (indicatif, subjonctif ou impératif) : ").strip().lower()
         )
         if mood == mood_input:
             score += 1
@@ -545,9 +545,9 @@ def main():
         "-m",
         "--mode",
         type=str,
-        choices=["indicatif", "subjonctif"],
+        choices=["indicatif", "subjonctif", "impératif"],
         default=None,
-        help="Le mode (indicatif ou subjonctif) que vous souhaitez pratiquer",
+        help="Le mode (indicatif, subjonctif ou impératif) que vous souhaitez pratiquer",
     )
     parser.add_argument("--debug", action="store_true", help="activer le mode debug")
     args = parser.parse_args()

@@ -29,7 +29,7 @@ def check_inflected_forms(inflected_forms):
 
         if group == 0:
             continue
-        for mood in ["indicatif", "subjonctif"]:
+        for mood in ["indicatif", "subjonctif", "impératif"]:
 
             # Si le verbe est déponent, il n'aura pas de voix active ou passive, et inversement
             # Il ne faut donc vérifier que la voix passive pour les verbes déponents,
@@ -68,8 +68,12 @@ def check_inflected_forms(inflected_forms):
                             ):
                                 exist = True
 
-                        if mood == "subjonctif" and (
-                            tense == "futur" or tense == "futur antérieur"
+                        if (
+                            mood == "subjonctif"
+                            and (tense == "futur" or tense == "futur antérieur")
+                        ) or (
+                            mood == "impératif"
+                            and (person not in [2, 5] or tense != "présent")
                         ):
                             if exist:
                                 extras.setdefault(key, [])
@@ -88,6 +92,130 @@ def check_inflected_forms(inflected_forms):
             raise Exception(
                 f"{len(missing)} missing forms and {len(extras)} extra forms"
             )
+
+
+def deduplicate(verbs_lst: list[dict]) -> list[dict]:
+    """
+    example dicts:
+    [{
+        "latin": "amaberis",
+        "lemma": "amare",
+        "group": 1,
+        "mood": "indicatif",
+        "voice": "passif",
+        "translation": [
+        "aimer"
+        ],
+        "primitive tenses": "o, as, are, aui, atum",
+        "tense": "futur",
+        "person": 2
+    },
+    {
+        "latin": "amabiris",
+        "lemma": "amare",
+        "group": 1,
+        "mood": "indicatif",
+        "voice": "passif",
+        "translation": [
+        "aimer"
+        ],
+        "primitive tenses": "o, as, are, aui, atum",
+        "tense": "futur",
+        "person": 2
+    },
+    {
+        "latin": "duc",
+        "lemma": "ducere",
+        "group": 3,
+        "mood": "impératif",
+        "voice": "actif",
+        "translation": [
+        "conduire",
+        "considérer comme"
+        ],
+        "primitive tenses": "o, is, ere, duxi, ductum",
+        "tense": "présent",
+        "person": 2
+    },
+    {
+        "latin": "duce",
+        "lemma": "ducere",
+        "group": 3,
+        "mood": "impératif",
+        "voice": "actif",
+        "translation": [
+        "conduire",
+        "considérer comme"
+        ],
+        "primitive tenses": "o, is, ere, duxi, ductum",
+        "tense": "présent",
+        "person": 2
+    },
+    ]
+
+    return:
+    [{
+        "latin": "amaberis",
+        "lemma": "amare",
+        "group": 1,
+        "mood": "indicatif",
+        "voice": "passif",
+        "translation": [
+        "aimer"
+        ],
+        "primitive tenses": "o, as, are, aui, atum",
+        "tense": "futur",
+        "person": 2
+    },
+    {
+        "latin": "duc",
+        "lemma": "ducere",
+        "group": 3,
+        "mood": "imp",
+        "voice": "actif",
+        "translation": [
+        "conduire",
+        "considérer comme"
+        ],
+        "primitive tenses": "o, is, ere, duxi, ductum",
+        "tense": "présent",
+        "person": 2
+    },]
+    """
+
+    verbs_lst_copy = []
+
+    traits_dict = {}
+    for inflected_form in verbs_lst:
+        traits = (
+            inflected_form["lemma"],
+            inflected_form["mood"],
+            inflected_form["voice"],
+            inflected_form["tense"],
+            inflected_form["person"],
+        )
+
+        traits_dict.setdefault(traits, []).append(inflected_form)
+
+    for traits in traits_dict:
+        if len(traits_dict[traits]) == 1:
+            verbs_lst_copy.append(traits_dict[traits][0])
+            continue
+
+        irregular_forms = []
+        for inflected_form in traits_dict[traits]:
+            if inflected_form.get("irrégulier", False):
+                irregular_forms.append(inflected_form)
+
+        if len(irregular_forms) != 1:
+            print(traits_dict[traits])
+            raise Exception(
+                f"Found {len(irregular_forms)} irregular forms for {traits}; there must be one and only one"
+            )
+
+        verbs_lst_copy.append(irregular_forms[0])
+
+    return verbs_lst_copy
 
 
 def main():
@@ -109,6 +237,7 @@ def main():
                 dic_nooj["traits"]["MOD"]
                 .replace("ind", "indicatif")
                 .replace("sub", "subjonctif")
+                .replace("imp", "impératif")
             )
             dic_mc["voice"] = (
                 dic_nooj["traits"]["VX"]
@@ -139,8 +268,13 @@ def main():
             dic_mc["person"] = int(dic_nooj["traits"]["P"])
             if dic_mc["person"] not in range(1, 4):
                 raise ValueError("Invalid form, the person is invalid")
+
             if dic_nooj["traits"]["NB"] == "pl":
                 dic_mc["person"] += 3
+
+            if dic_nooj["traits"].get("FORM") == "irr":
+                dic_mc["irrégulier"] = True
+
             verbs_lst.append(dic_mc)
         except Exception as e:
             print("Error with:", dic_nooj)
@@ -156,26 +290,7 @@ def main():
     check_inflected_forms(verbs_lst)
 
     # Filter out some invalid inflected forms.
-    filtered_verbs = []
-    for inflected_form in verbs_lst:
-        if inflected_form["person"] == 2 and (
-            inflected_form["mood"] == "indicatif"
-            and (
-                inflected_form["voice"] == "passif"
-                or inflected_form["voice"] == "déponent"
-            )
-        ):
-            if (
-                (inflected_form["group"] == 1 or inflected_form["group"] == 2)
-                and inflected_form["tense"] == "futur"
-            ) or (
-                (inflected_form["group"] == 3 or inflected_form["group"] == 4)
-                and inflected_form["tense"] == "présent"
-            ):
-                if inflected_form["latin"][-4:] == "iris":
-                    # print(inflected_form["latin"])
-                    continue
-        filtered_verbs.append(inflected_form)
+    filtered_verbs = deduplicate(verbs_lst)
 
     json_path = "verbs_latin.json"
     print(f"writing {len(filtered_verbs)} verbs to json file:", json_path)
