@@ -1,6 +1,6 @@
 # MAGISTER CONJUGATIONIS : Entraînement à la conjugaison latine
 Lien vers le site internet : https://crispyfunicular.github.io/magister_conjugationis/  
-Ce site permet de s'entraîner aux conjugaisons latines en proposant des exercices personnalisables par temps, personne, voix, mode ou encore groupe de verbes. Amo, capiebantur, deleuissetis... l'apprentissage de la conjugaison latine devient un vrai jeu d'enfant !  
+Ce site permet de s'entraîner aux conjugaisons latines en proposant des exercices personnalisables par temps, personne, voix, mode ou encore groupe de verbes. *Amo*, *capiebantur*, *deleuissetis*... l'apprentissage de la conjugaison latine devient un vrai jeu d'enfant !  
 
 ![Aperçu du site Magister Conjugationis](magister_img.png "Aperçu du site Magister Conjugationis")
 
@@ -11,8 +11,8 @@ Ce programme permet de faire pratiquer les conjugaisons latines à l'utilisateur
   Nouveau verbe à trouver : narrabamus
   Indiquer la personne (de 1 à 6) : 4
   Temps possibles : présent, imparfait, futur, parfait, plus-que-parfait ou futur antérieur : imparfait
-  Indiquer la voix (actif ou passif) : actif
-  Indiquer le mode (indicatif ou subjonctif) : indicatif
+  Indiquer la voix (actif, passif ou déponent) : actif
+  Indiquer le mode (indicatif, subjonctif ou impératif) : indicatif
   Indiquer la traduction en français (à l'infinitif) : raconter
   Bravo !
 ```
@@ -46,7 +46,7 @@ Le latin comporte également des verbes déponents. Ces verbes ont la particular
 
 Les formes verbales latines ne portant aucune marque de genre, "amat" peut aussi bien être traduit par "il aime" que par "elle aime". En revanche, "on aime" n'est pas pris en compte par le programme.  
 
-Lorsqu'un verbe latin admet plusieurs traductions en français, n'importe laquelle de celles-ci est admise par le programme (p. ex. : "legere" = lire, ceuillir, choisir).
+Lorsqu'un verbe latin admet plusieurs traductions en français, n'importe laquelle de celles-ci est admise par le programme (p. ex. : "legere" = lire, cueillir, choisir).
 
 
 ## NooJ : génération des formes fléchies
@@ -55,9 +55,9 @@ La richesse morphologique du latin est gérée grâce à NooJ, un outil de trait
 ### Dictionnaire (.dic)
 Chaque verbe est entré dans le dictionnaire avec deux racines distinctes, correspondant aux deux thèmes fondamentaux du système verbal latin :
 
-- Theme=INF (**infectum**) : utilisé pour les temps suivants : présent, imparfait et futur actifs et passifs.
-- Theme=PER (**perfectum**) : utilisé pour les temps suivants : parfait, plus-que-parfait et futur antérieur *actifs*.
-- Theme=SUP (**supinum**) : utilisé pour les temps suivants : parfait, plus-que-parfait et futur antérieur *passifs*.
+- `Theme=INF` (**infectum**) : utilisé pour les temps suivants : présent, imparfait et futur actifs et passifs.
+- `Theme=PER` (**perfectum**) : utilisé pour les temps suivants : parfait, plus-que-parfait et futur antérieur *actifs*.
+- `Theme=SUP` (**supinum**) : utilisé pour les temps suivants : parfait, plus-que-parfait et futur antérieur *passifs*.
 
 Exemple pour le verbe "amare" (aimer) :
 
@@ -80,11 +80,11 @@ Exemple de règle pour l'imparfait actif du 1er groupe : thème de l'infectum (*
 Une gestion spécifique a été implémentée pour les verbes déponents (verbes ayant une forme passive mais un sens actif, comme *sequor* ou *miror*). Ils sont identifiés par l'étiquette `VX=dep`.
 
 Ces verbes ne possédant pas de forme active, et dans la mesure où le thème du *perfectum* ne sert à former que des temps de la forme active, les verbes déponents ne disposent pas de thème perfectum dans le dictionnaire, mais uniquement des deux thèmes suivants :
-- Theme=INF : utilise les désinences passives pour former les temps de l'infectum (ex: "sequeris").
-- Theme=SUP : utilise les formes composées (participe + "esse") pour former les temps du perfectum (ex: "secutus sum").
+- `Theme=INF` : utilise les désinences passives pour former les temps de l'infectum (ex: "sequeris").
+- `Theme=SUP` : utilise les formes composées (participe + "esse") pour former les temps du perfectum (ex: "secutus sum").
 
 ### Nettoyage des faux positifs
-Par souci d'efficacité et de simplicité, la grammaire NooJ gère les formes régulières et "régulièrement irrégulières" et génère occasionnellement de "faux positifs" pour les formes "irrégulièrement irrégulières" (p. ex. *"loquiris" vs "loqueris"). Ces formes incorrectes sont filtrées *a posteriori* en Python via `pynooj.py`.
+Par souci d'efficacité et de simplicité, la grammaire NooJ gère les formes régulières et "régulièrement irrégulières" et génère occasionnellement de "faux positifs" pour les formes "irrégulièrement irrégulières" (p. ex. *"loquiris" vs "loqueris"). Ces formes incorrectes sont filtrées *a posteriori* en Python via le script `pynooj.py`.
 
 ## Installation de l'environnement
 ```bash
@@ -111,9 +111,9 @@ options:
                         La personne (comprise entre 1 et 6) que vous souhaitez pratiquer
   -t {futur,futur antérieur,imparfait,parfait,plus-que-parfait,présent}, --temps {futur,futur antérieur,imparfait,parfait,plus-que-parfait,présent}
                         Le temps (ex: "présent") que vous souhaitez pratiquer
-  -v {actif,passif}, --voix {actif,passif}
+  -v {actif,passif,déponent}, --voix {actif,passif,déponent}
                         La voix (actif ou passif) que vous souhaitez pratiquer
-  -m {indicatif,subjonctif}, --mode {indicatif,subjonctif}
+  -m {indicatif,subjonctif,impératif}, --mode {indicatif,subjonctif,impératif}
                         Le mode (indicatif ou subjonctif) que vous souhaitez pratiquer
   --debug               activer le mode debug
 
@@ -129,9 +129,9 @@ Bravo !
 Temps possibles : présent, imparfait, futur, parfait, plus-que-parfait ou futur antérieur
 Réponse : imparfait
 Bravo !
-Indiquer la voix (actif ou passif) : actif
+Indiquer la voix (actif, passif ou déponent) : actif
 Bravo !
-Indiquer le mode (indicatif ou subjonctif) : indicatif
+Indiquer le mode (indicatif, subjonctif ou impératif) : indicatif
 Bravo !
 Indiquer la traduction en français (à l'infinitif) : être absent
 Bravo !
@@ -149,9 +149,9 @@ Réponse : présent
 Mauvaise réponse ! Errare humanum est...
 Essayer à nouveau cette question (1), voir les temps primitifs (2) ou voir la réponse (3) ? 3
 futur
-Indiquer la voix (actif ou passif) : passif
+Indiquer la voix (actif, passif ou déponent) : passif
 Bravo !
-Indiquer le mode (indicatif ou subjonctif) : indicatif
+Indiquer le mode (indicatif, subjonctif ou impératif) : indicatif
 Bravo !
 Indiquer la traduction en français (à l'infinitif) : ?
 Mauvaise réponse ! Errare humanum est...
