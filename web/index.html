@@ -233,6 +233,11 @@
                       <input type="checkbox" class="h-4 w-4 accent-ember" value="subjonctif" x-model="session.moods" />
                       subjonctif
                     </label>
+                    <label
+                      class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink">
+                      <input type="checkbox" class="h-4 w-4 accent-ember" value="impératif" x-model="session.moods" />
+                      impératif
+                    </label>
                   </div>
                 </div>
 
@@ -498,23 +503,23 @@
                     <div class="mt-3 grid gap-3 md:grid-cols-3">
                       <label
                         class="ringed flex cursor-pointer items-center gap-2 rounded-2xl border border-transparent bg-white/70 px-3 py-2 text-xs transition"
-                        :class="!allowedVoices.includes('actif') ? 'opacity-40 cursor-not-allowed' : 'hover:border-ember/40'">
+                        :class="isVoiceDisabled('actif') ? 'opacity-40 cursor-not-allowed' : 'hover:border-ember/40'">
                         <input type="radio" class="h-4 w-4 accent-ember" name="latin-voice" value="actif"
-                          :disabled="!allowedVoices.includes('actif')" x-model="quiz.latinSelections.voice" />
+                          :disabled="isVoiceDisabled('actif')" x-model="quiz.latinSelections.voice" />
                         <span class="text-sm font-medium text-ink">actif</span>
                       </label>
                       <label
                         class="ringed flex cursor-pointer items-center gap-2 rounded-2xl border border-transparent bg-white/70 px-3 py-2 text-xs transition"
-                        :class="!allowedVoices.includes('passif') ? 'opacity-40 cursor-not-allowed' : 'hover:border-ember/40'">
+                        :class="isVoiceDisabled('passif') ? 'opacity-40 cursor-not-allowed' : 'hover:border-ember/40'">
                         <input type="radio" class="h-4 w-4 accent-ember" name="latin-voice" value="passif"
-                          :disabled="!allowedVoices.includes('passif')" x-model="quiz.latinSelections.voice" />
+                          :disabled="isVoiceDisabled('passif')" x-model="quiz.latinSelections.voice" />
                         <span class="text-sm font-medium text-ink">passif</span>
                       </label>
                       <label
                         class="ringed flex cursor-pointer items-center gap-2 rounded-2xl border border-transparent bg-white/70 px-3 py-2 text-xs transition"
-                        :class="!allowedVoices.includes('déponent') ? 'opacity-40 cursor-not-allowed' : 'hover:border-ember/40'">
+                        :class="isVoiceDisabled('déponent') ? 'opacity-40 cursor-not-allowed' : 'hover:border-ember/40'">
                         <input type="radio" class="h-4 w-4 accent-ember" name="latin-voice" value="déponent"
-                          :disabled="!allowedVoices.includes('déponent')" x-model="quiz.latinSelections.voice" />
+                          :disabled="isVoiceDisabled('déponent')" x-model="quiz.latinSelections.voice" />
                         <span class="text-sm font-medium text-ink">déponent</span>
                       </label>
                     </div>
@@ -524,20 +529,30 @@
                     :style="quiz.latinErrors.mood ? 'border: 1px solid rgba(198,75,42,0.4); background: rgba(198,75,42,0.06)' : ''">
                     <h4 class="text-lg font-semibold" :class="quiz.latinErrors.mood ? 'text-ember' : 'text-ink'">Mode
                     </h4>
-                    <div class="mt-3 grid gap-3 md:grid-cols-2">
+                    <div class="mt-3 grid gap-3 md:grid-cols-3">
                       <label
-                        class="ringed flex cursor-pointer items-center gap-3 rounded-2xl border border-transparent bg-white/70 px-4 py-3 transition"
+                        class="ringed flex cursor-pointer items-center gap-2 rounded-2xl border border-transparent bg-white/70 px-3 py-2 text-xs transition"
                         :class="!allowedMoods.includes('indicatif') ? 'opacity-40 cursor-not-allowed' : 'hover:border-ember/40'">
                         <input type="radio" class="h-4 w-4 accent-ember" name="latin-mood" value="indicatif"
-                          :disabled="!allowedMoods.includes('indicatif')" x-model="quiz.latinSelections.mood" />
+                          :disabled="!allowedMoods.includes('indicatif')" x-model="quiz.latinSelections.mood"
+                          @change="onMoodChange()" />
                         <span class="text-sm font-medium text-ink">indicatif</span>
                       </label>
                       <label
-                        class="ringed flex cursor-pointer items-center gap-3 rounded-2xl border border-transparent bg-white/70 px-4 py-3 transition"
+                        class="ringed flex cursor-pointer items-center gap-2 rounded-2xl border border-transparent bg-white/70 px-3 py-2 text-xs transition"
                         :class="!allowedMoods.includes('subjonctif') ? 'opacity-40 cursor-not-allowed' : 'hover:border-ember/40'">
                         <input type="radio" class="h-4 w-4 accent-ember" name="latin-mood" value="subjonctif"
-                          :disabled="!allowedMoods.includes('subjonctif')" x-model="quiz.latinSelections.mood" />
+                          :disabled="!allowedMoods.includes('subjonctif')" x-model="quiz.latinSelections.mood"
+                          @change="onMoodChange()" />
                         <span class="text-sm font-medium text-ink">subjonctif</span>
+                      </label>
+                      <label
+                        class="ringed flex cursor-pointer items-center gap-2 rounded-2xl border border-transparent bg-white/70 px-3 py-2 text-xs transition"
+                        :class="!allowedMoods.includes('impératif') ? 'opacity-40 cursor-not-allowed' : 'hover:border-ember/40'">
+                        <input type="radio" class="h-4 w-4 accent-ember" name="latin-mood" value="impératif"
+                          :disabled="!allowedMoods.includes('impératif')" x-model="quiz.latinSelections.mood"
+                          @change="onMoodChange()" />
+                        <span class="text-sm font-medium text-ink">impératif</span>
                       </label>
                     </div>
                   </div>

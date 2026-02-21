@@ -245,6 +245,8 @@ function conjugationApp() {
       } else if (selections.mood && !this.allowedMoods.includes(selections.mood)) {
         selections.mood = "";
       }
+
+      this.onMoodChange();
     },
     buildTranslationOptions(verb, correctTranslation) {
       // Exclude other translations of the same verb to avoid multiple valid choices.
@@ -313,19 +315,35 @@ function conjugationApp() {
         ? this.session.voices
         : ["actif", "passif", "déponent"];
     },
+    isVoiceDisabled(voice) {
+      if (!this.allowedVoices.includes(voice)) return true;
+      return false;
+    },
     get allowedMoods() {
       return this.session.moods.length
         ? this.session.moods
-        : ["indicatif", "subjonctif"];
+        : ["indicatif", "subjonctif", "impératif"];
     },
     isPersonDisabled(value) {
-      return !this.allowedPersons.includes(String(value));
+      if (!this.allowedPersons.includes(String(value))) return true;
+      // Imperative only exists for 2nd person singular (2) and plural (5)
+      if (this.quiz.latinSelections.mood === 'impératif' && value !== 2 && value !== 5) return true;
+      return false;
     },
     isTenseDisabled(tense) {
-      if (!this.tenses.includes(tense)) {
-        return true;
+      if (!this.tenses.includes(tense)) return true;
+      if (!this.allowedTenses.includes(tense)) return true;
+      // Imperative only exists in the present tense
+      if (this.quiz.latinSelections.mood === 'impératif' && tense !== 'présent') return true;
+      return false;
+    },
+    onMoodChange() {
+      const sel = this.quiz.latinSelections;
+      if (sel.mood === 'impératif') {
+        sel.tense = 'présent';
+        // Clear person if not compatible with imperative
+        if (sel.person && sel.person !== '2' && sel.person !== '5') sel.person = '';
       }
-      return !this.allowedTenses.includes(tense);
     },
     get latinAnswersComplete() {
       const { person, tense, voice, mood, translation } =
