@@ -47,6 +47,7 @@ function conjugationApp() {
       showPrimitives: false,
       showLemma: false,
       revealed: false,
+      hasErred: false,
       latinErrors: { person: false, tense: false, voice: false, mood: false, translation: false },
     },
     init() {
@@ -203,6 +204,7 @@ function conjugationApp() {
       this.quiz.showPrimitives = false;
       this.quiz.showLemma = false;
       this.quiz.revealed = false;
+      this.quiz.hasErred = false;
       this.quiz.latinErrors = { person: false, tense: false, voice: false, mood: false, translation: false };
       // Only one correct translation is chosen per question.
       this.quiz.correctTranslation = this.pickCorrectTranslation(verb);
@@ -434,7 +436,7 @@ function conjugationApp() {
           : 0);
 
       if (correctCount === 5) {
-        this.quiz.subScore = 1;
+        this.quiz.subScore = this.quiz.hasErred ? 0.5 : 1;
         this.quiz.feedback = { type: "success", message: "Bravo !" };
         this.quiz.awaitingAction = false;
         this.quiz.showPrimitives = false;
@@ -450,6 +452,7 @@ function conjugationApp() {
           mood: this.quiz.latinSelections.mood !== verb.mood,
           translation: this.quiz.latinSelections.translation !== this.quiz.correctTranslation,
         };
+        this.quiz.hasErred = true;
         this.quiz.feedback = { type: "error", message: "Mauvaise réponse !" };
         this.quiz.awaitingAction = true;
         this.quiz.showHintsModal = true;
@@ -503,13 +506,14 @@ function conjugationApp() {
         this.normalizeLatin(this.quiz.inputAnswer) ===
         this.normalizeLatin(correct)
       ) {
-        this.quiz.subScore = 1;
+        this.quiz.subScore = this.quiz.hasErred ? 0.5 : 1;
         this.quiz.feedback = { type: "success", message: "Bravo !" };
         this.quiz.awaitingAction = false;
         setTimeout(() => {
           this.completeRound();
         }, 400);
       } else {
+        this.quiz.hasErred = true;
         this.quiz.feedback = { type: "error", message: "Mauvaise réponse !" };
         this.quiz.awaitingAction = true;
         this.quiz.showHintsModal = true;
@@ -562,6 +566,7 @@ function conjugationApp() {
         showPrimitives: false,
         showLemma: false,
         revealed: false,
+        hasErred: false,
         latinErrors: { person: false, tense: false, voice: false, mood: false, translation: false },
       };
       this.screen = "setup";
