@@ -520,6 +520,10 @@ function conjugationApp() {
       this.quiz.awaitingAction = false;
       this.quiz.showHintsModal = true;
     },
+    skipQuestion() {
+      this.quiz.subScore = 0;
+      this.completeRound();
+    },
     completeRound() {
       this.quiz.totalScore += this.quiz.subScore;
       this.quiz.roundIndex += 1;
