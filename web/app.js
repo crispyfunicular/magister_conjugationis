@@ -324,6 +324,9 @@ function conjugationApp() {
         ? this.session.moods
         : ["indicatif", "subjonctif", "impératif"];
     },
+    get isImperativeOnly() {
+      return this.session.moods.length === 1 && this.session.moods[0] === 'impératif';
+    },
     isPersonDisabled(value) {
       if (!this.allowedPersons.includes(String(value))) return true;
       // Imperative only exists for 2nd person singular (2) and plural (5)

@@ -212,8 +212,10 @@
                   <div class="flex flex-wrap gap-2">
                     <template x-for="tense in tenses" :key="tense">
                       <label
-                        class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink">
-                        <input type="checkbox" class="h-4 w-4 accent-ember" :value="tense" x-model="session.tenses" />
+                        class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink transition"
+                        :class="isImperativeOnly && tense !== 'présent' ? 'opacity-40 cursor-not-allowed' : ''">
+                        <input type="checkbox" class="h-4 w-4 accent-ember" :value="tense" x-model="session.tenses"
+                          :disabled="isImperativeOnly && tense !== 'présent'" />
                         <span x-text="tense"></span>
                       </label>
                     </template>
@@ -267,9 +269,11 @@
                   <div class="flex flex-wrap gap-2">
                     <template x-for="person in personOptions" :key="person.value">
                       <label
-                        class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink">
+                        class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink transition"
+                        :class="isImperativeOnly && person.value !== 2 && person.value !== 5 ? 'opacity-40 cursor-not-allowed' : ''">
                         <input type="checkbox" class="h-4 w-4 accent-ember" :value="person.value"
-                          x-model="session.persons" />
+                          x-model="session.persons"
+                          :disabled="isImperativeOnly && person.value !== 2 && person.value !== 5" />
                         <span x-text="person.label"></span>
                       </label>
                     </template>
