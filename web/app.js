@@ -427,7 +427,7 @@ function conjugationApp() {
         (this.quiz.latinSelections.voice === verb.voice ? 1 : 0) +
         (this.quiz.latinSelections.mood === verb.mood ? 1 : 0) +
         (this.quiz.latinSelections.translation ===
-        this.quiz.correctTranslation
+          this.quiz.correctTranslation
           ? 1
           : 0);
 
@@ -507,7 +507,6 @@ function conjugationApp() {
       }
     },
     retryLatinAnswer() {
-      this.quiz.inputAnswer = "";
       this.quiz.feedback = null;
       this.quiz.awaitingAction = false;
       this.quiz.showPrimitives = false;
