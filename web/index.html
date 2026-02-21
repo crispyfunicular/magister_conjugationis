@@ -425,7 +425,8 @@
                 x-show="quiz.current && quiz.current.direction === 'latin'"
                 @keydown.enter.prevent="submitLatinBundle()">
                 <div class="grid gap-6 lg:grid-cols-2">
-                  <div class="rounded-2xl p-3 transition-colors" :style="quiz.latinErrors.person ? 'border: 1px solid rgba(198,75,42,0.4); background: rgba(198,75,42,0.06)' : ''">
+                  <div class="rounded-2xl p-3 transition-colors"
+                    :style="quiz.latinErrors.person ? 'border: 1px solid rgba(198,75,42,0.4); background: rgba(198,75,42,0.06)' : ''">
                     <h4 class="text-lg font-semibold" :class="quiz.latinErrors.person ? 'text-ember' : 'text-ink'">
                       Personne</h4>
                     <div class="mt-3 grid gap-3 md:grid-cols-2">
@@ -454,7 +455,8 @@
                     </div>
                   </div>
 
-                  <div class="rounded-2xl p-3 transition-colors" :style="quiz.latinErrors.tense ? 'border: 1px solid rgba(198,75,42,0.4); background: rgba(198,75,42,0.06)' : ''">
+                  <div class="rounded-2xl p-3 transition-colors"
+                    :style="quiz.latinErrors.tense ? 'border: 1px solid rgba(198,75,42,0.4); background: rgba(198,75,42,0.06)' : ''">
                     <h4 class="text-lg font-semibold" :class="quiz.latinErrors.tense ? 'text-ember' : 'text-ink'">Temps
                     </h4>
                     <div class="mt-3 grid gap-3 md:grid-cols-2">
@@ -483,7 +485,8 @@
                     </div>
                   </div>
 
-                  <div class="rounded-2xl p-3 transition-colors" :style="quiz.latinErrors.voice ? 'border: 1px solid rgba(198,75,42,0.4); background: rgba(198,75,42,0.06)' : ''">
+                  <div class="rounded-2xl p-3 transition-colors"
+                    :style="quiz.latinErrors.voice ? 'border: 1px solid rgba(198,75,42,0.4); background: rgba(198,75,42,0.06)' : ''">
                     <h4 class="text-lg font-semibold" :class="quiz.latinErrors.voice ? 'text-ember' : 'text-ink'">Voix
                     </h4>
                     <div class="mt-3 grid gap-3 md:grid-cols-3">
@@ -511,7 +514,8 @@
                     </div>
                   </div>
 
-                  <div class="rounded-2xl p-3 transition-colors" :style="quiz.latinErrors.mood ? 'border: 1px solid rgba(198,75,42,0.4); background: rgba(198,75,42,0.06)' : ''">
+                  <div class="rounded-2xl p-3 transition-colors"
+                    :style="quiz.latinErrors.mood ? 'border: 1px solid rgba(198,75,42,0.4); background: rgba(198,75,42,0.06)' : ''">
                     <h4 class="text-lg font-semibold" :class="quiz.latinErrors.mood ? 'text-ember' : 'text-ink'">Mode
                     </h4>
                     <div class="mt-3 grid gap-3 md:grid-cols-2">
@@ -532,7 +536,8 @@
                     </div>
                   </div>
 
-                  <div class="lg:col-span-2 rounded-2xl p-3 transition-colors" :style="quiz.latinErrors.translation ? 'border: 1px solid rgba(198,75,42,0.4); background: rgba(198,75,42,0.06)' : ''">
+                  <div class="lg:col-span-2 rounded-2xl p-3 transition-colors"
+                    :style="quiz.latinErrors.translation ? 'border: 1px solid rgba(198,75,42,0.4); background: rgba(198,75,42,0.06)' : ''">
                     <h4 class="text-lg font-semibold" :class="quiz.latinErrors.translation ? 'text-ember' : 'text-ink'">
                       Traduction (infinitif)
                     </h4>
@@ -613,6 +618,25 @@
             <p class="text-lg text-ink/70 text-center">
               <span x-text="`Score total : ${scoreLabel}`"></span>
             </p>
+          </div>
+
+          <div class="mt-6" x-show="quiz.history.length > 0">
+            <h3 class="text-sm font-semibold uppercase tracking-[0.2em] text-ink/60">Verbes étudiés</h3>
+            <ul class="mt-3 space-y-2">
+              <template x-for="(entry, index) in quiz.history" :key="index">
+                <li
+                  class="flex items-center justify-between gap-3 rounded-xl border border-ink/10 bg-white/70 px-4 py-3 text-sm text-ink/80">
+                  <div>
+                    <span class="font-semibold text-ink" x-text="entry.latin"></span>
+                    <span
+                      x-text="` : personne : ${entry.person} ; temps : ${entry.tense} ; voix : ${entry.voice} ; mode : ${entry.mood} ; traduction : ${entry.translation}.`"></span>
+                  </div>
+                  <i class="ph-bold text-xl flex-shrink-0"
+                    :class="entry.score === 1 ? 'ph-check-circle' : entry.score === 0.5 ? 'ph-warning-circle' : 'ph-x-circle'"
+                    :style="entry.score === 1 ? 'color: #22a355' : entry.score === 0.5 ? 'color: #e6930a' : 'color: #c64b2a'"></i>
+                </li>
+              </template>
+            </ul>
           </div>
 
           <div class="mt-8 flex flex-wrap justify-end gap-3">

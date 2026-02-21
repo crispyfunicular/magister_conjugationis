@@ -28,6 +28,7 @@ function conjugationApp() {
       totalRounds: 0,
       roundIndex: 0,
       totalScore: 0,
+      history: [],
       current: null,
       subScore: 0,
       pendingScore: null,
@@ -171,6 +172,7 @@ function conjugationApp() {
       this.quiz.totalRounds = count;
       this.quiz.roundIndex = 0;
       this.quiz.totalScore = 0;
+      this.quiz.history = [];
       this.screen = "quiz";
       this.nextQuestion();
     },
@@ -539,6 +541,18 @@ function conjugationApp() {
     },
     completeRound() {
       this.quiz.totalScore += this.quiz.subScore;
+      if (this.quiz.current) {
+        const verb = this.quiz.current.verb;
+        this.quiz.history.push({
+          latin: verb.latin,
+          person: this.formatPerson(verb.person),
+          tense: verb.tense,
+          voice: verb.voice,
+          mood: verb.mood,
+          translation: verb.translation.join(', '),
+          score: this.quiz.subScore,
+        });
+      }
       this.quiz.roundIndex += 1;
       this.nextQuestion();
     },
@@ -547,6 +561,7 @@ function conjugationApp() {
         totalRounds: 0,
         roundIndex: 0,
         totalScore: 0,
+        history: [],
         current: null,
         subScore: 0,
         pendingScore: null,
