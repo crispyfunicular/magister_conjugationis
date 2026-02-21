@@ -1,9 +1,9 @@
 import pytest
 from project import *
 
+
 def get_test_verbs():
     return get_verbs("verbs_latin_test.csv")
-
 
 
 def test_get_difficulty():
@@ -63,7 +63,7 @@ def test_choose_question():
     assert choose_question("amo", "j'aime", "french") == ("j'aime", "amo", "Latin")
 
 
-#def test_ask_verb():
+# def test_ask_verb():
 
 
 def test_get_language_answer():
@@ -77,13 +77,20 @@ def test_get_all_answers():
     verbs = get_test_verbs()
     assert len(verbs) > 0
     assert get_all_answers(verbs, "j'aime", "french", "latin") == ["amo"]
-    assert get_all_answers(verbs, "lego", "latin", "french") == ["je lis", "je cueille", "je choisis"]
+    assert get_all_answers(verbs, "lego", "latin", "french") == [
+        "je lis",
+        "je cueille",
+        "je choisis",
+    ]
 
 
 def test_compare_answers():
     assert compare_answers("amo", ["amo"], "latin") == True
     assert compare_answers("ammo", ["amo"], "latin") == False
-    assert compare_answers("je choisis", ["je lis", "je cueille", "je choisis"], "french") == True
+    assert (
+        compare_answers("je choisis", ["je lis", "je cueille", "je choisis"], "french")
+        == True
+    )
     assert compare_answers("jubebo", ["iubebo"], "latin") == True
     assert compare_answers("venio", ["uenio"], "latin") == True
     assert compare_answers("elle fait", ["il fait"], "french") == True

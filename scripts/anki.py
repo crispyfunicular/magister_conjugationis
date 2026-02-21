@@ -1,4 +1,4 @@
-from project import *
+from scripts.magister import *
 import sys
 import argparse
 import genanki
@@ -11,18 +11,19 @@ def create_model():
     """
     model = genanki.Model(
         1581981852,
-        'Simple Model',
+        "Simple Model",
         fields=[
-            {'name': 'Question'},
-            {'name': 'Answer'},
+            {"name": "Question"},
+            {"name": "Answer"},
         ],
         templates=[
             {
-                'name': 'Card 1',
-                'qfmt': '<h2><center>{{Question}}</center></h2>',
-                'afmt': '{{FrontSide}}<hr id="answer"><center>{{Answer}}</center>',
+                "name": "Card 1",
+                "qfmt": "<h2><center>{{Question}}</center></h2>",
+                "afmt": '{{FrontSide}}<hr id="answer"><center>{{Answer}}</center>',
             },
-        ])
+        ],
+    )
     return model
 
 
@@ -36,10 +37,7 @@ def create_note(model, question, answer):
     *Output*
     note = an Anki card/note
     """
-    note = genanki.Note(
-        model = model,
-        fields=[question, answer]
-    )
+    note = genanki.Note(model=model, fields=[question, answer])
     return note
 
 
@@ -67,9 +65,7 @@ def create_deck(notes):
     *Output* (one)
     deck = an Anki deck
     """
-    deck = genanki.Deck(
-        2114781006,
-        "Latin verbs")
+    deck = genanki.Deck(2114781006, "Latin verbs")
     for note in notes:
         deck.add_note(note)
     print("Cards added to the deck:", len(notes))
@@ -93,16 +89,28 @@ def main():
     ###
 
     parser = argparse.ArgumentParser(
-                    prog='anki.py',
-                    description='Creates French-Latin verbs Anki decks',
-                    epilog='Bonam fortunam!')
-    parser.add_argument('-i', '--input', type=str, default="verbs_latin.csv", help="Input filename of the csv list of verbs")
-    parser.add_argument('-o', '--output', type=str, default="latin_verbs.apkg", help="Output filename of the Anki deck")
+        prog="anki.py",
+        description="Creates French-Latin verbs Anki decks",
+        epilog="Bonam fortunam!",
+    )
+    parser.add_argument(
+        "-i",
+        "--input",
+        type=str,
+        default="verbs_latin.csv",
+        help="Input filename of the csv list of verbs",
+    )
+    parser.add_argument(
+        "-o",
+        "--output",
+        type=str,
+        default="latin_verbs.apkg",
+        help="Output filename of the Anki deck",
+    )
     args = parser.parse_args()
 
     input_filename = args.input
     output_filename = args.output
-
 
     ###
     # Load CSV file
@@ -114,7 +122,6 @@ def main():
     except FileNotFoundError:
         print("File not found")
         sys.exit(1)
-
 
     model = create_model()
     notes = create_notes(model, verbs)

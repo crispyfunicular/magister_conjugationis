@@ -94,10 +94,11 @@ pip install -r requirements.txt
 ```
 
 ## Utilisation du programme
+Attention, les scripts sont conçus pour être lancés depuis la racine comme suit : `python scripts/magister.py`
 
-```
-project/ $ python project.py --help
-usage: project.py [-h] [-d {latin,français}] [-g {0,1,2,3,4,5}] [-p {0,1,2,3,4,5,6}] [-t {futur,futur antérieur,imparfait,parfait,plus-que-parfait,présent}] [-v {actif,passif}] [-m {indicatif,subjonctif}] [--debug]
+```bash
+$ python scripts/magister.py --help
+usage: magister.py [-h] [-d {latin,français}] [-g {0,1,2,3,4,5}] [-p {0,1,2,3,4,5,6}] [-t {futur,futur antérieur,imparfait,parfait,plus-que-parfait,présent}] [-v {actif,passif}] [-m {indicatif,subjonctif}] [--debug]
 
 Interroge l'utilisateur sur les verbes latins
 
@@ -121,7 +122,7 @@ Bonam fortunam!
 ```
 
 ```
-project/ $ python project.py
+$ python magister.py
 Combien de verbes voulez-vous pratiquer (entre 1 et 10) ? 3
 Nouveau verbe à trouver : aberas
 Indiquer la personne (de 1 à 6) : 2
