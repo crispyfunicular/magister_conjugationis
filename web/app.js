@@ -47,6 +47,7 @@ function conjugationApp() {
       showPrimitives: false,
       showLemma: false,
       revealed: false,
+      latinErrors: { person: false, tense: false, voice: false, mood: false, translation: false },
     },
     init() {
       this.loadVerbs();
@@ -202,6 +203,7 @@ function conjugationApp() {
       this.quiz.showPrimitives = false;
       this.quiz.showLemma = false;
       this.quiz.revealed = false;
+      this.quiz.latinErrors = { person: false, tense: false, voice: false, mood: false, translation: false };
       // Only one correct translation is chosen per question.
       this.quiz.correctTranslation = this.pickCorrectTranslation(verb);
       this.quiz.translationOptions = this.buildTranslationOptions(
@@ -441,6 +443,13 @@ function conjugationApp() {
           this.completeRound();
         }, 400);
       } else {
+        this.quiz.latinErrors = {
+          person: Number(this.quiz.latinSelections.person) !== verb.person,
+          tense: this.quiz.latinSelections.tense !== verb.tense,
+          voice: this.quiz.latinSelections.voice !== verb.voice,
+          mood: this.quiz.latinSelections.mood !== verb.mood,
+          translation: this.quiz.latinSelections.translation !== this.quiz.correctTranslation,
+        };
         this.quiz.feedback = { type: "error", message: "Mauvaise réponse !" };
         this.quiz.awaitingAction = true;
         this.quiz.showHintsModal = true;
@@ -553,6 +562,7 @@ function conjugationApp() {
         showPrimitives: false,
         showLemma: false,
         revealed: false,
+        latinErrors: { person: false, tense: false, voice: false, mood: false, translation: false },
       };
       this.screen = "setup";
     },
