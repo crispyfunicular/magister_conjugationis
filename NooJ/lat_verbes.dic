@@ -136,7 +136,7 @@ timu,timere,V+GP=2+PRIM=eo;es;ere;ui+Theme=PER+TRAD=craindre+FLX=GP2_PER
 #uidere
 uid,uidere,V+GP=2+PRIM=eo;es;ere;uidi;uisum+Theme=INF+TRAD=voir+FLX=GP2_INF
 uid,uidere,V+GP=2+PRIM=eo;es;ere;uidi;uisum+Theme=PER+TRAD=voir+FLX=GP2_PER
-uis,uidere,V+GP=2+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP
+uis,uidere,V+GP=2+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP
 
 
 # GP3 (LEGERE)

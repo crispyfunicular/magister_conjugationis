@@ -2957,36 +2957,36 @@ uiderat,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=PER+TRAD=voir+FLX=GP2_PER+TP=pq
 uideramus,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=PER+TRAD=voir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=2
 uideratis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=PER+TRAD=voir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=2
 uiderant,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=PER+TRAD=voir+FLX=GP2_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=2
-uisi sumus,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=1+NB=pl+GP=2+VX=pas+MOD=ind+TP=pft
-uisi estis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=2+NB=pl+GP=2+VX=pas+MOD=ind+TP=pft
-uisi sunt,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=3+NB=pl+GP=2+VX=pas+MOD=ind+TP=pft
-uisi erimus,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=1+NB=pl+GP=2+VX=pas+MOD=ind+TP=fta
-uisi eritis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=2+NB=pl+GP=2+VX=pas+MOD=ind+TP=fta
-uisi erunt,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=3+NB=pl+GP=2+VX=pas+MOD=ind+TP=fta
-uisi essemus,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=1+NB=pl+GP=2+VX=pas+MOD=sub+TP=pqp
-uisi essetis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=2+NB=pl+GP=2+VX=pas+MOD=sub+TP=pqp
-uisi essent,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=3+NB=pl+GP=2+VX=pas+MOD=sub+TP=pqp
-uisi simus,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=1+NB=pl+GP=2+VX=pas+MOD=sub+TP=pft
-uisi sitis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=2+NB=pl+GP=2+VX=pas+MOD=sub+TP=pft
-uisi sint,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=3+NB=pl+GP=2+VX=pas+MOD=sub+TP=pft
-uisi eramus,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=1+NB=pl+GP=2+VX=pas+MOD=ind+TP=pqp
-uisi eratis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=2+NB=pl+GP=2+VX=pas+MOD=ind+TP=pqp
-uisi erant,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=3+NB=pl+GP=2+VX=pas+MOD=ind+TP=pqp
-uisus sum,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=1+NB=sg+GP=2+VX=pas+MOD=ind+TP=pft
-uisus es,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=2+NB=sg+GP=2+VX=pas+MOD=ind+TP=pft
-uisus est,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=3+NB=sg+GP=2+VX=pas+MOD=ind+TP=pft
-uisus ero,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=1+NB=sg+GP=2+VX=pas+MOD=ind+TP=fta
-uisus eris,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=2+NB=sg+GP=2+VX=pas+MOD=ind+TP=fta
-uisus erit,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=3+NB=sg+GP=2+VX=pas+MOD=ind+TP=fta
-uisus essem,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=1+NB=sg+GP=2+VX=pas+MOD=sub+TP=pqp
-uisus esses,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=2+NB=sg+GP=2+VX=pas+MOD=sub+TP=pqp
-uisus esset,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=3+NB=sg+GP=2+VX=pas+MOD=sub+TP=pqp
-uisus sim,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=1+NB=sg+GP=2+VX=pas+MOD=sub+TP=pft
-uisus sis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=2+NB=sg+GP=2+VX=pas+MOD=sub+TP=pft
-uisus sit,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=3+NB=sg+GP=2+VX=pas+MOD=sub+TP=pft
-uisus eram,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=1+NB=sg+GP=2+VX=pas+MOD=ind+TP=pqp
-uisus eras,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=2+NB=sg+GP=2+VX=pas+MOD=ind+TP=pqp
-uisus erat,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=aivoirmer+FLX=GP2_SUP+P=3+NB=sg+GP=2+VX=pas+MOD=ind+TP=pqp
+uisi sumus,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=1+NB=pl+GP=2+VX=pas+MOD=ind+TP=pft
+uisi estis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=2+NB=pl+GP=2+VX=pas+MOD=ind+TP=pft
+uisi sunt,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=3+NB=pl+GP=2+VX=pas+MOD=ind+TP=pft
+uisi erimus,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=1+NB=pl+GP=2+VX=pas+MOD=ind+TP=fta
+uisi eritis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=2+NB=pl+GP=2+VX=pas+MOD=ind+TP=fta
+uisi erunt,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=3+NB=pl+GP=2+VX=pas+MOD=ind+TP=fta
+uisi essemus,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=1+NB=pl+GP=2+VX=pas+MOD=sub+TP=pqp
+uisi essetis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=2+NB=pl+GP=2+VX=pas+MOD=sub+TP=pqp
+uisi essent,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=3+NB=pl+GP=2+VX=pas+MOD=sub+TP=pqp
+uisi simus,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=1+NB=pl+GP=2+VX=pas+MOD=sub+TP=pft
+uisi sitis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=2+NB=pl+GP=2+VX=pas+MOD=sub+TP=pft
+uisi sint,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=3+NB=pl+GP=2+VX=pas+MOD=sub+TP=pft
+uisi eramus,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=1+NB=pl+GP=2+VX=pas+MOD=ind+TP=pqp
+uisi eratis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=2+NB=pl+GP=2+VX=pas+MOD=ind+TP=pqp
+uisi erant,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=3+NB=pl+GP=2+VX=pas+MOD=ind+TP=pqp
+uisus sum,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=1+NB=sg+GP=2+VX=pas+MOD=ind+TP=pft
+uisus es,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=2+NB=sg+GP=2+VX=pas+MOD=ind+TP=pft
+uisus est,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=3+NB=sg+GP=2+VX=pas+MOD=ind+TP=pft
+uisus ero,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=1+NB=sg+GP=2+VX=pas+MOD=ind+TP=fta
+uisus eris,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=2+NB=sg+GP=2+VX=pas+MOD=ind+TP=fta
+uisus erit,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=3+NB=sg+GP=2+VX=pas+MOD=ind+TP=fta
+uisus essem,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=1+NB=sg+GP=2+VX=pas+MOD=sub+TP=pqp
+uisus esses,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=2+NB=sg+GP=2+VX=pas+MOD=sub+TP=pqp
+uisus esset,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=3+NB=sg+GP=2+VX=pas+MOD=sub+TP=pqp
+uisus sim,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=1+NB=sg+GP=2+VX=pas+MOD=sub+TP=pft
+uisus sis,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=2+NB=sg+GP=2+VX=pas+MOD=sub+TP=pft
+uisus sit,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=3+NB=sg+GP=2+VX=pas+MOD=sub+TP=pft
+uisus eram,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=1+NB=sg+GP=2+VX=pas+MOD=ind+TP=pqp
+uisus eras,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=2+NB=sg+GP=2+VX=pas+MOD=ind+TP=pqp
+uisus erat,uidere,V+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP+P=3+NB=sg+GP=2+VX=pas+MOD=ind+TP=pqp
 lego,legere,V+PRIM=o;is;ere;legi;lectum+Theme=INF+TRAD=lire;cueillir;choisir+FLX=GP3_INF+VX=act+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 legor,legere,V+PRIM=o;is;ere;legi;lectum+Theme=INF+TRAD=lire;cueillir;choisir+FLX=GP3_INF+VX=pas+P=1+NB=sg+GP=3+TP=pres+MOD=ind
 lege,legere,V+PRIM=o;is;ere;legi;lectum+Theme=INF+TRAD=lire;cueillir;choisir+FLX=GP3_INF+GP=3+TP=pres+MOD=imp+VX=act+P=2+NB=sg
