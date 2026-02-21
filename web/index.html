@@ -339,12 +339,18 @@
                 </li>
               </ul>
 
-              <div class="mt-6">
+              <div class="mt-6 flex flex-wrap items-center gap-3">
                 <button
                   class="btn-primary inline-flex items-center gap-2 rounded-full bg-ember px-6 py-3 text-sm font-semibold text-white shadow-glow transition hover:-translate-y-0.5"
                   @click="startSession" :disabled="isLoading || filteredCount === 0">
                   <i class="ph ph-play"></i>
                   Démarrer la session
+                </button>
+                <button
+                  class="inline-flex items-center gap-2 rounded-full border border-ink/20 bg-white/80 px-5 py-3 text-sm font-semibold text-ink/70 transition hover:-translate-y-0.5 hover:border-ink/40"
+                  @click="resetFilters">
+                  <i class="ph ph-arrow-counter-clockwise"></i>
+                  Réinitialiser
                 </button>
               </div>
 

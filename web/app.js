@@ -586,5 +586,16 @@ function conjugationApp() {
       };
       this.screen = "setup";
     },
+    resetFilters() {
+      this.session = {
+        count: 10,
+        direction: "aleatoire",
+        tenses: [],
+        moods: [],
+        voices: [],
+        persons: [],
+        groups: [],
+      };
+    },
   };
 }
