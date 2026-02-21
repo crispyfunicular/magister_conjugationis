@@ -543,6 +543,7 @@
                 <div
                   class="rounded-[22px] border border-ink/10 bg-white/70 p-6"
                   x-show="quiz.current && quiz.current.direction === 'latin'"
+                  @keydown.enter.prevent="submitLatinBundle()"
                 >
                   <div class="grid gap-6 lg:grid-cols-2">
                     <div>
@@ -765,6 +766,7 @@
                     type="text"
                     placeholder="Ex: amabimus"
                     x-model="quiz.inputAnswer"
+                    @keydown.enter.prevent="submitLatinAnswer()"
                   />
 
                   <div class="mt-5 flex flex-wrap items-center justify-end gap-3">
