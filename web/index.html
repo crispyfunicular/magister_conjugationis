@@ -236,8 +236,10 @@
                       subjonctif
                     </label>
                     <label
-                      class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink">
-                      <input type="checkbox" class="h-4 w-4 accent-ember" value="impératif" x-model="session.moods" />
+                      class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink transition"
+                      :class="isImperativeDisabled ? 'opacity-40 cursor-not-allowed' : ''">
+                      <input type="checkbox" class="h-4 w-4 accent-ember" value="impératif" x-model="session.moods"
+                        :disabled="isImperativeDisabled" />
                       impératif
                     </label>
                   </div>
@@ -252,13 +254,17 @@
                       actif
                     </label>
                     <label
-                      class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink">
-                      <input type="checkbox" class="h-4 w-4 accent-ember" value="passif" x-model="session.voices" />
+                      class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink transition"
+                      :class="isPassiveDeponentDisabled ? 'opacity-40 cursor-not-allowed' : ''">
+                      <input type="checkbox" class="h-4 w-4 accent-ember" value="passif" x-model="session.voices"
+                        :disabled="isPassiveDeponentDisabled" />
                       passif
                     </label>
                     <label
-                      class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink">
-                      <input type="checkbox" class="h-4 w-4 accent-ember" value="déponent" x-model="session.voices" />
+                      class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink transition"
+                      :class="isPassiveDeponentDisabled ? 'opacity-40 cursor-not-allowed' : ''">
+                      <input type="checkbox" class="h-4 w-4 accent-ember" value="déponent" x-model="session.voices"
+                        :disabled="isPassiveDeponentDisabled" />
                       déponent
                     </label>
                   </div>
@@ -285,8 +291,10 @@
                   <div class="flex flex-wrap gap-2">
                     <template x-for="group in groups" :key="group">
                       <label
-                        class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink">
-                        <input type="checkbox" class="h-4 w-4 accent-ember" :value="group" x-model="session.groups" />
+                        class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink transition"
+                        :class="group === 0 && isGroup0Disabled ? 'opacity-40 cursor-not-allowed' : ''">
+                        <input type="checkbox" class="h-4 w-4 accent-ember" :value="group" x-model="session.groups"
+                          :disabled="group === 0 && isGroup0Disabled" />
                         <span x-text="group"></span>
                       </label>
                     </template>
