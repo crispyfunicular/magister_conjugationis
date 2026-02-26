@@ -213,9 +213,9 @@
                     <template x-for="tense in tenses" :key="tense">
                       <label
                         class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink transition"
-                        :class="isImperativeOnly && tense !== 'présent' ? 'opacity-40 cursor-not-allowed' : ''">
+                        :class="isTenseDisabledSetup(tense) ? 'opacity-40 cursor-not-allowed' : ''">
                         <input type="checkbox" class="h-4 w-4 accent-ember" :value="tense" x-model="session.tenses"
-                          :disabled="isImperativeOnly && tense !== 'présent'" />
+                          :disabled="isTenseDisabledSetup(tense)" />
                         <span x-text="tense"></span>
                       </label>
                     </template>
@@ -231,8 +231,10 @@
                       indicatif
                     </label>
                     <label
-                      class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink">
-                      <input type="checkbox" class="h-4 w-4 accent-ember" value="subjonctif" x-model="session.moods" />
+                      class="ringed inline-flex cursor-pointer items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm font-medium text-ink transition"
+                      :class="isSubjunctiveDisabled ? 'opacity-40 cursor-not-allowed' : ''">
+                      <input type="checkbox" class="h-4 w-4 accent-ember" value="subjonctif" x-model="session.moods"
+                        :disabled="isSubjunctiveDisabled" />
                       subjonctif
                     </label>
                     <label

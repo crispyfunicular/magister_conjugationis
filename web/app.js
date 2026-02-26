@@ -327,6 +327,22 @@ function conjugationApp() {
     get isImperativeOnly() {
       return this.session.moods.length === 1 && this.session.moods[0] === 'impératif';
     },
+    get isSubjunctiveOnly() {
+      return this.session.moods.length === 1 && this.session.moods[0] === 'subjonctif';
+    },
+    // Subjunctive only exists for présent, imparfait, parfait, plus-que-parfait
+    get subjunctiveTenses() {
+      return ['présent', 'imparfait', 'parfait', 'plus-que-parfait'];
+    },
+    get isSubjunctiveDisabled() {
+      const { tenses } = this.session;
+      // If tenses are selected but none is compatible with subjunctive → no subjunctive possible
+      const disabled = tenses.length > 0 && !tenses.some(t => this.subjunctiveTenses.includes(t));
+      if (disabled && this.session.moods.includes('subjonctif')) {
+        this.session.moods = this.session.moods.filter(m => m !== 'subjonctif');
+      }
+      return disabled;
+    },
     get isImperativeDisabled() {
       const { tenses, persons, groups } = this.session;
       // If tenses are selected but none is présent → no imperative possible
@@ -362,296 +378,304 @@ function conjugationApp() {
       }
       return disabled;
     },
+    isTenseDisabledSetup(tense) {
+      const disabled = (this.isImperativeOnly && tense !== 'présent')
+        || (this.isSubjunctiveOnly && !this.subjunctiveTenses.includes(tense));
+      if (disabled && this.session.tenses.includes(tense)) {
+        this.session.tenses = this.session.tenses.filter(t => t !== tense);
+      }
+      return disabled;
+    },
     isPersonDisabled(value) {
-    if (!this.allowedPersons.includes(String(value))) return true;
-    // Imperative only exists for 2nd person singular (2) and plural (5)
-    if (this.quiz.latinSelections.mood === 'impératif' && value !== 2 && value !== 5) return true;
-    return false;
-  },
-  isTenseDisabled(tense) {
-    if (!this.tenses.includes(tense)) return true;
-    if (!this.allowedTenses.includes(tense)) return true;
-    // Imperative only exists in the present tense
-    if (this.quiz.latinSelections.mood === 'impératif' && tense !== 'présent') return true;
-    return false;
-  },
-  onMoodChange() {
-    const sel = this.quiz.latinSelections;
-    if (sel.mood === 'impératif') {
-      sel.tense = 'présent';
-      // Clear person if not compatible with imperative
-      if (sel.person && sel.person !== '2' && sel.person !== '5') sel.person = '';
-    }
-  },
+      if (!this.allowedPersons.includes(String(value))) return true;
+      // Imperative only exists for 2nd person singular (2) and plural (5)
+      if (this.quiz.latinSelections.mood === 'impératif' && value !== 2 && value !== 5) return true;
+      return false;
+    },
+    isTenseDisabled(tense) {
+      if (!this.tenses.includes(tense)) return true;
+      if (!this.allowedTenses.includes(tense)) return true;
+      // Imperative only exists in the present tense
+      if (this.quiz.latinSelections.mood === 'impératif' && tense !== 'présent') return true;
+      return false;
+    },
+    onMoodChange() {
+      const sel = this.quiz.latinSelections;
+      if (sel.mood === 'impératif') {
+        sel.tense = 'présent';
+        // Clear person if not compatible with imperative
+        if (sel.person && sel.person !== '2' && sel.person !== '5') sel.person = '';
+      }
+    },
     get latinAnswersComplete() {
-    const { person, tense, voice, mood, translation } =
-      this.quiz.latinSelections;
-    return Boolean(person && tense && voice && mood && translation);
-  },
+      const { person, tense, voice, mood, translation } =
+        this.quiz.latinSelections;
+      return Boolean(person && tense && voice && mood && translation);
+    },
     get latinCorrectAnswers() {
-    if (!this.quiz.current) {
-      return {
-        person: "",
-        tense: "",
-        voice: "",
-        mood: "",
-        translation: "",
-      };
-    }
-    const verb = this.quiz.current.verb;
-    return {
-      person: this.formatPerson(verb.person),
-      tense: verb.tense,
-      voice: verb.voice,
-      mood: verb.mood,
-      translation: this.quiz.correctTranslation || verb.translation.join(", "),
-    };
-  },
-    get directionLabel() {
-    if (this.session.direction === "latin") {
-      return "latin → français";
-    }
-    if (this.session.direction === "français") {
-      return "français → latin";
-    }
-    return "aléatoire";
-  },
-    get selectedTensesLabel() {
-    if (this.session.tenses.length === 0) {
-      return "tous";
-    }
-    return this.session.tenses.join(", ");
-  },
-    get selectedMoodsLabel() {
-    if (this.session.moods.length === 0) {
-      return "tous";
-    }
-    return this.session.moods.join(", ");
-  },
-    get selectedVoicesLabel() {
-    if (this.session.voices.length === 0) {
-      return "toutes";
-    }
-    return this.session.voices.join(", ");
-  },
-    get selectedPersonsLabel() {
-    if (this.session.persons.length === 0) {
-      return "toutes";
-    }
-    const ordered = [...this.session.persons]
-      .map(Number)
-      .sort((a, b) => a - b)
-      .map((person) => this.formatPerson(person));
-    return ordered.join(", ");
-  },
-    get selectedGroupsLabel() {
-    if (this.session.groups.length === 0) {
-      return "tous";
-    }
-    const ordered = [...this.session.groups]
-      .map(Number)
-      .sort((a, b) => a - b)
-      .join(", ");
-    return ordered;
-  },
-    get scoreLabel() {
-    return `${this.quiz.totalScore}/${this.quiz.totalRounds}`;
-  },
-    get quizPrompt() {
-    if (!this.quiz.current) {
-      return "";
-    }
-    const verb = this.quiz.current.verb;
-    const translation = verb.translation.join(", ");
-    return `Indiquer la forme fléchie pour ${translation}, ${this.formatPerson(
-      verb.person
-    )}, ${verb.tense}, ${verb.voice}, ${verb.mood} :`;
-  },
-  normalizeLatin(value) {
-    return value
-      .toLowerCase()
-      .replaceAll("v", "u")
-      .replaceAll("j", "i")
-      .trim();
-  },
-  submitLatinBundle() {
-    if (!this.latinAnswersComplete) {
-      this.quiz.feedback = {
-        type: "error",
-        message: "Sélectionnez toutes les réponses.",
-      };
-      return;
-    }
-    const verb = this.quiz.current.verb;
-    const correctCount =
-      (Number(this.quiz.latinSelections.person) === verb.person ? 1 : 0) +
-      (this.quiz.latinSelections.tense === verb.tense ? 1 : 0) +
-      (this.quiz.latinSelections.voice === verb.voice ? 1 : 0) +
-      (this.quiz.latinSelections.mood === verb.mood ? 1 : 0) +
-      (this.quiz.latinSelections.translation ===
-        this.quiz.correctTranslation
-        ? 1
-        : 0);
-
-    if (correctCount === 5) {
-      this.quiz.subScore = this.quiz.hasErred ? 0.5 : 1;
-      this.quiz.feedback = { type: "success", message: "Bravo !" };
-      this.quiz.awaitingAction = false;
-      this.quiz.showPrimitives = false;
-      this.quiz.revealed = false;
-      setTimeout(() => {
-        this.completeRound();
-      }, 400);
-    } else {
-      this.quiz.latinErrors = {
-        person: Number(this.quiz.latinSelections.person) !== verb.person,
-        tense: this.quiz.latinSelections.tense !== verb.tense,
-        voice: this.quiz.latinSelections.voice !== verb.voice,
-        mood: this.quiz.latinSelections.mood !== verb.mood,
-        translation: this.quiz.latinSelections.translation !== this.quiz.correctTranslation,
-      };
-      this.quiz.hasErred = true;
-      this.quiz.feedback = { type: "error", message: "Mauvaise réponse !" };
-      this.quiz.awaitingAction = true;
-      this.quiz.showHintsModal = true;
-    }
-  },
-  retryLatinBundle() {
-    this.quiz.feedback = null;
-    this.quiz.awaitingAction = false;
-    this.quiz.showPrimitives = false;
-    this.quiz.revealed = false;
-    this.quiz.showHintsModal = false;
-  },
-  showPrimitives() {
-    this.quiz.showPrimitives = true;
-    this.quiz.showHintsModal = true;
-  },
-  showLemma() {
-    this.quiz.showLemma = true;
-    this.quiz.showHintsModal = true;
-  },
-  revealLatinBundle() {
-    this.quiz.pendingScore = 0;
-    this.quiz.revealed = true;
-    this.quiz.awaitingAction = false;
-    this.quiz.showHintsModal = true;
-  },
-  advanceAfterReveal() {
-    if (this.quiz.pendingScore !== null) {
-      this.quiz.subScore = this.quiz.pendingScore;
-      this.quiz.pendingScore = null;
-      this.quiz.showHintsModal = false;
-      this.completeRound();
-      return;
-    }
-    this.quiz.revealed = false;
-    this.quiz.showPrimitives = false;
-    this.quiz.showLemma = false;
-    this.quiz.showHintsModal = false;
-    this.completeRound();
-  },
-  submitLatinAnswer() {
-    if (!this.quiz.inputAnswer) {
-      this.quiz.feedback = {
-        type: "error",
-        message: "Indiquez une réponse.",
-      };
-      return;
-    }
-    const correct = this.quiz.current.verb.latin;
-    if (
-      this.normalizeLatin(this.quiz.inputAnswer) ===
-      this.normalizeLatin(correct)
-    ) {
-      this.quiz.subScore = this.quiz.hasErred ? 0.5 : 1;
-      this.quiz.feedback = { type: "success", message: "Bravo !" };
-      this.quiz.awaitingAction = false;
-      setTimeout(() => {
-        this.completeRound();
-      }, 400);
-    } else {
-      this.quiz.hasErred = true;
-      this.quiz.feedback = { type: "error", message: "Mauvaise réponse !" };
-      this.quiz.awaitingAction = true;
-      this.quiz.showHintsModal = true;
-    }
-  },
-  retryLatinAnswer() {
-    this.quiz.feedback = null;
-    this.quiz.awaitingAction = false;
-    this.quiz.showPrimitives = false;
-    this.quiz.showLemma = false;
-    this.quiz.revealed = false;
-    this.quiz.showHintsModal = false;
-  },
-  revealLatinAnswer() {
-    this.quiz.pendingScore = 0;
-    this.quiz.revealed = true;
-    this.quiz.awaitingAction = false;
-    this.quiz.showHintsModal = true;
-  },
-  skipQuestion() {
-    this.quiz.subScore = 0;
-    this.completeRound();
-  },
-  completeRound() {
-    this.quiz.totalScore += this.quiz.subScore;
-    if (this.quiz.current) {
+      if (!this.quiz.current) {
+        return {
+          person: "",
+          tense: "",
+          voice: "",
+          mood: "",
+          translation: "",
+        };
+      }
       const verb = this.quiz.current.verb;
-      this.quiz.history.push({
-        latin: verb.latin,
+      return {
         person: this.formatPerson(verb.person),
         tense: verb.tense,
         voice: verb.voice,
         mood: verb.mood,
-        translation: verb.translation.join(', '),
-        score: this.quiz.subScore,
-      });
-    }
-    this.quiz.roundIndex += 1;
-    this.nextQuestion();
-  },
-  resetSession() {
-    this.quiz = {
-      totalRounds: 0,
-      roundIndex: 0,
-      totalScore: 0,
-      history: [],
-      current: null,
-      subScore: 0,
-      pendingScore: null,
-      showHintsModal: false,
-      correctTranslation: "",
-      latinSelections: {
-        person: "",
-        tense: "",
-        voice: "",
-        mood: "",
-        translation: "",
-      },
-      inputAnswer: "",
-      translationOptions: [],
-      feedback: null,
-      awaitingAction: false,
-      showPrimitives: false,
-      showLemma: false,
-      revealed: false,
-      hasErred: false,
-      latinErrors: { person: false, tense: false, voice: false, mood: false, translation: false },
-    };
-    this.screen = "setup";
-  },
-  resetFilters() {
-    this.session = {
-      count: 10,
-      direction: "aleatoire",
-      tenses: [],
-      moods: [],
-      voices: [],
-      persons: [],
-      groups: [],
-    };
-  },
-};
+        translation: this.quiz.correctTranslation || verb.translation.join(", "),
+      };
+    },
+    get directionLabel() {
+      if (this.session.direction === "latin") {
+        return "latin → français";
+      }
+      if (this.session.direction === "français") {
+        return "français → latin";
+      }
+      return "aléatoire";
+    },
+    get selectedTensesLabel() {
+      if (this.session.tenses.length === 0) {
+        return "tous";
+      }
+      return this.session.tenses.join(", ");
+    },
+    get selectedMoodsLabel() {
+      if (this.session.moods.length === 0) {
+        return "tous";
+      }
+      return this.session.moods.join(", ");
+    },
+    get selectedVoicesLabel() {
+      if (this.session.voices.length === 0) {
+        return "toutes";
+      }
+      return this.session.voices.join(", ");
+    },
+    get selectedPersonsLabel() {
+      if (this.session.persons.length === 0) {
+        return "toutes";
+      }
+      const ordered = [...this.session.persons]
+        .map(Number)
+        .sort((a, b) => a - b)
+        .map((person) => this.formatPerson(person));
+      return ordered.join(", ");
+    },
+    get selectedGroupsLabel() {
+      if (this.session.groups.length === 0) {
+        return "tous";
+      }
+      const ordered = [...this.session.groups]
+        .map(Number)
+        .sort((a, b) => a - b)
+        .join(", ");
+      return ordered;
+    },
+    get scoreLabel() {
+      return `${this.quiz.totalScore}/${this.quiz.totalRounds}`;
+    },
+    get quizPrompt() {
+      if (!this.quiz.current) {
+        return "";
+      }
+      const verb = this.quiz.current.verb;
+      const translation = verb.translation.join(", ");
+      return `Indiquer la forme fléchie pour ${translation}, ${this.formatPerson(
+        verb.person
+      )}, ${verb.tense}, ${verb.voice}, ${verb.mood} :`;
+    },
+    normalizeLatin(value) {
+      return value
+        .toLowerCase()
+        .replaceAll("v", "u")
+        .replaceAll("j", "i")
+        .trim();
+    },
+    submitLatinBundle() {
+      if (!this.latinAnswersComplete) {
+        this.quiz.feedback = {
+          type: "error",
+          message: "Sélectionnez toutes les réponses.",
+        };
+        return;
+      }
+      const verb = this.quiz.current.verb;
+      const correctCount =
+        (Number(this.quiz.latinSelections.person) === verb.person ? 1 : 0) +
+        (this.quiz.latinSelections.tense === verb.tense ? 1 : 0) +
+        (this.quiz.latinSelections.voice === verb.voice ? 1 : 0) +
+        (this.quiz.latinSelections.mood === verb.mood ? 1 : 0) +
+        (this.quiz.latinSelections.translation ===
+          this.quiz.correctTranslation
+          ? 1
+          : 0);
+
+      if (correctCount === 5) {
+        this.quiz.subScore = this.quiz.hasErred ? 0.5 : 1;
+        this.quiz.feedback = { type: "success", message: "Bravo !" };
+        this.quiz.awaitingAction = false;
+        this.quiz.showPrimitives = false;
+        this.quiz.revealed = false;
+        setTimeout(() => {
+          this.completeRound();
+        }, 400);
+      } else {
+        this.quiz.latinErrors = {
+          person: Number(this.quiz.latinSelections.person) !== verb.person,
+          tense: this.quiz.latinSelections.tense !== verb.tense,
+          voice: this.quiz.latinSelections.voice !== verb.voice,
+          mood: this.quiz.latinSelections.mood !== verb.mood,
+          translation: this.quiz.latinSelections.translation !== this.quiz.correctTranslation,
+        };
+        this.quiz.hasErred = true;
+        this.quiz.feedback = { type: "error", message: "Mauvaise réponse !" };
+        this.quiz.awaitingAction = true;
+        this.quiz.showHintsModal = true;
+      }
+    },
+    retryLatinBundle() {
+      this.quiz.feedback = null;
+      this.quiz.awaitingAction = false;
+      this.quiz.showPrimitives = false;
+      this.quiz.revealed = false;
+      this.quiz.showHintsModal = false;
+    },
+    showPrimitives() {
+      this.quiz.showPrimitives = true;
+      this.quiz.showHintsModal = true;
+    },
+    showLemma() {
+      this.quiz.showLemma = true;
+      this.quiz.showHintsModal = true;
+    },
+    revealLatinBundle() {
+      this.quiz.pendingScore = 0;
+      this.quiz.revealed = true;
+      this.quiz.awaitingAction = false;
+      this.quiz.showHintsModal = true;
+    },
+    advanceAfterReveal() {
+      if (this.quiz.pendingScore !== null) {
+        this.quiz.subScore = this.quiz.pendingScore;
+        this.quiz.pendingScore = null;
+        this.quiz.showHintsModal = false;
+        this.completeRound();
+        return;
+      }
+      this.quiz.revealed = false;
+      this.quiz.showPrimitives = false;
+      this.quiz.showLemma = false;
+      this.quiz.showHintsModal = false;
+      this.completeRound();
+    },
+    submitLatinAnswer() {
+      if (!this.quiz.inputAnswer) {
+        this.quiz.feedback = {
+          type: "error",
+          message: "Indiquez une réponse.",
+        };
+        return;
+      }
+      const correct = this.quiz.current.verb.latin;
+      if (
+        this.normalizeLatin(this.quiz.inputAnswer) ===
+        this.normalizeLatin(correct)
+      ) {
+        this.quiz.subScore = this.quiz.hasErred ? 0.5 : 1;
+        this.quiz.feedback = { type: "success", message: "Bravo !" };
+        this.quiz.awaitingAction = false;
+        setTimeout(() => {
+          this.completeRound();
+        }, 400);
+      } else {
+        this.quiz.hasErred = true;
+        this.quiz.feedback = { type: "error", message: "Mauvaise réponse !" };
+        this.quiz.awaitingAction = true;
+        this.quiz.showHintsModal = true;
+      }
+    },
+    retryLatinAnswer() {
+      this.quiz.feedback = null;
+      this.quiz.awaitingAction = false;
+      this.quiz.showPrimitives = false;
+      this.quiz.showLemma = false;
+      this.quiz.revealed = false;
+      this.quiz.showHintsModal = false;
+    },
+    revealLatinAnswer() {
+      this.quiz.pendingScore = 0;
+      this.quiz.revealed = true;
+      this.quiz.awaitingAction = false;
+      this.quiz.showHintsModal = true;
+    },
+    skipQuestion() {
+      this.quiz.subScore = 0;
+      this.completeRound();
+    },
+    completeRound() {
+      this.quiz.totalScore += this.quiz.subScore;
+      if (this.quiz.current) {
+        const verb = this.quiz.current.verb;
+        this.quiz.history.push({
+          latin: verb.latin,
+          person: this.formatPerson(verb.person),
+          tense: verb.tense,
+          voice: verb.voice,
+          mood: verb.mood,
+          translation: verb.translation.join(', '),
+          score: this.quiz.subScore,
+        });
+      }
+      this.quiz.roundIndex += 1;
+      this.nextQuestion();
+    },
+    resetSession() {
+      this.quiz = {
+        totalRounds: 0,
+        roundIndex: 0,
+        totalScore: 0,
+        history: [],
+        current: null,
+        subScore: 0,
+        pendingScore: null,
+        showHintsModal: false,
+        correctTranslation: "",
+        latinSelections: {
+          person: "",
+          tense: "",
+          voice: "",
+          mood: "",
+          translation: "",
+        },
+        inputAnswer: "",
+        translationOptions: [],
+        feedback: null,
+        awaitingAction: false,
+        showPrimitives: false,
+        showLemma: false,
+        revealed: false,
+        hasErred: false,
+        latinErrors: { person: false, tense: false, voice: false, mood: false, translation: false },
+      };
+      this.screen = "setup";
+    },
+    resetFilters() {
+      this.session = {
+        count: 10,
+        direction: "aleatoire",
+        tenses: [],
+        moods: [],
+        voices: [],
+        persons: [],
+        groups: [],
+      };
+    },
+  };
 }
