@@ -326,6 +326,7 @@ GP4_DEP_SUP =
 	:PPP_SG " " :ESSE_INF :P_SUP_SG/GP=4+VX=dep+MOD=sub+TP=pqp | :PPP_PL " " :ESSE_INF :P_SUP_PL/GP=4+VX=dep+MOD=sub+TP=pqp ;
 
 
+
 # GP5 (AUDIRE)
 ## INFECTUM (aud-)
 
@@ -558,5 +559,5 @@ FTA = eri/TP=fta+MOD=ind+VX=act ;
 
 
 ## SUPINUM
-PPP_SG = us/NB=sg ;
-PPP_PL = i/NB=pl ;
+PPP_SG = us/NB=sg+GEN=masc | a/NB=sg+GEN=fem;
+PPP_PL = i/NB=pl+GEN=masc | ae/NB=sg+GEN=fem;

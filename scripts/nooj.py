@@ -193,6 +193,7 @@ def deduplicate(verbs_lst: list[dict]) -> list[dict]:
             inflected_form["voice"],
             inflected_form["tense"],
             inflected_form["person"],
+            inflected_form.get("gender"),
         )
 
         traits_dict.setdefault(traits, []).append(inflected_form)
@@ -208,7 +209,8 @@ def deduplicate(verbs_lst: list[dict]) -> list[dict]:
                 irregular_forms.append(inflected_form)
 
         if len(irregular_forms) != 1:
-            print(traits_dict[traits])
+            for t in traits_dict[traits]:
+                print(t)
             raise Exception(
                 f"Found {len(irregular_forms)} irregular forms for {traits}; there must be one and only one"
             )
@@ -225,46 +227,49 @@ def main():
     dics_nooj = pynooj.read_dic(dic_path)
     print(f"loaded {len(dics_nooj)} inflected forms (lines)")
 
+    abreviations = {
+        "masc": "masculin",
+        "fem" : "féminin",
+        "ind" : "indicatif",
+        "sub" : "subjonctif",
+        "imp" : "impératif",
+        "act" : "actif",
+        "pas" : "passif",
+        "dep" : "déponent",
+        "pres" : "présent",
+        "impf" : "imparfait",
+        "fut" : "futur",
+        "pft" : "parfait",
+        "pqp" : "plus-que-parfait",
+        "fta" : "futur antérieur",
+    }
+
     for dic_nooj in dics_nooj:
         dic_mc = {}
+
+        # Only the few forms based on the supinum have gender marks.
+        raw_gender = dic_nooj["traits"].get("GEN")
+        dic_mc["gender"] = abreviations.get(raw_gender)
+
+        # Mood, voice and tense
+        # If we can't find the code in the abreviations dict, we keep its raw name.
+        raw_mood = dic_nooj["traits"]["MOD"]
+        dic_mc["mood"] = abreviations.get(raw_mood, raw_mood)
+
+        raw_voice = dic_nooj["traits"]["VX"]
+        dic_mc["voice"] = abreviations.get(raw_voice, raw_voice)
+
+        raw_tense = dic_nooj["traits"]["TP"]
+        dic_mc["tense"] = abreviations.get(raw_tense, raw_tense)
+
         try:
             dic_mc["latin"] = (
                 dic_nooj["inflected form"].replace("v", "u").replace("j", "i")
             )
             dic_mc["lemma"] = dic_nooj["lemma"].replace("v", "u").replace("j", "i")
             dic_mc["group"] = int(dic_nooj["traits"]["GP"])
-            dic_mc["mood"] = (
-                dic_nooj["traits"]["MOD"]
-                .replace("ind", "indicatif")
-                .replace("sub", "subjonctif")
-                .replace("imp", "impératif")
-            )
-            dic_mc["voice"] = (
-                dic_nooj["traits"]["VX"]
-                .replace("act", "actif")
-                .replace("pas", "passif")
-                .replace("dep", "déponent")
-            )
             dic_mc["translation"] = dic_nooj["traits"]["TRAD"].split(";")
             dic_mc["primitive tenses"] = dic_nooj["traits"]["PRIM"].replace(";", ", ")
-
-            # Convert to (French) human-readable tense (fut --> futur)
-            match dic_nooj["traits"]["TP"]:
-                case "fut":
-                    dic_mc["tense"] = "futur"
-                case "impf":
-                    dic_mc["tense"] = "imparfait"
-                case "pres":
-                    dic_mc["tense"] = "présent"
-                case "pft":
-                    dic_mc["tense"] = "parfait"
-                case "pqp":
-                    dic_mc["tense"] = "plus-que-parfait"
-                case "fta":
-                    dic_mc["tense"] = "futur antérieur"
-                case _:
-                    raise ValueError("Invalid form, the tense is invalid")
-
             dic_mc["person"] = int(dic_nooj["traits"]["P"])
             if dic_mc["person"] not in range(1, 4):
                 raise ValueError("Invalid form, the person is invalid")
