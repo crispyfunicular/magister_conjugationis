@@ -226,17 +226,23 @@ def ask(message: str, validator, error_message):
             print(error_message)
 
 
-def ask_verb(verb) -> int:
+def ask_verb(verb, list_verbs) -> int:
     score = 0
+
+    # Logique de l'entonnoir : construire le vivier de profils valides
+    # (toutes les entrées partageant la même forme latine)
+    valid_profiles = [v for v in list_verbs if v["latin"] == verb["latin"]]
+
+    if debug:
+        print(f"Profils valides pour '{verb['latin']}' : {len(valid_profiles)}")
 
     print("Nouveau verbe à trouver :", verb["latin"])
 
     # Personne (1 à 6)
-    person = verb["person"]
-
     while True:
+        valid_persons = list(set(p["person"] for p in valid_profiles))
         if debug:
-            print(person)
+            print("Personnes acceptées :", valid_persons)
         person_input = int(
             ask(
                 "Indiquer la personne (de 1 à 6) : ",
@@ -244,7 +250,8 @@ def ask_verb(verb) -> int:
                 "La personne doit être comprise entre 1 et 6.",
             )
         )
-        if person == person_input:
+        if person_input in valid_persons:
+            valid_profiles = [p for p in valid_profiles if p["person"] == person_input]
             score += 1
             print("Bravo !")
             break
@@ -262,20 +269,20 @@ def ask_verb(verb) -> int:
             elif choice_user == 2:
                 print("Voici les temps primitifs :", verb["primitive tenses"])
             elif choice_user == 3:
-                print(person)
+                print(", ".join(str(p) for p in valid_persons))
                 break
 
     # Temps (présent, imparfait, futur, parfait, plus-que-parfait ou futur antérieur)
-    tense = verb["tense"]
-
     while True:
+        valid_tenses = list(set(p["tense"] for p in valid_profiles))
         if debug:
-            print(tense)
+            print("Temps acceptés :", valid_tenses)
         print(
             "Temps possibles : présent, imparfait, futur, parfait, plus-que-parfait ou futur antérieur"
         )
         tense_input = input("Réponse : ").strip().lower()
-        if tense == tense_input:
+        if tense_input in valid_tenses:
+            valid_profiles = [p for p in valid_profiles if p["tense"] == tense_input]
             score += 1
             print("Bravo !")
             break
@@ -293,22 +300,22 @@ def ask_verb(verb) -> int:
             elif choice_user == 2:
                 print("Voici les temps primitifs :", verb["primitive tenses"])
             elif choice_user == 3:
-                print(tense)
+                print(", ".join(valid_tenses))
                 break
 
     # Voix (passif, actif ou déponent)
-    voice = verb["voice"]
-
     while True:
+        valid_voices = list(set(p["voice"] for p in valid_profiles))
         if debug:
-            print(voice)
+            print("Voix acceptées :", valid_voices)
         voice_input = ask(
             "Indiquer la voix (actif, passif ou déponent) : ",
             lambda x: x.lower() in ["actif", "passif", "déponent"],
             "La réponse doit être 'actif', 'passif' ou 'déponent'.",
         )
 
-        if voice == voice_input:
+        if voice_input in valid_voices:
+            valid_profiles = [p for p in valid_profiles if p["voice"] == voice_input]
             score += 1
             print("Bravo !")
             break
@@ -326,19 +333,19 @@ def ask_verb(verb) -> int:
             elif choice_user == 2:
                 print("Voici les temps primitifs :", verb["primitive tenses"])
             elif choice_user == 3:
-                print(voice)
+                print(", ".join(valid_voices))
                 break
 
-    # Mode (indicatif ou subjonctif)
-    mood = verb["mood"]
-
+    # Mode (indicatif, subjonctif ou impératif)
     while True:
+        valid_moods = list(set(p["mood"] for p in valid_profiles))
         if debug:
-            print(mood)
+            print("Modes acceptés :", valid_moods)
         mood_input = (
             input("Indiquer le mode (indicatif, subjonctif ou impératif) : ").strip().lower()
         )
-        if mood == mood_input:
+        if mood_input in valid_moods:
+            valid_profiles = [p for p in valid_profiles if p["mood"] == mood_input]
             score += 1
             print("Bravo !")
             break
@@ -356,21 +363,23 @@ def ask_verb(verb) -> int:
             elif choice_user == 2:
                 print("Voici les temps primitifs :", verb["primitive tenses"])
             elif choice_user == 3:
-                print(mood)
+                print(", ".join(valid_moods))
                 break
 
-    # Traduction
-    translations = verb["translation"]
+    # Traduction : accepter toutes les traductions des profils restants
+    all_translations = set()
+    for p in valid_profiles:
+        all_translations.update(p["translation"])
 
     while True:
         if debug:
-            print(translations)
+            print("Traductions acceptées :", all_translations)
         translation_input = (
             input("Indiquer la traduction en français (à l'infinitif) : ")
             .strip()
             .lower()
         )
-        if translation_input in translations:
+        if translation_input in all_translations:
             score += 1
             print("Bravo !")
             break
@@ -386,7 +395,7 @@ def ask_verb(verb) -> int:
             if choice_user == 1:
                 continue
             elif choice_user == 2:
-                print(", ".join(translations))
+                print(", ".join(all_translations))
                 break
 
     return score
@@ -411,9 +420,9 @@ def ask_verbs(verbs: list[dict], direction):
             choice = direction
 
         if choice == "latin":
-            score = ask_verb(verb) / 5
+            score = ask_verb(verb, verbs) / 5
         elif choice == "français":
-            score = ask_verb_reverse(verb)
+            score = ask_verb_reverse(verb, verbs)
 
         total_score += score
     print(f"Score total : {total_score}/{rounds_input}")
@@ -430,20 +439,29 @@ def personne(person: int) -> str:
     return f"{person}e personne du {nb}"
 
 
-def ask_verb_reverse(verb) -> int:
-    latin = verb["latin"]
+def ask_verb_reverse(verb, list_verbs) -> int:
     score = 0
 
-    while True:
-        if debug:
-            print(latin)
+    # Construire la liste de toutes les formes latines acceptées (syncrétisme)
+    accepted_latins = [
+        v["latin"] for v in list_verbs
+        if v["lemma"] == verb["lemma"]
+        and v["person"] == verb["person"]
+        and v["tense"] == verb["tense"]
+        and v["voice"] == verb["voice"]
+        and v["mood"] == verb["mood"]
+    ]
 
+    if debug:
+        print("Formes latines acceptées :", accepted_latins)
+
+    while True:
         answer = ask(
             f"Indiquer la forme fléchie pour le(s) verbe(s) '{", ".join(verb["translation"])}', à la {personne(verb["person"])}, {verb["tense"]}, {verb["voice"]}, {verb["mood"]} : ",
             lambda x: x,
             "Veuillez indiquer une réponse.",
         )
-        if answer == latin:
+        if answer in accepted_latins:
             score += 1
             print("Bravo !")
             break
@@ -463,7 +481,7 @@ def ask_verb_reverse(verb) -> int:
             if choice_user == 3:
                 print("Voici le lemme :", verb["lemma"])
             if choice_user == 4:
-                print(latin)
+                print(", ".join(accepted_latins))
                 break
 
     return score
