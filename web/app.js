@@ -50,6 +50,8 @@ function conjugationApp() {
       revealed: false,
       hasErred: false,
       latinErrors: { person: false, tense: false, voice: false, mood: false, translation: false },
+      validProfiles: [],
+      acceptedLatins: [],
     },
     init() {
       this.loadVerbs();
@@ -208,6 +210,20 @@ function conjugationApp() {
       this.quiz.revealed = false;
       this.quiz.hasErred = false;
       this.quiz.latinErrors = { person: false, tense: false, voice: false, mood: false, translation: false };
+      // Syncrétisme : calculer les profils valides (Latin→FR) et formes acceptées (FR→Latin)
+      this.quiz.validProfiles = this.verbs.filter((v) => v.latin === verb.latin);
+      this.quiz.acceptedLatins = [...new Set(
+        this.pool
+          .filter(
+            (v) =>
+              v.lemma === verb.lemma &&
+              v.person === verb.person &&
+              v.tense === verb.tense &&
+              v.voice === verb.voice &&
+              v.mood === verb.mood
+          )
+          .map((v) => v.latin)
+      )];
       // Only one correct translation is chosen per question.
       this.quiz.correctTranslation = this.pickCorrectTranslation(verb);
       this.quiz.translationOptions = this.buildTranslationOptions(
@@ -420,15 +436,24 @@ function conjugationApp() {
           voice: "",
           mood: "",
           translation: "",
+          latin: "",
         };
       }
-      const verb = this.quiz.current.verb;
+      const profiles = this.quiz.validProfiles;
+      const unique = (arr) => [...new Set(arr)];
+      // Pour Latin→FR : montrer toutes les analyses valides des profils restants
+      const persons = unique(profiles.map((p) => this.formatPerson(p.person)));
+      const tenses = unique(profiles.map((p) => p.tense));
+      const voices = unique(profiles.map((p) => p.voice));
+      const moods = unique(profiles.map((p) => p.mood));
+      const translations = unique(profiles.flatMap((p) => p.translation));
       return {
-        person: this.formatPerson(verb.person),
-        tense: verb.tense,
-        voice: verb.voice,
-        mood: verb.mood,
-        translation: this.quiz.correctTranslation || verb.translation.join(", "),
+        person: persons.join(" / "),
+        tense: tenses.join(" / "),
+        voice: voices.join(" / "),
+        mood: moods.join(" / "),
+        translation: translations.join(", "),
+        latin: this.quiz.acceptedLatins.join(", "),
       };
     },
     get directionLabel() {
@@ -506,18 +531,36 @@ function conjugationApp() {
         };
         return;
       }
-      const verb = this.quiz.current.verb;
-      const correctCount =
-        (Number(this.quiz.latinSelections.person) === verb.person ? 1 : 0) +
-        (this.quiz.latinSelections.tense === verb.tense ? 1 : 0) +
-        (this.quiz.latinSelections.voice === verb.voice ? 1 : 0) +
-        (this.quiz.latinSelections.mood === verb.mood ? 1 : 0) +
-        (this.quiz.latinSelections.translation ===
-          this.quiz.correctTranslation
-          ? 1
-          : 0);
+      // Logique de l'entonnoir : vérifier chaque réponse contre les profils valides restants
+      const profiles = this.quiz.validProfiles;
+      const sel = this.quiz.latinSelections;
+      const personOk = profiles.some((p) => p.person === Number(sel.person));
+      const tenseOk = profiles.some((p) => p.tense === sel.tense);
+      const voiceOk = profiles.some((p) => p.voice === sel.voice);
+      const moodOk = profiles.some((p) => p.mood === sel.mood);
+      // Pour la traduction, collecter toutes les traductions des profils restants
+      const allTranslations = new Set(profiles.flatMap((p) => p.translation));
+      const translationOk = allTranslations.has(sel.translation);
 
-      if (correctCount === 5) {
+      // Vérifier la cohérence globale : les réponses doivent correspondre à AU MOINS un profil complet
+      const coherent = profiles.some(
+        (p) =>
+          p.person === Number(sel.person) &&
+          p.tense === sel.tense &&
+          p.voice === sel.voice &&
+          p.mood === sel.mood &&
+          p.translation.includes(sel.translation)
+      );
+
+      if (coherent) {
+        // Resserrer l'entonnoir pour le reveal
+        this.quiz.validProfiles = profiles.filter(
+          (p) =>
+            p.person === Number(sel.person) &&
+            p.tense === sel.tense &&
+            p.voice === sel.voice &&
+            p.mood === sel.mood
+        );
         this.quiz.subScore = this.quiz.hasErred ? 0.5 : 1;
         this.quiz.feedback = { type: "success", message: "Bravo !" };
         this.quiz.awaitingAction = false;
@@ -527,12 +570,13 @@ function conjugationApp() {
           this.completeRound();
         }, 400);
       } else {
+        // Indiquer les erreurs par champ
         this.quiz.latinErrors = {
-          person: Number(this.quiz.latinSelections.person) !== verb.person,
-          tense: this.quiz.latinSelections.tense !== verb.tense,
-          voice: this.quiz.latinSelections.voice !== verb.voice,
-          mood: this.quiz.latinSelections.mood !== verb.mood,
-          translation: this.quiz.latinSelections.translation !== this.quiz.correctTranslation,
+          person: !personOk,
+          tense: !tenseOk,
+          voice: !voiceOk,
+          mood: !moodOk,
+          translation: !translationOk,
         };
         this.quiz.hasErred = true;
         this.quiz.feedback = { type: "error", message: "Mauvaise réponse !" };
@@ -583,11 +627,12 @@ function conjugationApp() {
         };
         return;
       }
-      const correct = this.quiz.current.verb.latin;
-      if (
-        this.normalizeLatin(this.quiz.inputAnswer) ===
-        this.normalizeLatin(correct)
-      ) {
+      // Syncrétisme : vérifier contre toutes les formes latines acceptées
+      const normalizedInput = this.normalizeLatin(this.quiz.inputAnswer);
+      const isCorrect = this.quiz.acceptedLatins.some(
+        (lat) => normalizedInput === this.normalizeLatin(lat)
+      );
+      if (isCorrect) {
         this.quiz.subScore = this.quiz.hasErred ? 0.5 : 1;
         this.quiz.feedback = { type: "success", message: "Bravo !" };
         this.quiz.awaitingAction = false;
@@ -624,7 +669,7 @@ function conjugationApp() {
       if (this.quiz.current) {
         const verb = this.quiz.current.verb;
         this.quiz.history.push({
-          latin: verb.latin,
+          latin: this.quiz.acceptedLatins.join(', '),
           person: this.formatPerson(verb.person),
           tense: verb.tense,
           voice: verb.voice,
@@ -663,6 +708,8 @@ function conjugationApp() {
         revealed: false,
         hasErred: false,
         latinErrors: { person: false, tense: false, voice: false, mood: false, translation: false },
+        validProfiles: [],
+        acceptedLatins: [],
       };
       this.screen = "setup";
     },

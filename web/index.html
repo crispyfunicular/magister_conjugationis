@@ -776,10 +776,12 @@
                   <li><span class="font-semibold">Temps primitifs:</span> <span
                       x-text="quiz.current.verb['primitive tenses']"></span></li>
                   <li><span class="font-semibold">Groupe:</span> <span x-text="quiz.current.verb.group"></span></li>
+                  <li x-show="quiz.acceptedLatins.length > 1"><span class="font-semibold">Formes acceptées:</span> <span
+                      x-text="quiz.acceptedLatins.join(', ')"></span></li>
                 </ul>
               </template>
               <template x-if="quiz.current && quiz.current.direction === 'français'">
-                <p class="font-display text-2xl font-semibold text-ink" x-text="quiz.current.verb.latin"></p>
+                <p class="font-display text-2xl font-semibold text-ink" x-text="quiz.acceptedLatins.join(', ')"></p>
               </template>
             </div>
           </div>
