@@ -404,8 +404,22 @@ function conjugationApp() {
     },
     isPersonDisabled(value) {
       if (!this.allowedPersons.includes(String(value))) return true;
-      // Imperative only exists for 2nd person singular (2) and plural (5)
-      if (this.quiz.latinSelections.mood === 'impératif' && value !== 2 && value !== 5) return true;
+      // Imperative only exists for 2nd person singular (2) and plural (5).
+      // Only apply this restriction if at least one imperative-compatible
+      // person is available, to avoid a deadlock where no person can be selected.
+      if (this.quiz.latinSelections.mood === 'impératif' && value !== 2 && value !== 5) {
+        const hasImperativePerson = this.allowedPersons.includes('2') || this.allowedPersons.includes('5');
+        if (hasImperativePerson) return true;
+      }
+      return false;
+    },
+    isMoodDisabledQuiz(mood) {
+      if (!this.allowedMoods.includes(mood)) return true;
+      // Imperative only exists for persons 2 and 5
+      if (mood === 'impératif') {
+        const hasImperativePerson = this.allowedPersons.includes('2') || this.allowedPersons.includes('5');
+        if (!hasImperativePerson) return true;
+      }
       return false;
     },
     isTenseDisabled(tense) {
@@ -419,8 +433,10 @@ function conjugationApp() {
       const sel = this.quiz.latinSelections;
       if (sel.mood === 'impératif') {
         sel.tense = 'présent';
-        // Clear person if not compatible with imperative
-        if (sel.person && sel.person !== '2' && sel.person !== '5') sel.person = '';
+        // Clear person if not compatible with imperative, but only if
+        // there is at least one imperative-compatible person available.
+        const hasImperativePerson = this.allowedPersons.includes('2') || this.allowedPersons.includes('5');
+        if (hasImperativePerson && sel.person && sel.person !== '2' && sel.person !== '5') sel.person = '';
       }
     },
     get latinAnswersComplete() {
