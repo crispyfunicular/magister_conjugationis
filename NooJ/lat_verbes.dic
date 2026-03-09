@@ -17,70 +17,85 @@
 #use latin_verbs.nof
 
 # GP1 (AMARE)
-# amare
+#amare
 am,amare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=aimer+FLX=GP1_INF
 amau,amare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=aimer+FLX=GP1_PER
 amat,amare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=aimer+FLX=GP1_SUP
 
-# cogitare
+#cogitare
 cogit,cogitare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=penser+FLX=GP1_INF
 cogitau,cogitare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER
 cogitat,cogitare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP
 
-# curare
+#curare
 cur,curare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=soigner+FLX=GP1_INF
 curau,curare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=soigner+FLX=GP1_PER
 curat,curare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=soigner+FLX=GP1_SUP
 
-# dare
+#dare
 d,dare,V+GP=1+PRIM=o;as;are;dedi;datum+Theme=INF+TRAD=donner+FLX=GP1_INF
 ded,dare,V+GP=1+PRIM=o;as;are;dedi;datum+Theme=PER+TRAD=donner+FLX=GP1_PER
 dat,dare,V+GP=1+PRIM=o;as;are;dedi;datum+Theme=SUP+TRAD=donner+FLX=GP1_SUP
 
-# errare
+#errare
 err,errare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=errer;se\ tromper+FLX=GP1_INF
 errau,errare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=errer;se\ tromper+FLX=GP1_PER
 errat,errare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=errer;se\ tromper+FLX=GP1_SUP
 
-# existimare
+#existimare
 existim,existimare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=estimer;penser+FLX=GP1_INF
 existimau,existimare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=estimer;penser+FLX=GP1_PER
 existimat,existimare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=estimer;penser+FLX=GP1_SUP
 
-# laudare
+#laudare
 laud,laudare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=louer;approuver+FLX=GP1_INF
 laudau,laudare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=louer;approuver+FLX=GP1_PER
 laudat,laudare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=louer;approuver+FLX=GP1_SUP
 
-# narrare
+#narrare
 narr,narrare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=raconter+FLX=GP1_INF
 narrau,narrare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=raconter+FLX=GP1_PER
 narrat,narrare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=raconter+FLX=GP1_SUP
 
-# pugnare
+#pugnare
 pugn,pugnare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=combattre+FLX=GP1_INF
 pugnau,pugnare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=combattre+FLX=GP1_PER
 pugnat,pugnare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=combattre+FLX=GP1_SUP
 
-# putare
+#putare
 put,putare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=penser+FLX=GP1_INF
 putau,putare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=penser+FLX=GP1_PER
 putat,putare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=penser+FLX=GP1_SUP
 
-# rogare
+#rogare
 rog,rogare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=demander+FLX=GP1_INF
 rogau,rogare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=demander+FLX=GP1_PER
 rogat,rogare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=demander+FLX=GP1_SUP
 
-# spectare
+#spectare
 spect,spectare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=regarder+FLX=GP1_INF
 spectau,spectare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=regarder+FLX=GP1_PER
 spectat,spectare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=regarder+FLX=GP1_SUP
 
-# uocare
+#uocare
 uoc,uocare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=appeler+FLX=GP1_INF
 uocau,uocare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=appeler+FLX=GP1_PER
 uocat,uocare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=appeler+FLX=GP1_SUP
+
+#optare
+opt,optare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=souhaiter+FLX=GP1_INF
+optau,optare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=souhaiter+FLX=GP1_PER
+optat,optare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=souhaiter+FLX=GP1_SUP
+
+#orare
+or,orare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=demander+FLX=GP1_INF
+orau,orare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=demander+FLX=GP1_PER
+orat,orare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=demander+FLX=GP1_SUP
+
+#imperare
+imper,imperare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=INF+TRAD=ordonner+FLX=GP1_INF
+imperau,imperare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=PER+TRAD=ordonner+FLX=GP1_PER
+imperat,imperare,V+GP=1+PRIM=o;as;are;aui;atum+Theme=SUP+TRAD=ordonner+FLX=GP1_SUP
 
 
 # GP2 (DELERE)
@@ -137,6 +152,11 @@ timu,timere,V+GP=2+PRIM=eo;es;ere;ui+Theme=PER+TRAD=craindre+FLX=GP2_PER
 uid,uidere,V+GP=2+PRIM=eo;es;ere;uidi;uisum+Theme=INF+TRAD=voir+FLX=GP2_INF
 uid,uidere,V+GP=2+PRIM=eo;es;ere;uidi;uisum+Theme=PER+TRAD=voir+FLX=GP2_PER
 uis,uidere,V+GP=2+PRIM=eo;es;ere;uidi;uisum+Theme=SUP+TRAD=voir+FLX=GP2_SUP
+
+#suadere
+suad,suadere,V+GP=2+PRIM=eo;es;ere;suasi;suasum+Theme=INF+TRAD=conseiller;persuader+FLX=GP2_INF
+suas,suadere,V+GP=2+PRIM=eo;es;ere;suasi;suasum+Theme=PER+TRAD=conseiller;persuader+FLX=GP2_PER
+suas,suadere,V+GP=2+PRIM=eo;es;ere;suasi;suasum+Theme=SUP+TRAD=conseiller;persuader+FLX=GP2_SUP
 
 
 # GP3 (LEGERE)
@@ -232,6 +252,11 @@ uiu,uiuere,V+GP=3+PRIM=o;is;ere;uixi;uictum+Theme=INF+TRAD=vivre+FLX=GP3_INF
 uix,uiuere,V+GP=3+PRIM=o;is;ere;uixi;uictum+Theme=PER+TRAD=vivre+FLX=GP3_PER
 uict,uiuere,V+GP=3+PRIM=o;is;ere;uixi;uictum+Theme=SUP+TRAD=vivre+FLX=GP3_SUP
 
+#petere
+pet,petere,V+GP=3+PRIM=o;is;ere;iui;itum+Theme=INF+TRAD=demander+FLX=GP3_INF
+petu,petere,V+GP=3+PRIM=o;is;ere;iui;itum+Theme=PER+TRAD=demander+FLX=GP3_PER
+petit,petere,V+GP=3+PRIM=o;is;ere;iui;itum+Theme=SUP+TRAD=demander+FLX=GP3_SUP
+
 
 # GP4 (CAPERE)
 #capere
@@ -268,6 +293,11 @@ interfect,interficere,V+GP=4+PRIM=io;is;ere;feci;fectum+Theme=SUP+TRAD=tuer+FLX=
 rap,rapere,V+GP=4+PRIM=io;is;ere;rapui;raptum+Theme=INF+TRAD=arracher;ravir+FLX=GP4_INF
 rapu,rapere,V+GP=4+PRIM=io;is;ere;rapui;raptum+Theme=PER+TRAD=arracher;ravir+FLX=GP4_PER
 rapt,rapere,V+GP=4+PRIM=io;is;ere;rapui;raptum+Theme=SUP+TRAD=arracher;ravir+FLX=GP4_SUP
+
+#efficere
+effic,efficere,V+GP=4+PRIM=io;is;ere;faci;fectum+Theme=INF+TRAD=faire\ en\ sorte+FLX=GP4_INF
+effec,efficere,V+GP=4+PRIM=io;is;ere;faci;fectum+Theme=PER+TRAD=faire\ en\ sorte+FLX=GP4_PER
+effect,efficere,V+GP=4+PRIM=io;is;ere;faci;fectum+Theme=SUP+TRAD=faire\ en\ sorte+FLX=GP4_SUP
 
 
 # GP5 (AUDIRE)
@@ -329,6 +359,10 @@ imitat,imitari,V+GP=1+VX=dep+PRIM=or;aris;ari;atus\ sum+Theme=SUP+TRAD=imiter+FL
 #mirari
 mir,mirari,V+GP=1+VX=dep+PRIM=or;aris;ari;atus\ sum+Theme=INF+TRAD=s'étonner+FLX=GP1_DEP_INF
 mirat,mirari,V+GP=1+VX=dep+PRIM=or;aris;ari;atus\ sum+Theme=SUP+TRAD=s'étonner+FLX=GP1_DEP_SUP
+
+#hortari
+hort,hortari,V+GP=1+VX=dep+PRIM=or;aris;ari;atus\ sum+Theme=INF+TRAD=exhorter;encourager+FLX=GP1_DEP_INF
+hortat,hortari,V+GP=1+VX=dep+PRIM=or;aris;ari;atus\ sum+Theme=SUP+TRAD=exhorter;encourager+FLX=GP1_DEP_SUP
 
 
 # GP2
