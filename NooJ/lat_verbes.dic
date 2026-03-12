@@ -272,6 +272,7 @@ accept,accipere,V+GP=4+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=recevoir;accuei
 #cupere
 cup,cupere,V+GP=4+PRIM=io;is;ere;iui;itum+Theme=INF+TRAD=désirer+FLX=GP4_INF
 cupiu,cupere,V+GP=4+PRIM=io;is;ere;iui;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER
+cupi,cupere,V+GP=4+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER
 cupit,cupere,V+GP=4+PRIM=io;is;ere;iui;itum+Theme=SUP+TRAD=désirer+FLX=GP4_SUP
 
 #facere

@@ -7649,6 +7649,36 @@ cupiuerat,cupere,V+PRIM=io;is;ere;iui;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+T
 cupiueramus,cupere,V+PRIM=io;is;ere;iui;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=4
 cupiueratis,cupere,V+PRIM=io;is;ere;iui;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=4
 cupiuerant,cupere,V+PRIM=io;is;ere;iui;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=4
+cupii,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pft+MOD=ind+VX=act+P=1+NB=sg+GP=4
+cupiisti,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pft+MOD=ind+VX=act+P=2+NB=sg+GP=4
+cupiit,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pft+MOD=ind+VX=act+P=3+NB=sg+GP=4
+cupiimus,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pft+MOD=ind+VX=act+P=1+NB=pl+GP=4
+cupiistis,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pft+MOD=ind+VX=act+P=2+NB=pl+GP=4
+cupierunt,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+VX=act+P=3+NB=pl+TP=pft+MOD=ind+GP=4
+cupiissem,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=sub+VX=act+P=1+NB=sg+GP=4
+cupiisses,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=sub+VX=act+P=2+NB=sg+GP=4
+cupiisset,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=sub+VX=act+P=3+NB=sg+GP=4
+cupiissemus,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=sub+VX=act+P=1+NB=pl+GP=4
+cupiissetis,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=sub+VX=act+P=2+NB=pl+GP=4
+cupiissent,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=sub+VX=act+P=3+NB=pl+GP=4
+cupierim,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pft+MOD=sub+VX=act+P=1+NB=sg+GP=4
+cupieris,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pft+MOD=sub+VX=act+P=2+NB=sg+GP=4
+cupierit,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pft+MOD=sub+VX=act+P=3+NB=sg+GP=4
+cupierimus,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pft+MOD=sub+VX=act+P=1+NB=pl+GP=4
+cupieritis,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pft+MOD=sub+VX=act+P=2+NB=pl+GP=4
+cupierint,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pft+MOD=sub+VX=act+P=3+NB=pl+GP=4
+cupieris,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=fta+MOD=ind+VX=act+P=2+NB=sg+GP=4
+cupierit,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=fta+MOD=ind+VX=act+P=3+NB=sg+GP=4
+cupierimus,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=fta+MOD=ind+VX=act+P=1+NB=pl+GP=4
+cupieritis,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=fta+MOD=ind+VX=act+P=2+NB=pl+GP=4
+cupierint,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=fta+MOD=ind+VX=act+P=3+NB=pl+GP=4
+cupiero,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=fta+MOD=ind+VX=act+P=1+NB=sg+GP=4
+cupieram,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=sg+GP=4
+cupieras,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=sg+GP=4
+cupierat,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=sg+GP=4
+cupieramus,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=1+NB=pl+GP=4
+cupieratis,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=2+NB=pl+GP=4
+cupierant,cupere,V+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER+TP=pqp+MOD=ind+VX=act+P=3+NB=pl+GP=4
 cupitae sumus,cupere,V+PRIM=io;is;ere;iui;itum+Theme=SUP+TRAD=désirer+FLX=GP4_SUP+NB=sg+GEN=fem+P=1+NB=pl+GP=4+VX=pas+MOD=ind+TP=pft
 cupitae estis,cupere,V+PRIM=io;is;ere;iui;itum+Theme=SUP+TRAD=désirer+FLX=GP4_SUP+NB=sg+GEN=fem+P=2+NB=pl+GP=4+VX=pas+MOD=ind+TP=pft
 cupitae sunt,cupere,V+PRIM=io;is;ere;iui;itum+Theme=SUP+TRAD=désirer+FLX=GP4_SUP+NB=sg+GEN=fem+P=3+NB=pl+GP=4+VX=pas+MOD=ind+TP=pft

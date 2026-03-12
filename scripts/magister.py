@@ -442,14 +442,15 @@ def personne(person: int) -> str:
 def ask_verb_reverse(verb, list_verbs) -> int:
     score = 0
 
-    # Construire la liste de toutes les formes latines acceptées (syncrétisme)
+    # Construire la liste de toutes les formes latines acceptées (syncrétisme + synonymes)
+    verb_translations = set(verb["translation"])
     accepted_latins = [
         v["latin"] for v in list_verbs
-        if v["lemma"] == verb["lemma"]
-        and v["person"] == verb["person"]
+        if v["person"] == verb["person"]
         and v["tense"] == verb["tense"]
         and v["voice"] == verb["voice"]
         and v["mood"] == verb["mood"]
+        and bool(set(v["translation"]) & verb_translations)
     ]
 
     if debug:

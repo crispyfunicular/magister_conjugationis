@@ -199,6 +199,7 @@ def deduplicate(verbs_lst: list[dict]) -> list[dict]:
         traits_dict.setdefault(traits, []).append(inflected_form)
 
     for traits in traits_dict:
+        # Cas 1 : une seule forme pour cette combinaison -> on la garde telle quelle
         if len(traits_dict[traits]) == 1:
             verbs_lst_copy.append(traits_dict[traits][0])
             continue
@@ -208,14 +209,20 @@ def deduplicate(verbs_lst: list[dict]) -> list[dict]:
             if inflected_form.get("irrégulier", False):
                 irregular_forms.append(inflected_form)
 
-        if len(irregular_forms) != 1:
+        if len(irregular_forms) == 0:
+            # Cas 2 : aucune forme marquée irrégulière -> ce sont des variantes légitimes (cupiu- et cupi-), à conserver toutes deux
+            verbs_lst_copy.extend(traits_dict[traits])
+        elif len(irregular_forms) == 1:
+            # Cas 3 : une seule forme irrégulière parmi les doublons -> c'est la forme correcte, à conserver
+            # La forme régulière "attendue" générée par NooJ mais fausse
+            verbs_lst_copy.append(irregular_forms[0])
+        else:
+            # Cas 4 : plusieurs formes marquées irrégulières -> incohérence dans le dictionnaire NooJ
             for t in traits_dict[traits]:
                 print(t)
             raise Exception(
                 f"Found {len(irregular_forms)} irregular forms for {traits}; there must be one and only one"
             )
-
-        verbs_lst_copy.append(irregular_forms[0])
 
     return verbs_lst_copy
 

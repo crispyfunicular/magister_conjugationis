@@ -216,11 +216,11 @@ function conjugationApp() {
         this.pool
           .filter(
             (v) =>
-              v.lemma === verb.lemma &&
               v.person === verb.person &&
               v.tense === verb.tense &&
               v.voice === verb.voice &&
-              v.mood === verb.mood
+              v.mood === verb.mood &&
+              v.translation.some((t) => verb.translation.includes(t))
           )
           .map((v) => v.latin)
       )];
