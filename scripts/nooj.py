@@ -211,6 +211,11 @@ def deduplicate(verbs_lst: list[dict]) -> list[dict]:
 
         if len(irregular_forms) == 0:
             # Cas 2 : aucune forme marquée irrégulière -> ce sont des variantes légitimes (cupiu- et cupi-), à conserver toutes deux
+            lemma = traits[0]
+            if lemma != "cupere":
+                raise ValueError(
+                    f"Unexpected duplicate without irregular mark for lemma '{lemma}': {traits_dict[traits]}"
+                )
             verbs_lst_copy.extend(traits_dict[traits])
         elif len(irregular_forms) == 1:
             # Cas 3 : une seule forme irrégulière parmi les doublons -> c'est la forme correcte, à conserver
@@ -236,19 +241,19 @@ def main():
 
     abreviations = {
         "masc": "masculin",
-        "fem" : "féminin",
-        "ind" : "indicatif",
-        "sub" : "subjonctif",
-        "imp" : "impératif",
-        "act" : "actif",
-        "pas" : "passif",
-        "dep" : "déponent",
-        "pres" : "présent",
-        "impf" : "imparfait",
-        "fut" : "futur",
-        "pft" : "parfait",
-        "pqp" : "plus-que-parfait",
-        "fta" : "futur antérieur",
+        "fem": "féminin",
+        "ind": "indicatif",
+        "sub": "subjonctif",
+        "imp": "impératif",
+        "act": "actif",
+        "pas": "passif",
+        "dep": "déponent",
+        "pres": "présent",
+        "impf": "imparfait",
+        "fut": "futur",
+        "pft": "parfait",
+        "pqp": "plus-que-parfait",
+        "fta": "futur antérieur",
     }
 
     for dic_nooj in dics_nooj:
