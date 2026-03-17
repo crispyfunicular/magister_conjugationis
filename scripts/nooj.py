@@ -210,9 +210,14 @@ def deduplicate(verbs_lst: list[dict]) -> list[dict]:
                 irregular_forms.append(inflected_form)
 
         if len(irregular_forms) == 0:
-            # Cas 2 : aucune forme marquée irrégulière -> ce sont des variantes légitimes (cupiu- et cupi-), à conserver toutes deux
-            lemma = traits[0]
-            if lemma != "cupere":
+            # Cas 2 : aucune forme marquée irrégulière
+            # Si l'une des formes provient d'un paradigme PER_SYN (perfectum syncopé),
+            # ce sont des variantes légitimes (ex: cupiu-/cupi-, petiu-/peti-), à conserver toutes deux.
+            has_per_syn = any(
+                "PER_SYN" in f.get("flx", "") for f in traits_dict[traits]
+            )
+            if not has_per_syn:
+                lemma = traits[0]
                 raise ValueError(
                     f"Unexpected duplicate without irregular mark for lemma '{lemma}': {traits_dict[traits]}"
                 )
@@ -288,6 +293,8 @@ def main():
 
             if dic_nooj["traits"]["NB"] == "pl":
                 dic_mc["person"] += 3
+
+            dic_mc["flx"] = dic_nooj["traits"].get("FLX", "")
 
             if dic_nooj["traits"].get("FORM") == "irr":
                 dic_mc["irrégulier"] = True

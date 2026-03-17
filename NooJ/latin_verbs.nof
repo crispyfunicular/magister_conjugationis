@@ -238,6 +238,9 @@ GP3_PER =
 	:PQP_SUB :P1_M/GP=3 | :PQP_SUB :P_ACT/GP=3 | :PQP_SUB :P3_ACT/GP=3 ;
 
 
+# SYNCOPE (petii)
+GP3_PER_SYN = :GP3_PER ;
+
 ##SUPINUM (lect-)
 
 GP3_SUP =
@@ -303,6 +306,9 @@ GP4_PER =
 
 	:PFT_SUB :P1_M/GP=4 | :PFT_SUB :P_ACT/GP=4 | :PFT_SUB :P3_ACT/GP=4 |
 	:PQP_SUB :P1_M/GP=4 | :PQP_SUB :P_ACT/GP=4 | :PQP_SUB :P3_ACT/GP=4 ;
+
+# SYNCOPE (cupii)
+GP4_PER_SYN = :GP4_PER ;
 
 
 ##SUPINUM (delet-)

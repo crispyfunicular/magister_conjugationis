@@ -254,7 +254,8 @@ uict,uiuere,V+GP=3+PRIM=o;is;ere;uixi;uictum+Theme=SUP+TRAD=vivre+FLX=GP3_SUP
 
 #petere
 pet,petere,V+GP=3+PRIM=o;is;ere;iui;itum+Theme=INF+TRAD=demander+FLX=GP3_INF
-petu,petere,V+GP=3+PRIM=o;is;ere;iui;itum+Theme=PER+TRAD=demander+FLX=GP3_PER
+petiu,petere,V+GP=3+PRIM=o;is;ere;i(u)i;itum+Theme=PER+TRAD=demander+FLX=GP3_PER
+peti,petere,V+GP=3+PRIM=o;is;ere;i(u)i;itum+Theme=PER+TRAD=demander+FLX=GP3_PER_SYN
 petit,petere,V+GP=3+PRIM=o;is;ere;iui;itum+Theme=SUP+TRAD=demander+FLX=GP3_SUP
 
 
@@ -270,9 +271,9 @@ accep,accipere,V+GP=4+PRIM=io;is;ere;cepi;ceptum+Theme=PER+TRAD=recevoir;accueil
 accept,accipere,V+GP=4+PRIM=io;is;ere;cepi;ceptum+Theme=SUP+TRAD=recevoir;accueillir+FLX=GP4_SUP
 
 #cupere
-cup,cupere,V+GP=4+PRIM=io;is;ere;iui;itum+Theme=INF+TRAD=désirer+FLX=GP4_INF
-cupiu,cupere,V+GP=4+PRIM=io;is;ere;iui;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER
-cupi,cupere,V+GP=4+PRIM=io;is;ere;ii;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER
+cup,cupere,V+GP=4+PRIM=io;is;ere;i;itum+Theme=INF+TRAD=désirer+FLX=GP4_INF
+cupiu,cupere,V+GP=4+PRIM=io;is;ere;i(u)i;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER
+cupi,cupere,V+GP=4+PRIM=io;is;ere;i(u)i;itum+Theme=PER+TRAD=désirer+FLX=GP4_PER_SYN
 cupit,cupere,V+GP=4+PRIM=io;is;ere;iui;itum+Theme=SUP+TRAD=désirer+FLX=GP4_SUP
 
 #facere
