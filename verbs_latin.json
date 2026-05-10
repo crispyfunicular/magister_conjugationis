@@ -19152,7 +19152,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "futur antérieur",
-    "latin": "cognituma ero",
+    "latin": "cognita ero",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19168,7 +19168,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "futur antérieur",
-    "latin": "cognitumus ero",
+    "latin": "cognitus ero",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19184,7 +19184,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "futur antérieur",
-    "latin": "cognituma eris",
+    "latin": "cognita eris",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19200,7 +19200,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "futur antérieur",
-    "latin": "cognitumus eris",
+    "latin": "cognitus eris",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19216,7 +19216,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "futur antérieur",
-    "latin": "cognituma erit",
+    "latin": "cognita erit",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19232,7 +19232,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "futur antérieur",
-    "latin": "cognitumus erit",
+    "latin": "cognitus erit",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19248,7 +19248,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "futur antérieur",
-    "latin": "cognitumae erimus",
+    "latin": "cognitae erimus",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19264,7 +19264,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "futur antérieur",
-    "latin": "cognitumi erimus",
+    "latin": "cogniti erimus",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19280,7 +19280,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "futur antérieur",
-    "latin": "cognitumae eritis",
+    "latin": "cognitae eritis",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19296,7 +19296,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "futur antérieur",
-    "latin": "cognitumi eritis",
+    "latin": "cogniti eritis",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19312,7 +19312,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "futur antérieur",
-    "latin": "cognitumae erunt",
+    "latin": "cognitae erunt",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19328,7 +19328,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "futur antérieur",
-    "latin": "cognitumi erunt",
+    "latin": "cogniti erunt",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19440,7 +19440,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognituma sum",
+    "latin": "cognita sum",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19456,7 +19456,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumus sum",
+    "latin": "cognitus sum",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19472,7 +19472,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognituma es",
+    "latin": "cognita es",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19488,7 +19488,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumus es",
+    "latin": "cognitus es",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19504,7 +19504,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognituma est",
+    "latin": "cognita est",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19520,7 +19520,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumus est",
+    "latin": "cognitus est",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19536,7 +19536,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumae sumus",
+    "latin": "cognitae sumus",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19552,7 +19552,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumi sumus",
+    "latin": "cogniti sumus",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19568,7 +19568,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumae estis",
+    "latin": "cognitae estis",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19584,7 +19584,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumi estis",
+    "latin": "cogniti estis",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19600,7 +19600,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumae sunt",
+    "latin": "cognitae sunt",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19616,7 +19616,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumi sunt",
+    "latin": "cogniti sunt",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19632,7 +19632,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognituma eram",
+    "latin": "cognita eram",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19648,7 +19648,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumus eram",
+    "latin": "cognitus eram",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19664,7 +19664,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognituma eras",
+    "latin": "cognita eras",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19680,7 +19680,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumus eras",
+    "latin": "cognitus eras",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19696,7 +19696,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognituma erat",
+    "latin": "cognita erat",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19712,7 +19712,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumus erat",
+    "latin": "cognitus erat",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19728,7 +19728,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumae eramus",
+    "latin": "cognitae eramus",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19744,7 +19744,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumi eramus",
+    "latin": "cogniti eramus",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19760,7 +19760,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumae eratis",
+    "latin": "cognitae eratis",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19776,7 +19776,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumi eratis",
+    "latin": "cogniti eratis",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19792,7 +19792,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumae erant",
+    "latin": "cognitae erant",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -19808,7 +19808,7 @@
     "mood": "indicatif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumi erant",
+    "latin": "cogniti erant",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20401,7 +20401,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognituma sim",
+    "latin": "cognita sim",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20417,7 +20417,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumus sim",
+    "latin": "cognitus sim",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20433,7 +20433,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognituma sis",
+    "latin": "cognita sis",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20449,7 +20449,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumus sis",
+    "latin": "cognitus sis",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20465,7 +20465,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognituma sit",
+    "latin": "cognita sit",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20481,7 +20481,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumus sit",
+    "latin": "cognitus sit",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20497,7 +20497,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumae simus",
+    "latin": "cognitae simus",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20513,7 +20513,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumi simus",
+    "latin": "cogniti simus",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20529,7 +20529,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumae sitis",
+    "latin": "cognitae sitis",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20545,7 +20545,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumi sitis",
+    "latin": "cogniti sitis",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20561,7 +20561,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumae sint",
+    "latin": "cognitae sint",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20577,7 +20577,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "parfait",
-    "latin": "cognitumi sint",
+    "latin": "cogniti sint",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20593,7 +20593,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognituma essem",
+    "latin": "cognita essem",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20609,7 +20609,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumus essem",
+    "latin": "cognitus essem",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20625,7 +20625,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognituma esses",
+    "latin": "cognita esses",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20641,7 +20641,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumus esses",
+    "latin": "cognitus esses",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20657,7 +20657,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognituma esset",
+    "latin": "cognita esset",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20673,7 +20673,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumus esset",
+    "latin": "cognitus esset",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20689,7 +20689,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumae essemus",
+    "latin": "cognitae essemus",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20705,7 +20705,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumi essemus",
+    "latin": "cogniti essemus",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20721,7 +20721,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumae essetis",
+    "latin": "cognitae essetis",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20737,7 +20737,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumi essetis",
+    "latin": "cogniti essetis",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20753,7 +20753,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumae essent",
+    "latin": "cognitae essent",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [
@@ -20769,7 +20769,7 @@
     "mood": "subjonctif",
     "voice": "passif",
     "tense": "plus-que-parfait",
-    "latin": "cognitumi essent",
+    "latin": "cogniti essent",
     "lemma": "cognoscere",
     "group": 3,
     "translation": [

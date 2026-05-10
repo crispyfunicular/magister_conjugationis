@@ -566,4 +566,4 @@ FTA = eri/TP=fta+MOD=ind+VX=act ;
 
 ## SUPINUM
 PPP_SG = us/NB=sg+GEN=masc | a/NB=sg+GEN=fem;
-PPP_PL = i/NB=pl+GEN=masc | ae/NB=sg+GEN=fem;
+PPP_PL = i/NB=pl+GEN=masc | ae/NB=pl+GEN=fem;

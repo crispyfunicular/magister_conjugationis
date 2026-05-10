@@ -173,7 +173,7 @@ act,agere,V+GP=3+PRIM=o;is;ere;egi;actum+Theme=SUP+TRAD=faire;accomplir;pousser+
 #cognoscere
 cognosc,cognoscere,V+GP=3+PRIM=o;is;ere;gnoui;gnitum+Theme=INF+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_INF
 cognou,cognoscere,V+GP=3+PRIM=o;is;ere;gnoui;gnitum+Theme=PER+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_PER
-cognitum,cognoscere,V+GP=3+PRIM=o;is;ere;gnoui;gnitum+Theme=SUP+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_SUP
+cognit,cognoscere,V+GP=3+PRIM=o;is;ere;gnoui;gnitum+Theme=SUP+TRAD=apprendre\ à\ connaître;connaître+FLX=GP3_SUP
 
 #colere
 col,colere,V+GP=3+PRIM=o;is;ere;colui;cultum+Theme=INF+TRAD=cultiver;honorer;habiter+FLX=GP3_INF
