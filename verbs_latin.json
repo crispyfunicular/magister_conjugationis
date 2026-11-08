@@ -26261,7 +26261,7 @@
     "mood": "indicatif",
     "voice": "actif",
     "tense": "parfait",
-    "latin": "cupiuisti",
+    "latin": "cupisti",
     "lemma": "cupere",
     "group": 4,
     "translation": [
@@ -26269,22 +26269,8 @@
     ],
     "primitive tenses": "io, is, ere, i(u)i, itum",
     "person": 2,
-    "flx": "GP4_PER"
-  },
-  {
-    "gender": null,
-    "mood": "indicatif",
-    "voice": "actif",
-    "tense": "parfait",
-    "latin": "cupiisti",
-    "lemma": "cupere",
-    "group": 4,
-    "translation": [
-      "désirer"
-    ],
-    "primitive tenses": "io, is, ere, i(u)i, itum",
-    "person": 2,
-    "flx": "GP4_PER_SYN"
+    "flx": "GP4_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
@@ -26351,7 +26337,7 @@
     "mood": "indicatif",
     "voice": "actif",
     "tense": "parfait",
-    "latin": "cupiuistis",
+    "latin": "cupistis",
     "lemma": "cupere",
     "group": 4,
     "translation": [
@@ -26359,22 +26345,8 @@
     ],
     "primitive tenses": "io, is, ere, i(u)i, itum",
     "person": 5,
-    "flx": "GP4_PER"
-  },
-  {
-    "gender": null,
-    "mood": "indicatif",
-    "voice": "actif",
-    "tense": "parfait",
-    "latin": "cupiistis",
-    "lemma": "cupere",
-    "group": 4,
-    "translation": [
-      "désirer"
-    ],
-    "primitive tenses": "io, is, ere, i(u)i, itum",
-    "person": 5,
-    "flx": "GP4_PER_SYN"
+    "flx": "GP4_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
@@ -27762,7 +27734,7 @@
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "plus-que-parfait",
-    "latin": "cupiuissem",
+    "latin": "cupissem",
     "lemma": "cupere",
     "group": 4,
     "translation": [
@@ -27770,29 +27742,15 @@
     ],
     "primitive tenses": "io, is, ere, i(u)i, itum",
     "person": 1,
-    "flx": "GP4_PER"
+    "flx": "GP4_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "plus-que-parfait",
-    "latin": "cupiissem",
-    "lemma": "cupere",
-    "group": 4,
-    "translation": [
-      "désirer"
-    ],
-    "primitive tenses": "io, is, ere, i(u)i, itum",
-    "person": 1,
-    "flx": "GP4_PER_SYN"
-  },
-  {
-    "gender": null,
-    "mood": "subjonctif",
-    "voice": "actif",
-    "tense": "plus-que-parfait",
-    "latin": "cupiuisses",
+    "latin": "cupisses",
     "lemma": "cupere",
     "group": 4,
     "translation": [
@@ -27800,29 +27758,15 @@
     ],
     "primitive tenses": "io, is, ere, i(u)i, itum",
     "person": 2,
-    "flx": "GP4_PER"
+    "flx": "GP4_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "plus-que-parfait",
-    "latin": "cupiisses",
-    "lemma": "cupere",
-    "group": 4,
-    "translation": [
-      "désirer"
-    ],
-    "primitive tenses": "io, is, ere, i(u)i, itum",
-    "person": 2,
-    "flx": "GP4_PER_SYN"
-  },
-  {
-    "gender": null,
-    "mood": "subjonctif",
-    "voice": "actif",
-    "tense": "plus-que-parfait",
-    "latin": "cupiuisset",
+    "latin": "cupisset",
     "lemma": "cupere",
     "group": 4,
     "translation": [
@@ -27830,29 +27774,15 @@
     ],
     "primitive tenses": "io, is, ere, i(u)i, itum",
     "person": 3,
-    "flx": "GP4_PER"
+    "flx": "GP4_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "plus-que-parfait",
-    "latin": "cupiisset",
-    "lemma": "cupere",
-    "group": 4,
-    "translation": [
-      "désirer"
-    ],
-    "primitive tenses": "io, is, ere, i(u)i, itum",
-    "person": 3,
-    "flx": "GP4_PER_SYN"
-  },
-  {
-    "gender": null,
-    "mood": "subjonctif",
-    "voice": "actif",
-    "tense": "plus-que-parfait",
-    "latin": "cupiuissemus",
+    "latin": "cupissemus",
     "lemma": "cupere",
     "group": 4,
     "translation": [
@@ -27860,29 +27790,15 @@
     ],
     "primitive tenses": "io, is, ere, i(u)i, itum",
     "person": 4,
-    "flx": "GP4_PER"
+    "flx": "GP4_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "plus-que-parfait",
-    "latin": "cupiissemus",
-    "lemma": "cupere",
-    "group": 4,
-    "translation": [
-      "désirer"
-    ],
-    "primitive tenses": "io, is, ere, i(u)i, itum",
-    "person": 4,
-    "flx": "GP4_PER_SYN"
-  },
-  {
-    "gender": null,
-    "mood": "subjonctif",
-    "voice": "actif",
-    "tense": "plus-que-parfait",
-    "latin": "cupiuissetis",
+    "latin": "cupissetis",
     "lemma": "cupere",
     "group": 4,
     "translation": [
@@ -27890,29 +27806,15 @@
     ],
     "primitive tenses": "io, is, ere, i(u)i, itum",
     "person": 5,
-    "flx": "GP4_PER"
+    "flx": "GP4_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "plus-que-parfait",
-    "latin": "cupiissetis",
-    "lemma": "cupere",
-    "group": 4,
-    "translation": [
-      "désirer"
-    ],
-    "primitive tenses": "io, is, ere, i(u)i, itum",
-    "person": 5,
-    "flx": "GP4_PER_SYN"
-  },
-  {
-    "gender": null,
-    "mood": "subjonctif",
-    "voice": "actif",
-    "tense": "plus-que-parfait",
-    "latin": "cupiuissent",
+    "latin": "cupissent",
     "lemma": "cupere",
     "group": 4,
     "translation": [
@@ -27920,22 +27822,8 @@
     ],
     "primitive tenses": "io, is, ere, i(u)i, itum",
     "person": 6,
-    "flx": "GP4_PER"
-  },
-  {
-    "gender": null,
-    "mood": "subjonctif",
-    "voice": "actif",
-    "tense": "plus-que-parfait",
-    "latin": "cupiissent",
-    "lemma": "cupere",
-    "group": 4,
-    "translation": [
-      "désirer"
-    ],
-    "primitive tenses": "io, is, ere, i(u)i, itum",
-    "person": 6,
-    "flx": "GP4_PER_SYN"
+    "flx": "GP4_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
@@ -111129,7 +111017,7 @@
     "mood": "indicatif",
     "voice": "actif",
     "tense": "parfait",
-    "latin": "petiuisti",
+    "latin": "petisti",
     "lemma": "petere",
     "group": 3,
     "translation": [
@@ -111137,22 +111025,8 @@
     ],
     "primitive tenses": "o, is, ere, i(u)i, itum",
     "person": 2,
-    "flx": "GP3_PER"
-  },
-  {
-    "gender": null,
-    "mood": "indicatif",
-    "voice": "actif",
-    "tense": "parfait",
-    "latin": "petiisti",
-    "lemma": "petere",
-    "group": 3,
-    "translation": [
-      "demander"
-    ],
-    "primitive tenses": "o, is, ere, i(u)i, itum",
-    "person": 2,
-    "flx": "GP3_PER_SYN"
+    "flx": "GP3_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
@@ -111219,7 +111093,7 @@
     "mood": "indicatif",
     "voice": "actif",
     "tense": "parfait",
-    "latin": "petiuistis",
+    "latin": "petistis",
     "lemma": "petere",
     "group": 3,
     "translation": [
@@ -111227,22 +111101,8 @@
     ],
     "primitive tenses": "o, is, ere, i(u)i, itum",
     "person": 5,
-    "flx": "GP3_PER"
-  },
-  {
-    "gender": null,
-    "mood": "indicatif",
-    "voice": "actif",
-    "tense": "parfait",
-    "latin": "petiistis",
-    "lemma": "petere",
-    "group": 3,
-    "translation": [
-      "demander"
-    ],
-    "primitive tenses": "o, is, ere, i(u)i, itum",
-    "person": 5,
-    "flx": "GP3_PER_SYN"
+    "flx": "GP3_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
@@ -112630,7 +112490,7 @@
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "plus-que-parfait",
-    "latin": "petiuissem",
+    "latin": "petissem",
     "lemma": "petere",
     "group": 3,
     "translation": [
@@ -112638,29 +112498,15 @@
     ],
     "primitive tenses": "o, is, ere, i(u)i, itum",
     "person": 1,
-    "flx": "GP3_PER"
+    "flx": "GP3_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "plus-que-parfait",
-    "latin": "petiissem",
-    "lemma": "petere",
-    "group": 3,
-    "translation": [
-      "demander"
-    ],
-    "primitive tenses": "o, is, ere, i(u)i, itum",
-    "person": 1,
-    "flx": "GP3_PER_SYN"
-  },
-  {
-    "gender": null,
-    "mood": "subjonctif",
-    "voice": "actif",
-    "tense": "plus-que-parfait",
-    "latin": "petiuisses",
+    "latin": "petisses",
     "lemma": "petere",
     "group": 3,
     "translation": [
@@ -112668,29 +112514,15 @@
     ],
     "primitive tenses": "o, is, ere, i(u)i, itum",
     "person": 2,
-    "flx": "GP3_PER"
+    "flx": "GP3_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "plus-que-parfait",
-    "latin": "petiisses",
-    "lemma": "petere",
-    "group": 3,
-    "translation": [
-      "demander"
-    ],
-    "primitive tenses": "o, is, ere, i(u)i, itum",
-    "person": 2,
-    "flx": "GP3_PER_SYN"
-  },
-  {
-    "gender": null,
-    "mood": "subjonctif",
-    "voice": "actif",
-    "tense": "plus-que-parfait",
-    "latin": "petiuisset",
+    "latin": "petisset",
     "lemma": "petere",
     "group": 3,
     "translation": [
@@ -112698,29 +112530,15 @@
     ],
     "primitive tenses": "o, is, ere, i(u)i, itum",
     "person": 3,
-    "flx": "GP3_PER"
+    "flx": "GP3_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "plus-que-parfait",
-    "latin": "petiisset",
-    "lemma": "petere",
-    "group": 3,
-    "translation": [
-      "demander"
-    ],
-    "primitive tenses": "o, is, ere, i(u)i, itum",
-    "person": 3,
-    "flx": "GP3_PER_SYN"
-  },
-  {
-    "gender": null,
-    "mood": "subjonctif",
-    "voice": "actif",
-    "tense": "plus-que-parfait",
-    "latin": "petiuissemus",
+    "latin": "petissemus",
     "lemma": "petere",
     "group": 3,
     "translation": [
@@ -112728,29 +112546,15 @@
     ],
     "primitive tenses": "o, is, ere, i(u)i, itum",
     "person": 4,
-    "flx": "GP3_PER"
+    "flx": "GP3_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "plus-que-parfait",
-    "latin": "petiissemus",
-    "lemma": "petere",
-    "group": 3,
-    "translation": [
-      "demander"
-    ],
-    "primitive tenses": "o, is, ere, i(u)i, itum",
-    "person": 4,
-    "flx": "GP3_PER_SYN"
-  },
-  {
-    "gender": null,
-    "mood": "subjonctif",
-    "voice": "actif",
-    "tense": "plus-que-parfait",
-    "latin": "petiuissetis",
+    "latin": "petissetis",
     "lemma": "petere",
     "group": 3,
     "translation": [
@@ -112758,29 +112562,15 @@
     ],
     "primitive tenses": "o, is, ere, i(u)i, itum",
     "person": 5,
-    "flx": "GP3_PER"
+    "flx": "GP3_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "plus-que-parfait",
-    "latin": "petiissetis",
-    "lemma": "petere",
-    "group": 3,
-    "translation": [
-      "demander"
-    ],
-    "primitive tenses": "o, is, ere, i(u)i, itum",
-    "person": 5,
-    "flx": "GP3_PER_SYN"
-  },
-  {
-    "gender": null,
-    "mood": "subjonctif",
-    "voice": "actif",
-    "tense": "plus-que-parfait",
-    "latin": "petiuissent",
+    "latin": "petissent",
     "lemma": "petere",
     "group": 3,
     "translation": [
@@ -112788,22 +112578,8 @@
     ],
     "primitive tenses": "o, is, ere, i(u)i, itum",
     "person": 6,
-    "flx": "GP3_PER"
-  },
-  {
-    "gender": null,
-    "mood": "subjonctif",
-    "voice": "actif",
-    "tense": "plus-que-parfait",
-    "latin": "petiissent",
-    "lemma": "petere",
-    "group": 3,
-    "translation": [
-      "demander"
-    ],
-    "primitive tenses": "o, is, ere, i(u)i, itum",
-    "person": 6,
-    "flx": "GP3_PER_SYN"
+    "flx": "GP3_PER_SYN",
+    "irrégulier": true
   },
   {
     "gender": null,
@@ -113446,7 +113222,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 1,
     "flx": "GP0_INF_POSSE"
   },
@@ -113461,7 +113237,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 2,
     "flx": "GP0_INF_POSSE"
   },
@@ -113476,7 +113252,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 3,
     "flx": "GP0_INF_POSSE"
   },
@@ -113491,7 +113267,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 4,
     "flx": "GP0_INF_POSSE"
   },
@@ -113506,7 +113282,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 5,
     "flx": "GP0_INF_POSSE"
   },
@@ -113521,7 +113297,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 6,
     "flx": "GP0_INF_POSSE"
   },
@@ -113536,7 +113312,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 1,
     "flx": "GP0_PER"
   },
@@ -113551,7 +113327,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 2,
     "flx": "GP0_PER"
   },
@@ -113566,7 +113342,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 3,
     "flx": "GP0_PER"
   },
@@ -113581,7 +113357,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 4,
     "flx": "GP0_PER"
   },
@@ -113596,7 +113372,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 5,
     "flx": "GP0_PER"
   },
@@ -113611,7 +113387,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 6,
     "flx": "GP0_PER"
   },
@@ -113626,7 +113402,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 1,
     "flx": "GP0_INF_POSSE"
   },
@@ -113641,7 +113417,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 2,
     "flx": "GP0_INF_POSSE"
   },
@@ -113656,7 +113432,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 3,
     "flx": "GP0_INF_POSSE"
   },
@@ -113671,7 +113447,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 4,
     "flx": "GP0_INF_POSSE"
   },
@@ -113686,7 +113462,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 5,
     "flx": "GP0_INF_POSSE"
   },
@@ -113701,7 +113477,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 6,
     "flx": "GP0_INF_POSSE"
   },
@@ -113716,7 +113492,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 1,
     "flx": "GP0_PER"
   },
@@ -113731,7 +113507,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 2,
     "flx": "GP0_PER"
   },
@@ -113746,7 +113522,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 3,
     "flx": "GP0_PER"
   },
@@ -113761,7 +113537,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 4,
     "flx": "GP0_PER"
   },
@@ -113776,7 +113552,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 5,
     "flx": "GP0_PER"
   },
@@ -113791,7 +113567,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 6,
     "flx": "GP0_PER"
   },
@@ -113806,7 +113582,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 1,
     "flx": "GP0_PER"
   },
@@ -113821,7 +113597,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 2,
     "flx": "GP0_PER"
   },
@@ -113836,7 +113612,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 3,
     "flx": "GP0_PER"
   },
@@ -113851,7 +113627,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 4,
     "flx": "GP0_PER"
   },
@@ -113866,7 +113642,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 5,
     "flx": "GP0_PER"
   },
@@ -113881,7 +113657,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 6,
     "flx": "GP0_PER"
   },
@@ -113896,7 +113672,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 1,
     "flx": "GP0_INF_POSSE"
   },
@@ -113911,7 +113687,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 2,
     "flx": "GP0_INF_POSSE"
   },
@@ -113926,7 +113702,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 3,
     "flx": "GP0_INF_POSSE"
   },
@@ -113941,7 +113717,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 4,
     "flx": "GP0_INF_POSSE"
   },
@@ -113956,7 +113732,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 5,
     "flx": "GP0_INF_POSSE"
   },
@@ -113965,13 +113741,13 @@
     "mood": "indicatif",
     "voice": "actif",
     "tense": "présent",
-    "latin": "potssunt",
+    "latin": "possunt",
     "lemma": "posse",
     "group": 0,
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 6,
     "flx": "GP0_INF_POSSE"
   },
@@ -113980,13 +113756,13 @@
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "imparfait",
-    "latin": "potessem",
+    "latin": "possem",
     "lemma": "posse",
     "group": 0,
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 1,
     "flx": "GP0_INF_POSSE"
   },
@@ -113995,13 +113771,13 @@
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "imparfait",
-    "latin": "potesses",
+    "latin": "posses",
     "lemma": "posse",
     "group": 0,
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 2,
     "flx": "GP0_INF_POSSE"
   },
@@ -114010,13 +113786,13 @@
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "imparfait",
-    "latin": "potesset",
+    "latin": "posset",
     "lemma": "posse",
     "group": 0,
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 3,
     "flx": "GP0_INF_POSSE"
   },
@@ -114025,13 +113801,13 @@
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "imparfait",
-    "latin": "potessemus",
+    "latin": "possemus",
     "lemma": "posse",
     "group": 0,
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 4,
     "flx": "GP0_INF_POSSE"
   },
@@ -114040,13 +113816,13 @@
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "imparfait",
-    "latin": "potessetis",
+    "latin": "possetis",
     "lemma": "posse",
     "group": 0,
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 5,
     "flx": "GP0_INF_POSSE"
   },
@@ -114055,13 +113831,13 @@
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "imparfait",
-    "latin": "potessent",
+    "latin": "possent",
     "lemma": "posse",
     "group": 0,
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 6,
     "flx": "GP0_INF_POSSE"
   },
@@ -114076,7 +113852,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 1,
     "flx": "GP0_PER"
   },
@@ -114091,7 +113867,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 2,
     "flx": "GP0_PER"
   },
@@ -114106,7 +113882,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 3,
     "flx": "GP0_PER"
   },
@@ -114121,7 +113897,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 4,
     "flx": "GP0_PER"
   },
@@ -114136,7 +113912,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 5,
     "flx": "GP0_PER"
   },
@@ -114151,7 +113927,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 6,
     "flx": "GP0_PER"
   },
@@ -114166,7 +113942,7 @@
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 1,
     "flx": "GP0_INF_POSSE"
   },
@@ -114175,13 +113951,13 @@
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "présent",
-    "latin": "posis",
+    "latin": "possis",
     "lemma": "posse",
     "group": 0,
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 2,
     "flx": "GP0_INF_POSSE"
   },
@@ -114190,13 +113966,13 @@
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "présent",
-    "latin": "posit",
+    "latin": "possit",
     "lemma": "posse",
     "group": 0,
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 3,
     "flx": "GP0_INF_POSSE"
   },
@@ -114205,13 +113981,13 @@
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "présent",
-    "latin": "posimus",
+    "latin": "possimus",
     "lemma": "posse",
     "group": 0,
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 4,
     "flx": "GP0_INF_POSSE"
   },
@@ -114220,13 +113996,13 @@
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "présent",
-    "latin": "positis",
+    "latin": "possitis",
     "lemma": "posse",
     "group": 0,
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 5,
     "flx": "GP0_INF_POSSE"
   },
@@ -114235,13 +114011,13 @@
     "mood": "subjonctif",
     "voice": "actif",
     "tense": "présent",
-    "latin": "posint",
+    "latin": "possint",
     "lemma": "posse",
     "group": 0,
     "translation": [
       "pouvoir"
     ],
-    "primitive tenses": "posum, potes, posse, potui",
+    "primitive tenses": "possum, potes, posse, potui",
     "person": 6,
     "flx": "GP0_INF_POSSE"
   },

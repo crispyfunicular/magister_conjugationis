@@ -278,6 +278,7 @@ cupit,cupere,V+GP=4+PRIM=io;is;ere;iui;itum+Theme=SUP+TRAD=désirer+FLX=GP4_SUP
 
 #facere
 fac,facere,V+GP=4+PRIM=io;is;ere;feci;factum+Theme=INF+TRAD=faire+FLX=GP4_INF
+fac,facere,V+GP=4+PRIM=io;is;ere;feci;factum+Theme=INF+TRAD=faire+FLX=GP_IRR
 fec,facere,V+GP=4+PRIM=io;is;ere;feci;factum+Theme=PER+TRAD=faire+FLX=GP4_PER
 fact,facere,V+GP=4+PRIM=io;is;ere;feci;factum+Theme=SUP+TRAD=faire+FLX=GP4_SUP
 
@@ -343,8 +344,8 @@ ades,adesse,V+GP=0+PRIM=adsum;ades;adesse;adfui+Theme=INF+TRAD=être\ là+FLX=GP
 adfu,adesse,V+GP=0+PRIM=adsum;ades;adesse;adfui+Theme=PER+TRAD=être\ là+FLX=GP0_PER
 
 #posse
-potes,posse,V+GP=0+PRIM=posum;potes;posse;potui+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE
-potu,posse,V+GP=0+PRIM=posum;potes;posse;potui+Theme=PER+TRAD=pouvoir+FLX=GP0_PER
+potes,posse,V+GP=0+PRIM=possum;potes;posse;potui+Theme=INF+TRAD=pouvoir+FLX=GP0_INF_POSSE
+potu,posse,V+GP=0+PRIM=possum;potes;posse;potui+Theme=PER+TRAD=pouvoir+FLX=GP0_PER
 
 #prodesse
 prodes,prodesse,V+GP=0+PRIM=prosum;prodes;prodesse;profui+Theme=INF+TRAD=être\ utile+FLX=GP0_INF
