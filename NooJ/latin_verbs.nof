@@ -28,10 +28,13 @@
 #
 
 # TP = temps (pres/impf/fut/pft/pqp/fta)
-# MOD = mode (ind/sub)
-# VX = voix (act/pas)
+# MOD = mode (ind/sub/imp)
+# VX = voix (act/pas/dep)
 # P = personne (1/2/3)
 # NB = nombre (sg/pl)
+# GEN = genre du participe (masc/fem)
+# imp = impératif (ex. ama)
+# dep = déponent (ex. imitor)
 # inf = infinitif
 # pres = présent (amo)
 # impf = imparfait (ex. amabam)
@@ -131,7 +134,7 @@ GP1_DEP_SUP =
 ## INFECTUM (del-)
 
 GP2_INF =
-	:GP2_E :P1_O/+TP=pres+MOD=ind | :GP2_E :P_ACT/+TP=pres+MOD=ind | :GP2_E :P3_ACT/+TP=pres+MOD=ind |
+	:GP2_E :P1_O/TP=pres+MOD=ind | :GP2_E :P_ACT/TP=pres+MOD=ind | :GP2_E :P3_ACT/TP=pres+MOD=ind |
 	:GP2_E :IMPF_IND :P1_M/ | :GP2_E :IMPF_IND :P_ACT/ | :GP2_E :IMPF_IND :P3_ACT/ |
 	:GP2_E :FUT_GP1-2 <B> :P1_O/ | :GP2_E :FUT_GP1-2 :P_ACT/ | :GP2_E :FUT_GP1-2 <B>u :P3_ACT/ |
 
@@ -168,8 +171,8 @@ GP2_PER =
 	:PQP_IND :P1_M/GP=2 | :PQP_IND :P_ACT/GP=2 | :PQP_IND :P3_ACT/GP=2 |
 	:FTA <B> :P1_O/GP=2 | :FTA :P_ACT/GP=2 | :FTA :P3_ACT/GP=2 |
 
-	:PQP_SUB :P1_M/GP=2 | :PQP_SUB :P_ACT/GP=2 | :PQP_SUB :P3_ACT/GP=2 |
-	:PFT_SUB :P1_M/GP=2 | :PFT_SUB :P_ACT/GP=2 | :PFT_SUB :P3_ACT/GP=2 ;
+	:PFT_SUB :P1_M/GP=2 | :PFT_SUB :P_ACT/GP=2 | :PFT_SUB :P3_ACT/GP=2 |
+	:PQP_SUB :P1_M/GP=2 | :PQP_SUB :P_ACT/GP=2 | :PQP_SUB :P3_ACT/GP=2 ;
 
 
 ## SUPINUM (delet-)
@@ -239,7 +242,9 @@ GP3_PER =
 
 
 # SYNCOPE (petii)
-GP3_PER_SYN = :GP3_PER ;
+GP3_PER_SYN = :GP3_PER |
+	sti/GP=3+TP=pft+MOD=ind+VX=act+P=2+NB=sg+FORM=irr | stis/GP=3+TP=pft+MOD=ind+VX=act+P=2+NB=pl+FORM=irr |
+	<B> :PQP_SUB :P1_M/GP=3+FORM=irr | <B> :PQP_SUB :P_ACT/GP=3+FORM=irr | <B> :PQP_SUB :P3_ACT/GP=3+FORM=irr ;
 
 ## SUPINUM (lect-)
 
@@ -276,7 +281,7 @@ GP4_INF =
 	:GP4_I :P1_OR <L><B>a/TP=fut+MOD=ind | :GP4_I :FUT_GP3-4-5 :P_PAS/ | :GP4_I :FUT_GP3-4-5 :P3_PAS/ |
 
 	:GP4_I :GP_SUB :P1_M/ | :GP4_I :GP_SUB :P_ACT/ | :GP4_I :GP_SUB :P3_ACT/ |
-	e :IMPF_SUB :P1_M/GP=4 | e :IMPF_SUB :P_ACT/GP=4 | e :IMPF_SUB :P3_ACT/GP=4 |
+	:GP4_E :IMPF_SUB :P1_M/ | :GP4_E :IMPF_SUB :P_ACT/ | :GP4_E :IMPF_SUB :P3_ACT/ |
 
 	:GP4_I :GP_SUB :P1_OR <L><B>/ | :GP4_I :GP_SUB :P_PAS/ | :GP4_I :GP_SUB :P3_PAS/ |
 	:GP4_E :IMPF_SUB :P1_OR <L><B>/ | :GP4_E :IMPF_SUB :P_PAS/ | :GP4_E :IMPF_SUB :P3_PAS/ |
@@ -308,10 +313,12 @@ GP4_PER =
 	:PQP_SUB :P1_M/GP=4 | :PQP_SUB :P_ACT/GP=4 | :PQP_SUB :P3_ACT/GP=4 ;
 
 # SYNCOPE (cupii)
-GP4_PER_SYN = :GP4_PER ;
+GP4_PER_SYN = :GP4_PER |
+	sti/GP=4+TP=pft+MOD=ind+VX=act+P=2+NB=sg+FORM=irr | stis/GP=4+TP=pft+MOD=ind+VX=act+P=2+NB=pl+FORM=irr |
+	<B> :PQP_SUB :P1_M/GP=4+FORM=irr | <B> :PQP_SUB :P_ACT/GP=4+FORM=irr | <B> :PQP_SUB :P3_ACT/GP=4+FORM=irr ;
 
 
-## SUPINUM (delet-)
+## SUPINUM (capt-)
 
 GP4_SUP =
 	:PPP_SG " " :ESSE_PRES_SG/GP=4+VX=pas+MOD=ind+TP=pft | :PPP_PL " " :ESSE_PRES_PL/GP=4+VX=pas+MOD=ind+TP=pft |
@@ -413,12 +420,12 @@ GP0_INF =
 	:IMPF_SUB_GP0 :P1_M/ | :IMPF_SUB_GP0 :P_ACT/ | :IMPF_SUB_GP0 :P3_ACT/ ;
 
 GP0_INF_POSSE =
-	<B3>ssu :P1_M/GP=0+TP=pres+MOD=ind+VX=act| /GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=sg | t/GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=sg | <B3>ssumus/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | tis/GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl  | <B2>ssu :P3_ACT/GP=0+TP=pres+MOD=ind |
+	<B3>ssu :P1_M/GP=0+TP=pres+MOD=ind+VX=act| /GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=sg | t/GP=0+TP=pres+MOD=ind+VX=act+P=3+NB=sg | <B3>ssumus/GP=0+TP=pres+MOD=ind+VX=act+P=1+NB=pl | tis/GP=0+TP=pres+MOD=ind+VX=act+P=2+NB=pl  | <B3>ssu :P3_ACT/GP=0+TP=pres+MOD=ind |
 	<B> :IMPF_IND_GP0 :P1_M/ | <B> :IMPF_IND_GP0 :P_ACT/ | <B> :IMPF_IND_GP0 :P3_ACT/ |
 	<B> :FUT_GP0 <B> :P1_O/ | <B> :FUT_GP0 :P_ACT/ | <B> :FUT_GP0 <B>u :P3_ACT/ |
 
-	<B3>ss :GP_SUB :P1_M/GP=0+VX=act | <B3>s :GP_SUB :P_ACT/GP=0+VX=act | <B3>s :GP_SUB :P3_ACT/GP=0+VX=act | 
-	 :IMPF_SUB_GP0 :P1_M/ | :IMPF_SUB_GP0 :P_ACT/ | :IMPF_SUB_GP0 :P3_ACT/ ;
+	<B3>ss :GP_SUB :P1_M/GP=0+VX=act | <B3>ss :GP_SUB :P_ACT/GP=0+VX=act | <B3>ss :GP_SUB :P3_ACT/GP=0+VX=act |
+	<B3>s :IMPF_SUB_GP0 :P1_M/ | <B3>s :IMPF_SUB_GP0 :P_ACT/ | <B3>s :IMPF_SUB_GP0 :P3_ACT/ ;
 
 
 ## Formes sans marques pour la construction du supinum des autres groupes
